@@ -7,12 +7,12 @@ window.APP_DATA = {
     "strictUsageMetrics": true,
     "disclaimer": "通知数量是基于公开产品资料整理的可独立识别提醒场景，不等同于某一手机型号或版本中的设置开关数量。",
     "usageNote": "日均时长、日均打开与 App MAU 必须有公开来源和明确时间；跨端用户、会员、订阅、账户、DAU/WAU 仅作为代理标签展示，不写入 MAU 排序值。",
-    "snapshotDate": "2026-09-01",
-    "generatedAt": "2026-09-01T12:35:10.001Z",
+    "snapshotDate": "2026-09-02",
+    "generatedAt": "2026-09-01T21:03:30.875Z",
     "sourceCount": 88,
     "changedSourceCount": 0,
-    "failedSourceCount": 0,
-    "previousSnapshotDate": null
+    "failedSourceCount": 28,
+    "previousSnapshotDate": "2026-09-01"
   },
   "apps": [
     {
@@ -83,7 +83,7 @@ window.APP_DATA = {
       "count": 15,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
       "rank": 1,
-      "previousRank": null,
+      "previousRank": 1,
       "rankChange": 0
     },
     {
@@ -149,7 +149,7 @@ window.APP_DATA = {
       "count": 15,
       "categorySummary": "共享活动 8，回忆与创作 3，伙伴与存储 4",
       "rank": 2,
-      "previousRank": null,
+      "previousRank": 2,
       "rankChange": 0
     },
     {
@@ -214,7 +214,7 @@ window.APP_DATA = {
       "count": 15,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
       "rank": 3,
-      "previousRank": null,
+      "previousRank": 3,
       "rankChange": 0
     },
     {
@@ -285,7 +285,7 @@ window.APP_DATA = {
       "count": 15,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
       "rank": 4,
-      "previousRank": null,
+      "previousRank": 4,
       "rankChange": 0
     },
     {
@@ -355,7 +355,7 @@ window.APP_DATA = {
       "count": 14,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 3",
       "rank": 5,
-      "previousRank": null,
+      "previousRank": 5,
       "rankChange": 0
     },
     {
@@ -419,7 +419,7 @@ window.APP_DATA = {
       "count": 13,
       "categorySummary": "关系互动 6，消息与机会 4，内容与服务 3",
       "rank": 6,
-      "previousRank": null,
+      "previousRank": 6,
       "rankChange": 0
     },
     {
@@ -482,7 +482,7 @@ window.APP_DATA = {
       "count": 13,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 2",
       "rank": 7,
-      "previousRank": null,
+      "previousRank": 7,
       "rankChange": 0
     },
     {
@@ -556,7 +556,7 @@ window.APP_DATA = {
       "count": 12,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 1",
       "rank": 8,
-      "previousRank": null,
+      "previousRank": 8,
       "rankChange": 0
     },
     {
@@ -624,7 +624,7 @@ window.APP_DATA = {
       "count": 12,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 1",
       "rank": 9,
-      "previousRank": null,
+      "previousRank": 9,
       "rankChange": 0
     },
     {
@@ -687,7 +687,7 @@ window.APP_DATA = {
       "count": 12,
       "categorySummary": "投放状态 4，效果 4，账户服务 4",
       "rank": 10,
-      "previousRank": null,
+      "previousRank": 10,
       "rankChange": 0
     },
     {
@@ -739,7 +739,7 @@ window.APP_DATA = {
       "count": 12,
       "categorySummary": "订单物流 7，互动与价格 5",
       "rank": 11,
-      "previousRank": null,
+      "previousRank": 11,
       "rankChange": 0
     },
     {
@@ -806,7 +806,7 @@ window.APP_DATA = {
       "count": 11,
       "categorySummary": "订阅内容 4，互动 4，推荐与服务 3",
       "rank": 12,
-      "previousRank": null,
+      "previousRank": 12,
       "rankChange": 0
     },
     {
@@ -867,7 +867,7 @@ window.APP_DATA = {
       "count": 11,
       "categorySummary": "消息 6，通话与活动 4，关系与服务 1",
       "rank": 13,
-      "previousRank": null,
+      "previousRank": 13,
       "rankChange": 0
     },
     {
@@ -918,7 +918,7 @@ window.APP_DATA = {
       "count": 11,
       "categorySummary": "互动反馈 6，关系与消息 5",
       "rank": 14,
-      "previousRank": null,
+      "previousRank": 14,
       "rankChange": 0
     },
     {
@@ -979,7 +979,7 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "消息 6，通话与活动 4",
       "rank": 15,
-      "previousRank": null,
+      "previousRank": 15,
       "rankChange": 0
     },
     {
@@ -1040,7 +1040,7 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "消息 6，通话与活动 4",
       "rank": 16,
-      "previousRank": null,
+      "previousRank": 16,
       "rankChange": 0
     },
     {
@@ -1095,7 +1095,7 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "消息 6，通话与活动 4",
       "rank": 17,
-      "previousRank": null,
+      "previousRank": 17,
       "rankChange": 0
     },
     {
@@ -1156,7 +1156,7 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "沟通 5，协作 4，服务 1",
       "rank": 18,
-      "previousRank": null,
+      "previousRank": 18,
       "rankChange": 0
     },
     {
@@ -1211,7 +1211,7 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "匹配互动 5，推荐与活动 3，安全与服务 2",
       "rank": 19,
-      "previousRank": null,
+      "previousRank": 19,
       "rankChange": 0
     },
     {
@@ -1261,7 +1261,7 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "行程 6，安全与交易 4",
       "rank": 20,
-      "previousRank": null,
+      "previousRank": 20,
       "rankChange": 0
     },
     {
@@ -1320,7 +1320,7 @@ window.APP_DATA = {
       "count": 9,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 2",
       "rank": 21,
-      "previousRank": null,
+      "previousRank": 21,
       "rankChange": 0
     },
     {
@@ -1369,7 +1369,7 @@ window.APP_DATA = {
       "count": 9,
       "categorySummary": "订单 7，售后与营销 2",
       "rank": 22,
-      "previousRank": null,
+      "previousRank": 22,
       "rankChange": 0
     },
     {
@@ -1436,7 +1436,7 @@ window.APP_DATA = {
       "count": 9,
       "categorySummary": "消息 6，通话与活动 3",
       "rank": 23,
-      "previousRank": null,
+      "previousRank": 23,
       "rankChange": 0
     },
     {
@@ -1485,7 +1485,7 @@ window.APP_DATA = {
       "count": 9,
       "categorySummary": "互动 4，本地服务 5",
       "rank": 24,
-      "previousRank": null,
+      "previousRank": 24,
       "rankChange": 0
     },
     {
@@ -1544,7 +1544,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "导航 4，地点与共享 4",
       "rank": 25,
-      "previousRank": null,
+      "previousRank": 25,
       "rankChange": 0
     },
     {
@@ -1597,7 +1597,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
       "rank": 26,
-      "previousRank": null,
+      "previousRank": 26,
       "rankChange": 0
     },
     {
@@ -1650,7 +1650,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "创作任务 3，模板与社区 3，服务 2",
       "rank": 27,
-      "previousRank": null,
+      "previousRank": 27,
       "rankChange": 0
     },
     {
@@ -1698,7 +1698,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "房间 4，互动 4",
       "rank": 28,
-      "previousRank": null,
+      "previousRank": 28,
       "rankChange": 0
     },
     {
@@ -1752,7 +1752,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "协作 6，仓库 2",
       "rank": 29,
-      "previousRank": null,
+      "previousRank": 29,
       "rankChange": 0
     },
     {
@@ -1811,7 +1811,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "邮件 4，协作与日程 2，账号服务 2",
       "rank": 30,
-      "previousRank": null,
+      "previousRank": 30,
       "rankChange": 0
     },
     {
@@ -1871,7 +1871,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "沟通 5，协作 3",
       "rank": 31,
-      "previousRank": null,
+      "previousRank": 31,
       "rankChange": 0
     },
     {
@@ -1925,7 +1925,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "资金交易 5，账户 3",
       "rank": 32,
-      "previousRank": null,
+      "previousRank": 32,
       "rankChange": 0
     },
     {
@@ -1973,7 +1973,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "行程 6，服务 2",
       "rank": 33,
-      "previousRank": null,
+      "previousRank": 33,
       "rankChange": 0
     },
     {
@@ -2026,7 +2026,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
       "rank": 34,
-      "previousRank": null,
+      "previousRank": 34,
       "rankChange": 0
     },
     {
@@ -2079,7 +2079,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
       "rank": 35,
-      "previousRank": null,
+      "previousRank": 35,
       "rankChange": 0
     },
     {
@@ -2127,7 +2127,7 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "沟通 5，协作 3",
       "rank": 36,
-      "previousRank": null,
+      "previousRank": 36,
       "rankChange": 0
     },
     {
@@ -2174,7 +2174,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "设备与家庭 4，服务 3",
       "rank": 37,
-      "previousRank": null,
+      "previousRank": 37,
       "rankChange": 0
     },
     {
@@ -2221,7 +2221,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
       "rank": 38,
-      "previousRank": null,
+      "previousRank": 38,
       "rankChange": 0
     },
     {
@@ -2263,7 +2263,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "共享活动 7",
       "rank": 39,
-      "previousRank": null,
+      "previousRank": 39,
       "rankChange": 0
     },
     {
@@ -2310,7 +2310,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "网页与下载 3，账号与安全 4",
       "rank": 40,
-      "previousRank": null,
+      "previousRank": 40,
       "rankChange": 0
     },
     {
@@ -2357,7 +2357,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容更新 4，推荐与社交 3",
       "rank": 41,
-      "previousRank": null,
+      "previousRank": 41,
       "rankChange": 0
     },
     {
@@ -2404,7 +2404,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
       "rank": 42,
-      "previousRank": null,
+      "previousRank": 42,
       "rankChange": 0
     },
     {
@@ -2457,7 +2457,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
       "rank": 43,
-      "previousRank": null,
+      "previousRank": 43,
       "rankChange": 0
     },
     {
@@ -2504,7 +2504,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "沟通 5，协作 2",
       "rank": 44,
-      "previousRank": null,
+      "previousRank": 44,
       "rankChange": 0
     },
     {
@@ -2551,7 +2551,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "票务 5，服务 2",
       "rank": 45,
-      "previousRank": null,
+      "previousRank": 45,
       "rankChange": 0
     },
     {
@@ -2598,7 +2598,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "票务 5，服务 2",
       "rank": 46,
-      "previousRank": null,
+      "previousRank": 46,
       "rankChange": 0
     },
     {
@@ -2645,7 +2645,7 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
       "rank": 47,
-      "previousRank": null,
+      "previousRank": 47,
       "rankChange": 0
     },
     {
@@ -2691,7 +2691,7 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "恶劣天气 3，日常预报 3",
       "rank": 48,
-      "previousRank": null,
+      "previousRank": 48,
       "rankChange": 0
     },
     {
@@ -2737,7 +2737,7 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "邮件 4，协作与日程 2",
       "rank": 49,
-      "previousRank": null,
+      "previousRank": 49,
       "rankChange": 0
     },
     {
@@ -2783,7 +2783,7 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "任务与内容 3，账号与产品 3",
       "rank": 50,
-      "previousRank": null,
+      "previousRank": 50,
       "rankChange": 0
     },
     {
@@ -2829,7 +2829,7 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "健康目标 3，设备与社交 3",
       "rank": 51,
-      "previousRank": null,
+      "previousRank": 51,
       "rankChange": 0
     },
     {
@@ -2875,7 +2875,7 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "网页与下载 3，账号与安全 3",
       "rank": 52,
-      "previousRank": null,
+      "previousRank": 52,
       "rankChange": 0
     },
     {
@@ -2921,7 +2921,7 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "文件活动 3，同步与服务 3",
       "rank": 53,
-      "previousRank": null,
+      "previousRank": 53,
       "rankChange": 0
     },
     {
@@ -2967,7 +2967,7 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "内容更新 4，推荐与社交 2",
       "rank": 54,
-      "previousRank": null,
+      "previousRank": 54,
       "rankChange": 0
     },
     {
@@ -3012,7 +3012,7 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 55,
-      "previousRank": null,
+      "previousRank": 55,
       "rankChange": 0
     },
     {
@@ -3057,7 +3057,7 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "网页与下载 3，账号与安全 2",
       "rank": 56,
-      "previousRank": null,
+      "previousRank": 56,
       "rankChange": 0
     },
     {
@@ -3102,7 +3102,7 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 57,
-      "previousRank": null,
+      "previousRank": 57,
       "rankChange": 0
     },
     {
@@ -3147,7 +3147,7 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 58,
-      "previousRank": null,
+      "previousRank": 58,
       "rankChange": 0
     },
     {
@@ -3192,7 +3192,7 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 59,
-      "previousRank": null,
+      "previousRank": 59,
       "rankChange": 0
     },
     {
@@ -3237,7 +3237,7 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 60,
-      "previousRank": null,
+      "previousRank": 60,
       "rankChange": 0
     },
     {
@@ -3282,7 +3282,7 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 61,
-      "previousRank": null,
+      "previousRank": 61,
       "rankChange": 0
     },
     {
@@ -3326,7 +3326,7 @@ window.APP_DATA = {
       "count": 4,
       "categorySummary": "网页与下载 3，账号与安全 1",
       "rank": 62,
-      "previousRank": null,
+      "previousRank": 62,
       "rankChange": 0
     },
     {
@@ -3364,7 +3364,7 @@ window.APP_DATA = {
       "count": 3,
       "categorySummary": "播放与服务 3",
       "rank": 63,
-      "previousRank": null,
+      "previousRank": 63,
       "rankChange": 0
     }
   ]

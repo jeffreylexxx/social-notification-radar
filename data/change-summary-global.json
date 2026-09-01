@@ -1,5 +1,494 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-02",
   "changedSources": [],
-  "failedSources": []
+  "failedSources": [
+    {
+      "title": "Instagram · App Store",
+      "url": "https://apps.apple.com/us/app/id389801252",
+      "type": "官方应用页",
+      "note": "开发者：Instagram, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "instagram"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id389801252",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "title": "DataReportal Digital 2026",
+      "note": "时长与打开次数来自 Similarweb App Intelligence 的全球 Android 样本（不含中国）；MAU 由 Meta 另页披露为 30 亿。",
+      "type": "usage-data",
+      "apps": [
+        "instagram",
+        "facebook",
+        "x",
+        "whatsapp",
+        "youtube",
+        "messenger",
+        "discord",
+        "telegram",
+        "tiktok",
+        "threads",
+        "linkedin",
+        "snapchat",
+        "reddit"
+      ],
+      "finalUrl": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "status": "http-error",
+      "httpStatus": 404,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "3c4f602a1c25b0fda599741c78c85a5d5b082ee0e1cf2c4335b32e7890ada67c",
+      "bytes": 85798,
+      "changed": false
+    },
+    {
+      "title": "X 手机通知帮助",
+      "url": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "type": "官方帮助",
+      "note": "官方列出提及、回复、转帖、点赞、关注、私信、新闻、Spaces 等通知类型。",
+      "apps": [
+        "x"
+      ],
+      "finalUrl": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "eb70509256a1f25faf62d2e04230c35e505101c5be812d31af83fe5ec9223b75",
+      "bytes": 5782,
+      "changed": false
+    },
+    {
+      "title": "Microsoft OneDrive · App Store",
+      "url": "https://apps.apple.com/us/app/id477537958",
+      "type": "官方应用页",
+      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "onedrive"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id477537958",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Threads · App Store",
+      "url": "https://apps.apple.com/us/app/id6446901002",
+      "type": "官方应用页",
+      "note": "开发者：Instagram, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "threads"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id6446901002",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "LinkedIn: Community & Network · App Store",
+      "url": "https://apps.apple.com/us/app/id288429040",
+      "type": "官方应用页",
+      "note": "开发者：LinkedIn Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "linkedin"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id288429040",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "GitHub · App Store",
+      "url": "https://apps.apple.com/us/app/id1477376905",
+      "type": "官方应用页",
+      "note": "开发者：GitHub。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "github"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id1477376905",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Google Chrome · App Store",
+      "url": "https://apps.apple.com/us/app/id535886823",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "chrome"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id535886823",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "AccuWeather: Weather Forecast · App Store",
+      "url": "https://apps.apple.com/us/app/id300048137",
+      "type": "官方应用页",
+      "note": "开发者：AccuWeather International, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "accuweather"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id300048137",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Notion: Notes, Tasks, AI · App Store",
+      "url": "https://apps.apple.com/us/app/id1232780281",
+      "type": "官方应用页",
+      "note": "开发者：Notion Labs, Incorporated。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "notion"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id1232780281",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Firefox Fast & Private Browser · App Store",
+      "url": "https://apps.apple.com/us/app/id989804926",
+      "type": "官方应用页",
+      "note": "开发者：Mozilla Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "firefox"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id989804926",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Microsoft Edge · App Store",
+      "url": "https://apps.apple.com/us/app/id1288723196",
+      "type": "官方应用页",
+      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "edge"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id1288723196",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Safari · App Store",
+      "url": "https://apps.apple.com/us/app/id1146562112",
+      "type": "官方应用页",
+      "note": "开发者：Apple Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "safari"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id1146562112",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "VLC media player · App Store",
+      "url": "https://apps.apple.com/us/app/id650377962",
+      "type": "官方应用页",
+      "note": "开发者：VideoLAN。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "vlc"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id650377962",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "YouTube TV · App Store",
+      "url": "https://apps.apple.com/us/app/id1193350206",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "youtube-tv"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id1193350206",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Snapchat · App Store",
+      "url": "https://apps.apple.com/us/app/id447188370",
+      "type": "官方应用页",
+      "note": "开发者：Snap, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "snapchat"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id447188370",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "title": "PayPal 年报",
+      "note": "活跃账户可能含商户且不是 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "paypal"
+      ],
+      "finalUrl": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "0cc3d31b4fba48d3642baf4154f6a59a596737e5a8616b034c92d6e1383d509d",
+      "bytes": 5792,
+      "changed": false
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
+      "title": "Microsoft Teams 官方博客",
+      "note": "跨桌面、网页和移动端产品 MAU，不等同手机 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "microsoft-teams"
+      ],
+      "finalUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
+      "status": "http-error",
+      "httpStatus": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "5b79c5f732691e3432cd2d8e29ba23d57e8c598177a927eba0e9de526447e1c0",
+      "bytes": 228237,
+      "changed": false
+    },
+    {
+      "title": "Yelp: Food, Services & Reviews · App Store",
+      "url": "https://apps.apple.com/us/app/id284910350",
+      "type": "官方应用页",
+      "note": "开发者：Yelp, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "yelp"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id284910350",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Ticketmaster－Buy, Sell Tickets · App Store",
+      "url": "https://apps.apple.com/us/app/id500003565",
+      "type": "官方应用页",
+      "note": "开发者：Ticketmaster L.L.C。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "ticketmaster"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id500003565",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Priceline - Hotel, Car, Flight · App Store",
+      "url": "https://apps.apple.com/us/app/id336381998",
+      "type": "官方应用页",
+      "note": "开发者：priceline.com。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "priceline"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id336381998",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "StubHub: Event Tickets · App Store",
+      "url": "https://apps.apple.com/us/app/id366562751",
+      "type": "官方应用页",
+      "note": "开发者：Stubhub, Inc。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "stubhub"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id366562751",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Grubhub: Food Delivery · App Store",
+      "url": "https://apps.apple.com/us/app/id302920553",
+      "type": "官方应用页",
+      "note": "开发者：GrubHub Inc。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "grubhub"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id302920553",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Uber - Request a ride · App Store",
+      "url": "https://apps.apple.com/us/app/id368677368",
+      "type": "官方应用页",
+      "note": "开发者：Uber Technologies, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "uber"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id368677368",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Google Maps · App Store",
+      "url": "https://apps.apple.com/us/app/id585027354",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "google-maps"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id585027354",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Netflix · App Store",
+      "url": "https://apps.apple.com/us/app/id363590051",
+      "type": "官方应用页",
+      "note": "开发者：Netflix, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "netflix"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id363590051",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Google Gemini · App Store",
+      "url": "https://apps.apple.com/us/app/id6477489729",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "gemini"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/google-gemini/id6477489729",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    },
+    {
+      "title": "Meta AI · App Store",
+      "url": "https://apps.apple.com/us/app/id1558240027",
+      "type": "官方应用页",
+      "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "meta-ai"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/id1558240027",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-01T21:03:30.875Z",
+      "hash": "1fd5c30d016dbdfceb714acd27222ca759519bf0f767f932a423cbc9f41362ec",
+      "bytes": 2383,
+      "changed": false
+    }
+  ]
 }
