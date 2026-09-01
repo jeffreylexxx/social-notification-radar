@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-01",
+  "changedSources": [],
+  "failedSources": [
+    {
+      "title": "微信视频号通知设置说明",
+      "url": "https://www.php.cn/faq/2517049.html",
+      "type": "article",
+      "note": "列出视频号更新、私信、直播、点赞及评论提醒。",
+      "apps": [
+        "wechat"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2517049.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "3d9d3c76f2c2970fc00902753ceb9cad26f7a2f94d31e2634247cb62156903b3",
+      "bytes": 5534,
+      "changed": false
+    },
+    {
+      "title": "知乎消息推送设置说明",
+      "url": "https://www.php.cn/faq/2343515.html",
+      "type": "article",
+      "note": "补充关注内容、评论、私信与赞同推送。",
+      "apps": [
+        "zhihu"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2343515.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "976bca89a620db269a3ee34edf184ffb76581368414e499e35fe1b5f31be57c1",
+      "bytes": 5513,
+      "changed": false
+    },
+    {
+      "title": "爱奇艺互动提醒设置",
+      "url": "https://www.php.cn/faq/2810115.html",
+      "type": "article",
+      "note": "列出弹幕回复、点赞、评论、关注、会员和签到提醒。",
+      "apps": [
+        "iqiyi"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2810115.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8985a7b4d0470d83daa5e76a099434cedcc9d080a6ec0c979bae47f8d152ff65",
+      "bytes": 5470,
+      "changed": false
+    },
+    {
+      "title": "拼多多消息通知管理",
+      "url": "https://www.php.cn/faq/2305396.html",
+      "type": "article",
+      "note": "列出订单、物流、拼单、降价、活动、精选、签到和直播提醒。",
+      "apps": [
+        "pinduoduo"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2305396.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "52cc1e81203f7442c752dec5ae12ab8c09ed7d16bcc414735de352e6d99491ba",
+      "bytes": 5470,
+      "changed": false
+    },
+    {
+      "title": "红果追剧提醒设置",
+      "url": "https://www.php.cn/faq/2188465.html",
+      "type": "article",
+      "note": "列出连载、开播、签到、补贴和奖励提醒。",
+      "apps": [
+        "hongguo"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2188465.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "9a569fa74c3c15f738b0365f52590e389bece5e714d6fde8c2a3e84245e0232e",
+      "bytes": 5534,
+      "changed": false
+    },
+    {
+      "title": "QQ音乐推送设置说明",
+      "url": "https://www.php.cn/faq/3046045.html",
+      "type": "article",
+      "note": "列出系统、私信、点赞评论、新歌、新MV和直播更新。",
+      "apps": [
+        "qq-music"
+      ],
+      "finalUrl": "https://www.php.cn/faq/3046045.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8c82131b47421e710a2b938eb0508f3eb1f335f3b9c8dfb739ac33cf75dce09c",
+      "bytes": 5513,
+      "changed": false
+    }
+  ]
+}

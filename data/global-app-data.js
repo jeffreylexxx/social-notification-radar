@@ -1,0 +1,3371 @@
+window.APP_DATA = {
+  "meta": {
+    "title": "全球常用应用通知提醒排行榜",
+    "methodology": "统计能够形成系统通知、App 内红点/收件箱动态或明确提醒的独立业务场景；通知呈现方式不重复计数。公开资料未给出精确设置开关总数时，按官方功能触发关系拆分并降低置信度。",
+    "researchedCount": 63,
+    "targetCount": 63,
+    "strictUsageMetrics": true,
+    "disclaimer": "通知数量是基于公开产品资料整理的可独立识别提醒场景，不等同于某一手机型号或版本中的设置开关数量。",
+    "usageNote": "日均时长、日均打开与 App MAU 必须有公开来源和明确时间；跨端用户、会员、订阅、账户、DAU/WAU 仅作为代理标签展示，不写入 MAU 排序值。",
+    "snapshotDate": "2026-09-01",
+    "generatedAt": "2026-09-01T12:35:10.001Z",
+    "sourceCount": 88,
+    "changedSourceCount": 0,
+    "failedSourceCount": 0,
+    "previousSnapshotDate": null
+  },
+  "apps": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/facebook.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        },
+        {
+          "name": "内容与直播",
+          "items": [
+            "关注账号发布内容",
+            "直播开始",
+            "内容推荐",
+            "热门趋势"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Facebook · App Store",
+          "url": "https://apps.apple.com/us/app/id284882215",
+          "type": "官方应用页",
+          "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Facebook 2023 Q3 MAU",
+          "url": "https://investor.fb.com/files/doc_earnings/2023/q3/earnings-result/Meta-09-30-2022-Exhibit-99-1-FINAL.pdf",
+          "type": "官方财报",
+          "note": "最后阶段单产品官方值为 30.5 亿 MAU；之后停止披露。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 67,
+        "launches": null,
+        "activeUsers": 305000,
+        "period": "2025-08 / MAU 2023 Q3",
+        "methodLabel": "Android 全球日均；MAU 为官方历史值",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长来自 Similarweb 全球 Android 样本；Meta 已停止披露 Facebook 单产品 MAU，保留 2023 Q3 官方历史值 30.5 亿。"
+        }
+      },
+      "count": 15,
+      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
+      "rank": 1,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "google-photos",
+      "name": "Google 相册",
+      "appCategory": "云存储与工具",
+      "logo": "assets/logos/global/google-photos.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "共享活动",
+          "items": [
+            "收到共享相册",
+            "新成员加入共享相册",
+            "共享相册新照片",
+            "照片评论",
+            "照片或相册获赞",
+            "收到新会话",
+            "会话回复",
+            "会话获赞"
+          ]
+        },
+        {
+          "name": "回忆与创作",
+          "items": [
+            "时间型回忆",
+            "主题回忆",
+            "新创作可用"
+          ]
+        },
+        {
+          "name": "伙伴与存储",
+          "items": [
+            "伙伴共享邀请",
+            "伙伴接受邀请",
+            "伙伴分享新照片",
+            "存储空间状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google 相册动态类型",
+          "url": "https://support.google.com/photos/answer/15604413?hl=en",
+          "type": "官方帮助",
+          "note": "官方逐项列出共享相册、会话、伙伴共享和存储状态动态。"
+        },
+        {
+          "title": "Google Photos: Backup & Edit · App Store",
+          "url": "https://apps.apple.com/us/app/id962194608",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 15,
+      "categorySummary": "共享活动 8，回忆与创作 3，伙伴与存储 4",
+      "rank": 2,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "appCategory": "短视频与资讯",
+      "logo": "assets/logos/global/tiktok.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        },
+        {
+          "name": "内容与直播",
+          "items": [
+            "关注账号发布内容",
+            "直播开始",
+            "内容推荐",
+            "热门趋势"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "TikTok - Videos, Shop & LIVE · App Store",
+          "url": "https://apps.apple.com/us/app/id835599320",
+          "type": "官方应用页",
+          "note": "开发者：TIKTOK PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 97,
+        "launches": 9.7,
+        "activeUsers": null,
+        "period": "2025-08",
+        "methodLabel": "Android 全球日均",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "Similarweb App Intelligence 全球 Android 样本，不含中国；公开广告触达量不等同 MAU。"
+        }
+      },
+      "count": 15,
+      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
+      "rank": 3,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "x",
+      "name": "X（Twitter）",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/x.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        },
+        {
+          "name": "内容与直播",
+          "items": [
+            "关注账号发布内容",
+            "直播开始",
+            "内容推荐",
+            "热门趋势"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "X 手机通知帮助",
+          "url": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+          "type": "官方帮助",
+          "note": "官方列出提及、回复、转帖、点赞、关注、私信、新闻、Spaces 等通知类型。"
+        },
+        {
+          "title": "X · App Store",
+          "url": "https://apps.apple.com/us/app/id333903271",
+          "type": "官方应用页",
+          "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 28,
+        "launches": null,
+        "activeUsers": null,
+        "period": "2025-08",
+        "methodLabel": "Android 全球日均",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "Similarweb App Intelligence 全球 Android 样本，不含中国。"
+        }
+      },
+      "count": 15,
+      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
+      "rank": 4,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/instagram.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        },
+        {
+          "name": "内容与直播",
+          "items": [
+            "关注账号发布内容",
+            "直播开始",
+            "内容推荐"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Instagram · App Store",
+          "url": "https://apps.apple.com/us/app/id389801252",
+          "type": "官方应用页",
+          "note": "开发者：Instagram, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Instagram 30 亿 MAU",
+          "url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
+          "type": "官方规模数据",
+          "note": "Meta 2025-09 明确披露 Instagram 30 亿 MAU。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 73,
+        "launches": 12,
+        "activeUsers": 300000,
+        "period": "2025-08 / MAU 2025-09",
+        "methodLabel": "Android 全球日均；MAU 官方",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长与打开次数来自 Similarweb App Intelligence 的全球 Android 样本（不含中国）；MAU 由 Meta 另页披露为 30 亿。"
+        }
+      },
+      "count": 14,
+      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 3",
+      "rank": 5,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/linkedin.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "关系互动",
+          "items": [
+            "连接邀请",
+            "新关注者",
+            "个人资料被查看",
+            "帖子反应",
+            "帖子评论",
+            "提及"
+          ]
+        },
+        {
+          "name": "消息与机会",
+          "items": [
+            "私信",
+            "职位推荐",
+            "职位申请更新",
+            "招聘者动态"
+          ]
+        },
+        {
+          "name": "内容与服务",
+          "items": [
+            "关注内容更新",
+            "行业资讯",
+            "账号安全"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "LinkedIn: Community & Network · App Store",
+          "url": "https://apps.apple.com/us/app/id288429040",
+          "type": "官方应用页",
+          "note": "开发者：LinkedIn Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 6,
+        "launches": null,
+        "activeUsers": null,
+        "period": "2025-08 / 会员规模 2023–2025",
+        "methodLabel": "Android 全球日均；会员账户数",
+        "activeUserLabel": "超过 10 亿会员",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长来自 Similarweb 全球 Android 样本；会员数不是 App MAU。"
+        }
+      },
+      "count": 13,
+      "categorySummary": "关系互动 6，消息与机会 4，内容与服务 3",
+      "rank": 6,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/reddit.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        },
+        {
+          "name": "内容与直播",
+          "items": [
+            "关注账号发布内容",
+            "直播开始"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Reddit · App Store",
+          "url": "https://apps.apple.com/us/app/id1064216828",
+          "type": "官方应用页",
+          "note": "开发者：REDDIT, INC.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 19,
+        "launches": null,
+        "activeUsers": null,
+        "period": "2025-08",
+        "methodLabel": "Android 全球日均",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "Similarweb App Intelligence 全球 Android 样本，不含中国；Reddit 财报核心口径为 DAUq，未写入 MAU。"
+        }
+      },
+      "count": 13,
+      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 2",
+      "rank": 7,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/snapchat.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        },
+        {
+          "name": "内容与直播",
+          "items": [
+            "关注账号发布内容"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Snapchat 通知控制",
+          "url": "https://help.snapchat.com/hc/en-us/articles/7012316327444-How-do-I-control-my-Snapchat-notifications-on-iOS",
+          "type": "官方帮助",
+          "note": "官方说明逐类型通知开关及关注对象的 Story 通知。"
+        },
+        {
+          "title": "Snapchat · App Store",
+          "url": "https://apps.apple.com/us/app/id447188370",
+          "type": "官方应用页",
+          "note": "开发者：Snap, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Snap 2025 Q4 业绩",
+          "url": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+          "type": "官方财报",
+          "note": "Snapchat 2025 Q4 MAU 9.46 亿。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 17,
+        "launches": null,
+        "activeUsers": 94600,
+        "period": "2025-08 / MAU 2025 Q4",
+        "methodLabel": "Android 全球日均；MAU 官方",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长来自 Similarweb 全球 Android 样本；Snap 2025 Q4 披露 MAU 9.46 亿。"
+        }
+      },
+      "count": 12,
+      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 1",
+      "rank": 8,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/threads.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        },
+        {
+          "name": "内容与直播",
+          "items": [
+            "关注账号发布内容"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Threads · App Store",
+          "url": "https://apps.apple.com/us/app/id6446901002",
+          "type": "官方应用页",
+          "note": "开发者：Instagram, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Threads 5 亿 MAU",
+          "url": "https://about.fb.com/news/2026/06/meta-launching-new-features-500-million-monthly-threads-users/",
+          "type": "官方规模数据",
+          "note": "Meta 2026-06 披露 5 亿 MAU。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 4,
+        "launches": null,
+        "activeUsers": 50000,
+        "period": "2025-08 / MAU 2026-06",
+        "methodLabel": "Android 全球日均；MAU 官方",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长来自 Similarweb 全球 Android 样本；Meta 2026-06 披露 Threads 达 5 亿 MAU。"
+        }
+      },
+      "count": 12,
+      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 1",
+      "rank": 9,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "google-ads",
+      "name": "Google Ads",
+      "appCategory": "商业与管理",
+      "logo": "assets/logos/global/google-ads.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "投放状态",
+          "items": [
+            "广告未获批准或政策警报",
+            "广告系列状态变化",
+            "预算受限",
+            "自定义状态阈值"
+          ]
+        },
+        {
+          "name": "效果",
+          "items": [
+            "效果指标变化",
+            "每周效果摘要",
+            "自定义指标阈值",
+            "优化建议"
+          ]
+        },
+        {
+          "name": "账户服务",
+          "items": [
+            "账单提醒",
+            "报告可用",
+            "产品新功能",
+            "专家指导"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Ads 通知",
+          "url": "https://support.google.com/google-ads/answer/9972066?hl=en",
+          "type": "官方帮助",
+          "note": "官方说明效果变化、新功能、优化建议及自定义状态通知。"
+        },
+        {
+          "title": "Google Ads · App Store",
+          "url": "https://apps.apple.com/us/app/id1037457231",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 12,
+      "categorySummary": "投放状态 4，效果 4，账户服务 4",
+      "rank": 10,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "appCategory": "购物与电商",
+      "logo": "assets/logos/global/temu.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "订单物流",
+          "items": [
+            "下单成功",
+            "付款状态",
+            "卖家发货",
+            "物流运输",
+            "派送中",
+            "签收完成",
+            "退款或退货"
+          ]
+        },
+        {
+          "name": "互动与价格",
+          "items": [
+            "客服消息",
+            "降价提醒",
+            "补货提醒",
+            "购物车提醒",
+            "优惠活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Temu: Shop Like a Billionaire · App Store",
+          "url": "https://apps.apple.com/us/app/id1641486558",
+          "type": "官方应用页",
+          "note": "开发者：Whaleco Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 12,
+      "categorySummary": "订单物流 7，互动与价格 5",
+      "rank": 11,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/youtube.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "订阅内容",
+          "items": [
+            "订阅频道上传长视频",
+            "订阅频道发布短视频",
+            "直播开始",
+            "首映开始"
+          ]
+        },
+        {
+          "name": "互动",
+          "items": [
+            "评论回复",
+            "评论点赞",
+            "提及",
+            "频道动态"
+          ]
+        },
+        {
+          "name": "推荐与服务",
+          "items": [
+            "个性化推荐",
+            "观看提醒",
+            "产品更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "YouTube 通知管理",
+          "url": "https://support.google.com/youtube/answer/3382248?hl=en",
+          "type": "官方帮助",
+          "note": "官方说明订阅上传、直播、Shorts、推荐及通知中心。"
+        },
+        {
+          "title": "YouTube · App Store",
+          "url": "https://apps.apple.com/us/app/id544007664",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 85,
+        "launches": 5.9,
+        "activeUsers": 200000,
+        "period": "2025-08 / 月用户历史下限",
+        "methodLabel": "Android 全球日均；月用户下限",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长与打开来自 Similarweb 全球 Android 样本；20 亿为 YouTube 官方登录月用户历史下限。"
+        }
+      },
+      "count": 11,
+      "categorySummary": "订阅内容 4，互动 4，推荐与服务 3",
+      "rank": 12,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "line",
+      "name": "LINE",
+      "appCategory": "即时通讯",
+      "logo": "assets/logos/global/line.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "消息",
+          "items": [
+            "单聊新消息",
+            "群聊新消息",
+            "消息回复",
+            "消息反应",
+            "@提及",
+            "频道或公告更新"
+          ]
+        },
+        {
+          "name": "通话与活动",
+          "items": [
+            "语音来电",
+            "视频来电",
+            "未接来电",
+            "群组活动或事件"
+          ]
+        },
+        {
+          "name": "关系与服务",
+          "items": [
+            "联系人加入"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "LINE · App Store",
+          "url": "https://apps.apple.com/us/app/id443904275",
+          "type": "官方应用页",
+          "note": "开发者：LY Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 20000,
+        "period": "公开页面当前口径",
+        "methodLabel": "MAU 约值",
+        "source": {
+          "url": "https://www.linecorp.com/en/csr/",
+          "title": "LINE Social Responsibility",
+          "note": "LINE 官方页面称全球约 2 亿 MAU。"
+        }
+      },
+      "count": 11,
+      "categorySummary": "消息 6，通话与活动 4，关系与服务 1",
+      "rank": 13,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "tumblr",
+      "name": "Tumblr",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/tumblr.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tumblr: Social Media & Art · App Store",
+          "url": "https://apps.apple.com/us/app/id305343404",
+          "type": "官方应用页",
+          "note": "开发者：Tumblr, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 11,
+      "categorySummary": "互动反馈 6，关系与消息 5",
+      "rank": 14,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "appCategory": "即时通讯",
+      "logo": "assets/logos/global/telegram.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "消息",
+          "items": [
+            "单聊新消息",
+            "群聊新消息",
+            "消息回复",
+            "消息反应",
+            "@提及",
+            "频道或公告更新"
+          ]
+        },
+        {
+          "name": "通话与活动",
+          "items": [
+            "语音来电",
+            "视频来电",
+            "未接来电",
+            "群组活动或事件"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Telegram Messenger · App Store",
+          "url": "https://apps.apple.com/us/app/id686449807",
+          "type": "官方应用页",
+          "note": "开发者：Telegram FZ-LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Telegram MAU",
+          "url": "https://telegram.org/press",
+          "type": "官方规模数据",
+          "note": "Telegram 官方称 2025 年超过 10 亿 MAU。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 30,
+        "launches": null,
+        "activeUsers": 100000,
+        "period": "2025-08 / MAU 2025",
+        "methodLabel": "Android 全球日均；MAU 官方",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长来自 Similarweb 全球 Android 样本；Telegram 官方称 2025 年 MAU 超过 10 亿。"
+        }
+      },
+      "count": 10,
+      "categorySummary": "消息 6，通话与活动 4",
+      "rank": 15,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "appCategory": "即时通讯",
+      "logo": "assets/logos/global/discord.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "消息",
+          "items": [
+            "单聊新消息",
+            "群聊新消息",
+            "消息回复",
+            "消息反应",
+            "@提及",
+            "频道或公告更新"
+          ]
+        },
+        {
+          "name": "通话与活动",
+          "items": [
+            "语音来电",
+            "视频来电",
+            "未接来电",
+            "群组活动或事件"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Discord - Talk, Play, Hang Out · App Store",
+          "url": "https://apps.apple.com/us/app/id985746746",
+          "type": "官方应用页",
+          "note": "开发者：Discord Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Discord MAU",
+          "url": "https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini",
+          "type": "官方规模数据",
+          "note": "Discord 官方披露超过 2 亿 MAU。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 15,
+        "launches": null,
+        "activeUsers": 20000,
+        "period": "2025-08 / MAU 2025",
+        "methodLabel": "Android 全球日均；MAU 官方",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长来自 Similarweb 全球 Android 样本；Discord 官方披露 MAU 超过 2 亿。"
+        }
+      },
+      "count": 10,
+      "categorySummary": "消息 6，通话与活动 4",
+      "rank": 16,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "appCategory": "即时通讯",
+      "logo": "assets/logos/global/messenger.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "消息",
+          "items": [
+            "单聊新消息",
+            "群聊新消息",
+            "消息回复",
+            "消息反应",
+            "@提及",
+            "频道或公告更新"
+          ]
+        },
+        {
+          "name": "通话与活动",
+          "items": [
+            "语音来电",
+            "视频来电",
+            "未接来电",
+            "群组活动或事件"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Messenger · App Store",
+          "url": "https://apps.apple.com/us/app/id454638411",
+          "type": "官方应用页",
+          "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 19,
+        "launches": null,
+        "activeUsers": null,
+        "period": "2025-08",
+        "methodLabel": "Android 全球日均",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "Similarweb App Intelligence 全球 Android 样本，不含中国。"
+        }
+      },
+      "count": 10,
+      "categorySummary": "消息 6，通话与活动 4",
+      "rank": 17,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "appCategory": "协作与办公",
+      "logo": "assets/logos/global/slack.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "沟通",
+          "items": [
+            "直接消息",
+            "频道或群组消息",
+            "@提及",
+            "消息回复",
+            "消息反应"
+          ]
+        },
+        {
+          "name": "协作",
+          "items": [
+            "任务被指派",
+            "文档评论",
+            "会议开始",
+            "日程变更"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "工作区公告"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Slack 通知指南",
+          "url": "https://slack.com/help/articles/201355156-Configure-your-Slack-notifications",
+          "type": "官方帮助",
+          "note": "官方列出私信、提及、关键词、线程回复、Huddle、邀请和到期提醒。"
+        },
+        {
+          "title": "Slack · App Store",
+          "url": "https://apps.apple.com/us/app/id618783545",
+          "type": "官方应用页",
+          "note": "开发者：SLACK TECHNOLOGIES L.L.C.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 10,
+      "categorySummary": "沟通 5，协作 4，服务 1",
+      "rank": 18,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/tinder.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "匹配互动",
+          "items": [
+            "新匹配",
+            "新消息",
+            "消息反应",
+            "资料获赞",
+            "超级喜欢"
+          ]
+        },
+        {
+          "name": "推荐与活动",
+          "items": [
+            "新推荐对象",
+            "位置或活动推荐",
+            "配对即将过期"
+          ]
+        },
+        {
+          "name": "安全与服务",
+          "items": [
+            "账号安全",
+            "订阅或营销"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tinder Dating App: Date & Chat · App Store",
+          "url": "https://apps.apple.com/us/app/id547702041",
+          "type": "官方应用页",
+          "note": "开发者：Tinder LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 10,
+      "categorySummary": "匹配互动 5，推荐与活动 3，安全与服务 2",
+      "rank": 19,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "appCategory": "出行与地图",
+      "logo": "assets/logos/global/uber.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "行程",
+          "items": [
+            "司机接单",
+            "司机即将到达",
+            "司机已到达",
+            "行程开始",
+            "行程完成",
+            "行程变更或取消"
+          ]
+        },
+        {
+          "name": "安全与交易",
+          "items": [
+            "安全提醒",
+            "付款或收据",
+            "失物或客服更新",
+            "优惠活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Uber - Request a ride · App Store",
+          "url": "https://apps.apple.com/us/app/id368677368",
+          "type": "官方应用页",
+          "note": "开发者：Uber Technologies, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 10,
+      "categorySummary": "行程 6，安全与交易 4",
+      "rank": 20,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/spotify.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容更新",
+          "items": [
+            "关注艺人发布内容",
+            "关注播客更新",
+            "新节目或电台更新",
+            "直播节目开始"
+          ]
+        },
+        {
+          "name": "推荐与社交",
+          "items": [
+            "个性化推荐",
+            "好友或关注动态",
+            "榜单或精选更新"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "下载完成",
+            "订阅或账号提醒"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Spotify: Music and Podcasts · App Store",
+          "url": "https://apps.apple.com/us/app/id324684580",
+          "type": "官方应用页",
+          "note": "开发者：Spotify。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 69600,
+        "period": "2025 Q2",
+        "methodLabel": "MAU",
+        "source": {
+          "url": "https://newsroom.spotify.com/2025-07-29/spotify-reports-second-quarter-2025-earnings/",
+          "title": "Spotify 2025 Q2 业绩",
+          "note": "官方披露 MAU 6.96 亿。"
+        }
+      },
+      "count": 9,
+      "categorySummary": "内容更新 4，推荐与社交 3，服务 2",
+      "rank": 21,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "grubhub",
+      "name": "Grubhub",
+      "appCategory": "本地生活",
+      "logo": "assets/logos/global/grubhub.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "订单",
+          "items": [
+            "订单确认",
+            "商家接单",
+            "制作中",
+            "骑手取餐",
+            "配送进度",
+            "即将送达",
+            "送达完成"
+          ]
+        },
+        {
+          "name": "售后与营销",
+          "items": [
+            "退款或客服更新",
+            "优惠活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Grubhub: Food Delivery · App Store",
+          "url": "https://apps.apple.com/us/app/id302920553",
+          "type": "官方应用页",
+          "note": "开发者：GrubHub Inc。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 9,
+      "categorySummary": "订单 7，售后与营销 2",
+      "rank": 22,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "appCategory": "即时通讯",
+      "logo": "assets/logos/global/whatsapp.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "消息",
+          "items": [
+            "单聊新消息",
+            "群聊新消息",
+            "消息回复",
+            "消息反应",
+            "@提及",
+            "频道或公告更新"
+          ]
+        },
+        {
+          "name": "通话与活动",
+          "items": [
+            "语音来电",
+            "视频来电",
+            "未接来电"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "WhatsApp 通知管理",
+          "url": "https://faq.whatsapp.com/797069521522888/",
+          "type": "官方帮助",
+          "note": "官方说明单聊、群聊、通话、反应、提及和未读角标等通知。"
+        },
+        {
+          "title": "WhatsApp Messenger · App Store",
+          "url": "https://apps.apple.com/us/app/id310633997",
+          "type": "官方应用页",
+          "note": "开发者：WhatsApp Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "WhatsApp 用户规模",
+          "url": "https://about.fb.com/news/2025/09/introducing-message-translations-whatsapp/",
+          "type": "官方规模数据",
+          "note": "Meta 称超过 30 亿人使用 WhatsApp；未把措辞提升为 MAU。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 59,
+        "launches": 20.3,
+        "activeUsers": null,
+        "period": "2025-08 / 用户规模 2025-09",
+        "methodLabel": "Android 全球日均",
+        "activeUserLabel": "超过 30 亿用户",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长与日均打开来自 Similarweb 全球 Android 样本；Meta 披露超过 30 亿人使用，但原文未明确称 MAU。"
+        }
+      },
+      "count": 9,
+      "categorySummary": "消息 6，通话与活动 3",
+      "rank": 23,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "yelp",
+      "name": "Yelp",
+      "appCategory": "本地生活",
+      "logo": "assets/logos/global/yelp.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动",
+          "items": [
+            "评论获赞",
+            "评论回复",
+            "私信",
+            "好友活动"
+          ]
+        },
+        {
+          "name": "本地服务",
+          "items": [
+            "预订提醒",
+            "候位状态",
+            "商家回复",
+            "附近推荐",
+            "优惠活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yelp: Food, Services & Reviews · App Store",
+          "url": "https://apps.apple.com/us/app/id284910350",
+          "type": "官方应用页",
+          "note": "开发者：Yelp, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 9,
+      "categorySummary": "互动 4，本地服务 5",
+      "rank": 24,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "appCategory": "出行与地图",
+      "logo": "assets/logos/global/google-maps.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "导航",
+          "items": [
+            "出发时间",
+            "交通变化",
+            "路线变更",
+            "到站或下车提醒"
+          ]
+        },
+        {
+          "name": "地点与共享",
+          "items": [
+            "位置共享更新",
+            "商家或地点更新",
+            "本地推荐",
+            "离线地图更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Maps 通知设置",
+          "url": "https://support.google.com/maps/answer/6149565?hl=en",
+          "type": "官方帮助",
+          "note": "官方列出交通、地点贡献、评论回复、事件、危机和位置共享等提醒。"
+        },
+        {
+          "title": "Google Maps · App Store",
+          "url": "https://apps.apple.com/us/app/id585027354",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 200000,
+        "period": "2024 Q3",
+        "methodLabel": "月用户里程碑",
+        "source": {
+          "url": "https://abc.xyz/2024-q3-earnings-call/",
+          "title": "Alphabet 2024 Q3 Earnings Call",
+          "note": "Alphabet 披露 Google Maps 超过 20 亿月用户；为跨端产品口径。"
+        }
+      },
+      "count": 8,
+      "categorySummary": "导航 4，地点与共享 4",
+      "rank": 25,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "amazon-music",
+      "name": "Amazon Music",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/amazon-music.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容更新",
+          "items": [
+            "关注艺人发布内容",
+            "关注播客更新",
+            "新节目或电台更新",
+            "直播节目开始"
+          ]
+        },
+        {
+          "name": "推荐与社交",
+          "items": [
+            "个性化推荐",
+            "好友或关注动态",
+            "榜单或精选更新"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "下载完成"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Amazon Music: Songs & Podcasts · App Store",
+          "url": "https://apps.apple.com/us/app/id510855668",
+          "type": "官方应用页",
+          "note": "开发者：AMZN Mobile LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 8,
+      "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
+      "rank": 26,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "appCategory": "创作与工具",
+      "logo": "assets/logos/global/capcut.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "创作任务",
+          "items": [
+            "导出完成",
+            "云项目同步",
+            "共享项目更新"
+          ]
+        },
+        {
+          "name": "模板与社区",
+          "items": [
+            "模板或素材更新",
+            "互动反馈",
+            "创作推荐"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "订阅权益",
+            "版本更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "CapCut: Photo & Video Editor · App Store",
+          "url": "https://apps.apple.com/us/app/id1500855883",
+          "type": "官方应用页",
+          "note": "开发者：BYTEDANCE PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 8,
+      "categorySummary": "创作任务 3，模板与社区 3，服务 2",
+      "rank": 27,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "clubhouse",
+      "name": "Clubhouse",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/clubhouse.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "房间",
+          "items": [
+            "关注者开房",
+            "预定房间开始",
+            "被邀请发言",
+            "房间提醒"
+          ]
+        },
+        {
+          "name": "互动",
+          "items": [
+            "新关注者",
+            "私信",
+            "提及",
+            "社区活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Clubhouse · App Store",
+          "url": "https://apps.apple.com/us/app/id1503133294",
+          "type": "官方应用页",
+          "note": "开发者：Alpha Exploration Co.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 8,
+      "categorySummary": "房间 4，互动 4",
+      "rank": 28,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "appCategory": "协作与办公",
+      "logo": "assets/logos/global/github.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "协作",
+          "items": [
+            "被指派 Issue",
+            "被指派 Pull Request",
+            "提及",
+            "审查请求",
+            "Issue 评论",
+            "Pull Request 评论"
+          ]
+        },
+        {
+          "name": "仓库",
+          "items": [
+            "工作流运行结果",
+            "Release 发布"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "GitHub · App Store",
+          "url": "https://apps.apple.com/us/app/id1477376905",
+          "type": "官方应用页",
+          "note": "开发者：GitHub。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "2025",
+        "methodLabel": "开发者账户数",
+        "activeUserLabel": "超过 1.5 亿开发者",
+        "source": {
+          "url": "https://github.blog/news-insights/octoverse/",
+          "title": "GitHub Octoverse",
+          "note": "开发者账户不是 App MAU，仅作规模参考。"
+        }
+      },
+      "count": 8,
+      "categorySummary": "协作 6，仓库 2",
+      "rank": 29,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "appCategory": "邮件与通讯",
+      "logo": "assets/logos/global/gmail.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "邮件",
+          "items": [
+            "所有新邮件",
+            "重要邮件",
+            "主要收件箱邮件",
+            "指定发件人邮件"
+          ]
+        },
+        {
+          "name": "协作与日程",
+          "items": [
+            "日历或邀请",
+            "共享内容更新"
+          ]
+        },
+        {
+          "name": "账号服务",
+          "items": [
+            "存储空间提醒",
+            "账号安全"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gmail 通知设置",
+          "url": "https://support.google.com/mail/answer/1075549?hl=en",
+          "type": "官方帮助",
+          "note": "官方区分所有新邮件、重要邮件与主要收件箱通知。"
+        },
+        {
+          "title": "Gmail - Email by Google · App Store",
+          "url": "https://apps.apple.com/us/app/id422689480",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 8,
+      "categorySummary": "邮件 4，协作与日程 2，账号服务 2",
+      "rank": 30,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "microsoft-teams",
+      "name": "Microsoft Teams",
+      "appCategory": "协作与办公",
+      "logo": "assets/logos/global/microsoft-teams.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "沟通",
+          "items": [
+            "直接消息",
+            "频道或群组消息",
+            "@提及",
+            "消息回复",
+            "消息反应"
+          ]
+        },
+        {
+          "name": "协作",
+          "items": [
+            "任务被指派",
+            "文档评论",
+            "会议开始"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft Teams 通知管理",
+          "url": "https://support.microsoft.com/en-US/teams/notifications-settings/manage-notifications-in-microsoft-teams",
+          "type": "官方帮助",
+          "note": "官方列出聊天、频道、提及、会议、通话、状态和应用通知。"
+        },
+        {
+          "title": "Microsoft Teams · App Store",
+          "url": "https://apps.apple.com/us/app/id1113153706",
+          "type": "官方应用页",
+          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "2023",
+        "methodLabel": "月活用户（跨端）",
+        "activeUserLabel": "3.2 亿月活用户",
+        "source": {
+          "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
+          "title": "Microsoft Teams 官方博客",
+          "note": "跨桌面、网页和移动端产品 MAU，不等同手机 App MAU。"
+        }
+      },
+      "count": 8,
+      "categorySummary": "沟通 5，协作 3",
+      "rank": 31,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "appCategory": "支付与金融",
+      "logo": "assets/logos/global/paypal.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "资金交易",
+          "items": [
+            "付款完成",
+            "收款到账",
+            "退款",
+            "转账状态",
+            "争议或拒付"
+          ]
+        },
+        {
+          "name": "账户",
+          "items": [
+            "登录或安全提醒",
+            "余额或卡片提醒",
+            "优惠活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "PayPal - Pay, Send, Save · App Store",
+          "url": "https://apps.apple.com/us/app/id283646709",
+          "type": "官方应用页",
+          "note": "开发者：PayPal, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "2024",
+        "methodLabel": "活跃账户",
+        "activeUserLabel": "约 4.34 亿活跃账户",
+        "source": {
+          "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+          "title": "PayPal 年报",
+          "note": "活跃账户可能含商户且不是 App MAU。"
+        }
+      },
+      "count": 8,
+      "categorySummary": "资金交易 5，账户 3",
+      "rank": 32,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "priceline",
+      "name": "Priceline",
+      "appCategory": "票务与旅行",
+      "logo": "assets/logos/global/priceline.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "行程",
+          "items": [
+            "价格变化",
+            "预订确认",
+            "入住或出发提醒",
+            "航班状态",
+            "行程变更",
+            "取消或退款"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "优惠活动",
+            "账户安全"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Priceline - Hotel, Car, Flight · App Store",
+          "url": "https://apps.apple.com/us/app/id336381998",
+          "type": "官方应用页",
+          "note": "开发者：priceline.com。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 8,
+      "categorySummary": "行程 6，服务 2",
+      "rank": 33,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/soundcloud.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容更新",
+          "items": [
+            "关注艺人发布内容",
+            "关注播客更新",
+            "新节目或电台更新",
+            "直播节目开始"
+          ]
+        },
+        {
+          "name": "推荐与社交",
+          "items": [
+            "个性化推荐",
+            "好友或关注动态",
+            "榜单或精选更新"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "下载完成"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "SoundCloud: The Music You Love · App Store",
+          "url": "https://apps.apple.com/us/app/id336353151",
+          "type": "官方应用页",
+          "note": "开发者：SoundCloud Global Limited & Co KG。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 8,
+      "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
+      "rank": 34,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "youtube-music",
+      "name": "YouTube Music",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/youtube-music.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容更新",
+          "items": [
+            "关注艺人发布内容",
+            "关注播客更新",
+            "新节目或电台更新",
+            "直播节目开始"
+          ]
+        },
+        {
+          "name": "推荐与社交",
+          "items": [
+            "个性化推荐",
+            "好友或关注动态",
+            "榜单或精选更新"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "下载完成"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "YouTube Music · App Store",
+          "url": "https://apps.apple.com/us/app/id1017492454",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 8,
+      "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
+      "rank": 35,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "appCategory": "协作与办公",
+      "logo": "assets/logos/global/zoom.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "沟通",
+          "items": [
+            "直接消息",
+            "频道或群组消息",
+            "@提及",
+            "消息回复",
+            "消息反应"
+          ]
+        },
+        {
+          "name": "协作",
+          "items": [
+            "任务被指派",
+            "文档评论",
+            "会议开始"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zoom Workplace · App Store",
+          "url": "https://apps.apple.com/us/app/id546505307",
+          "type": "官方应用页",
+          "note": "开发者：Zoom Communications, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 8,
+      "categorySummary": "沟通 5，协作 3",
+      "rank": 36,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "amazon-alexa",
+      "name": "Amazon Alexa",
+      "appCategory": "智能生活",
+      "logo": "assets/logos/global/amazon-alexa.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "设备与家庭",
+          "items": [
+            "设备状态变化",
+            "门铃或摄像头事件",
+            "提醒事项或计时器",
+            "智能家居例程"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "购物或配送更新",
+            "账号安全",
+            "功能更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Amazon Alexa · App Store",
+          "url": "https://apps.apple.com/us/app/id944011620",
+          "type": "官方应用页",
+          "note": "开发者：AMZN Mobile LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "设备与家庭 4，服务 3",
+      "rank": 37,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "disney-plus",
+      "name": "Disney+",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/disney-plus.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容",
+          "items": [
+            "新剧集上线",
+            "新电影上线",
+            "关注内容更新",
+            "直播或体育赛事开始"
+          ]
+        },
+        {
+          "name": "观看与服务",
+          "items": [
+            "继续观看提醒",
+            "下载完成",
+            "订阅或账号提醒"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Disney+ · App Store",
+          "url": "https://apps.apple.com/us/app/id1446075923",
+          "type": "官方应用页",
+          "note": "开发者：Disney Electronic Content, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "内容 4，观看与服务 3",
+      "rank": 38,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "flickr",
+      "name": "Flickr",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/flickr.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "共享活动",
+          "items": [
+            "收到共享相册",
+            "新成员加入共享相册",
+            "共享相册新照片",
+            "照片评论",
+            "照片或相册获赞",
+            "收到新会话",
+            "会话回复"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Flickr · App Store",
+          "url": "https://apps.apple.com/us/app/id328407587",
+          "type": "官方应用页",
+          "note": "开发者：Flickr, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "共享活动 7",
+      "rank": 39,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "appCategory": "浏览器",
+      "logo": "assets/logos/global/chrome.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "网页与下载",
+          "items": [
+            "网站推送",
+            "下载完成",
+            "下载失败"
+          ]
+        },
+        {
+          "name": "账号与安全",
+          "items": [
+            "密码或泄露警报",
+            "同步异常",
+            "浏览器更新",
+            "账号安全"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Chrome · App Store",
+          "url": "https://apps.apple.com/us/app/id535886823",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "网页与下载 3，账号与安全 4",
+      "rank": 40,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "iheartradio",
+      "name": "iHeartRadio",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/iheartradio.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容更新",
+          "items": [
+            "关注艺人发布内容",
+            "关注播客更新",
+            "新节目或电台更新",
+            "直播节目开始"
+          ]
+        },
+        {
+          "name": "推荐与社交",
+          "items": [
+            "个性化推荐",
+            "好友或关注动态",
+            "榜单或精选更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "iHeart: Radio, Music, Podcasts · App Store",
+          "url": "https://apps.apple.com/us/app/id290638154",
+          "type": "官方应用页",
+          "note": "开发者：iHeartMedia Management Services, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "内容更新 4，推荐与社交 3",
+      "rank": 41,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/max.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容",
+          "items": [
+            "新剧集上线",
+            "新电影上线",
+            "关注内容更新",
+            "直播或体育赛事开始"
+          ]
+        },
+        {
+          "name": "观看与服务",
+          "items": [
+            "继续观看提醒",
+            "下载完成",
+            "订阅或账号提醒"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "HBO Max: Stream Movies & TV · App Store",
+          "url": "https://apps.apple.com/us/app/id1666653815",
+          "type": "官方应用页",
+          "note": "开发者：WarnerMedia Global Digital Services, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "内容 4，观看与服务 3",
+      "rank": 42,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/netflix.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容",
+          "items": [
+            "新剧集上线",
+            "新电影上线",
+            "关注内容更新",
+            "直播或体育赛事开始"
+          ]
+        },
+        {
+          "name": "观看与服务",
+          "items": [
+            "继续观看提醒",
+            "下载完成",
+            "订阅或账号提醒"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Netflix · App Store",
+          "url": "https://apps.apple.com/us/app/id363590051",
+          "type": "官方应用页",
+          "note": "开发者：Netflix, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "2024 Q4",
+        "methodLabel": "付费会员数",
+        "activeUserLabel": "3.016 亿付费会员",
+        "source": {
+          "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+          "title": "Netflix 投资者关系",
+          "note": "订阅会员不是 App MAU，不参与 MAU 并列排序。"
+        }
+      },
+      "count": 7,
+      "categorySummary": "内容 4，观看与服务 3",
+      "rank": 43,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "appCategory": "协作与办公",
+      "logo": "assets/logos/global/notion.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "沟通",
+          "items": [
+            "直接消息",
+            "频道或群组消息",
+            "@提及",
+            "消息回复",
+            "消息反应"
+          ]
+        },
+        {
+          "name": "协作",
+          "items": [
+            "任务被指派",
+            "文档评论"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Notion: Notes, Tasks, AI · App Store",
+          "url": "https://apps.apple.com/us/app/id1232780281",
+          "type": "官方应用页",
+          "note": "开发者：Notion Labs, Incorporated。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "沟通 5，协作 2",
+      "rank": 44,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "stubhub",
+      "name": "StubHub",
+      "appCategory": "票务与旅行",
+      "logo": "assets/logos/global/stubhub.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "票务",
+          "items": [
+            "开售提醒",
+            "活动临近",
+            "电子票可用",
+            "票务转让状态",
+            "活动变更或取消"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "付款或退款",
+            "推荐活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "StubHub: Event Tickets · App Store",
+          "url": "https://apps.apple.com/us/app/id366562751",
+          "type": "官方应用页",
+          "note": "开发者：Stubhub, Inc。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "票务 5，服务 2",
+      "rank": 45,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "ticketmaster",
+      "name": "Ticketmaster",
+      "appCategory": "票务与旅行",
+      "logo": "assets/logos/global/ticketmaster.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "票务",
+          "items": [
+            "开售提醒",
+            "活动临近",
+            "电子票可用",
+            "票务转让状态",
+            "活动变更或取消"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "付款或退款",
+            "推荐活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ticketmaster－Buy, Sell Tickets · App Store",
+          "url": "https://apps.apple.com/us/app/id500003565",
+          "type": "官方应用页",
+          "note": "开发者：Ticketmaster L.L.C。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "票务 5，服务 2",
+      "rank": 46,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "youtube-tv",
+      "name": "YouTube TV",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/youtube-tv.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容",
+          "items": [
+            "新剧集上线",
+            "新电影上线",
+            "关注内容更新",
+            "直播或体育赛事开始"
+          ]
+        },
+        {
+          "name": "观看与服务",
+          "items": [
+            "继续观看提醒",
+            "下载完成",
+            "订阅或账号提醒"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "YouTube TV · App Store",
+          "url": "https://apps.apple.com/us/app/id1193350206",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 7,
+      "categorySummary": "内容 4，观看与服务 3",
+      "rank": 47,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "accuweather",
+      "name": "AccuWeather",
+      "appCategory": "生活与健康",
+      "logo": "assets/logos/global/accuweather.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "恶劣天气",
+          "items": [
+            "严重天气预警",
+            "降雨或降雪提醒",
+            "雷暴或大风提醒"
+          ]
+        },
+        {
+          "name": "日常预报",
+          "items": [
+            "每日预报",
+            "温度变化",
+            "空气质量"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "AccuWeather: Weather Forecast · App Store",
+          "url": "https://apps.apple.com/us/app/id300048137",
+          "type": "官方应用页",
+          "note": "开发者：AccuWeather International, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 6,
+      "categorySummary": "恶劣天气 3，日常预报 3",
+      "rank": 48,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "aol-mail",
+      "name": "AOL Mail",
+      "appCategory": "邮件与通讯",
+      "logo": "assets/logos/global/aol-mail.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "邮件",
+          "items": [
+            "所有新邮件",
+            "重要邮件",
+            "主要收件箱邮件",
+            "指定发件人邮件"
+          ]
+        },
+        {
+          "name": "协作与日程",
+          "items": [
+            "日历或邀请",
+            "共享内容更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "AOL Mail, News, Weather · App Store",
+          "url": "https://apps.apple.com/us/app/id646100661",
+          "type": "官方应用页",
+          "note": "开发者：AOL Media LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 6,
+      "categorySummary": "邮件 4，协作与日程 2",
+      "rank": 49,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/chatgpt.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态",
+            "产品功能更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "ChatGPT · App Store",
+          "url": "https://apps.apple.com/us/app/id6448311069",
+          "type": "官方应用页",
+          "note": "开发者：OpenAI OpCo, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 6,
+      "categorySummary": "任务与内容 3，账号与产品 3",
+      "rank": 50,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "fitbit",
+      "name": "Fitbit",
+      "appCategory": "生活与健康",
+      "logo": "assets/logos/global/fitbit.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "健康目标",
+          "items": [
+            "活动目标达成",
+            "久坐提醒",
+            "睡眠或恢复提醒"
+          ]
+        },
+        {
+          "name": "设备与社交",
+          "items": [
+            "设备同步或电量",
+            "好友挑战更新",
+            "账号或服务提醒"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Health (Fitbit) · App Store",
+          "url": "https://apps.apple.com/us/app/id462638897",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 6,
+      "categorySummary": "健康目标 3，设备与社交 3",
+      "rank": 51,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "appCategory": "浏览器",
+      "logo": "assets/logos/global/edge.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "网页与下载",
+          "items": [
+            "网站推送",
+            "下载完成",
+            "下载失败"
+          ]
+        },
+        {
+          "name": "账号与安全",
+          "items": [
+            "密码或泄露警报",
+            "同步异常",
+            "浏览器更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft Edge · App Store",
+          "url": "https://apps.apple.com/us/app/id1288723196",
+          "type": "官方应用页",
+          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 6,
+      "categorySummary": "网页与下载 3，账号与安全 3",
+      "rank": 52,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "appCategory": "云存储与工具",
+      "logo": "assets/logos/global/onedrive.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "文件活动",
+          "items": [
+            "共享邀请",
+            "他人评论或提及",
+            "共享文件更改"
+          ]
+        },
+        {
+          "name": "同步与服务",
+          "items": [
+            "上传或同步完成",
+            "存储空间提醒",
+            "账号安全"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft OneDrive · App Store",
+          "url": "https://apps.apple.com/us/app/id477537958",
+          "type": "官方应用页",
+          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 6,
+      "categorySummary": "文件活动 3，同步与服务 3",
+      "rank": 53,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "tunein",
+      "name": "TuneIn Radio",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/tunein.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "内容更新",
+          "items": [
+            "关注艺人发布内容",
+            "关注播客更新",
+            "新节目或电台更新",
+            "直播节目开始"
+          ]
+        },
+        {
+          "name": "推荐与社交",
+          "items": [
+            "个性化推荐",
+            "好友或关注动态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "TuneIn Radio: Music & Sports · App Store",
+          "url": "https://apps.apple.com/us/app/id418987775",
+          "type": "官方应用页",
+          "note": "开发者：TuneIn。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 6,
+      "categorySummary": "内容更新 4，推荐与社交 2",
+      "rank": 54,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/claude.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Claude by Anthropic · App Store",
+          "url": "https://apps.apple.com/us/app/id6473753684",
+          "type": "官方应用页",
+          "note": "开发者：Anthropic PBC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 55,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "appCategory": "浏览器",
+      "logo": "assets/logos/global/firefox.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "网页与下载",
+          "items": [
+            "网站推送",
+            "下载完成",
+            "下载失败"
+          ]
+        },
+        {
+          "name": "账号与安全",
+          "items": [
+            "密码或泄露警报",
+            "同步异常"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Firefox Fast & Private Browser · App Store",
+          "url": "https://apps.apple.com/us/app/id989804926",
+          "type": "官方应用页",
+          "note": "开发者：Mozilla Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 5,
+      "categorySummary": "网页与下载 3，账号与安全 2",
+      "rank": 56,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/gemini.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Gemini · App Store",
+          "url": "https://apps.apple.com/us/app/id6477489729",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 57,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/grok.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Grok AI · App Store",
+          "url": "https://apps.apple.com/us/app/id6670324846",
+          "type": "官方应用页",
+          "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 58,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/meta-ai.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Meta AI · App Store",
+          "url": "https://apps.apple.com/us/app/id1558240027",
+          "type": "官方应用页",
+          "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 59,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/copilot.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft Copilot · App Store",
+          "url": "https://apps.apple.com/us/app/id541164041",
+          "type": "官方应用页",
+          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 60,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/perplexity.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Perplexity - AI Search & Chat · App Store",
+          "url": "https://apps.apple.com/us/app/id1668000334",
+          "type": "官方应用页",
+          "note": "开发者：Perplexity AI Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 61,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "appCategory": "浏览器",
+      "logo": "assets/logos/global/safari.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "网页与下载",
+          "items": [
+            "网站推送",
+            "下载完成",
+            "下载失败"
+          ]
+        },
+        {
+          "name": "账号与安全",
+          "items": [
+            "密码或泄露警报"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Safari · App Store",
+          "url": "https://apps.apple.com/us/app/id1146562112",
+          "type": "官方应用页",
+          "note": "开发者：Apple Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 4,
+      "categorySummary": "网页与下载 3，账号与安全 1",
+      "rank": 62,
+      "previousRank": null,
+      "rankChange": 0
+    },
+    {
+      "id": "vlc",
+      "name": "VLC Media Player",
+      "appCategory": "影音与音频",
+      "logo": "assets/logos/global/vlc.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "播放与服务",
+          "items": [
+            "媒体扫描完成",
+            "下载完成",
+            "版本更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "VLC media player · App Store",
+          "url": "https://apps.apple.com/us/app/id650377962",
+          "type": "官方应用页",
+          "note": "开发者：VideoLAN。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": null,
+        "period": "未找到可核验的公开同口径数据",
+        "methodLabel": "严格口径留空"
+      },
+      "count": 3,
+      "categorySummary": "播放与服务 3",
+      "rank": 63,
+      "previousRank": null,
+      "rankChange": 0
+    }
+  ]
+};

@@ -1,0 +1,2525 @@
+{
+  "checkedAt": "2026-08-31T03:32:43.273Z",
+  "sourceCount": 167,
+  "changedCount": 0,
+  "failedCount": 6,
+  "sources": [
+    {
+      "title": "微信隐私保护指引",
+      "url": "https://oper.my-qcloud.com/readtemplate?lang=zh_CN&s=privacy_220413&t=weixin_agreement",
+      "type": "official",
+      "note": "列出新消息通知和订阅管理等设置入口。",
+      "apps": [
+        "wechat"
+      ],
+      "finalUrl": "https://oper.my-qcloud.com/readtemplate?lang=zh_CN&s=privacy_220413&t=weixin_agreement",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "2341e2fb89177b3013ba8b559486a9a8e6c111301374b2998e969fe51e9981fa",
+      "bytes": 63101,
+      "changed": false
+    },
+    {
+      "title": "微信视频号通知设置说明",
+      "url": "https://www.php.cn/faq/2517049.html",
+      "type": "article",
+      "note": "列出视频号更新、私信、直播、点赞及评论提醒。",
+      "apps": [
+        "wechat"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2517049.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "3d9d3c76f2c2970fc00902753ceb9cad26f7a2f94d31e2634247cb62156903b3",
+      "bytes": 5534,
+      "changed": false
+    },
+    {
+      "title": "腾讯微信产品页及艾瑞 2025 年移动互联网报告",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202603111820499244_1.pdf?1773302021000.pdf=",
+      "note": "艾瑞 mUserTracker 披露微信 2025 年 12 月单机单日有效时间 17.9 分钟、单机单日使用 29.8 次；腾讯官方披露截至 2026 年第一季度微信与 WeChat 合并 MAU 超过 14 亿。MAU 含海外 WeChat，行为指标为中国区第三方设备监测口径。",
+      "type": "usage-data",
+      "apps": [
+        "wechat"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "小红书官方深链文档",
+      "url": "https://pages.xiaohongshu.com/activity/deeplink",
+      "type": "official",
+      "note": "明确列出赞和收藏、关注、评论和@、系统通知页面。",
+      "apps": [
+        "xiaohongshu"
+      ],
+      "finalUrl": "https://pages.xiaohongshu.com/activity/deeplink",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "12e4a4259661d8838c232eebf9889877e44e051e2a3a61083ab4509916c47b1d",
+      "bytes": 487618,
+      "changed": false
+    },
+    {
+      "title": "小红书评论与点赞提醒设置",
+      "url": "https://www.ntszjs.com/glzx/111.html",
+      "type": "article",
+      "note": "补充评论、赞、收藏和应用内消息横幅。",
+      "apps": [
+        "xiaohongshu"
+      ],
+      "finalUrl": "https://www.ntszjs.com/glzx/111.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "cdbcfbebdeaf30fcd591bca0aa26fd3ed75900b5d37d2b3bc605a3f838d692e3",
+      "bytes": 31299,
+      "changed": false
+    },
+    {
+      "title": "月狐双十一监测与 QuestMobile 流量数据",
+      "url": "https://www.dcbbs.com/p-183112.html",
+      "note": "月狐披露 2021 年 10 月小红书人均日启动次数由 3.9 次升至 4.7 次；原有日均时长为 2024 年 2 月监测，QuestMobile 披露 2025 年 10 月 App MAU 2.35 亿。三项跨期，打开次数为历史值。",
+      "type": "usage-data",
+      "apps": [
+        "xiaohongshu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "抖音常见问题",
+      "url": "https://www.douyin.com/help",
+      "type": "official",
+      "note": "逐项列出私信、点赞、评论、提及、关注、上线、作品、推荐、直播和活动通知。",
+      "apps": [
+        "douyin"
+      ],
+      "finalUrl": "https://www.douyin.com/help",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "a9c9a9bfe7e0d4b573aca7aacf4f694601ba769408aef0a66ccf11a8d9fd1a71",
+      "bytes": 821973,
+      "changed": false
+    },
+    {
+      "title": "抖音隐私政策",
+      "url": "https://www.douyin.com/draft/douyin_agreement/douyin_agreement_privacy.html?id=6773901168964798477",
+      "type": "official",
+      "note": "说明账号动态、关注内容动态、热点与推荐内容的系统推送。",
+      "apps": [
+        "douyin"
+      ],
+      "finalUrl": "https://www.douyin.com/draft/douyin_agreement/douyin_agreement_privacy.html?id=6773901168964798477",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "cbb4df78173f86a5529b7560d297afb548b975ea446d3972faf2ef7e1ef01a12",
+      "bytes": 89504,
+      "changed": false
+    },
+    {
+      "title": "巨量商业算数中心抖音画像及 QuestMobile 流量监测",
+      "url": "https://www.sdyanbao.com/detail/100034",
+      "note": "巨量商业算数中心报告援引 QuestMobile 披露抖音 2019 年 6 月人均单日使用 23 次；行业流量分析披露 2025 年单机单日使用时长 98.45 分钟；QuestMobile 披露 2025 年 10 月 MAU 9.48 亿。打开次数是历史指标。",
+      "type": "usage-data",
+      "apps": [
+        "douyin"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "美团基本功能隐私政策",
+      "url": "https://rules-center.meituan.com/m/detail/2",
+      "type": "official",
+      "note": "列出服务、安全、商业通知以及直播、榜单、行程、秒杀、签到提醒。",
+      "apps": [
+        "meituan"
+      ],
+      "finalUrl": "https://rules-center.meituan.com/m/detail/2",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "6d84ed97a002aa995d272e7fe20502ceb6a0f00622c40b0b6723b675fe4716d7",
+      "bytes": 190378,
+      "changed": false
+    },
+    {
+      "title": "美团退款帮助",
+      "url": "https://i.meituan.com/help/refund",
+      "type": "official",
+      "note": "说明退款短信和App到账推送。",
+      "apps": [
+        "meituan"
+      ],
+      "finalUrl": "https://i.meituan.com/help/refund",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "b37ccf58dfece846cb81e2c0c064f7ac074a36269a3a8d3d6f8530057476e591",
+      "bytes": 35506,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 2026 APP 流量竞争新特征",
+      "url": "https://www.questmobile.cn/research/report/2043979270875897857/",
+      "type": "usage-data",
+      "note": "披露美团 App 2025 年 7 月 MAU 为 5.25 亿。",
+      "apps": [
+        "meituan"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 2025 中国移动互联网年度大报告",
+      "url": "https://www.questmobile.cn/research/report/2031215896219979777/",
+      "note": "公开披露美团 App 2025 年 12 月月人均单日使用时长 14.3 分钟、使用次数 5.0 次；未披露单 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "meituan",
+        "mijia",
+        "jd-food"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "多闪用户服务协议",
+      "url": "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/NowCN/9a409919-c476-4522-be9b-f09241e236e4.html?hide_nav_bar=1",
+      "type": "official",
+      "note": "说明即时通信、内容发布、系统提示、弹窗和站内信。",
+      "apps": [
+        "duoshan"
+      ],
+      "finalUrl": "https://lf3-cdn-tos.draftstatic.com/obj/ies-hotsoon-draft/NowCN/9a409919-c476-4522-be9b-f09241e236e4.html?hide_nav_bar=1",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "beb250f2f8206331c4f17739fbe7814045d821f326af9c2ec72d3c8125324765",
+      "bytes": 44861,
+      "changed": false
+    },
+    {
+      "title": "多闪 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/%E5%A4%9A%E9%97%AA/id1435602536",
+      "type": "app-store",
+      "note": "列出聊天、群聊、视频通话、朋友动态和任务。",
+      "apps": [
+        "duoshan"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%A4%9A%E9%97%AA/id1435602536",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "7a518e80c6fbfe91331081d782bde62568438f031bd31752a3720f44e2876fe1",
+      "bytes": 703580,
+      "changed": false
+    },
+    {
+      "title": "国金证券移动互联网月报及 QuestMobile 春季报告",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP201905201331052350_1.pdf",
+      "note": "国金证券监测显示 2019 年 4 月多闪人均每天使用不足 1 分钟、每天约 1 次；QuestMobile 2026 年春季报告披露 2026 年 3 月 MAU 突破 3,000 万。使用深度为历史值，MAU 为较新值。",
+      "type": "usage-data",
+      "apps": [
+        "duoshan"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "知乎个人信息保护指引",
+      "url": "https://www.zhihu.com/term/old-privacy-5",
+      "type": "official",
+      "note": "列出赞同、喜欢、收藏、评论、订阅、关注、私信和推送设置。",
+      "apps": [
+        "zhihu"
+      ],
+      "finalUrl": "https://www.zhihu.com/term/old-privacy-5",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "d8d41bc990cc9b23883929e404f592c03302fae0549f9d21a9edfaa1c207c848",
+      "bytes": 106046,
+      "changed": false
+    },
+    {
+      "title": "知乎消息推送设置说明",
+      "url": "https://www.php.cn/faq/2343515.html",
+      "type": "article",
+      "note": "补充关注内容、评论、私信与赞同推送。",
+      "apps": [
+        "zhihu"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2343515.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "976bca89a620db269a3ee34edf184ffb76581368414e499e35fe1b5f31be57c1",
+      "bytes": 5513,
+      "changed": false
+    },
+    {
+      "title": "知乎 2025 年第二季度业绩电话会记录",
+      "url": "https://www.roic.ai/quote/ZH/transcripts/2025-year/2-quarter",
+      "type": "usage-data",
+      "note": "业绩电话会披露日均用户时长超过 39 分钟；该项与年报的平均 MAU 分别标注，避免混淆统计周期。",
+      "apps": [
+        "zhihu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "知乎年报、业绩电话会与移动阅读研究",
+      "url": "https://xmtxy.xjtu.edu.cn/__local/5/AA/EF/3BE98F474CD453829B6160BC84F_30025676_245211.pdf",
+      "note": "研究资料披露 2017 年 10 月知乎人均日启动 5.35 次，页面按一位小数显示为 5.4 次；年报披露 2024 年平均 MAU 8,300 万，2025 年第二季度业绩电话会披露日均用户时长超过 39 分钟。三项跨期。",
+      "type": "usage-data",
+      "apps": [
+        "zhihu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "淘宝隐私政策副本",
+      "url": "https://www.bochk.com/creditcard/pdf/smp/taobao_privacy.pdf",
+      "type": "policy-copy",
+      "note": "说明店铺交易、客服、订阅、会员以及弹窗推送。",
+      "apps": [
+        "taobao"
+      ],
+      "finalUrl": "https://www.bochk.com/creditcard/pdf/smp/taobao_privacy.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "befaab36c5dd4ffed6ea835cde12fb2f3e2e02aee88527c1cf4d2cf649becd0a",
+      "bytes": 407168,
+      "changed": false
+    },
+    {
+      "title": "淘宝开放平台消息类目",
+      "url": "https://developer.alibaba.com/docs/topicDetail.htm?apiId=1926",
+      "type": "official",
+      "note": "列出退款、物流、工单和服务状态变更消息。",
+      "apps": [
+        "taobao"
+      ],
+      "finalUrl": "https://developer.alibaba.com/docs/topicDetail.htm?apiId=1926",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "57c369fe62281d3d2861f19032595fdd0e303e0171be4f4e528a65f13483325b",
+      "bytes": 31281,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 秋季报告及月狐 2026 年 1 月 App 榜",
+      "url": "https://www.moonfox.cn/insight/news/2005",
+      "note": "QuestMobile 披露 2025 年 9 月淘宝 App 月人均使用时长 4.4 小时、使用 73.9 次，页面按 30 天换算；月狐披露 2026 年 1 月 MAU 为 95,897 万。",
+      "type": "usage-data",
+      "apps": [
+        "taobao",
+        "alipay",
+        "58",
+        "mijia",
+        "toutiao",
+        "dingtalk",
+        "cainiao",
+        "hellobike",
+        "wecom",
+        "tmall"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "京东帮助中心",
+      "url": "https://help.jd.com/user/service.html",
+      "type": "official",
+      "note": "包含消息订阅、我的关注、资产、订单和活动入口。",
+      "apps": [
+        "jd"
+      ],
+      "finalUrl": "https://help.jd.com/user/service.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=GBK",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "aca29c61d1e6d9b21c20dd65498ee0ad6786ebfbfb160f08c8f700f349324268",
+      "bytes": 29528,
+      "changed": false
+    },
+    {
+      "title": "京东隐私帮助",
+      "url": "https://help.jd.com/user/issue/965-4268.html",
+      "type": "official",
+      "note": "说明消息中心和消息设置。",
+      "apps": [
+        "jd"
+      ],
+      "finalUrl": "https://help.jd.com/user/issue/965-4268.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=GBK",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "1a7a00731556b73c5e12c1bb08a78447afd7567020f340240297675addc01d50",
+      "bytes": 170538,
+      "changed": false
+    },
+    {
+      "title": "京东营销短信管理",
+      "url": "https://h5.m.jd.com/babelDiy/Zeus/Ytn9faMn8XjDH9GuaRT1dHvunc4/index.html",
+      "type": "official",
+      "note": "区分营销、交易物流和客服通知。",
+      "apps": [
+        "jd"
+      ],
+      "finalUrl": "https://h5.m.jd.com/babelDiy/Zeus/Ytn9faMn8XjDH9GuaRT1dHvunc4/index.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8c0f7bee50408d53c093b89dbc2e051286c3c7559ecaf9c534fb0ca56dfef7f6",
+      "bytes": 6236,
+      "changed": false
+    },
+    {
+      "title": "MoonFox 即时零售报告及 QuestMobile 流量报告",
+      "url": "https://www.globenewswire.com/news-release/2025/06/03/3092506/0/en/MoonFox-Data-Releases-New-Report-Instant-Retail-Becomes-the-Next-Battleground-as-JD-com-and-Meituan-Intensify-Food-Delivery-Competition-in-China.html",
+      "note": "月狐披露京东 App 2025 年 4 月 23 日人均在线时长 14.27 分钟；QuestMobile 披露 2025 年 5 月月人均使用 47.9 次（按30天换算1.6次）及 2025 年 10 月 MAU 6.48 亿。",
+      "type": "usage-data",
+      "apps": [
+        "jd"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "微博客服功能帮助",
+      "url": "https://kefu.weibo.com/faqclassifylist?id=2793&typename=%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8",
+      "type": "official",
+      "note": "明确列出@、评论、赞、私信、好友圈、小铃铛和特别关注提醒。",
+      "apps": [
+        "weibo"
+      ],
+      "finalUrl": "https://kefu.weibo.com/faqclassifylist?id=2793&typename=%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "2d201f7aac0467465a854e91fcefa9ded3988ca26a57817117323850f0d5454f",
+      "bytes": 393777,
+      "changed": false
+    },
+    {
+      "title": "微博一键防护说明",
+      "url": "https://kefu.weibo.com/faqdetail?id=21580",
+      "type": "official",
+      "note": "说明私信、评论、转赞评@和粉丝提醒。",
+      "apps": [
+        "weibo"
+      ],
+      "finalUrl": "https://kefu.weibo.com/faqdetail?id=21580",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "85c2215de7251a5d899a5820a8e70e9ef47bddf81d7b5c01415784839c37c2a2",
+      "bytes": 24484,
+      "changed": false
+    },
+    {
+      "title": "36氪泛资讯报告、微博业绩公告及艾瑞流量报告",
+      "url": "https://chengzhaoxi.xyz/download/pdf/report/36Kr-2020%E5%B9%B4%E4%B8%AD%E5%9B%BD%E6%B3%9B%E8%B5%84%E8%AE%AF%E8%A1%8C%E4%B8%9A%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A.pdf",
+      "note": "36氪研究院援引 TalkingData 披露微博 2020 年 6 月月人均使用 84 次，按 30 天换算为 2.8 次/日；艾瑞监测显示 2025 年 3 月单日有效时间 35.1 分钟；微博官方披露 2025 年 12 月 MAU 5.67 亿。三个指标来自不同数据期。",
+      "type": "usage-data",
+      "apps": [
+        "weibo",
+        "toutiao"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Bilibili 消息设置接口整理",
+      "url": "https://git.xfe.studio/XFEstudio/bilibili-API-collect/Blob?branch=master&path=docs%2Fmessage%2Fsettings.md",
+      "type": "community-doc",
+      "note": "列出赞、回复、@、应援团和未关注人消息开关。",
+      "apps": [
+        "bilibili"
+      ],
+      "finalUrl": "https://git.xfe.studio/XFEstudio/bilibili-API-collect/Blob?branch=master&path=docs%2Fmessage%2Fsettings.md",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "b93f8c8d8f10f33e796b47d9a973eba1ef44f6a41d2c99a89c39902387ce88ec",
+      "bytes": 213854,
+      "changed": false
+    },
+    {
+      "title": "Bilibili 消息中心使用说明",
+      "url": "https://daiki-zinsei.com/bilibili-app-download/",
+      "type": "article",
+      "note": "列出回复、@、赞和系统通知入口。",
+      "apps": [
+        "bilibili"
+      ],
+      "finalUrl": "https://daiki-zinsei.com/bilibili-app-download/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8cbc7a60d2231f36bdbf5c90ed3b7e63ef7d0e7f3ae2930c6062c1ce36d3dbbe",
+      "bytes": 1113798,
+      "changed": false
+    },
+    {
+      "title": "Bilibili 自动回复",
+      "url": "https://message.bilibili.com/h5/app/auto-reply",
+      "type": "official",
+      "note": "确认私信和新增关注触发场景。",
+      "apps": [
+        "bilibili"
+      ],
+      "finalUrl": "https://message.bilibili.com/h5/app/auto-reply",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "5cc7d24b1b956b2807b2b02a1e3d3d64016ff114a7efc355ec3bec67f28891d6",
+      "bytes": 1807,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 90后人群报告及 Bilibili 2026Q1 公告",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202009111410916202_1.pdf",
+      "note": "QuestMobile 2020 年 7 月 90 后样本图显示哔哩哔哩月人均使用约 110 次，按 31 天换算为约 3.5 次/日；公司 2026 年第一季度公告披露 MAU 超过 3.76 亿、日均使用 119 分钟。打开次数仅代表历史 90 后样本。",
+      "type": "usage-data",
+      "apps": [
+        "bilibili",
+        "iqiyi",
+        "tencent-video",
+        "tmall",
+        "suning",
+        "vipshop"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "爱奇艺追剧帮助",
+      "url": "https://help.iqiyi.com/m/q4LchN1g/questionInfo/1959.html",
+      "type": "official",
+      "note": "确认加追、预约与在追功能。",
+      "apps": [
+        "iqiyi"
+      ],
+      "finalUrl": "https://help.iqiyi.com/m/q4LchN1g/questionInfo/1959.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "138b114724ccfa0d018afe7341189f7ff824dc7a8f5816f11bf9501f869253b6",
+      "bytes": 40846,
+      "changed": false
+    },
+    {
+      "title": "爱奇艺平台通知帮助",
+      "url": "https://intl-help.iq.com/m/iqiyi-app-help/questionInfo/5468.html",
+      "type": "official",
+      "note": "确认消息页面与平台通知。",
+      "apps": [
+        "iqiyi"
+      ],
+      "finalUrl": "https://intl-help.iq.com/m/iqiyi-app-help/questionInfo/5468.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "573aea0978c44a08c9ecd680b0d7e331b148e69a0ecd7648ef0d6419280e5df2",
+      "bytes": 38886,
+      "changed": false
+    },
+    {
+      "title": "爱奇艺互动提醒设置",
+      "url": "https://www.php.cn/faq/2810115.html",
+      "type": "article",
+      "note": "列出弹幕回复、点赞、评论、关注、会员和签到提醒。",
+      "apps": [
+        "iqiyi"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2810115.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8985a7b4d0470d83daa5e76a099434cedcc9d080a6ec0c979bae47f8d152ff65",
+      "bytes": 5470,
+      "changed": false
+    },
+    {
+      "title": "腾讯视频隐私保护指引",
+      "url": "https://privacy.tencent.com/document/priview/a0ad886041e644af93f2a2ab91dd84bb",
+      "type": "official",
+      "note": "确认内容推送、预约提醒、评论、点赞、关注和订阅记录。",
+      "apps": [
+        "tencent-video"
+      ],
+      "finalUrl": "https://privacy.tencent.com/document/priview/a0ad886041e644af93f2a2ab91dd84bb",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "4490d5ce8a6dbc326ed1d998e9c9fcc67af44c247bc0aa7f7ee92cd5ee0afce1",
+      "bytes": 3112,
+      "changed": false
+    },
+    {
+      "title": "腾讯视频隐私版本对比",
+      "url": "https://termshub.cn/public/version/5938",
+      "type": "policy-history",
+      "note": "补充消息告知、身份、安全和预约服务。",
+      "apps": [
+        "tencent-video"
+      ],
+      "finalUrl": "https://termshub.cn/public/version/5938",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "ac3a31f36de8e9da357dfd55b057a0a1a03193070df2f835a2be4d2112e997ca",
+      "bytes": 252514,
+      "changed": false
+    },
+    {
+      "title": "小宇宙主播手册",
+      "url": "https://blog.xiaoyuzhoufm.com/podcaster-manual/",
+      "type": "official",
+      "note": "确认节目公告会向订阅者发送提醒通知。",
+      "apps": [
+        "xiaoyuzhou"
+      ],
+      "finalUrl": "https://blog.xiaoyuzhoufm.com/podcaster-manual/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "c81758b4806b54bd1f4561acfec8d3d8a9b6c8bbba725417897c9bc80e789792",
+      "bytes": 33548,
+      "changed": false
+    },
+    {
+      "title": "小宇宙 App Store 页面",
+      "url": "https://apps.apple.com/vu/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313",
+      "type": "app-store",
+      "note": "版本记录确认语音动态和实时活动评论设置。",
+      "apps": [
+        "xiaoyuzhou"
+      ],
+      "finalUrl": "https://apps.apple.com/vu/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "bc34fcf2a82fd4320058b0922f4ab0836d15fbd42ad76f09e8af43cb55a07637",
+      "bytes": 465077,
+      "changed": false
+    },
+    {
+      "title": "小宇宙产品报道",
+      "url": "https://www.jiemian.com/article/4188072.html",
+      "type": "article",
+      "note": "确认回复、新增粉丝、订阅更新和评论互动。",
+      "apps": [
+        "xiaoyuzhou"
+      ],
+      "finalUrl": "https://www.jiemian.com/article/4188072.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "244d2e5be76d0e925a9e23da6e9826c64319ff23eece00f58a9b84f958eb82a0",
+      "bytes": 102292,
+      "changed": false
+    },
+    {
+      "title": "杨浦时报：小宇宙播客用户观察",
+      "url": "https://yptimes.shyp.gov.cn/resfile/2025-03-20/05/ypsb-20250320-005.pdf",
+      "note": "报道披露小宇宙日活用户日均收听约 80 分钟；该口径是 DAU 收听时长，不等同于全体 MAU 使用时长。累计用户数不作为 MAU，日均打开次数亦未找到可核验数据。",
+      "type": "usage-data",
+      "apps": [
+        "xiaoyuzhou"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "拼多多隐私政策",
+      "url": "https://www.yangkeduo.com/pdd_privacy_policy.pdf",
+      "type": "official",
+      "note": "确认交易、物流和优惠活动短信设置。",
+      "apps": [
+        "pinduoduo"
+      ],
+      "finalUrl": "https://www.yangkeduo.com/pdd_privacy_policy.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "07619a19a21891e24146dffac413c45fc3122c48c085f49f1ee402f279cafc20",
+      "bytes": 1196034,
+      "changed": false
+    },
+    {
+      "title": "拼多多消息通知管理",
+      "url": "https://www.php.cn/faq/2305396.html",
+      "type": "article",
+      "note": "列出订单、物流、拼单、降价、活动、精选、签到和直播提醒。",
+      "apps": [
+        "pinduoduo"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2305396.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "52cc1e81203f7442c752dec5ae12ab8c09ed7d16bcc414735de352e6d99491ba",
+      "bytes": 5470,
+      "changed": false
+    },
+    {
+      "title": "拼多多通知设置实录",
+      "url": "https://www.toutiao.com/article/7446359798192276031/",
+      "type": "article",
+      "note": "补充交易、物流、订阅、活动与直播通知。",
+      "apps": [
+        "pinduoduo"
+      ],
+      "finalUrl": "https://www.toutiao.com/article/7446359798192276031/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "9b56a6acdcb27eb620b5ee1ad870ad67964c70131b6fc31e8bd946b39c1e309e",
+      "bytes": 72914,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 电商监测与拼多多研报",
+      "url": "https://files.bocomgroup.com/download/Internet_Sector-191111s.pdf",
+      "note": "交银国际援引 QuestMobile 披露拼多多 2019 年第三季度 DAU 人均日使用 7.5 次；QuestMobile 披露 2025 年 9 月月人均使用 422.2 分钟，按 30 天换算为日均 14.1 分钟；2025 年 10 月 MAU 为 7.20 亿。打开次数是历史指标。",
+      "type": "usage-data",
+      "apps": [
+        "pinduoduo"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "闲鱼社区隐私政策",
+      "url": "https://terms.goofish.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao202103021554_43790.html",
+      "type": "official",
+      "note": "列出交易物流、活动、互动、服务、订单和叮一下提醒。",
+      "apps": [
+        "xianyu"
+      ],
+      "finalUrl": "https://terms.goofish.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao202103021554_43790.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "717e884a86c1498ea1f928e33440db07b9d91639630cf0946ac4af2f7f2ef5e9",
+      "bytes": 192058,
+      "changed": false
+    },
+    {
+      "title": "闲鱼消息设置说明",
+      "url": "https://ask.zol.com.cn/x/33767472.html",
+      "type": "article",
+      "note": "补充聊天、交易、砍价、降价和求购匹配等设置。",
+      "apps": [
+        "xianyu"
+      ],
+      "finalUrl": "https://ask.zol.com.cn/x/33767472.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "69a7865e4682f58171eccb532fec736a84b6509e40803ba75efa8875896cc833",
+      "bytes": 154,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 春季报告及闲鱼重合用户监测报道",
+      "url": "https://news.sina.com.cn/sx/2025-05-08/detail-inevvssv2616533.shtml",
+      "note": "QuestMobile 数据显示闲鱼 2025 年 3 月 MAU 超过 2 亿；闲鱼与淘宝重合用户月人均使用时长 247.1 分钟、月人均打开 56 次，页面按 30 天换算为日均 8.2 分钟、1.9 次。时长和次数不是全体闲鱼用户口径。",
+      "type": "usage-data",
+      "apps": [
+        "xianyu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "支付宝客户端隐私权政策副本",
+      "url": "https://www.elawcn.com/agreement/2025/1103/1599.html",
+      "type": "policy-copy",
+      "note": "说明服务提醒、新消息通知、消息盒子、生日提醒和通知栏消息。",
+      "apps": [
+        "alipay"
+      ],
+      "finalUrl": "https://www.elawcn.com/agreement/2025/1103/1599.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "439de0a63d4b138f7fb511145a6aa9dd65c909d3aa33dbc97106e51842c60247",
+      "bytes": 88978,
+      "changed": false
+    },
+    {
+      "title": "支付宝支付隐私权政策副本",
+      "url": "https://www.elawcn.com/agreement/2025/1103/1598.html",
+      "type": "policy-copy",
+      "note": "确认支付消息、安全提醒和不可退订支付通知。",
+      "apps": [
+        "alipay"
+      ],
+      "finalUrl": "https://www.elawcn.com/agreement/2025/1103/1598.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8eeb13943318ab77388937f95f18d80f7b7de80def85758908010192cc748ddf",
+      "bytes": 88089,
+      "changed": false
+    },
+    {
+      "title": "支付宝生活号平台",
+      "url": "https://open.alipay.com/channel/publicAppIndex.htm",
+      "type": "official",
+      "note": "确认生活号信息推送和模板消息。",
+      "apps": [
+        "alipay"
+      ],
+      "finalUrl": "https://open.alipay.com/channel/publicAppIndex.htm",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=GBK",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "ae91a93d7d4b7d60aafb112dd27578b74cbaeda7d2b2f5d0b0f25d6009ce3dc8",
+      "bytes": 68661,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 春节监测、艾瑞报告及月狐榜单",
+      "url": "https://www.yunbaogao.cn/index/partFile/1/cbndata/2023-02/1_51985.pdf",
+      "note": "QuestMobile 披露 2023 年春节假期支付宝人均单日使用 7.8 分钟；艾瑞披露 2025 年 12 月单机单日使用 3.7 次；月狐披露 2026 年 1 月 MAU 8.8273 亿。三项指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "alipay",
+        "baidu-maps"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "58同城隐私政策",
+      "url": "https://static.58.com/git/passport-mapp/pdf/privacypolicy.pdf",
+      "type": "official",
+      "note": "确认消息管理、求职、招聘和定向推送。",
+      "apps": [
+        "58"
+      ],
+      "finalUrl": "https://static.58.com/git/passport-mapp/pdf/privacypolicy.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "5c789100ab543499b4292efcd5a0a392c7c405b8afcf24c135a0854a521627e4",
+      "bytes": 348864,
+      "changed": false
+    },
+    {
+      "title": "58同城移动站",
+      "url": "https://m.m.58.com/",
+      "type": "official",
+      "note": "列出求职、招聘及反馈及时提醒。",
+      "apps": [
+        "58"
+      ],
+      "finalUrl": "https://m.m.58.com/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "fd812d03d731e114542244adea980eb777473c38e695f8d81a28fc61da7d6f04",
+      "bytes": 15478,
+      "changed": false
+    },
+    {
+      "title": "58同城消息控制",
+      "url": "https://weixin.58.com/m/home/redirect/?veiwPage=zhaofuwu",
+      "type": "official",
+      "note": "确认消息类型和接收时间可单独控制。",
+      "apps": [
+        "58"
+      ],
+      "finalUrl": "https://weixin.58.com/m/home/redirect/?veiwPage=zhaofuwu",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "205757c95cb74f7dfb528987da06231f301d513de81a7142a5f2e32ea6cdc46d",
+      "bytes": 4070,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 2014 年移动电商监测及月狐 App TOP100",
+      "url": "https://www.questmobile.com.cn/blog/blog-7.html",
+      "note": "QuestMobile 披露 2014 年 12 月安卓端 58同城月人均使用 33 分钟、16 次，页面按 31 天换算为日均 1.1 分钟、0.5 次；月狐披露 2026 年 1 月 MAU 为 6,723 万。行为数据较旧且仅限安卓端。",
+      "type": "usage-data",
+      "apps": [
+        "58"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "小米相机通知帮助",
+      "url": "https://www.mi.com/tw/support/faq/details/KA-493432/",
+      "type": "official",
+      "note": "确认检测推送和可配置的事件通知类型。",
+      "apps": [
+        "mijia"
+      ],
+      "finalUrl": "https://www.mi.com/tw/support/faq/details/KA-493432/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "cd0f20e6cb2164fc20529c8c3995280a125014c116cfb75292b427e19ce7939f",
+      "bytes": 63342,
+      "changed": false
+    },
+    {
+      "title": "小米智能门铃 3 手册",
+      "url": "https://cdn.cnbj1.fds.api.mi-img.com/ics-resources/articles/6126fd1575d428dbf4056f07.html",
+      "type": "official",
+      "note": "确认门铃、移动侦测、强拆报警和消息通知。",
+      "apps": [
+        "mijia"
+      ],
+      "finalUrl": "https://cdn.cnbj1.fds.api.mi-img.com/ics-resources/articles/6126fd1575d428dbf4056f07.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "9cf4c17b860ef07c4992ffb9bc6c3912c6892202484a41560d2b16139dc7f378",
+      "bytes": 23072,
+      "changed": false
+    },
+    {
+      "title": "米家隐私政策",
+      "url": "https://g.home.mi.com/views/user-terms/user_license/zh/user_privacy_2024.pdf",
+      "type": "official",
+      "note": "确认家庭、设备、摄像机和门锁相关场景。",
+      "apps": [
+        "mijia"
+      ],
+      "finalUrl": "https://g.home.mi.com/views/user-terms/user_license/zh/user_privacy_2024.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "113ba8c5695accea88a89dfde05ad742226a7bb3ea60eeeb4c18d3b7f97a9e9a",
+      "bytes": 526597,
+      "changed": false
+    },
+    {
+      "title": "红果短剧 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032",
+      "type": "app-store",
+      "note": "确认追剧、预约上线通知和评论功能。",
+      "apps": [
+        "hongguo"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "99ab610c716e7ea036b0cf7e55c00def069039c603e7ac8b7bdf01a5567971b7",
+      "bytes": 576699,
+      "changed": false
+    },
+    {
+      "title": "红果追剧提醒设置",
+      "url": "https://www.php.cn/faq/2188465.html",
+      "type": "article",
+      "note": "列出连载、开播、签到、补贴和奖励提醒。",
+      "apps": [
+        "hongguo"
+      ],
+      "finalUrl": "https://www.php.cn/faq/2188465.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "9a569fa74c3c15f738b0365f52590e389bece5e714d6fde8c2a3e84245e0232e",
+      "bytes": 5534,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 2026 短剧行业洞察及短剧应用监测",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202605271822903507_1.pdf?1779867860000.pdf=",
+      "note": "QuestMobile 披露红果免费短剧 2026 年 2 月 MAU 30,378.4 万、月人均单日使用 125 分钟；2026 年 5 月公开监测披露 MAU 3.56 亿、人均单日启动 4.35 次。三个指标存在跨期。",
+      "type": "usage-data",
+      "apps": [
+        "hongguo"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QQ音乐隐私保护指引副本",
+      "url": "https://dacat.peopledata.org.cn/docs/QQ%E9%9F%B3%E4%B9%90/privacy-police",
+      "type": "policy-copy",
+      "note": "确认评论、私信、关注、直播和定向推送。",
+      "apps": [
+        "qq-music"
+      ],
+      "finalUrl": "https://dacat.peopledata.org.cn/docs/QQ%E9%9F%B3%E4%B9%90/privacy-police",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "e14f016f950e668c83727bd2699a8a7a35e37b05272a95649640d348e353587d",
+      "bytes": 85261,
+      "changed": false
+    },
+    {
+      "title": "QQ音乐推送设置说明",
+      "url": "https://www.php.cn/faq/3046045.html",
+      "type": "article",
+      "note": "列出系统、私信、点赞评论、新歌、新MV和直播更新。",
+      "apps": [
+        "qq-music"
+      ],
+      "finalUrl": "https://www.php.cn/faq/3046045.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8c82131b47421e710a2b938eb0508f3eb1f335f3b9c8dfb739ac33cf75dce09c",
+      "bytes": 5513,
+      "changed": false
+    },
+    {
+      "title": "QQ音乐评论点赞提醒",
+      "url": "https://jingyan.baidu.com/article/066074d623fc0282c31cb064.html",
+      "type": "article",
+      "note": "确认评论点赞独立推送开关。",
+      "apps": [
+        "qq-music"
+      ],
+      "finalUrl": "https://jingyan.baidu.com/article/066074d623fc0282c31cb064.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "6a2a5e4d1a7cd4d3b55dffc36a9da8b0512bcbf72d896d57b24201017ff38ade",
+      "bytes": 66131,
+      "changed": false
+    },
+    {
+      "title": "艾瑞 2026Q1 流量报告及月狐 App TOP100",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202605191822433573_1.pdf?1779196254000.pdf=",
+      "note": "艾瑞监测显示 QQ音乐 App 2026 年 3 月单机单日有效时间 17.68 分钟、使用 6.84 次；月狐披露 2026 年 1 月 MAU 为 3.2399 亿。",
+      "type": "usage-data",
+      "apps": [
+        "qq-music"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "今日头条隐私政策",
+      "url": "https://www.toutiao.com/privacy_protection/?external=true",
+      "type": "official",
+      "note": "确认关注、评论、收藏、点赞、分享、预约和推送记录。",
+      "apps": [
+        "toutiao"
+      ],
+      "finalUrl": "https://www.toutiao.com/privacy_protection/?external=true",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "c3434dcf41c0af417138e2bf10aed241909252c9192b1c32b197e0f547448700",
+      "bytes": 4911,
+      "changed": false
+    },
+    {
+      "title": "今日头条通知设置说明",
+      "url": "https://www.toutiao.com/article/7591685551246279178/",
+      "type": "platform-article",
+      "note": "明确提及关注作者更新、私信和重要新闻推送。",
+      "apps": [
+        "toutiao"
+      ],
+      "finalUrl": "https://www.toutiao.com/article/7591685551246279178/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "9b56a6acdcb27eb620b5ee1ad870ad67964c70131b6fc31e8bd946b39c1e309e",
+      "bytes": 72914,
+      "changed": false
+    },
+    {
+      "title": "豆包隐私政策",
+      "url": "https://www.doubao.com/legal/privacy",
+      "type": "official",
+      "note": "明确列出日程提醒和应用通知总结播报。",
+      "apps": [
+        "doubao"
+      ],
+      "finalUrl": "https://www.doubao.com/legal/privacy",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "7d63e02f4ab97e0970e3433de52189d434c9d9259e5f05acdc1f085b4c4b4504",
+      "bytes": 78435,
+      "changed": false
+    },
+    {
+      "title": "华为耳机豆包通知播报说明",
+      "url": "https://consumer.huawei.com/cn/support/content/zh-cn16094391/",
+      "type": "official-partner",
+      "note": "确认豆包生成消息并播报通知栏消息的功能。",
+      "apps": [
+        "doubao"
+      ],
+      "finalUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16094391/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "f5d13377145cf8cd127b3db8d4b184b2110f58c3549f2803e4a27f58d440299d",
+      "bytes": 155300,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile AI 应用价值榜及半年报告",
+      "url": "https://www.questmobile.com.cn/research/report/2059118379722096641/",
+      "note": "2026 年 4 月月人均使用时长 144.6 分钟、月人均使用次数 75.7 次，均按 30 天换算为日均 4.8 分钟和 2.5 次；2026 年 6 月 MAU 为 3.82 亿，三项指标跨月。",
+      "type": "usage-data",
+      "apps": [
+        "doubao",
+        "deepseek"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "钉钉 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id930368978",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "dingtalk"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "钉钉官网",
+      "url": "https://web.j-dingtalk.com.cn/index.html",
+      "type": "official",
+      "note": "列出即时通讯、DING提醒、文档评论@、审批、日程、任务和会议。",
+      "apps": [
+        "dingtalk"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "飞书 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1401729613",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "feishu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "飞书项目通知中心",
+      "url": "https://www.feishu.cn/content/3wjpjvaj",
+      "type": "official",
+      "note": "明确列出@、催办、节点完成、负责人变更和系统变更通知。",
+      "apps": [
+        "feishu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "新浪科技对协同办公市场的报道",
+      "url": "https://finance.sina.com.cn/tech/csj/2025-04-11/doc-inestzxy5144025.shtml",
+      "note": "报道援引行业估算称飞书 MAU 约 1,200 万，并注明并非官方披露；页面以近似值展示。未找到可核验的日均时长和打开次数。",
+      "type": "usage-data",
+      "apps": [
+        "feishu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "菜鸟 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id951610982",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "cainiao"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "菜鸟 App 官方介绍",
+      "url": "https://www.cainiao.com/technology-cainiao-app.html",
+      "type": "official",
+      "note": "明确说明到站立马通知、包裹状态与预测送达。",
+      "apps": [
+        "cainiao"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "美图秀秀 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id416048305",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "meitu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 历史监测、招银国际研究与月狐榜单",
+      "url": "https://www.cmbi.com.hk/upload/201801072629.pdf",
+      "note": "QuestMobile 披露 2016 年 12 月月人均时长约 35 分钟，35÷31=日均约 1.1 分钟；招银国际援引 QuestMobile 披露 2017 年 8 月月人均使用 17 次，17÷31=日均约 0.5 次；月狐披露 2026 年 1 月 MAU 1.269 亿。三项跨期且使用指标为历史值。",
+      "type": "usage-data",
+      "apps": [
+        "meitu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "高德地图 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id461703208",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "amap"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "高德国庆 App 监测、QuestMobile 春季报告及车生活报告",
+      "url": "https://www.36kr.com/p/1446168040974214",
+      "note": "监测显示高德地图 2021 年 10 月 1 日人均日启动达到 4.42 次，页面按一位小数显示 4.4 次；该值是国庆峰值而非普通日均。QuestMobile 另披露 2022 年 9 月平均单日使用 11.5 分钟、2025 年 3 月 MAU 8.73 亿，三项跨期。",
+      "type": "usage-data",
+      "apps": [
+        "amap"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "百度 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id382201985",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "baidu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "百度财报、QuestMobile监测及百度营销资料",
+      "url": "https://aigc.idigital.com.cn/djyanbao/%E3%80%90%E5%8D%8E%E6%B3%B0%E8%AF%81%E5%88%B8%E3%80%91%E7%99%BE%E5%BA%A6%E9%9B%86%E5%9B%A2-SW%EF%BC%8809888%EF%BC%89%EF%BC%9A%E5%85%85%E6%B2%9B%E7%8E%B0%E9%87%91%E5%82%A8%E5%A4%87%E6%94%AF%E6%8C%81AI%E8%BD%AC%E5%9E%8B%E9%95%BF%E8%B7%AF-2025-01-12.pdf",
+      "note": "QuestMobile 披露百度 App 2024 年 11 月人均单日使用约 40 分钟；百度营销资料披露 2017 年人均单日使用 8 次；百度官方披露 2025 年 12 月 MAU 6.79 亿。三项指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "baidu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "百度地图 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id452186370",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "baidu-maps"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "百度地图交通信息发布服务手册",
+      "url": "https://jiaotong.baidu.com/cms/trafficinforelease/%E3%80%8A%E4%BA%A4%E9%80%9A%E4%BF%A1%E6%81%AF%E5%8F%91%E5%B8%83%E6%9C%8D%E5%8A%A1%E6%89%8B%E5%86%8C%E3%80%8B.pdf",
+      "type": "official",
+      "note": "说明道路、限行等提醒可通过地图界面和导航语音触达。",
+      "apps": [
+        "baidu-maps"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "哈啰 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1165227346",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "hellobike"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "荣耀：哈啰骑行订单进度提醒",
+      "url": "https://www.honor.com/cn/support/content/zh-cn15882785/",
+      "type": "official",
+      "note": "确认骑行、待支付和完成等订单状态会以系统动态通知展示。",
+      "apps": [
+        "hellobike"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "千问 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6466733523",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "qianwen"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "千问产品隐私政策",
+      "url": "https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20231011201849846/20231011201849846.html",
+      "type": "official",
+      "note": "明确说明预约提醒与功能或服务消息推送。",
+      "apps": [
+        "qianwen"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "界面新闻：QuestMobile 生成式 AI App 月度数据",
+      "url": "https://www.jiemian.com/article/14994136.html",
+      "note": "2026 年 6 月月人均使用时长 22.9 分钟、月人均使用次数 17.4 次，按 30 天换算为日均 0.8 分钟和 0.6 次；QuestMobile 同期报告披露 MAU 1.67 亿。",
+      "type": "usage-data",
+      "apps": [
+        "qianwen"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "DeepSeek App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6737597349",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "deepseek"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "DeepSeek 官方网站",
+      "url": "https://www.deepseek.com/zh/",
+      "type": "official",
+      "note": "确认官方 App 产品入口；公开资料未找到可细分的推送设置，按保守下限计。",
+      "apps": [
+        "deepseek"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "元宝 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6480446430",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "yuanbao"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "元宝任务功能研究资料",
+      "url": "https://www.cdut.edu.cn/__local/F/C9/EB/C02614CCC4A0369B16A7EC1C52A_B628CD50_6125D1.pdf",
+      "type": "official",
+      "note": "记录元宝任务功能可设置提醒。",
+      "apps": [
+        "yuanbao"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 2026 年 6 月 AI App 榜单",
+      "url": "https://www.chooseai.net/news/5058/",
+      "note": "榜单披露腾讯元宝 App MAU 4,984 万、月人均时长 58.6 分钟、月人均使用 29.2 次；58.6÷30=日均约 2.0 分钟，29.2÷30=日均约 1.0 次。",
+      "type": "usage-data",
+      "apps": [
+        "yuanbao",
+        "kimi"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "星巴克中国 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id499819758",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "starbucks"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "界面新闻：易观星巴克 App 月度监测",
+      "url": "https://www.jiemian.com/article/1746239.html",
+      "note": "历史数据：2017 年 9 月活跃用户 151.43 万、月启动 523.10 万次、月使用 18.55 万小时；按活跃用户及 30 天换算为日均约 0.1 次、0.2 分钟。",
+      "type": "usage-data",
+      "apps": [
+        "starbucks"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "剪映 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1458072671",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "jianying"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 图表与剪辑 App 行业报道",
+      "url": "https://www.10100.com/article/180795",
+      "note": "2024 年 6 月月人均使用时长 50.2 分钟，按 30 天换算为日均 1.7 分钟；2024 年 11 月 MAU 3.18 亿、月总使用 76.47 亿次，据此换算月人均约 24.1 次、日均约 0.8 次。指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "jianying"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "即梦AI App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6503676563",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "jimeng"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "月狐 2025 年 10 月中国移动互联网 AIGC 赛道报告",
+      "url": "https://chuanhaizhiku.com/reports/18903-zhong-guo-yi-dong-hu-lian-wang-aigc-sai-dao-liu-liang-bao-gao-2025-nian/",
+      "note": "报告披露即梦 AI App MAU 1,263.0 万、月总使用 63,944.3 万次、月总使用时长 1,668.2 万小时。63,944.3÷1,263÷31=日均约 1.6 次；1,668.2×60÷1,263÷31=日均约 2.6 分钟。",
+      "type": "usage-data",
+      "apps": [
+        "jimeng"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "百度网盘 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id547166701",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "baidu-netdisk"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "艾瑞个人网盘报告及月狐云盘监测",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202210241579387908_1.pdf",
+      "note": "艾瑞披露百度网盘 2021 年 12 月月单机使用 43.9 次，按 31 天换算约 1.4 次/日；月狐披露 2022 年第四季度单日人均使用 15.6 分钟，并在 2026 年 1 月榜单中记录 MAU 约 1.10 亿。",
+      "type": "usage-data",
+      "apps": [
+        "baidu-netdisk"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "腾讯会议 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1484048379",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "tencent-meeting"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "腾讯会议：会议前",
+      "url": "https://meeting.tencent.com/support/topic/1625/",
+      "type": "official",
+      "note": "确认会议邀请、开始前提醒和移动端消息通知。",
+      "apps": [
+        "tencent-meeting"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "交银国际互联网行业报告（引述 QuestMobile）",
+      "url": "https://files.bocomgroup.com/download/700_HK-flash-221104s.pdf",
+      "note": "报告披露 2022 年 8 月腾讯会议 MAU 约 6,500 万、人均单日使用约 35 分钟；未找到可核验的日均打开次数。",
+      "type": "usage-data",
+      "apps": [
+        "tencent-meeting"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "企业微信 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1087897068",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "wecom"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "艾瑞企业微信监测及月狐移动 App 榜单",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202004281378879493_1.pdf",
+      "note": "艾瑞 mUserTracker 披露企业微信 2020 年 3 月人均单日使用时长为 9.6 分钟；月狐披露 2026 年 1 月 MAU 为 8,047 万。两项指标跨期，未找到可核验的日均打开次数。",
+      "type": "usage-data",
+      "apps": [
+        "wecom"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Chrome 浏览器 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id535886823",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "chrome"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Chrome：通过通知接收快讯",
+      "url": "https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DiOS&hl=zh-Hant",
+      "type": "official",
+      "note": "官方明确 iPhone 或 iPad 不显示 Chrome 通知；此占位项不计入通知数。",
+      "apps": [
+        "chrome"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "有道翻译官 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id576337924",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "youdao-translate"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "网易有道公开运营数据整理",
+      "url": "https://tool.lu/deck/qu/detail",
+      "note": "公开资料披露截至 2019 年 8 月 31 日有道翻译官 MAU 约 251 万，属于历史数据。未找到可核验且可比的日均使用时长或日均打开次数。",
+      "type": "usage-data",
+      "apps": [
+        "youdao-translate"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "墨迹天气 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id434209233",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "moji-weather"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "墨迹天气招股资料与易观天气 App 监测",
+      "url": "https://www.analysys.cn/article/detail/20020141",
+      "note": "招股资料披露 2017 年 1—9 月日均使用 2 分 36 秒，折合 2.6 分钟；易观披露 2020 年第四季度 MAU 1.59 亿、月人均启动 29.4 次，后者按 30 天换算为日均约 1.0 次。指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "moji-weather"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "网易新闻 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id425349261",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "netease-news"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 2025 全景生态半年报告及泛资讯报告",
+      "url": "https://www.questmobile.cn/research/report/1950089049332092929/",
+      "note": "QuestMobile 披露网易新闻 2025 年 5 月 MAU 5,782 万、月人均使用 18.7 小时，按 31 天换算约 36.2 分钟/日；TalkingData 2020 年 6 月披露月人均使用 122 次，按 30 天换算约 4.1 次/日。",
+      "type": "usage-data",
+      "apps": [
+        "netease-news"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "喜马拉雅 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id876336838",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "ximalaya"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "喜马拉雅招股书、移动知识付费研究及月狐监测",
+      "url": "https://pdf.hanspub.org/hjdm20180300000_43341897.pdf",
+      "note": "研究资料披露 2017 年第二季度喜马拉雅周人均启动 5.8 次，5.8÷7=日均约 0.8 次；招股书披露移动端 2023 年 DAU 日均收听 130 分钟；月狐披露 2025 年第一季度移动端季度平均 MAU 9,461 万。三项跨期，打开次数为历史值。",
+      "type": "usage-data",
+      "apps": [
+        "ximalaya"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "花椒直播 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id988396858",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "huajiao"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "花房集团招股书、易观直播监测及历史运营数据",
+      "url": "https://www.a-site.cn/article/150796.html",
+      "note": "历史运营数据披露 2016 年 4 月月人均启动 29 次，按 30 天换算为日均约 1.0 次；易观披露 2020 年第二季度人均单日使用 67.8 分钟；花房招股资料披露 2022 年前五个月平均 MAU 约 3,063 万。三项指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "huajiao"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "映客直播 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id978985106",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "inke"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "映客招股书报道及移动直播研究",
+      "url": "https://m.thepaper.cn/newsDetail_forward_2044301",
+      "note": "映客招股书披露 2017 年第四季度 APP 平均 MAU 为 2,518.4 万；移动直播行业研究披露 2016 年映客人均日启动时长 30.3 分钟。未找到可核验的日均打开次数。",
+      "type": "usage-data",
+      "apps": [
+        "inke"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "西瓜视频 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1134496215",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "xigua"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 视频应用监测及月狐 App 榜单",
+      "url": "https://www.ichdata.com/wp-content/pdf/rta/2019%E7%A9%BF%E5%B1%B1%E7%94%B2%E6%95%88%E6%9E%9C%E8%90%A5%E9%94%80%E9%80%9A%E6%A1%88%28%E5%90%ABRTA%29.pdf",
+      "note": "QuestMobile 2018 年 10 月监测显示西瓜视频人均单日使用约 19 次；公开平台数据披露 2020 年平均使用时长超过 100 分钟；月狐 2026 年 1 月榜单记录 MAU 约 1.30 亿。三项指标跨期，时长按公开下限展示。",
+      "type": "usage-data",
+      "apps": [
+        "xigua"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "天猫商城 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id518966501",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "tmall"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "苏宁易购 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id424598114",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "suning"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "唯品会 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id417200582",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "vipshop"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "得物 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1012871328",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "dewu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 得物流量监测及社区电商分析",
+      "url": "https://m.thepaper.cn/newsDetail_forward_28258340",
+      "note": "QuestMobile 披露得物 2024 年 3 月 MAU 8,799.5 万；较早社区电商分析援引监测图称得物人均单日使用时长长期约 10 分钟。未找到可核验的日均打开次数，时长按近似历史值展示。",
+      "type": "usage-data",
+      "apps": [
+        "dewu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "山姆会员商店 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id818237113",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "sams"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "CTR 移动互联网趋势报告与山姆 App 月活报道",
+      "url": "https://www.ctrchina.cn/static/upload/2022%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94%E7%BD%91%E7%94%A8%E6%88%B7%E8%B6%8B%E5%8A%BF%E8%A7%82%E5%AF%9F%EF%BC%88CTR%E5%8F%91%E5%B8%83%EF%BC%89_20220920132702732.pdf",
+      "note": "CTR 图表披露 2022 年 6 月山姆会员商店 App 月人均使用 67 次，按 30 天换算为日均约 2.2 次；公开报道披露 2025 年 12 月 MAU 3,177 万。两项跨期，未找到可核验日均时长。",
+      "type": "usage-data",
+      "apps": [
+        "sams"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "转转 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1002355194",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "zhuanzhuan"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 二手交易 App 监测报道",
+      "url": "https://www.ikanchai.com/article/20160613/83540.shtml",
+      "note": "QuestMobile 2016 年 5 月监测披露转转 MAU 410 万、人均单日使用 11.4 分钟、人均单日使用 5.5 次。数据较旧，仅作为有明确年份的历史基准。",
+      "type": "usage-data",
+      "apps": [
+        "zhuanzhuan"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "抖音商城 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1485191072",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "douyin-mall"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 2025 APP 流量竞争新观察",
+      "url": "https://www.questmobile.com.cn/research/report/1904427484746715138/",
+      "note": "报告图表披露抖音商城 App 2025 年 2 月 MAU 为 2,960.2 万；未披露日均时长和打开次数。",
+      "type": "usage-data",
+      "apps": [
+        "douyin-mall"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "豆瓣 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id907002334",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "douban"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "南方+：易观千帆豆瓣 App 历史监测",
+      "url": "https://static.nfnews.com/content/202112/19/c6053456.html?enterColumnId=4285",
+      "note": "文章引述易观千帆 2021 年数据：豆瓣 App 月活约 1,200 万、人均单日启动约 7 次、人均单日使用约 30 分钟；属于历史监测值。",
+      "type": "usage-data",
+      "apps": [
+        "douban"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QQ App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id444934666",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "qq"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "易观千帆社交应用监测及腾讯 2025 年业绩公告",
+      "url": "https://nos.netease.com/cloud-website-bucket/%E7%A4%BE%E4%BA%A4%E7%94%B5%E5%95%86%E7%9A%84%E5%8F%91%E5%B1%95%E4%B8%8E%E5%88%9B%E6%96%B0-%E5%BC%A0%E9%93%81%E6%88%90.pdf",
+      "note": "易观千帆披露 2017 年 4 月 QQ 人均单日启动 19 次、使用 83 分钟；腾讯披露 2025 年 12 月 QQ 移动设备 MAU 为 5.08 亿。行为数据较旧，因此仅作为有明确年份的历史基准。",
+      "type": "usage-data",
+      "apps": [
+        "qq"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "美团外卖 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id737310995",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "meituan-food"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "美团外卖官方下载",
+      "url": "https://waimai.meituan.com/mobile/download",
+      "type": "official",
+      "note": "确认美团外卖独立 App 下载入口。",
+      "apps": [
+        "meituan-food"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "易观外卖 App 监测及 QuestMobile 独立 App 监测",
+      "url": "https://www.tmtpost.com/5879786.html",
+      "note": "易观披露 2021 年 9 月美团外卖 APP 人均单日使用 7.58 分钟、日均打开 2.77 次；QuestMobile 披露 2024 年 10 月美团外卖独立 APP MAU 为 6,318 万。指标跨期，未使用微信小程序 MAU。",
+      "type": "usage-data",
+      "apps": [
+        "meituan-food"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "携程旅行 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id379395415",
+      "type": "app-store",
+      "note": "官方应用商店页面确认酒店、机票、火车票、门票、用车、社区及账户服务范围。",
+      "apps": [
+        "ctrip"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "携程 Apple Watch 功能说明",
+      "url": "https://apps.apple.com/cn/app/id688037240",
+      "type": "official",
+      "note": "明确列出登机提醒、航班变更、值机柜台、登机口及行李转盘等行程提醒。",
+      "apps": [
+        "ctrip"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "国信证券在线旅游研究、易观洞察与月狐榜单",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202303311584767048_1.pdf",
+      "note": "国信证券图表显示 2020 年 6 月携程人均日启动约 18.8 次（据图读取，故标≈）；易观披露 2023 年 1 月月人均使用 1.38 小时，1.38×60÷31=日均约 2.8 分钟；月狐披露 2026 年 1 月 MAU 1.0643 亿。三项跨期，打开次数为历史近似值。",
+      "type": "usage-data",
+      "apps": [
+        "ctrip"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "大众点评 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id351091731",
+      "type": "app-store",
+      "note": "官方应用商店页面确认本地商户、用户评价、团购、预约、酒店门票和客服服务范围。",
+      "apps": [
+        "dianping"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 历史监测与月狐 App 榜单",
+      "url": "https://img3.gelonghui.com/pdf201812/pdf20181225151140386.pdf",
+      "note": "历史报告披露 2017 年第一季度月人均使用 7.31 次、单次约 2.67 分钟；以 30 天换算为日均约 0.2 次、0.7 分钟。月狐披露 2026 年 1 月 MAU 1.4542 亿，指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "dianping"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "优酷视频 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id336141475",
+      "type": "app-store",
+      "note": "官方应用商店页面确认影视、综艺、动漫、直播、缓存、会员及多屏同步等功能。",
+      "apps": [
+        "youku"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "QuestMobile 视频应用监测与月狐 App 榜单",
+      "url": "https://www.36kr.com/p/3032764919279872",
+      "note": "QuestMobile 披露 2024 年 9 月优酷视频月人均单日使用 59.5 分钟；2018 年 10 月监测显示人均单日使用约 8 次；月狐披露 2026 年 1 月 MAU 2.1584 亿。三项指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "youku"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "滴滴 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id554499054",
+      "type": "app-store",
+      "note": "官方应用商店页面确认网约车、骑行、顺风车、火车票、租车、代驾、送货、会员等服务范围。",
+      "apps": [
+        "didi"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "月狐 2024 年网约车行业发展洞察与 App 榜单",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202501141641912513_1.pdf?1736865459000.pdf=",
+      "note": "月狐 iApp 披露滴滴出行 2024 年全年单日人均使用时长与启动次数均值分别为 10.7 分钟、6.6 次；月狐另披露 2026 年 1 月 MAU 1.2436 亿。使用指标与 MAU 跨期。",
+      "type": "usage-data",
+      "apps": [
+        "didi"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "网易云音乐 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id590338362",
+      "type": "app-store",
+      "note": "官方应用商店页面确认音乐、播客、评论、动态、一起听、歌房、会员和账户服务范围。",
+      "apps": [
+        "netease-cloud-music"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "易观用户黏性监测、艾瑞报告及月狐 App 榜单",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP201909231365565830_1.pdf",
+      "note": "易观披露 2019 年 6 月人均单日使用约 26.4 分钟；艾瑞 2025 年报告披露日均打开约 6.8 次；月狐披露 2026 年 1 月 MAU 1.0529 亿。三项指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "netease-cloud-music"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "瑞幸咖啡 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1296749505",
+      "type": "app-store",
+      "note": "官方应用商店页面确认在线点单、自提外送、优惠券、会员、积分与自由卡等功能。",
+      "apps": [
+        "luckin"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "瑞幸咖啡隐私权政策",
+      "url": "https://termshub.cn/public/version/7458",
+      "type": "official",
+      "note": "明确说明订单管理、交易服务以及手机推送、短信和营销通知。",
+      "apps": [
+        "luckin"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "瑞幸数字化服务研究",
+      "url": "https://www.ccidanpo.org/sites/default/files/c26636204.2020.01.03.pdf",
+      "type": "research",
+      "note": "记录制作、配送状态短信以及交易结束后的优惠券触达。",
+      "apps": [
+        "luckin"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "华泰证券：餐饮品牌 App 月活跃用户规模",
+      "url": "https://pdf.dfcfw.com/pdf/H3_AP202309121598298658_1.pdf",
+      "note": "报告援引 QuestMobile 数据披露瑞幸咖啡 App 2023 年 5 月 MAU 约 1,900 万。该值为历史数据，参与同提醒数排序；未找到可核验的 App 日均时长和打开次数。公司后续披露的月均交易客户包含 App、小程序等多入口，未混作 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "luckin"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "盒马 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1063183999",
+      "type": "app-store",
+      "note": "官方应用商店页面确认生鲜商超、即时配送、会员和订单服务范围。",
+      "apps": [
+        "hema"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "盒马用户服务协议",
+      "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_other/suit_bu1_other201708030951_75955.html",
+      "type": "official",
+      "note": "明确说明订单信息、预计送达、配送服务信息以及软件推送、短信和电话通知。",
+      "apps": [
+        "hema"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "盒马基本功能隐私政策",
+      "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_alibaba_hema/suit_bu1_alibaba_hema202203300948_54070.html",
+      "type": "official",
+      "note": "确认服务、安全、体验调研、支付、物流、交付进度及营销类通知。",
+      "apps": [
+        "hema"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "盒马历史用户黏性监测与 QuestMobile 生鲜商超榜单",
+      "url": "https://caifuhao.eastmoney.com/news/20200507165020462710940",
+      "note": "行业监测披露 2020 年 2 月盒马 App 人均日使用时长 10.37 分钟，页面按一位小数显示 10.4；2018 年报道指出近一年人均日启动保持在 2 次以上，故按下限显示≥2.0；QuestMobile 披露 2025 年 12 月 MAU 8,303 万。三项跨期且使用指标为历史值。",
+      "type": "usage-data",
+      "apps": [
+        "hema"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Kimi App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6474233312",
+      "type": "app-store",
+      "note": "官方应用商店页面确认搜索、文件处理、PPT、Agent、插件及会员等功能范围。",
+      "apps": [
+        "kimi"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Kimi 定时任务帮助",
+      "url": "https://www.kimi.ai/zh-hant/help/features/scheduled-tasks",
+      "type": "official",
+      "note": "明确说明每次定时任务执行都会建立一条标记为未读的通知。",
+      "apps": [
+        "kimi"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Kimi 隐私政策",
+      "url": "https://www.kimi.com/user/agreement/userprivacy?version=v2",
+      "type": "official",
+      "note": "明确列出政策更新、服务变更、客服沟通、营销活动和安全事件通知。",
+      "apps": [
+        "kimi"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    }
+  ]
+}

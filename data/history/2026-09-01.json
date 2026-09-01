@@ -1,0 +1,396 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T12:35:09.851Z",
+  "apps": [
+    {
+      "id": "didi",
+      "name": "滴滴出行",
+      "count": 20,
+      "rank": 1
+    },
+    {
+      "id": "wechat",
+      "name": "微信",
+      "count": 18,
+      "rank": 2
+    },
+    {
+      "id": "alipay",
+      "name": "支付宝",
+      "count": 18,
+      "rank": 3
+    },
+    {
+      "id": "ctrip",
+      "name": "携程",
+      "count": 18,
+      "rank": 4
+    },
+    {
+      "id": "netease-cloud-music",
+      "name": "网易云音乐",
+      "count": 18,
+      "rank": 5
+    },
+    {
+      "id": "dianping",
+      "name": "大众点评",
+      "count": 17,
+      "rank": 6
+    },
+    {
+      "id": "taobao",
+      "name": "淘宝",
+      "count": 15,
+      "rank": 7
+    },
+    {
+      "id": "qq",
+      "name": "QQ",
+      "count": 15,
+      "rank": 8
+    },
+    {
+      "id": "xianyu",
+      "name": "闲鱼",
+      "count": 15,
+      "rank": 9
+    },
+    {
+      "id": "mijia",
+      "name": "米家",
+      "count": 15,
+      "rank": 10
+    },
+    {
+      "id": "hema",
+      "name": "盒马",
+      "count": 15,
+      "rank": 11
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "count": 14,
+      "rank": 12
+    },
+    {
+      "id": "58",
+      "name": "58同城",
+      "count": 14,
+      "rank": 13
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "count": 13,
+      "rank": 14
+    },
+    {
+      "id": "meituan",
+      "name": "美团",
+      "count": 13,
+      "rank": 15
+    },
+    {
+      "id": "luckin",
+      "name": "瑞幸咖啡",
+      "count": 13,
+      "rank": 16
+    },
+    {
+      "id": "pinduoduo",
+      "name": "拼多多",
+      "count": 12,
+      "rank": 17
+    },
+    {
+      "id": "toutiao",
+      "name": "今日头条",
+      "count": 12,
+      "rank": 18
+    },
+    {
+      "id": "youku",
+      "name": "优酷视频",
+      "count": 12,
+      "rank": 19
+    },
+    {
+      "id": "dingtalk",
+      "name": "钉钉",
+      "count": 12,
+      "rank": 20
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "count": 12,
+      "rank": 21
+    },
+    {
+      "id": "wecom",
+      "name": "企业微信",
+      "count": 12,
+      "rank": 22
+    },
+    {
+      "id": "cainiao",
+      "name": "菜鸟",
+      "count": 12,
+      "rank": 23
+    },
+    {
+      "id": "tmall",
+      "name": "天猫商城",
+      "count": 12,
+      "rank": 24
+    },
+    {
+      "id": "douyin-mall",
+      "name": "抖音商城",
+      "count": 12,
+      "rank": 25
+    },
+    {
+      "id": "feishu",
+      "name": "飞书",
+      "count": 12,
+      "rank": 26
+    },
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "count": 11,
+      "rank": 27
+    },
+    {
+      "id": "iqiyi",
+      "name": "爱奇艺",
+      "count": 11,
+      "rank": 28
+    },
+    {
+      "id": "tencent-video",
+      "name": "腾讯视频",
+      "count": 11,
+      "rank": 29
+    },
+    {
+      "id": "qq-music",
+      "name": "QQ音乐",
+      "count": 11,
+      "rank": 30
+    },
+    {
+      "id": "hellobike",
+      "name": "哈啰",
+      "count": 11,
+      "rank": 31
+    },
+    {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "count": 10,
+      "rank": 32
+    },
+    {
+      "id": "vipshop",
+      "name": "唯品会",
+      "count": 10,
+      "rank": 33
+    },
+    {
+      "id": "suning",
+      "name": "苏宁易购",
+      "count": 10,
+      "rank": 34
+    },
+    {
+      "id": "hongguo",
+      "name": "红果免费短剧",
+      "count": 9,
+      "rank": 35
+    },
+    {
+      "id": "xigua",
+      "name": "西瓜视频",
+      "count": 9,
+      "rank": 36
+    },
+    {
+      "id": "baidu-netdisk",
+      "name": "百度网盘",
+      "count": 9,
+      "rank": 37
+    },
+    {
+      "id": "ximalaya",
+      "name": "喜马拉雅",
+      "count": 9,
+      "rank": 38
+    },
+    {
+      "id": "dewu",
+      "name": "得物",
+      "count": 9,
+      "rank": 39
+    },
+    {
+      "id": "meituan-food",
+      "name": "美团外卖",
+      "count": 9,
+      "rank": 40
+    },
+    {
+      "id": "netease-news",
+      "name": "网易新闻",
+      "count": 9,
+      "rank": 41
+    },
+    {
+      "id": "huajiao",
+      "name": "花椒直播",
+      "count": 9,
+      "rank": 42
+    },
+    {
+      "id": "duoshan",
+      "name": "多闪",
+      "count": 9,
+      "rank": 43
+    },
+    {
+      "id": "inke",
+      "name": "映客直播",
+      "count": 9,
+      "rank": 44
+    },
+    {
+      "id": "zhuanzhuan",
+      "name": "转转",
+      "count": 9,
+      "rank": 45
+    },
+    {
+      "id": "amap",
+      "name": "高德地图",
+      "count": 8,
+      "rank": 46
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "count": 8,
+      "rank": 47
+    },
+    {
+      "id": "baidu-maps",
+      "name": "百度地图",
+      "count": 8,
+      "rank": 48
+    },
+    {
+      "id": "jianying",
+      "name": "剪映",
+      "count": 8,
+      "rank": 49
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "count": 8,
+      "rank": 50
+    },
+    {
+      "id": "sams",
+      "name": "山姆会员商店",
+      "count": 8,
+      "rank": 51
+    },
+    {
+      "id": "douban",
+      "name": "豆瓣",
+      "count": 8,
+      "rank": 52
+    },
+    {
+      "id": "starbucks",
+      "name": "STARBUCKS",
+      "count": 8,
+      "rank": 53
+    },
+    {
+      "id": "xiaoyuzhou",
+      "name": "小宇宙",
+      "count": 8,
+      "rank": 54
+    },
+    {
+      "id": "moji-weather",
+      "name": "墨迹天气",
+      "count": 7,
+      "rank": 55
+    },
+    {
+      "id": "tencent-meeting",
+      "name": "腾讯会议",
+      "count": 7,
+      "rank": 56
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "count": 7,
+      "rank": 57
+    },
+    {
+      "id": "jimeng",
+      "name": "即梦AI",
+      "count": 6,
+      "rank": 58
+    },
+    {
+      "id": "qianwen",
+      "name": "千问",
+      "count": 5,
+      "rank": 59
+    },
+    {
+      "id": "meitu",
+      "name": "美图秀秀",
+      "count": 5,
+      "rank": 60
+    },
+    {
+      "id": "youdao-translate",
+      "name": "有道翻译官",
+      "count": 5,
+      "rank": 61
+    },
+    {
+      "id": "yuanbao",
+      "name": "元宝",
+      "count": 4,
+      "rank": 62
+    },
+    {
+      "id": "doubao",
+      "name": "豆包",
+      "count": 3,
+      "rank": 63
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "count": 2,
+      "rank": 64
+    },
+    {
+      "id": "chrome",
+      "name": "Chrome 浏览器",
+      "count": 0,
+      "rank": 65
+    }
+  ]
+}

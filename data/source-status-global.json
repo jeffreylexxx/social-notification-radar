@@ -1,0 +1,1252 @@
+{
+  "checkedAt": null,
+  "sourceCount": 88,
+  "changedCount": 0,
+  "failedCount": 0,
+  "sources": [
+    {
+      "title": "Instagram · App Store",
+      "url": "https://apps.apple.com/us/app/id389801252",
+      "type": "官方应用页",
+      "note": "开发者：Instagram, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "instagram"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Instagram 30 亿 MAU",
+      "url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
+      "type": "官方规模数据",
+      "note": "Meta 2025-09 明确披露 Instagram 30 亿 MAU。",
+      "apps": [
+        "instagram"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "title": "DataReportal Digital 2026",
+      "note": "时长与打开次数来自 Similarweb App Intelligence 的全球 Android 样本（不含中国）；MAU 由 Meta 另页披露为 30 亿。",
+      "type": "usage-data",
+      "apps": [
+        "instagram",
+        "facebook",
+        "x",
+        "whatsapp",
+        "youtube",
+        "messenger",
+        "discord",
+        "telegram",
+        "tiktok",
+        "threads",
+        "linkedin",
+        "snapchat",
+        "reddit"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Facebook · App Store",
+      "url": "https://apps.apple.com/us/app/id284882215",
+      "type": "官方应用页",
+      "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "facebook"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://investor.fb.com/files/doc_earnings/2023/q3/earnings-result/Meta-09-30-2022-Exhibit-99-1-FINAL.pdf",
+      "title": "Meta 2023 Q3 业绩",
+      "note": "Meta 已于 2024 年起停止披露 Facebook 单产品 MAU；此处保留最后阶段官方历史值 30.5 亿。",
+      "type": "usage-data",
+      "apps": [
+        "facebook"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "X 手机通知帮助",
+      "url": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "type": "官方帮助",
+      "note": "官方列出提及、回复、转帖、点赞、关注、私信、新闻、Spaces 等通知类型。",
+      "apps": [
+        "x"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "X · App Store",
+      "url": "https://apps.apple.com/us/app/id333903271",
+      "type": "官方应用页",
+      "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "x"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "WhatsApp 通知管理",
+      "url": "https://faq.whatsapp.com/797069521522888/",
+      "type": "官方帮助",
+      "note": "官方说明单聊、群聊、通话、反应、提及和未读角标等通知。",
+      "apps": [
+        "whatsapp"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "WhatsApp Messenger · App Store",
+      "url": "https://apps.apple.com/us/app/id310633997",
+      "type": "官方应用页",
+      "note": "开发者：WhatsApp Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "whatsapp"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "WhatsApp 用户规模",
+      "url": "https://about.fb.com/news/2025/09/introducing-message-translations-whatsapp/",
+      "type": "官方规模数据",
+      "note": "Meta 称超过 30 亿人使用 WhatsApp；未把措辞提升为 MAU。",
+      "apps": [
+        "whatsapp"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "YouTube 通知管理",
+      "url": "https://support.google.com/youtube/answer/3382248?hl=en",
+      "type": "官方帮助",
+      "note": "官方说明订阅上传、直播、Shorts、推荐及通知中心。",
+      "apps": [
+        "youtube"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "YouTube · App Store",
+      "url": "https://apps.apple.com/us/app/id544007664",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "youtube"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Gmail 通知设置",
+      "url": "https://support.google.com/mail/answer/1075549?hl=en",
+      "type": "官方帮助",
+      "note": "官方区分所有新邮件、重要邮件与主要收件箱通知。",
+      "apps": [
+        "gmail"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Gmail - Email by Google · App Store",
+      "url": "https://apps.apple.com/us/app/id422689480",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "gmail"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google 相册动态类型",
+      "url": "https://support.google.com/photos/answer/15604413?hl=en",
+      "type": "官方帮助",
+      "note": "官方逐项列出共享相册、会话、伙伴共享和存储状态动态。",
+      "apps": [
+        "google-photos"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Photos: Backup & Edit · App Store",
+      "url": "https://apps.apple.com/us/app/id962194608",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "google-photos"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Ads 通知",
+      "url": "https://support.google.com/google-ads/answer/9972066?hl=en",
+      "type": "官方帮助",
+      "note": "官方说明效果变化、新功能、优化建议及自定义状态通知。",
+      "apps": [
+        "google-ads"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Ads · App Store",
+      "url": "https://apps.apple.com/us/app/id1037457231",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "google-ads"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Messenger · App Store",
+      "url": "https://apps.apple.com/us/app/id454638411",
+      "type": "官方应用页",
+      "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "messenger"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Grok AI · App Store",
+      "url": "https://apps.apple.com/us/app/id6670324846",
+      "type": "官方应用页",
+      "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "grok"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Discord - Talk, Play, Hang Out · App Store",
+      "url": "https://apps.apple.com/us/app/id985746746",
+      "type": "官方应用页",
+      "note": "开发者：Discord Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "discord"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini",
+      "title": "Discord 官方新闻稿",
+      "note": "官方披露全球 MAU 超过 2 亿。",
+      "type": "usage-data",
+      "apps": [
+        "discord"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Amazon Alexa · App Store",
+      "url": "https://apps.apple.com/us/app/id944011620",
+      "type": "官方应用页",
+      "note": "开发者：AMZN Mobile LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "amazon-alexa"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Spotify: Music and Podcasts · App Store",
+      "url": "https://apps.apple.com/us/app/id324684580",
+      "type": "官方应用页",
+      "note": "开发者：Spotify。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "spotify"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://newsroom.spotify.com/2025-07-29/spotify-reports-second-quarter-2025-earnings/",
+      "title": "Spotify 2025 Q2 业绩",
+      "note": "官方披露 MAU 6.96 亿。",
+      "type": "usage-data",
+      "apps": [
+        "spotify"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Telegram Messenger · App Store",
+      "url": "https://apps.apple.com/us/app/id686449807",
+      "type": "官方应用页",
+      "note": "开发者：Telegram FZ-LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "telegram"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://telegram.org/press",
+      "title": "Telegram Press Info",
+      "note": "官方称 2025 年月活跃用户超过 10 亿。",
+      "type": "usage-data",
+      "apps": [
+        "telegram"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "LINE · App Store",
+      "url": "https://apps.apple.com/us/app/id443904275",
+      "type": "官方应用页",
+      "note": "开发者：LY Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "line"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://www.linecorp.com/en/csr/",
+      "title": "LINE Social Responsibility",
+      "note": "LINE 官方页面称全球约 2 亿 MAU。",
+      "type": "usage-data",
+      "apps": [
+        "line"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "ChatGPT · App Store",
+      "url": "https://apps.apple.com/us/app/id6448311069",
+      "type": "官方应用页",
+      "note": "开发者：OpenAI OpCo, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "chatgpt"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Perplexity - AI Search & Chat · App Store",
+      "url": "https://apps.apple.com/us/app/id1668000334",
+      "type": "官方应用页",
+      "note": "开发者：Perplexity AI Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "perplexity"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Claude by Anthropic · App Store",
+      "url": "https://apps.apple.com/us/app/id6473753684",
+      "type": "官方应用页",
+      "note": "开发者：Anthropic PBC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "claude"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "TikTok - Videos, Shop & LIVE · App Store",
+      "url": "https://apps.apple.com/us/app/id835599320",
+      "type": "官方应用页",
+      "note": "开发者：TIKTOK PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "tiktok"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Health (Fitbit) · App Store",
+      "url": "https://apps.apple.com/us/app/id462638897",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "fitbit"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "iHeart: Radio, Music, Podcasts · App Store",
+      "url": "https://apps.apple.com/us/app/id290638154",
+      "type": "官方应用页",
+      "note": "开发者：iHeartMedia Management Services, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "iheartradio"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Amazon Music: Songs & Podcasts · App Store",
+      "url": "https://apps.apple.com/us/app/id510855668",
+      "type": "官方应用页",
+      "note": "开发者：AMZN Mobile LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "amazon-music"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "YouTube Music · App Store",
+      "url": "https://apps.apple.com/us/app/id1017492454",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "youtube-music"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Microsoft Copilot · App Store",
+      "url": "https://apps.apple.com/us/app/id541164041",
+      "type": "官方应用页",
+      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "copilot"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Microsoft OneDrive · App Store",
+      "url": "https://apps.apple.com/us/app/id477537958",
+      "type": "官方应用页",
+      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "onedrive"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Threads · App Store",
+      "url": "https://apps.apple.com/us/app/id6446901002",
+      "type": "官方应用页",
+      "note": "开发者：Instagram, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "threads"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Threads 5 亿 MAU",
+      "url": "https://about.fb.com/news/2026/06/meta-launching-new-features-500-million-monthly-threads-users/",
+      "type": "官方规模数据",
+      "note": "Meta 2026-06 披露 5 亿 MAU。",
+      "apps": [
+        "threads"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "LinkedIn: Community & Network · App Store",
+      "url": "https://apps.apple.com/us/app/id288429040",
+      "type": "官方应用页",
+      "note": "开发者：LinkedIn Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "linkedin"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "GitHub · App Store",
+      "url": "https://apps.apple.com/us/app/id1477376905",
+      "type": "官方应用页",
+      "note": "开发者：GitHub。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "github"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://github.blog/news-insights/octoverse/",
+      "title": "GitHub Octoverse",
+      "note": "开发者账户不是 App MAU，仅作规模参考。",
+      "type": "usage-data",
+      "apps": [
+        "github"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Chrome · App Store",
+      "url": "https://apps.apple.com/us/app/id535886823",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "chrome"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "AccuWeather: Weather Forecast · App Store",
+      "url": "https://apps.apple.com/us/app/id300048137",
+      "type": "官方应用页",
+      "note": "开发者：AccuWeather International, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "accuweather"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "SoundCloud: The Music You Love · App Store",
+      "url": "https://apps.apple.com/us/app/id336353151",
+      "type": "官方应用页",
+      "note": "开发者：SoundCloud Global Limited & Co KG。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "soundcloud"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "CapCut: Photo & Video Editor · App Store",
+      "url": "https://apps.apple.com/us/app/id1500855883",
+      "type": "官方应用页",
+      "note": "开发者：BYTEDANCE PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "capcut"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Slack 通知指南",
+      "url": "https://slack.com/help/articles/201355156-Configure-your-Slack-notifications",
+      "type": "官方帮助",
+      "note": "官方列出私信、提及、关键词、线程回复、Huddle、邀请和到期提醒。",
+      "apps": [
+        "slack"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Slack · App Store",
+      "url": "https://apps.apple.com/us/app/id618783545",
+      "type": "官方应用页",
+      "note": "开发者：SLACK TECHNOLOGIES L.L.C.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "slack"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Notion: Notes, Tasks, AI · App Store",
+      "url": "https://apps.apple.com/us/app/id1232780281",
+      "type": "官方应用页",
+      "note": "开发者：Notion Labs, Incorporated。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "notion"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Firefox Fast & Private Browser · App Store",
+      "url": "https://apps.apple.com/us/app/id989804926",
+      "type": "官方应用页",
+      "note": "开发者：Mozilla Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "firefox"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Microsoft Edge · App Store",
+      "url": "https://apps.apple.com/us/app/id1288723196",
+      "type": "官方应用页",
+      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "edge"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Safari · App Store",
+      "url": "https://apps.apple.com/us/app/id1146562112",
+      "type": "官方应用页",
+      "note": "开发者：Apple Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "safari"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "VLC media player · App Store",
+      "url": "https://apps.apple.com/us/app/id650377962",
+      "type": "官方应用页",
+      "note": "开发者：VideoLAN。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "vlc"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "YouTube TV · App Store",
+      "url": "https://apps.apple.com/us/app/id1193350206",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "youtube-tv"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Snapchat 通知控制",
+      "url": "https://help.snapchat.com/hc/en-us/articles/7012316327444-How-do-I-control-my-Snapchat-notifications-on-iOS",
+      "type": "官方帮助",
+      "note": "官方说明逐类型通知开关及关注对象的 Story 通知。",
+      "apps": [
+        "snapchat"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Snapchat · App Store",
+      "url": "https://apps.apple.com/us/app/id447188370",
+      "type": "官方应用页",
+      "note": "开发者：Snap, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "snapchat"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Snap 2025 Q4 业绩",
+      "url": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+      "type": "官方财报",
+      "note": "Snapchat 2025 Q4 MAU 9.46 亿。",
+      "apps": [
+        "snapchat"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Clubhouse · App Store",
+      "url": "https://apps.apple.com/us/app/id1503133294",
+      "type": "官方应用页",
+      "note": "开发者：Alpha Exploration Co.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "clubhouse"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "PayPal - Pay, Send, Save · App Store",
+      "url": "https://apps.apple.com/us/app/id283646709",
+      "type": "官方应用页",
+      "note": "开发者：PayPal, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "paypal"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "title": "PayPal 年报",
+      "note": "活跃账户可能含商户且不是 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "paypal"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "TuneIn Radio: Music & Sports · App Store",
+      "url": "https://apps.apple.com/us/app/id418987775",
+      "type": "官方应用页",
+      "note": "开发者：TuneIn。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "tunein"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "AOL Mail, News, Weather · App Store",
+      "url": "https://apps.apple.com/us/app/id646100661",
+      "type": "官方应用页",
+      "note": "开发者：AOL Media LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "aol-mail"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Microsoft Teams 通知管理",
+      "url": "https://support.microsoft.com/en-US/teams/notifications-settings/manage-notifications-in-microsoft-teams",
+      "type": "官方帮助",
+      "note": "官方列出聊天、频道、提及、会议、通话、状态和应用通知。",
+      "apps": [
+        "microsoft-teams"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Microsoft Teams · App Store",
+      "url": "https://apps.apple.com/us/app/id1113153706",
+      "type": "官方应用页",
+      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "microsoft-teams"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
+      "title": "Microsoft Teams 官方博客",
+      "note": "跨桌面、网页和移动端产品 MAU，不等同手机 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "microsoft-teams"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Yelp: Food, Services & Reviews · App Store",
+      "url": "https://apps.apple.com/us/app/id284910350",
+      "type": "官方应用页",
+      "note": "开发者：Yelp, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "yelp"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Ticketmaster－Buy, Sell Tickets · App Store",
+      "url": "https://apps.apple.com/us/app/id500003565",
+      "type": "官方应用页",
+      "note": "开发者：Ticketmaster L.L.C。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "ticketmaster"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Priceline - Hotel, Car, Flight · App Store",
+      "url": "https://apps.apple.com/us/app/id336381998",
+      "type": "官方应用页",
+      "note": "开发者：priceline.com。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "priceline"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "StubHub: Event Tickets · App Store",
+      "url": "https://apps.apple.com/us/app/id366562751",
+      "type": "官方应用页",
+      "note": "开发者：Stubhub, Inc。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "stubhub"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Grubhub: Food Delivery · App Store",
+      "url": "https://apps.apple.com/us/app/id302920553",
+      "type": "官方应用页",
+      "note": "开发者：GrubHub Inc。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "grubhub"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Uber - Request a ride · App Store",
+      "url": "https://apps.apple.com/us/app/id368677368",
+      "type": "官方应用页",
+      "note": "开发者：Uber Technologies, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "uber"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Maps 通知设置",
+      "url": "https://support.google.com/maps/answer/6149565?hl=en",
+      "type": "官方帮助",
+      "note": "官方列出交通、地点贡献、评论回复、事件、危机和位置共享等提醒。",
+      "apps": [
+        "google-maps"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Maps · App Store",
+      "url": "https://apps.apple.com/us/app/id585027354",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "google-maps"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://abc.xyz/2024-q3-earnings-call/",
+      "title": "Alphabet 2024 Q3 Earnings Call",
+      "note": "Alphabet 披露 Google Maps 超过 20 亿月用户；为跨端产品口径。",
+      "type": "usage-data",
+      "apps": [
+        "google-maps"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Netflix · App Store",
+      "url": "https://apps.apple.com/us/app/id363590051",
+      "type": "官方应用页",
+      "note": "开发者：Netflix, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "netflix"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+      "title": "Netflix 投资者关系",
+      "note": "订阅会员不是 App MAU，不参与 MAU 并列排序。",
+      "type": "usage-data",
+      "apps": [
+        "netflix"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Flickr · App Store",
+      "url": "https://apps.apple.com/us/app/id328407587",
+      "type": "官方应用页",
+      "note": "开发者：Flickr, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "flickr"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Tumblr: Social Media & Art · App Store",
+      "url": "https://apps.apple.com/us/app/id305343404",
+      "type": "官方应用页",
+      "note": "开发者：Tumblr, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "tumblr"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Reddit · App Store",
+      "url": "https://apps.apple.com/us/app/id1064216828",
+      "type": "官方应用页",
+      "note": "开发者：REDDIT, INC.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "reddit"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "HBO Max: Stream Movies & TV · App Store",
+      "url": "https://apps.apple.com/us/app/id1666653815",
+      "type": "官方应用页",
+      "note": "开发者：WarnerMedia Global Digital Services, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "max"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Tinder Dating App: Date & Chat · App Store",
+      "url": "https://apps.apple.com/us/app/id547702041",
+      "type": "官方应用页",
+      "note": "开发者：Tinder LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "tinder"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Disney+ · App Store",
+      "url": "https://apps.apple.com/us/app/id1446075923",
+      "type": "官方应用页",
+      "note": "开发者：Disney Electronic Content, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "disney-plus"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Google Gemini · App Store",
+      "url": "https://apps.apple.com/us/app/id6477489729",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "gemini"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Meta AI · App Store",
+      "url": "https://apps.apple.com/us/app/id1558240027",
+      "type": "官方应用页",
+      "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "meta-ai"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Zoom Workplace · App Store",
+      "url": "https://apps.apple.com/us/app/id546505307",
+      "type": "官方应用页",
+      "note": "开发者：Zoom Communications, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "zoom"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Temu: Shop Like a Billionaire · App Store",
+      "url": "https://apps.apple.com/us/app/id1641486558",
+      "type": "官方应用页",
+      "note": "开发者：Whaleco Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "temu"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "social-notification-radar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:global": "node scripts/build-global-apps.mjs",
+    "update": "node scripts/update-data.mjs && node scripts/update-data.mjs --global",
+    "update:offline": "node scripts/update-data.mjs --offline && node scripts/update-data.mjs --global --offline",
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

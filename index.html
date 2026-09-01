@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="中国常用手机应用通知与提醒功能研究仪表盘 V1">
+  <title>提醒雷达 | 应用通知研究</title>
+  <script>
+    try {
+      const savedTheme = localStorage.getItem("notification-radar-theme");
+      const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = savedTheme || (systemDark ? "dark" : "light");
+    } catch (error) {
+      document.documentElement.dataset.theme = "light";
+    }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --canvas: #edf0f3;
+      --panel: #f6f7f8;
+      --panel-2: #e5e9ed;
+      --ink: #111418;
+      --ink-2: #505761;
+      --ink-3: #7e8792;
+      --line: #cbd1d7;
+      --line-strong: #9da6b0;
+      --accent: #3157d9;
+      --accent-soft: #dce4ff;
+      --positive: #14734f;
+      --negative: #b84238;
+      --focus: #3157d9;
+      --shadow: 0 22px 70px rgba(35, 48, 60, .12);
+      --r-small: 6px;
+      --r-large: 14px;
+      --font: "Geist", "Aptos", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      --mono: "Geist Mono", "IBM Plex Mono", "Cascadia Mono", monospace;
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --canvas: #101316;
+      --panel: #171b1f;
+      --panel-2: #20262c;
+      --ink: #eef1f4;
+      --ink-2: #aeb6bf;
+      --ink-3: #747e88;
+      --line: #30373e;
+      --line-strong: #56616b;
+      --accent: #7894ff;
+      --accent-soft: #26345f;
+      --positive: #58c89a;
+      --negative: #ef8077;
+      --focus: #9aafff;
+      --shadow: 0 24px 80px rgba(0, 0, 0, .38);
+    }
+
+    * { box-sizing: border-box; }
+    html { background: var(--canvas); }
+    body {
+      margin: 0;
+      min-width: 320px;
+      background: var(--canvas);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 16px;
+      line-height: 1.5;
+      text-wrap: pretty;
+    }
+    button, input, select { font: inherit; }
+    button, select { cursor: pointer; }
+    a { color: inherit; }
+    button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--focus) 32%, transparent);
+      outline-offset: 2px;
+    }
+
+    .page { width: min(1480px, calc(100% - 40px)); margin: 0 auto; }
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--line);
+      background: color-mix(in srgb, var(--canvas) 90%, transparent);
+      backdrop-filter: blur(20px);
+    }
+    .nav-inner {
+      min-height: 68px;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 24px;
+    }
+    .wordmark { display: flex; align-items: center; gap: 11px; font-weight: 760; letter-spacing: -.025em; }
+    .wordmark-mark {
+      width: 25px;
+      height: 25px;
+      display: grid;
+      grid-template-columns: 5px 5px 5px;
+      justify-content: space-between;
+      align-items: end;
+      padding: 2px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--r-small);
+    }
+    .wordmark-mark span { display: block; background: var(--accent); border-radius: 1px; }
+    .wordmark-mark span:nth-child(1) { height: 40%; }
+    .wordmark-mark span:nth-child(2) { height: 92%; }
+    .wordmark-mark span:nth-child(3) { height: 64%; }
+    .nav-center { display: flex; align-items: center; gap: 24px; color: var(--ink-2); font-size: 13px; }
+    .nav-center a { text-decoration: none; }
+    .nav-center a:hover { color: var(--ink); }
+    .nav-actions { display: flex; justify-content: flex-end; align-items: center; gap: 8px; }
+    .nav-actions .button { min-width: 84px; }
+    .button {
+      min-height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 13px;
+      border: 1px solid var(--line);
+      border-radius: var(--r-small);
+      background: var(--panel);
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 680;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: border-color .18s ease, background .18s ease, transform .18s ease;
+    }
+    .button:hover { border-color: var(--line-strong); background: var(--panel-2); }
+    .button:active { transform: translateY(1px); }
+    .button.primary { border-color: var(--accent); background: var(--accent); color: #f8f9ff; }
+    html[data-theme="dark"] .button.primary { color: #11172c; }
+
+    .hero {
+      min-height: 338px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(360px, .7fr);
+      border-bottom: 1px solid var(--line-strong);
+    }
+    .hero-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 338px;
+      padding: 24px 3vw 18px 0;
+      border-right: 1px solid var(--line-strong);
+    }
+    .hero-copy { max-width: 870px; }
+    .hero-kicker { margin: 0 0 8px; color: var(--accent); font: 690 12px/1.2 var(--mono); letter-spacing: .06em; }
+    h1 { max-width: 820px; margin: 0; font-size: clamp(42px, 4.7vw, 66px); line-height: .99; letter-spacing: -.06em; font-weight: 780; }
+    .hero-sub { max-width: 560px; margin: 8px 0 0; color: var(--ink-2); font-size: 16px; }
+    .scope-selector { margin-top: 13px; padding: 9px 0 8px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .scope-title { color: var(--ink-3); font: 650 10px/1 var(--mono); letter-spacing: .04em; }
+    .scope-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px 14px; max-height: 132px; margin-top: 8px; padding-right: 7px; overflow-y: auto; scrollbar-color: var(--line-strong) transparent; }
+    .scope-group { min-width: 0; }
+    .scope-group-name { display: block; margin-bottom: 4px; color: var(--ink-2); font: 680 10px/1.2 var(--mono); }
+    .scope-apps { display: flex; flex-wrap: wrap; gap: 3px 9px; }
+    .scope-check { display: inline-flex; align-items: center; gap: 4px; min-height: 16px; color: var(--ink); font-size: 10px; line-height: 1.2; cursor: pointer; white-space: nowrap; }
+    .scope-check input { width: 12px; height: 12px; margin: 0; accent-color: var(--accent); cursor: pointer; }
+    .scope-check:has(input:not(:checked)) { color: var(--ink-3); text-decoration: line-through; text-decoration-thickness: 1px; }
+    .scope-check:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .hero-foot { display: flex; align-items: end; justify-content: space-between; gap: 30px; }
+    .hero-foot p { max-width: 560px; margin: 0; color: var(--ink-2); font-size: 12px; }
+    .hero-foot a { text-decoration-color: var(--accent); text-underline-offset: 3px; }
+    .hero-index { flex: 0 0 auto; color: var(--ink-3); font: 600 11px/1.3 var(--mono); text-align: right; }
+
+    .hero-data { display: grid; grid-template-rows: 1.18fr .82fr; min-height: 338px; }
+    .hero-total {
+      display: grid;
+      grid-template-columns: .82fr 1.18fr;
+      border-bottom: 1px solid var(--line-strong);
+    }
+    .hero-metric { display: flex; min-width: 0; flex-direction: column; justify-content: space-between; padding: 25px 16px 22px 24px; }
+    .hero-metric + .hero-metric { border-left: 1px solid var(--line-strong); }
+    .hero-total-label { color: var(--ink-2); font-size: 13px; }
+    .hero-total strong { font: 750 clamp(58px, 5.1vw, 84px)/.78 var(--mono); letter-spacing: -.09em; }
+    .hero-metric.total .hero-total-label { color: var(--accent); font-weight: 760; }
+    .hero-metric.total strong { color: var(--accent); }
+    .hero-status { display: grid; grid-template-columns: 1fr 1fr; }
+    .status-block { display: flex; flex-direction: column; justify-content: space-between; padding: 17px 0 17px 22px; }
+    .status-block:first-child { border-right: 1px solid var(--line-strong); }
+    .status-block span { color: var(--ink-2); font-size: 11px; }
+    .status-block strong { margin-top: 12px; font: 700 30px/1 var(--mono); letter-spacing: -.06em; }
+    .status-block.checked strong { color: var(--accent); }
+
+    .ranking { padding: 44px 0 88px; }
+    .ranking-head { max-width: 760px; margin-bottom: 28px; }
+    .ranking-head h2 { margin: 0; font-size: clamp(28px, 3vw, 42px); line-height: 1.08; letter-spacing: -.045em; }
+    .ranking-head p { max-width: 620px; margin: 12px 0 0; color: var(--ink-2); font-size: 13px; }
+
+    .controls {
+      position: sticky;
+      top: 68px;
+      z-index: 12;
+      display: grid;
+      grid-template-columns: minmax(240px, 1fr) 220px 220px;
+      gap: 8px;
+      padding: 11px;
+      border: 1px solid var(--line);
+      border-radius: var(--r-large) var(--r-large) 0 0;
+      background: color-mix(in srgb, var(--panel) 92%, transparent);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 12px 36px color-mix(in srgb, var(--canvas) 85%, transparent);
+    }
+    .field { display: grid; gap: 5px; }
+    .field label { color: var(--ink-3); font: 620 10px/1 var(--mono); }
+    .control {
+      width: 100%;
+      min-height: 42px;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--r-small);
+      background: var(--canvas);
+      color: var(--ink);
+      font-size: 13px;
+    }
+    .control::placeholder { color: var(--ink-3); opacity: 1; }
+    .control:hover { border-color: var(--line-strong); }
+
+    .list-shell { border: 1px solid var(--line); border-top: 0; background: var(--panel); }
+    .column-head {
+      display: grid;
+      grid-template-columns: 54px 46px minmax(80px, 210px) 74px minmax(88px, 230px) 144px 140px minmax(104px, 1fr) 74px;
+      gap: 9px;
+      align-items: center;
+      min-height: 45px;
+      padding: 0 18px;
+      border-bottom: 1px solid var(--line-strong);
+      color: var(--ink-3);
+      font: 620 10px/1 var(--mono);
+    }
+    .column-head span:nth-child(4), .column-head span:nth-child(6), .column-head span:nth-child(7), .column-head span:nth-child(8) { text-align: right; }
+    .app-row {
+      display: grid;
+      grid-template-columns: 54px 46px minmax(80px, 210px) 74px minmax(88px, 230px) 144px 140px minmax(104px, 1fr) 74px;
+      gap: 9px;
+      align-items: center;
+      min-height: 94px;
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--line);
+      transition: background .18s ease, transform .18s ease;
+    }
+    .app-row:hover { background: var(--panel-2); }
+    .rank { font: 700 23px/1 var(--mono); letter-spacing: -.06em; }
+    .rank small { display: block; margin-top: 7px; color: var(--ink-3); font: 560 10px/1 var(--mono); letter-spacing: 0; }
+    .rank small.up { color: var(--positive); }
+    .rank small.down { color: var(--negative); }
+    .logo-slot {
+      width: 44px;
+      height: 44px;
+      display: grid;
+      place-items: center;
+      border: 1px dashed var(--line-strong);
+      border-radius: 10px;
+      color: var(--ink-3);
+      font: 570 8px/1 var(--mono);
+      overflow: hidden;
+    }
+    .app-logo { width: 100%; height: 100%; display: block; object-fit: cover; }
+    .app-name { font-weight: 740; letter-spacing: -.02em; }
+    .app-state { margin-top: 6px; color: var(--ink-3); font-size: 10px; }
+    .measure { display: flex; align-items: center; gap: 9px; margin-top: 11px; }
+    .measure-line { width: var(--measure, 0%); min-width: 0; height: 3px; background: var(--accent); border-radius: 3px; transition: width .3s cubic-bezier(.16, 1, .3, 1); }
+    .measure-cap { width: 4px; height: 9px; flex: 0 0 auto; border-radius: 2px; background: var(--accent); opacity: var(--cap, 0); }
+    .count { text-align: right; font: 720 36px/1 var(--mono); letter-spacing: -.07em; }
+    .count.pending { color: var(--ink-3); font-size: 13px; letter-spacing: 0; }
+    .category { min-width: 0; color: var(--ink-2); font-size: 11px; line-height: 1.42; overflow-wrap: anywhere; }
+    .category strong { display: block; margin-bottom: 4px; color: var(--ink); font-weight: 680; }
+    .usage-metric { min-width: 0; text-align: right; }
+    .usage-metric strong { display: block; color: var(--ink); font: 720 16px/1 var(--mono); letter-spacing: -.06em; }
+    .usage-metric span { display: block; margin-top: 5px; color: var(--ink-3); font: 540 9px/1.2 var(--mono); white-space: normal; }
+    .usage-metric.missing strong { color: var(--ink-3); font-size: 11px; letter-spacing: 0; }
+    .detail-button {
+      min-height: 36px;
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: var(--r-small);
+      background: transparent;
+      color: var(--ink);
+      font-size: 11px;
+      font-weight: 650;
+      white-space: nowrap;
+      transition: border-color .18s ease, color .18s ease, transform .18s ease;
+    }
+    .detail-button:hover { border-color: var(--accent); color: var(--accent); }
+    .detail-button:active { transform: translateY(1px); }
+    .detail-row { border-bottom: 1px solid var(--line); background: var(--canvas); }
+    .detail-row[hidden] { display: none; }
+    .detail-content { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; padding: 25px 92px 30px 126px; }
+    .detail-content h3 { margin: 0 0 8px; font-size: 12px; }
+    .detail-content p { margin: 0; color: var(--ink-2); font-size: 12px; }
+    .detail-content a { color: var(--accent); text-underline-offset: 3px; }
+    .detail-groups { display: grid; gap: 13px; }
+    .detail-group { padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+    .detail-group:last-child { padding-bottom: 0; border-bottom: 0; }
+    .detail-group strong { display: block; margin-bottom: 4px; font-size: 11px; }
+    .detail-group p { line-height: 1.7; }
+    .source-list { display: grid; gap: 12px; }
+    .source-item { padding-bottom: 11px; border-bottom: 1px solid var(--line); }
+    .source-item:last-child { padding-bottom: 0; border-bottom: 0; }
+    .source-item a { display: inline-block; margin-bottom: 4px; font-weight: 680; font-size: 11px; }
+    .source-meta { color: var(--ink-3); font: 560 9px/1.4 var(--mono); }
+    .empty, .error { display: none; padding: 54px 22px; color: var(--ink-2); text-align: center; }
+    .empty.visible, .error.visible { display: block; }
+    .list-foot { display: flex; justify-content: space-between; gap: 18px; padding: 14px 18px; color: var(--ink-3); font-size: 10px; }
+
+    .research-note {
+      display: grid;
+      grid-template-columns: minmax(190px, .5fr) minmax(0, 1.5fr);
+      gap: 36px;
+      margin-top: 34px;
+      padding-top: 25px;
+      border-top: 1px solid var(--line-strong);
+    }
+    .research-note h2 { margin: 0; font-size: 17px; letter-spacing: -.025em; }
+    .research-note p { max-width: 760px; margin: 0; color: var(--ink-2); font-size: 12px; }
+
+    .toast {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      z-index: 40;
+      max-width: 340px;
+      padding: 12px 15px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--r-small);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      color: var(--ink);
+      font-size: 12px;
+      opacity: 0;
+      transform: translateY(8px);
+      pointer-events: none;
+      transition: opacity .2s ease, transform .2s ease;
+    }
+    .toast.visible { opacity: 1; transform: translateY(0); }
+
+    body:not(.ready) .hero-copy,
+    body:not(.ready) .hero-data,
+    body:not(.ready) .ranking { opacity: 0; transform: translateY(10px); }
+    .hero-copy, .hero-data, .ranking { transition: opacity .55s cubic-bezier(.16, 1, .3, 1), transform .55s cubic-bezier(.16, 1, .3, 1); }
+    .hero-data { transition-delay: .08s; }
+    .ranking { transition-delay: .14s; }
+
+    @media (max-width: 1060px) {
+      .nav-center { display: none; }
+      .nav-inner { grid-template-columns: 1fr auto; }
+      .hero { grid-template-columns: 1fr .65fr; }
+      .scope-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .column-head, .app-row { grid-template-columns: 48px 42px minmax(70px, 150px) 66px minmax(78px, 160px) 124px 120px minmax(84px, 1fr) 66px; gap: 7px; }
+      .detail-content { padding-left: 110px; padding-right: 68px; }
+    }
+
+    @media (max-width: 780px) {
+      .page { width: min(100% - 24px, 1480px); }
+      .nav-inner { min-height: 62px; }
+      .hero { display: block; min-height: 0; }
+      .hero-main { min-height: 0; padding: 28px 0 20px; border-right: 0; border-bottom: 1px solid var(--line-strong); }
+      .scope-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); max-height: 220px; }
+      .hero-data { min-height: 0; grid-template-columns: 1fr; grid-template-rows: auto auto; }
+      .hero-total { min-height: 150px; }
+      .hero-metric { padding: 24px 20px 22px; }
+      .hero-total strong { font-size: 74px; }
+      .hero-status { grid-template-columns: 1fr 1fr; }
+      .status-block { padding: 18px 20px; }
+      .status-block:first-child { border-right: 1px solid var(--line-strong); border-bottom: 0; }
+      .controls { top: 62px; grid-template-columns: 1fr 1fr; }
+      .field:first-child { grid-column: 1 / -1; }
+      .column-head { display: none; }
+      .app-row {
+        grid-template-columns: 46px 50px 1fr auto;
+        gap: 8px;
+        min-height: 86px;
+        padding: 13px 12px;
+      }
+      .app-row > :nth-child(5), .app-row > :nth-child(6), .app-row > :nth-child(7), .app-row > :nth-child(8) { display: none; }
+      .app-row > :nth-child(9) { grid-column: 1 / -1; }
+      .count { font-size: 27px; }
+      .detail-button { margin-top: 3px; }
+      .detail-content { grid-template-columns: 1fr; gap: 20px; padding: 22px; }
+    }
+
+    @media (max-width: 520px) {
+      .page { width: min(100% - 18px, 1480px); }
+      .wordmark { font-size: 14px; }
+      h1 { font-size: clamp(40px, 12vw, 54px); }
+      .hero-main { min-height: 0; }
+      .hero-foot { display: block; }
+      .hero-index { display: none; }
+      .hero-data { min-height: 0; }
+      .hero-total strong { font-size: 62px; }
+      .hero-metric { padding: 21px 14px 20px; }
+      .controls { grid-template-columns: 1fr; }
+      .field:first-child { grid-column: auto; }
+      .app-row { grid-template-columns: 42px 48px minmax(0, 1fr) auto; }
+      .rank { font-size: 18px; }
+      .logo-slot { width: 40px; height: 40px; }
+      .count { font-size: 24px; }
+      .app-name { font-size: 14px; }
+      .research-note { grid-template-columns: 1fr; gap: 8px; }
+      .list-foot { display: block; }
+      .list-foot span:last-child { display: block; margin-top: 5px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav" aria-label="主导航">
+    <div class="page nav-inner">
+      <div class="wordmark"><span class="wordmark-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>提醒雷达</span></div>
+      <div class="nav-center"><a href="#ranking">应用排行</a><a href="#method">统计方法</a></div>
+      <div class="nav-actions"><a class="button" href="global.html">全球应用</a><button class="button primary" id="themeButton" type="button">切换深色</button></div>
+    </div>
+  </nav>
+
+  <main class="page">
+    <section class="hero" aria-labelledby="pageTitle">
+      <div class="hero-main">
+        <div class="hero-copy">
+          <p class="hero-kicker">中国手机应用通知观察</p>
+          <h1 id="pageTitle">谁在争夺你的注意力</h1>
+          <p class="hero-sub">比较常用应用可以触发的通知、红点和提醒功能。</p>
+          <div class="scope-selector" aria-labelledby="scopeTitle">
+            <div class="scope-title" id="scopeTitle">按应用分类选择统计范围</div>
+            <div class="scope-grid" id="categorySelector"></div>
+          </div>
+        </div>
+        <div class="hero-foot" id="method">
+          <p>每个独立提醒场景计 1 项。锁屏、横幅、声音和角标属于展示方式，不重复计数。公开资料不足时，数字显示为已确认下限。</p>
+          <span class="hero-index">每日来源监测<br>昨日排名对比</span>
+        </div>
+      </div>
+      <div class="hero-data" aria-label="研究进度">
+        <div class="hero-total" aria-live="polite">
+          <div class="hero-metric"><span class="hero-total-label">纳入应用</span><strong id="appTotal">22</strong></div>
+          <div class="hero-metric total"><span class="hero-total-label">总通知数</span><strong id="notificationTotal">262</strong></div>
+        </div>
+        <div class="hero-status">
+          <div class="status-block checked"><span>完成研究</span><strong id="researchedTotal">22</strong></div>
+          <div class="status-block"><span>公开来源</span><strong id="sourceTotal">53</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ranking" id="ranking" aria-labelledby="rankingTitle">
+      <div class="ranking-head">
+        <h2 id="rankingTitle">通知提醒排行榜</h2>
+        <p>所有数字均为公开资料支持的已确认下限。通知数相同时按 MAU 从高到低排列，MAU 未披露者置后；排名变化只与前一天的快照比较。</p>
+      </div>
+
+      <div class="controls" aria-label="应用列表控制">
+        <div class="field"><label for="searchInput">搜索</label><input class="control" id="searchInput" type="search" placeholder="输入应用名称" autocomplete="off"></div>
+        <div class="field"><label for="statusFilter">证据可信度</label><select class="control" id="statusFilter"><option value="all">全部可信度</option><option value="high">高可信度</option><option value="medium">中可信度</option><option value="low">低可信度</option></select></div>
+        <div class="field"><label for="sortSelect">排序</label><select class="control" id="sortSelect"><option value="count-desc">提醒数量从多到少</option><option value="duration-desc">日均使用时长从多到少</option><option value="launches-desc">日均打开次数从多到少</option><option value="active-users-desc">活跃用户数从多到少</option><option value="name-asc">应用名称顺序</option></select></div>
+      </div>
+
+      <div class="list-shell" aria-live="polite">
+        <div class="column-head" aria-hidden="true"><span>排名</span><span>标识</span><span>应用</span><span>通知/提醒个数</span><span>分类摘要</span><span>日均时长</span><span>日均打开</span><span>活跃用户</span><span>研究详情</span></div>
+        <div id="loadingState" class="empty visible">正在载入研究数据</div>
+        <div id="appRows"></div>
+        <div id="emptyState" class="empty">没有符合当前条件的应用。</div>
+        <div id="errorState" class="error">列表暂时无法显示，请刷新页面重试。</div>
+        <div class="list-foot"><span id="resultCount">准备载入 22 个应用</span><span id="snapshotNote">正在读取历史快照</span></div>
+      </div>
+
+      <aside class="research-note">
+        <h2>数据说明</h2>
+        <p id="researchStatus">正在读取来源监测状态。</p>
+      </aside>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/app-data.js"></script>
+  <script>
+    const appData = window.APP_DATA;
+    const apps = appData?.apps || [];
+
+    const appRows = document.getElementById("appRows");
+    const loadingState = document.getElementById("loadingState");
+    const emptyState = document.getElementById("emptyState");
+    const errorState = document.getElementById("errorState");
+    const resultCount = document.getElementById("resultCount");
+    const searchInput = document.getElementById("searchInput");
+    const statusFilter = document.getElementById("statusFilter");
+    const sortSelect = document.getElementById("sortSelect");
+    const categorySelector = document.getElementById("categorySelector");
+    const selectedAppIds = new Set(apps.map(app => app.id));
+    const themeButton = document.getElementById("themeButton");
+    const toast = document.getElementById("toast");
+    let toastTimer;
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>'\"]/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '\"': "&quot;" })[character]);
+    }
+
+    function getFilteredApps() {
+      const term = searchInput.value.trim().toLocaleLowerCase("zh-CN");
+      const status = statusFilter.value;
+      const list = apps.filter(app => selectedAppIds.has(app.id) && (!term || app.name.toLocaleLowerCase("zh-CN").includes(term)) && (status === "all" || app.confidence === status));
+      if (sortSelect.value === "name-asc") return list.sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
+      const metricKey = ({ "duration-desc": "durationMinutes", "launches-desc": "launches", "active-users-desc": "activeUsers" })[sortSelect.value];
+      if (metricKey) return list.sort((a, b) => {
+        const aValue = a.usage?.[metricKey];
+        const bValue = b.usage?.[metricKey];
+        const aMissing = !Number.isFinite(aValue);
+        const bMissing = !Number.isFinite(bValue);
+        if (aMissing !== bMissing) return aMissing ? 1 : -1;
+        if (aMissing && bMissing) return a.rank - b.rank;
+        return bValue - aValue || a.rank - b.rank;
+      });
+      return list.sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name, "zh-CN"));
+    }
+
+    function confidenceLabel(value) {
+      return ({ high: "高可信度", medium: "中可信度", low: "低可信度" })[value] || "待评估";
+    }
+
+    function rankChangeMarkup(app) {
+      if (!app.previousRank) return "<small>暂无昨日数据</small>";
+      if (app.rankChange === 0) return "<small>与昨日持平</small>";
+      if (app.rankChange > 0) return `<small class="up">↑ ${app.rankChange} 名</small>`;
+      return `<small class="down">↓ ${Math.abs(app.rankChange)} 名</small>`;
+    }
+
+    function formatActiveUsers(app) {
+      const value = app.usage?.activeUsers;
+      if (!Number.isFinite(value)) return null;
+      const prefix = app.usage.activeUsersPrefix || "";
+      return value >= 10000
+        ? `${prefix}${(value / 10000).toFixed(2)}亿`
+        : `${prefix}${Number.isInteger(value) ? value.toFixed(0) : value.toFixed(1)}万`;
+    }
+
+    function usageMetricMarkup(app, key, unit, label) {
+      const value = app.usage?.[key];
+      if (key === "activeUsers" && !Number.isFinite(value) && app.usage?.activeUserLabel) {
+        const method = app.usage.methodLabel ? ` · ${app.usage.methodLabel}` : " · 非 App MAU 参考口径";
+        return `<div class="usage-metric proxy"><strong>${escapeHtml(app.usage.activeUserLabel)}</strong><span>${app.usage.period || "数据期未注"}${escapeHtml(method)}</span></div>`;
+      }
+      if (!Number.isFinite(value)) return `<div class="usage-metric missing"><strong>未披露</strong><span>${label}</span></div>`;
+      const precision = Number.isInteger(value) ? 0 : 1;
+      const method = app.usage.methodLabel ? ` · ${app.usage.methodLabel}` : "";
+      const prefix = app.usage?.[`${key}Prefix`] || "";
+      const formattedValue = key === "activeUsers" ? formatActiveUsers(app) : `${prefix}${value.toFixed(precision)}${unit}`;
+      return `<div class="usage-metric"><strong>${formattedValue}</strong><span>${app.usage.period || "数据期未注"}${method}</span></div>`;
+    }
+
+    function renderCategorySelector() {
+      const categoryOrder = ["社交与社区", "短视频与资讯", "影音与音频", "直播与社区", "电商与交易", "本地生活与服务", "出行、地图与物流", "协作与办公", "Apple 系统应用", "AI 助手", "创作与工具", "搜索与资讯", "生活与健康", "支付与智能生活"];
+      const groups = new Map(categoryOrder.map(category => [category, []]));
+      apps.forEach(app => {
+        if (!groups.has(app.appCategory)) groups.set(app.appCategory, []);
+        groups.get(app.appCategory).push(app);
+      });
+      categorySelector.innerHTML = [...groups.entries()].filter(([, items]) => items.length).map(([category, items]) => `
+        <div class="scope-group">
+          <span class="scope-group-name">${escapeHtml(category)}</span>
+          <div class="scope-apps">${items.map(app => `<label class="scope-check"><input type="checkbox" value="${escapeHtml(app.id)}" checked><span>${escapeHtml(app.name)}</span></label>`).join("")}</div>
+        </div>`).join("");
+    }
+
+    function updateSelectionSummary() {
+      const selected = apps.filter(app => selectedAppIds.has(app.id));
+      document.getElementById("appTotal").textContent = selected.length;
+      document.getElementById("notificationTotal").textContent = selected.reduce((sum, app) => sum + app.count, 0);
+    }
+
+    function render() {
+      try {
+        const list = getFilteredApps();
+        const maximum = Math.max(...apps.map(app => app.count || 0), 1);
+        appRows.innerHTML = list.map(app => {
+          const rank = String(app.rank).padStart(2, "0");
+          const detailId = `detail-${app.id}`;
+          const measure = `${app.count === 0 ? 0 : Math.max(10, app.count / maximum * 100)}%`;
+          const categoryDetails = app.categories.map(category => `<div class="detail-group"><strong>${escapeHtml(category.name)} (${category.items.length})</strong><p>${category.items.length ? category.items.map(escapeHtml).join("，") : "iPhone 版未确认可触发的 Chrome 系统通知。"}</p></div>`).join("");
+          const sourceDetails = app.sources.map(source => `<div class="source-item"><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.title)}</a><div class="source-meta">${escapeHtml(source.type)} | ${escapeHtml(source.note)}</div></div>`).join("");
+          const usageDetails = app.usage?.source ? `<div class="detail-group"><strong>使用行为数据</strong><p>数据期：${escapeHtml(app.usage.period || "未注")}${app.usage.methodLabel ? `；口径：${escapeHtml(app.usage.methodLabel)}` : ""}</p><p>日均时长：${Number.isFinite(app.usage.durationMinutes) ? `${escapeHtml(app.usage.durationMinutesPrefix || "")}${app.usage.durationMinutes} 分钟` : "未披露"}；日均打开：${Number.isFinite(app.usage.launches) ? `${escapeHtml(app.usage.launchesPrefix || "")}${app.usage.launches} 次` : "未披露"}；MAU：${formatActiveUsers(app) || (app.usage.activeUserLabel || "未披露")}</p><p><a href="${escapeHtml(app.usage.source.url)}" target="_blank" rel="noreferrer">${escapeHtml(app.usage.source.title)}</a></p><p>${escapeHtml(app.usage.source.note)}</p></div>` : `<div class="detail-group"><strong>使用行为数据</strong><p>公开同源数据未披露，因此未填入估算值。</p></div>`;
+          return `
+            <article class="app-row" data-status="${app.confidence}">
+              <div class="rank">${rank}${rankChangeMarkup(app)}</div>
+              <div class="logo-slot"><img class="app-logo" src="${escapeHtml(app.logo)}" alt="${escapeHtml(app.name)} Logo"></div>
+              <div><div class="app-name">${escapeHtml(app.name)}</div><div class="app-state">${confidenceLabel(app.confidence)} | ${app.sources.length} 条来源</div><div class="measure" aria-label="相对提醒数量"><span class="measure-line" style="--measure:${measure}"></span><span class="measure-cap" style="--cap:1"></span></div></div>
+              <div class="count">${app.count}</div>
+              <div class="category"><strong>${app.categories.length} 个大类</strong>${escapeHtml(app.categorySummary)}</div>
+              ${usageMetricMarkup(app, "durationMinutes", "分", "日均")}
+              ${usageMetricMarkup(app, "launches", "次", "日均")}
+              ${usageMetricMarkup(app, "activeUsers", "万", "MAU")}
+              <button class="detail-button" type="button" aria-expanded="false" aria-controls="${detailId}" data-detail="${detailId}">查看详情</button>
+            </article>
+            <div class="detail-row" id="${detailId}" hidden><div class="detail-content"><div><h3>已确认提醒项目</h3><div class="detail-groups">${categoryDetails}</div></div><div>${usageDetails}<h3>研究来源</h3><div class="source-list">${sourceDetails}</div></div></div></div>`;
+        }).join("");
+        loadingState.classList.remove("visible");
+        errorState.classList.remove("visible");
+        emptyState.classList.toggle("visible", list.length === 0);
+        resultCount.textContent = `显示 ${list.length} 个应用`;
+      } catch (error) {
+        loadingState.classList.remove("visible");
+        appRows.innerHTML = "";
+        emptyState.classList.remove("visible");
+        errorState.classList.add("visible");
+        resultCount.textContent = "列表载入失败";
+      }
+    }
+
+    function showToast(message) {
+      clearTimeout(toastTimer);
+      toast.textContent = message;
+      toast.classList.add("visible");
+      toastTimer = setTimeout(() => toast.classList.remove("visible"), 2400);
+    }
+
+    document.addEventListener("click", event => {
+      const button = event.target.closest("[data-detail]");
+      if (!button) return;
+      const detail = document.getElementById(button.dataset.detail);
+      const willOpen = detail.hidden;
+      detail.hidden = !willOpen;
+      button.setAttribute("aria-expanded", String(willOpen));
+      button.textContent = willOpen ? "收起详情" : "查看详情";
+    });
+
+    searchInput.addEventListener("input", render);
+    statusFilter.addEventListener("change", render);
+    sortSelect.addEventListener("change", render);
+    categorySelector.addEventListener("change", event => {
+      const input = event.target.closest('input[type="checkbox"]');
+      if (!input) return;
+      if (input.checked) selectedAppIds.add(input.value);
+      else selectedAppIds.delete(input.value);
+      updateSelectionSummary();
+      render();
+    });
+    themeButton.addEventListener("click", () => {
+      const html = document.documentElement;
+      const dark = html.dataset.theme !== "dark";
+      html.dataset.theme = dark ? "dark" : "light";
+      themeButton.textContent = dark ? "切换浅色" : "切换深色";
+      try { localStorage.setItem("notification-radar-theme", html.dataset.theme); } catch (error) {}
+      showToast(dark ? "已切换到深色模式" : "已切换到浅色模式");
+    });
+
+    requestAnimationFrame(() => {
+      themeButton.textContent = document.documentElement.dataset.theme === "dark" ? "切换浅色" : "切换深色";
+      document.body.classList.add("ready");
+      if (!appData?.apps?.length) {
+        loadingState.classList.remove("visible");
+        errorState.classList.add("visible");
+        resultCount.textContent = "研究数据未载入";
+        return;
+      }
+      renderCategorySelector();
+      updateSelectionSummary();
+      document.getElementById("researchedTotal").textContent = apps.length;
+      document.getElementById("sourceTotal").textContent = appData.meta.sourceCount;
+      document.getElementById("snapshotNote").textContent = appData.meta.previousSnapshotDate ? `对比快照 ${appData.meta.previousSnapshotDate}` : "首个历史快照已建立";
+      const usageCoverage = apps.filter(app => app.usage?.source).length;
+      document.getElementById("researchStatus").textContent = `${appData.meta.disclaimer} 当前监测 ${appData.meta.sourceCount} 条来源，其中 ${appData.meta.failedSourceCount} 条本次抓取受限，已保留原有研究数据。使用行为数据已核验 ${usageCoverage}/${apps.length} 项，未披露项不会参与对应排序。美团外卖和抖音商城按独立服务入口统计，可能与母应用存在提醒场景重叠。`;
+      render();
+    });
+  </script>
+</body>
+</html>

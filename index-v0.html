@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="中国常用手机应用通知与提醒功能研究仪表盘 v0">
+  <title>提醒雷达 · v0</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f4f3ee;
+      --surface: #fbfaf6;
+      --surface-strong: #ffffff;
+      --ink: #171915;
+      --muted: #686b63;
+      --faint: #979a91;
+      --line: #d8d7d0;
+      --line-strong: #b9bbb2;
+      --blue: #315be8;
+      --blue-soft: #dfe6ff;
+      --green: #16875b;
+      --red: #c7463b;
+      --warning: #8a6719;
+      --focus: #1a4fe4;
+      --shadow: 0 16px 44px rgba(28, 29, 24, .13);
+      --radius-control: 6px;
+      --radius-panel: 10px;
+      --font-sans: "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+      --font-data: "IBM Plex Sans", "DIN Alternate", "Segoe UI", sans-serif;
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --paper: #151713;
+      --surface: #1b1e19;
+      --surface-strong: #22251f;
+      --ink: #f2f1eb;
+      --muted: #b1b4aa;
+      --faint: #82867d;
+      --line: #363a32;
+      --line-strong: #53584d;
+      --blue: #7895ff;
+      --blue-soft: #27345f;
+      --green: #55c99a;
+      --red: #ef8178;
+      --warning: #e0bd65;
+      --focus: #9aacff;
+      --shadow: 0 18px 54px rgba(0, 0, 0, .38);
+    }
+
+    * { box-sizing: border-box; }
+    html { background: var(--paper); scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        linear-gradient(90deg, transparent 0, transparent calc(100% - 1px), color-mix(in srgb, var(--line) 55%, transparent) calc(100% - 1px)) 0 0 / 25% 100%,
+        var(--paper);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.55;
+      text-wrap: pretty;
+    }
+
+    button, input, select { font: inherit; }
+    button, select { cursor: pointer; }
+    button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
+      outline: 3px solid color-mix(in srgb, var(--focus) 35%, transparent);
+      outline-offset: 2px;
+    }
+
+    .shell { width: min(1520px, calc(100% - 48px)); margin: 0 auto; }
+    .topbar {
+      position: sticky;
+      z-index: 20;
+      top: 0;
+      border-bottom: 1px solid var(--line);
+      background: color-mix(in srgb, var(--paper) 88%, transparent);
+      backdrop-filter: blur(18px);
+    }
+    .topbar-inner {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand-mark {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-items: end;
+      gap: 2px;
+    }
+    .brand-mark i { display: block; background: var(--blue); border-radius: 1px 1px 0 0; }
+    .brand-mark i:nth-child(1) { height: 36%; }
+    .brand-mark i:nth-child(2) { height: 72%; }
+    .brand-mark i:nth-child(3) { height: 52%; }
+    .brand-mark i:nth-child(4) { height: 100%; }
+    .brand-title { font-weight: 760; letter-spacing: -.025em; }
+    .brand-version {
+      margin-left: 6px;
+      color: var(--muted);
+      font: 650 11px/1 var(--font-data);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .top-actions { display: flex; align-items: center; gap: 8px; }
+    .icon-button, .text-button {
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-control);
+      background: var(--surface);
+      color: var(--ink);
+      transition: transform .16s ease, border-color .16s ease, background .16s ease;
+    }
+    .icon-button { width: 40px; font: 700 14px/1 var(--font-data); }
+    .text-button { padding: 0 13px; font-size: 13px; font-weight: 650; }
+    .icon-button:hover, .text-button:hover { border-color: var(--line-strong); background: var(--surface-strong); }
+    .icon-button:active, .text-button:active { transform: translateY(1px); }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr);
+      gap: 56px;
+      padding: 66px 0 42px;
+      border-bottom: 1px solid var(--line-strong);
+    }
+    .eyebrow { margin: 0 0 16px; color: var(--blue); font: 700 12px/1 var(--font-data); letter-spacing: .11em; text-transform: uppercase; }
+    h1 { max-width: 820px; margin: 0; font-size: clamp(38px, 5.2vw, 76px); line-height: .98; letter-spacing: -.055em; font-weight: 780; }
+    .lede { max-width: 760px; margin: 24px 0 0; color: var(--muted); font-size: clamp(16px, 1.4vw, 20px); }
+    .method-note {
+      align-self: end;
+      padding: 22px 0 2px 22px;
+      border-left: 1px solid var(--line-strong);
+    }
+    .method-note strong { display: block; margin-bottom: 8px; font-size: 14px; }
+    .method-note p { margin: 0; color: var(--muted); font-size: 13px; }
+    .method-note a { color: var(--ink); text-decoration-color: var(--blue); text-underline-offset: 3px; }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-bottom: 1px solid var(--line-strong);
+    }
+    .metric { min-height: 128px; padding: 24px 20px 22px 0; border-right: 1px solid var(--line); }
+    .metric:not(:first-child) { padding-left: 20px; }
+    .metric:last-child { border-right: 0; }
+    .metric-label { display: block; color: var(--muted); font-size: 12px; }
+    .metric-value { display: block; margin-top: 11px; font: 700 clamp(28px, 3vw, 43px)/1 var(--font-data); letter-spacing: -.04em; }
+    .metric-meta { display: block; margin-top: 8px; color: var(--faint); font-size: 11px; }
+
+    .workspace { padding: 30px 0 72px; }
+    .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 18px; }
+    .section-heading h2 { margin: 0; font-size: 22px; letter-spacing: -.03em; }
+    .section-heading p { max-width: 580px; margin: 0; color: var(--muted); font-size: 12px; text-align: right; }
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(240px, 1fr) auto auto;
+      gap: 8px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-bottom: 0;
+      border-radius: var(--radius-panel) var(--radius-panel) 0 0;
+      background: var(--surface);
+    }
+    .search-wrap { position: relative; }
+    .search-wrap::before { content: "⌕"; position: absolute; left: 12px; top: 50%; transform: translateY(-52%); color: var(--muted); font: 700 18px/1 var(--font-data); }
+    .control {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-control);
+      background: var(--surface-strong);
+      color: var(--ink);
+      font-size: 13px;
+    }
+    input.control { padding: 0 12px 0 39px; }
+    select.control { min-width: 160px; padding: 0 34px 0 12px; }
+
+    .table-frame { overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+    .table-scroll { overflow-x: auto; }
+    table { width: 100%; min-width: 1120px; border-collapse: collapse; table-layout: fixed; }
+    th {
+      position: sticky;
+      top: 64px;
+      z-index: 8;
+      height: 48px;
+      padding: 0 14px;
+      border-bottom: 1px solid var(--line-strong);
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 650;
+      text-align: left;
+    }
+    th:nth-child(1) { width: 84px; }
+    th:nth-child(2) { width: 72px; }
+    th:nth-child(3) { width: 235px; }
+    th:nth-child(4) { width: 110px; text-align: right; }
+    th:nth-child(5) { width: 135px; }
+    th:nth-child(7) { width: 92px; }
+    td { padding: 16px 14px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+    tbody:last-of-type tr:last-child td { border-bottom: 0; }
+    .data-row { transition: background .16s ease; }
+    .data-row:hover { background: color-mix(in srgb, var(--blue-soft) 28%, var(--surface)); }
+    .rank { display: flex; align-items: center; gap: 7px; font: 700 19px/1 var(--font-data); }
+    .rank-change { color: var(--faint); font-size: 11px; }
+    .rank-change.up { color: var(--green); }
+    .rank-change.down { color: var(--red); }
+    .logo-placeholder {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border: 1px dashed var(--line-strong);
+      border-radius: 9px;
+      background: var(--paper);
+      color: var(--faint);
+      font: 650 8px/1 var(--font-data);
+      letter-spacing: .04em;
+    }
+    .app-name { display: block; font-weight: 720; letter-spacing: -.015em; }
+    .app-meta { display: flex; align-items: center; gap: 8px; margin-top: 7px; }
+    .bar-track { width: 126px; height: 4px; overflow: hidden; background: var(--line); border-radius: 99px; }
+    .bar-fill { height: 100%; width: var(--progress, 0%); background: var(--blue); border-radius: inherit; transition: width .22s ease; }
+    .status-copy { color: var(--faint); font-size: 10px; }
+    .count { text-align: right; font: 700 26px/1 var(--font-data); letter-spacing: -.035em; }
+    .count.pending { color: var(--faint); font-size: 18px; }
+    .coverage { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; }
+    .coverage-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--warning); box-shadow: 0 0 0 4px color-mix(in srgb, var(--warning) 13%, transparent); }
+    .coverage-dot.pending { background: var(--line-strong); box-shadow: none; }
+    .category-copy { color: var(--muted); font-size: 12px; }
+    .category-copy strong { color: var(--ink); font-weight: 650; }
+    .row-button {
+      width: 100%;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-control);
+      background: transparent;
+      color: var(--ink);
+      font-size: 12px;
+    }
+    .row-button:hover { border-color: var(--blue); color: var(--blue); }
+    .detail-row[hidden] { display: none; }
+    .detail-row td { padding: 0; background: var(--surface-strong); }
+    .detail-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 22px 28px 26px 168px; }
+    .detail-panel h3 { margin: 0 0 10px; font-size: 13px; }
+    .detail-panel p, .detail-panel li { color: var(--muted); font-size: 12px; }
+    .detail-panel ul { margin: 0; padding-left: 18px; }
+    .detail-panel a { color: var(--blue); text-underline-offset: 3px; }
+    .empty-state { display: none; padding: 56px 24px; text-align: center; color: var(--muted); }
+    .empty-state.visible { display: block; }
+    .table-foot {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 12px 14px;
+      border-top: 1px solid var(--line);
+      color: var(--faint);
+      font-size: 11px;
+    }
+    .prototype-note {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 24px;
+      margin-top: 28px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line-strong);
+    }
+    .prototype-note strong { font-size: 13px; }
+    .prototype-note p { margin: 0; color: var(--muted); font-size: 12px; }
+
+    .toast {
+      position: fixed;
+      z-index: 50;
+      right: 24px;
+      bottom: 24px;
+      max-width: 360px;
+      padding: 13px 16px;
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius-control);
+      background: var(--surface-strong);
+      box-shadow: var(--shadow);
+      color: var(--ink);
+      font-size: 12px;
+      opacity: 0;
+      transform: translateY(8px);
+      pointer-events: none;
+      transition: opacity .18s ease, transform .18s ease;
+    }
+    .toast.visible { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 900px) {
+      .shell { width: min(100% - 28px, 1520px); }
+      .hero { grid-template-columns: 1fr; gap: 24px; padding-top: 46px; }
+      .method-note { max-width: 640px; }
+      .metrics { grid-template-columns: repeat(2, 1fr); }
+      .metric:nth-child(2) { border-right: 0; }
+      .metric:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+      .section-heading { display: block; }
+      .section-heading p { margin-top: 8px; text-align: left; }
+      .toolbar { grid-template-columns: 1fr 1fr; }
+      .search-wrap { grid-column: 1 / -1; }
+      .detail-panel { padding-left: 28px; }
+    }
+
+    @media (max-width: 620px) {
+      body { background: var(--paper); }
+      .shell { width: min(100% - 20px, 1520px); }
+      .brand-version, .text-button { display: none; }
+      h1 { font-size: clamp(38px, 14vw, 60px); }
+      .hero { padding: 36px 0 30px; }
+      .method-note { padding-left: 16px; }
+      .metrics { grid-template-columns: 1fr 1fr; }
+      .metric { min-height: 105px; padding: 18px 12px 16px 0; }
+      .metric:not(:first-child) { padding-left: 12px; }
+      .metric-value { font-size: 28px; }
+      .workspace { padding-top: 24px; }
+      .toolbar { grid-template-columns: 1fr; }
+      .search-wrap { grid-column: auto; }
+      select.control { width: 100%; }
+      .table-frame { overflow: visible; border: 0; background: transparent; }
+      .table-scroll { overflow: visible; }
+      table, tbody { display: block; min-width: 0; }
+      thead { display: none; }
+      .data-row {
+        display: grid;
+        grid-template-columns: 44px 54px 1fr 66px;
+        align-items: center;
+        margin-bottom: 8px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-panel);
+        background: var(--surface);
+      }
+      .data-row td { display: block; padding: 13px 8px; border: 0; }
+      .data-row td:nth-child(5), .data-row td:nth-child(6) { display: none; }
+      .data-row td:nth-child(7) { grid-column: 1 / -1; padding: 0 12px 12px; }
+      .rank { font-size: 15px; }
+      .rank-change { display: none; }
+      .logo-placeholder { width: 40px; height: 40px; }
+      .bar-track { width: min(120px, 42vw); }
+      .count { font-size: 22px; }
+      .detail-row { display: block; margin: -9px 0 8px; border: 1px solid var(--line); border-top: 0; border-radius: 0 0 var(--radius-panel) var(--radius-panel); }
+      .detail-row[hidden] { display: none; }
+      .detail-row td { display: block; }
+      .detail-panel { grid-template-columns: 1fr; gap: 18px; padding: 20px; }
+      .table-foot { border: 1px solid var(--line); border-radius: var(--radius-control); background: var(--surface); }
+      .prototype-note { grid-template-columns: 1fr; gap: 8px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="brand" aria-label="提醒雷达">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span class="brand-title">提醒雷达 <span class="brand-version">Research v0</span></span>
+      </div>
+      <div class="top-actions">
+        <button class="text-button" id="methodButton" type="button">统计方法</button>
+        <button class="icon-button" id="themeButton" type="button" aria-label="切换深浅色" title="切换深浅色">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="pageTitle">
+      <div>
+        <p class="eyebrow">Mobile notification observatory</p>
+        <h1 id="pageTitle">哪些应用，最想引起你的注意？</h1>
+        <p class="lede">追踪中国常用手机应用中，可以触发系统通知、应用内消息、未读红点或明确提醒入口的功能数量。</p>
+      </div>
+      <aside class="method-note" id="methodNote">
+        <strong>不是通知次数，而是提醒功能种类</strong>
+        <p>可由不同事件独立触发的一种提醒场景计为 1 项；锁屏、横幅、声音、角标只是展示方式，不重复计数。现阶段数字为公开资料支持的“已确认下限”。</p>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="研究概览">
+      <div class="metric"><span class="metric-label">纳入应用</span><span class="metric-value">22</span><span class="metric-meta">去除 1 个重复名称后</span></div>
+      <div class="metric"><span class="metric-label">已完成初查</span><span class="metric-value">02</span><span class="metric-meta">v0 仅用于方向校准</span></div>
+      <div class="metric"><span class="metric-label">公开证据</span><span class="metric-value">02</span><span class="metric-meta">当前示例来源页</span></div>
+      <div class="metric"><span class="metric-label">最近核验</span><span class="metric-value">08.31</span><span class="metric-meta">2026 · Asia/Shanghai</span></div>
+    </section>
+
+    <section class="workspace" aria-labelledby="rankingTitle">
+      <div class="section-heading">
+        <h2 id="rankingTitle">应用提醒功能排行</h2>
+        <p>当前排序仅演示两条初查数据，不构成正式排名。完成研究后，进度条按第一名归一化。</p>
+      </div>
+
+      <div class="toolbar" aria-label="列表控制">
+        <div class="search-wrap"><input class="control" id="searchInput" type="search" placeholder="搜索应用名称" aria-label="搜索应用名称"></div>
+        <select class="control" id="statusFilter" aria-label="按研究状态筛选">
+          <option value="all">全部研究状态</option>
+          <option value="checked">已有初查证据</option>
+          <option value="pending">等待研究</option>
+        </select>
+        <select class="control" id="sortSelect" aria-label="排序方式">
+          <option value="count-desc">提醒数量：从多到少</option>
+          <option value="name-asc">应用名称：拼音顺序</option>
+        </select>
+      </div>
+
+      <div class="table-frame">
+        <div class="table-scroll">
+          <table aria-describedby="tableCaption">
+            <thead><tr><th>排名 / 日变化</th><th>标识</th><th>应用 / 相对规模</th><th>已确认数</th><th>资料覆盖</th><th>分类摘要</th><th>详情</th></tr></thead>
+            <tbody id="appRows"></tbody>
+          </table>
+          <div class="empty-state" id="emptyState">没有符合当前条件的应用。</div>
+        </div>
+        <div class="table-foot" id="tableCaption"><span id="resultCount">显示 22 个应用</span><span>昨日对比：首个完整快照生成后启用</span></div>
+      </div>
+
+      <div class="prototype-note">
+        <strong>v0 的刻意留白</strong>
+        <p>Logo、完整总数、正式排名、昨日变化和 20 个应用的分类详情尚未填充。确认视觉方向后，将使用真实 Logo 与至少两条证据逐项完成，并接入 GitHub Actions 的每日来源监测和历史快照。</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    const apps = [
+      { name: "抖音", count: 11, status: "checked", coverage: "初查", categories: "互动 3 · 社交 3 · 内容 3 · 直播/活动 2", detail: "私信、点赞、评论、提及、新增关注、朋友上线、朋友新作品、关注用户新作品、推荐作品、直播、活动通知。", source: "https://www.douyin.com/help", sourceLabel: "抖音帮助中心" },
+      { name: "小红书", count: 4, status: "checked", coverage: "初查", categories: "互动 2 · 社交 1 · 系统 1", detail: "官方深链文档明确列出赞和收藏、关注消息、评论和@、系统通知四个消息入口。此数值只是已确认下限。", source: "https://pages.xiaohongshu.com/activity/deeplink", sourceLabel: "小红书官方深链文档" },
+      { name: "微信" }, { name: "美团" }, { name: "多闪" }, { name: "知乎" }, { name: "淘宝" }, { name: "京东" },
+      { name: "微博" }, { name: "哔哩哔哩" }, { name: "爱奇艺" }, { name: "腾讯视频" }, { name: "小宇宙" },
+      { name: "拼多多" }, { name: "闲鱼" }, { name: "支付宝" }, { name: "58同城" }, { name: "米家" },
+      { name: "红果免费短剧" }, { name: "QQ音乐" }, { name: "今日头条" }, { name: "豆包" }
+    ].map((app, index) => ({ status: "pending", coverage: "研究中", categories: "等待逐项核验", detail: "尚未录入研究结论。正式版将列出提醒项目、类别、来源、核验时间、覆盖度与可信度。", originalIndex: index, ...app }));
+
+    const appRows = document.getElementById("appRows");
+    const emptyState = document.getElementById("emptyState");
+    const resultCount = document.getElementById("resultCount");
+    const searchInput = document.getElementById("searchInput");
+    const statusFilter = document.getElementById("statusFilter");
+    const sortSelect = document.getElementById("sortSelect");
+    const themeButton = document.getElementById("themeButton");
+    const toast = document.getElementById("toast");
+    let toastTimer;
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>'"]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
+    }
+
+    function filteredApps() {
+      const term = searchInput.value.trim().toLocaleLowerCase("zh-CN");
+      const status = statusFilter.value;
+      const list = apps.filter(app => (!term || app.name.toLocaleLowerCase("zh-CN").includes(term)) && (status === "all" || app.status === status));
+      if (sortSelect.value === "name-asc") return list.sort((a, b) => a.name.localeCompare(b.name, "zh-CN"));
+      return list.sort((a, b) => (b.count ?? -1) - (a.count ?? -1) || a.originalIndex - b.originalIndex);
+    }
+
+    function render() {
+      const list = filteredApps();
+      const maxCount = Math.max(...apps.map(app => app.count || 0), 1);
+      let ranked = 0;
+      appRows.innerHTML = list.map(app => {
+        const hasCount = Number.isFinite(app.count);
+        const rank = hasCount && sortSelect.value === "count-desc" ? String(++ranked).padStart(2, "0") : "—";
+        const id = `detail-${app.originalIndex}`;
+        const progress = hasCount ? `${Math.max(8, app.count / maxCount * 100)}%` : "0%";
+        const sourceMarkup = app.source ? `<a href="${escapeHtml(app.source)}" target="_blank" rel="noreferrer">${escapeHtml(app.sourceLabel)}</a>` : "等待录入至少两条来源";
+        return `
+          <tr class="data-row" data-status="${app.status}">
+            <td><div class="rank"><span>${rank}</span><span class="rank-change">—</span></div></td>
+            <td><div class="logo-placeholder" aria-label="${escapeHtml(app.name)} Logo 待录入">LOGO</div></td>
+            <td><span class="app-name">${escapeHtml(app.name)}</span><div class="app-meta"><span class="bar-track"><span class="bar-fill" style="--progress:${progress}"></span></span><span class="status-copy">${hasCount ? "初查下限" : "待研究"}</span></div></td>
+            <td class="count ${hasCount ? "" : "pending"}">${hasCount ? app.count : "—"}</td>
+            <td><div class="coverage"><span class="coverage-dot ${app.status}"></span>${escapeHtml(app.coverage)}</div></td>
+            <td class="category-copy">${hasCount ? `<strong>${escapeHtml(app.categories)}</strong>` : escapeHtml(app.categories)}</td>
+            <td><button class="row-button" type="button" aria-expanded="false" aria-controls="${id}" data-detail="${id}">展开</button></td>
+          </tr>
+          <tr class="detail-row" id="${id}" hidden><td colspan="7"><div class="detail-panel"><div><h3>提醒项目摘要</h3><p>${escapeHtml(app.detail)}</p></div><div><h3>证据与状态</h3><p>${sourceMarkup}<br>正式版还会显示第二来源、来源类型、核验日期、覆盖度和可信度。</p></div></div></td></tr>`;
+      }).join("");
+      emptyState.classList.toggle("visible", list.length === 0);
+      resultCount.textContent = `显示 ${list.length} 个应用`;
+    }
+
+    function showToast(message) {
+      clearTimeout(toastTimer);
+      toast.textContent = message;
+      toast.classList.add("visible");
+      toastTimer = setTimeout(() => toast.classList.remove("visible"), 2600);
+    }
+
+    document.addEventListener("click", event => {
+      const button = event.target.closest("[data-detail]");
+      if (!button) return;
+      const panel = document.getElementById(button.dataset.detail);
+      const opening = panel.hidden;
+      panel.hidden = !opening;
+      button.setAttribute("aria-expanded", String(opening));
+      button.textContent = opening ? "收起" : "展开";
+    });
+
+    [searchInput, statusFilter, sortSelect].forEach(control => control.addEventListener(control === searchInput ? "input" : "change", render));
+    themeButton.addEventListener("click", () => {
+      const html = document.documentElement;
+      html.dataset.theme = html.dataset.theme === "dark" ? "light" : "dark";
+      showToast(html.dataset.theme === "dark" ? "已切换至深色模式" : "已切换至浅色模式");
+    });
+    document.getElementById("methodButton").addEventListener("click", () => {
+      document.getElementById("methodNote").focus?.();
+      window.scrollTo({ top: Math.max(0, document.getElementById("methodNote").offsetTop - 96), behavior: "smooth" });
+      showToast("统计口径已显示在页面顶部");
+    });
+
+    render();
+  </script>
+</body>
+</html>

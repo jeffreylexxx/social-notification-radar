@@ -1,0 +1,569 @@
+[
+  {
+    "id": "instagram",
+    "query": "Instagram",
+    "status": "found",
+    "trackName": "Instagram",
+    "sellerName": "Instagram, Inc.",
+    "trackId": 389801252,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/84/f3/dc/84f3dc56-cf85-0cc4-b24c-1f87a99ac806/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "facebook",
+    "query": "Facebook",
+    "status": "found",
+    "trackName": "Facebook",
+    "sellerName": "Meta Platforms, Inc.",
+    "trackId": 284882215,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/42/07/a3420793-995f-911e-e779-c9ef28659441/Icon-Production-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "x",
+    "query": "X",
+    "status": "found",
+    "trackName": "X",
+    "sellerName": "X Corp.",
+    "trackId": 333903271,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/2f/27/7d2f27ab-b544-70ce-6c37-e469984d9127/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "whatsapp",
+    "query": "WhatsApp Messenger",
+    "status": "found",
+    "trackName": "WhatsApp Messenger",
+    "sellerName": "WhatsApp Inc.",
+    "trackId": 310633997,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cb/b5/1f/cbb51f14-c56c-f35d-421b-c89f5592a923/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "youtube",
+    "query": "YouTube",
+    "status": "found",
+    "trackName": "YouTube",
+    "sellerName": "Google LLC",
+    "trackId": 544007664,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/99/dd/3699dde2-2561-d256-afcc-23a67f0cebe3/logo_youtube_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "gmail",
+    "query": "Gmail",
+    "status": "found",
+    "trackName": "Gmail - Email by Google",
+    "sellerName": "Google LLC",
+    "trackId": 422689480,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/f0/57/a0f057ec-e69b-27d7-3ada-ad34c50dbfb5/gmail_2026_ios-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "google-photos",
+    "query": "Google Photos",
+    "status": "found",
+    "trackName": "Google Photos: Backup & Edit",
+    "sellerName": "Google LLC",
+    "trackId": 962194608,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/7f/af/657fafe1-1f99-3619-543b-76d73d1ab5b1/Photos-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "google-ads",
+    "query": "Google Ads",
+    "status": "found",
+    "trackName": "Google Ads",
+    "sellerName": "Google LLC",
+    "trackId": 1037457231,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/69/a3/7a69a397-82db-5383-dc65-51a40b00986e/logo_ads_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "messenger",
+    "query": "Messenger",
+    "status": "found",
+    "trackName": "Messenger",
+    "sellerName": "Meta Platforms, Inc.",
+    "trackId": 454638411,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/84/48/a0/8448a081-711c-2a6a-0d49-a0a5d15b3683/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "grok",
+    "query": "Grok",
+    "status": "found",
+    "trackName": "Grok AI",
+    "sellerName": "X Corp.",
+    "trackId": 6670324846,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/68/bc/d5/68bcd5a6-719f-af5c-6f03-e0d3c04c4ac1/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "discord",
+    "query": "Discord",
+    "status": "found",
+    "trackName": "Discord - Talk, Play, Hang Out",
+    "sellerName": "Discord Inc.",
+    "trackId": 985746746,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/de/7c/57de7c45-71d5-0b1e-23a3-290c0b39be58/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "amazon-alexa",
+    "query": "Amazon Alexa",
+    "status": "found",
+    "trackName": "Amazon Alexa",
+    "sellerName": "AMZN Mobile LLC",
+    "trackId": 944011620,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/a4/67/a0a467b4-ff72-0596-4185-40ecd97b1420/AppIconRelease-0-1x_U007epad-0-0-0-10-0-0-0-85-220-0.png/512x512bb.jpg"
+  },
+  {
+    "id": "spotify",
+    "query": "Spotify",
+    "status": "found",
+    "trackName": "Spotify: Music and Podcasts",
+    "sellerName": "Spotify",
+    "trackId": 324684580,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/e1/e7/74e1e75a-49d0-ff5c-6ec2-64a2540ac7c7/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "telegram",
+    "query": "Telegram Messenger",
+    "status": "found",
+    "trackName": "Telegram Messenger",
+    "sellerName": "Telegram FZ-LLC",
+    "trackId": 686449807,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/2b/59/5a2b59f4-1458-d32d-7b33-00ba66d2d59e/Telegram-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "line",
+    "query": "LINE",
+    "status": "found",
+    "trackName": "LINE",
+    "sellerName": "LY Corporation",
+    "trackId": 443904275,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/7d/62/b47d6249-b97e-f246-f8de-fc9ecc4b977a/basic_default-0-0-1x_U007epad-0-6-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "chatgpt",
+    "query": "ChatGPT",
+    "status": "found",
+    "trackName": "ChatGPT",
+    "sellerName": "OpenAI OpCo, LLC",
+    "trackId": 6448311069,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/de/22/4ede22cd-d4cb-1de3-66b5-9931e4c20008/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "perplexity",
+    "query": "Perplexity",
+    "status": "found",
+    "trackName": "Perplexity - AI Search & Chat",
+    "sellerName": "Perplexity AI Inc.",
+    "trackId": 1668000334,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/c1/1f/1dc11fe6-023d-fdf6-7bee-cc46e0c667f9/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "claude",
+    "query": "Claude",
+    "status": "found",
+    "trackName": "Claude by Anthropic",
+    "sellerName": "Anthropic PBC",
+    "trackId": 6473753684,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2e/d6/ba/2ed6ba1c-3140-9325-69d8-3549c230a6ce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "tiktok",
+    "query": "TikTok",
+    "status": "found",
+    "trackName": "TikTok - Videos, Shop & LIVE",
+    "sellerName": "TIKTOK PTE. LTD.",
+    "trackId": 835599320,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/f9/7a/86f97a45-d6d6-efd9-c24a-d7c614482369/TikTok_AppIcon26-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "fitbit",
+    "query": "Fitbit",
+    "status": "found",
+    "trackName": "Google Health (Fitbit)",
+    "sellerName": "Google LLC",
+    "trackId": 462638897,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/cd/9b/ddcd9b71-cda1-ad51-e50a-3cfb6d639786/google_health_ios-0-0-1x_U007ephone-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "iheartradio",
+    "query": "iHeartRadio",
+    "status": "found",
+    "trackName": "iHeart: Radio, Music, Podcasts",
+    "sellerName": "iHeartMedia Management Services, Inc.",
+    "trackId": 290638154,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/86/0b/71860b22-f499-c9d9-459d-f185e22030cc/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "amazon-music",
+    "query": "Amazon Music",
+    "status": "found",
+    "trackName": "Amazon Music: Songs & Podcasts",
+    "sellerName": "AMZN Mobile LLC",
+    "trackId": 510855668,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/73/b1/e973b167-ddac-2c55-6b21-6cf43a0b1e87/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "youtube-music",
+    "query": "YouTube Music",
+    "status": "found",
+    "trackName": "YouTube Music",
+    "sellerName": "Google LLC",
+    "trackId": 1017492454,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/e6/8c/8ae68c01-d196-afa1-2296-75c60f5cb3eb/logo_youtube_music_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "copilot",
+    "query": "Microsoft Copilot",
+    "status": "found",
+    "trackName": "Microsoft Copilot",
+    "sellerName": "Microsoft Corporation",
+    "trackId": 541164041,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/2d/13/462d13fc-0345-03e4-1dec-d4531a21cfc6/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "onedrive",
+    "query": "Microsoft OneDrive",
+    "status": "found",
+    "trackName": "Microsoft OneDrive",
+    "sellerName": "Microsoft Corporation",
+    "trackId": 477537958,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/79/f0/7f79f0d8-caed-9910-a48f-baa206711f87/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "threads",
+    "query": "Threads",
+    "status": "found",
+    "trackName": "Threads",
+    "sellerName": "Instagram, Inc.",
+    "trackId": 6446901002,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/03/7a/eb037a88-935d-c93d-a72b-39b04bd56667/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "linkedin",
+    "query": "LinkedIn",
+    "status": "found",
+    "trackName": "LinkedIn: Community & Network",
+    "sellerName": "LinkedIn Corporation",
+    "trackId": 288429040,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fc/e9/47/fce947db-a0bd-d855-0182-eb37028a069a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "github",
+    "query": "GitHub",
+    "status": "found",
+    "trackName": "GitHub",
+    "sellerName": "GitHub",
+    "trackId": 1477376905,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/5f/9a/d25f9a19-977b-2251-d894-c3fca2791706/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "chrome",
+    "query": "Google Chrome",
+    "status": "found",
+    "trackName": "Google Chrome",
+    "sellerName": "Google LLC",
+    "trackId": 535886823,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/87/f1/f487f1b9-bac3-0938-8399-99e9dd70b25b/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "accuweather",
+    "query": "AccuWeather",
+    "status": "found",
+    "trackName": "AccuWeather: Weather Forecast",
+    "sellerName": "AccuWeather International, Inc.",
+    "trackId": 300048137,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/21/41/9c214113-d152-b358-9ab7-41fa766515b3/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "soundcloud",
+    "query": "SoundCloud",
+    "status": "found",
+    "trackName": "SoundCloud: The Music You Love",
+    "sellerName": "SoundCloud Global Limited & Co KG",
+    "trackId": 336353151,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ae/9c/af/ae9caf85-e9c5-8162-1b40-5c6b5d4ada96/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "capcut",
+    "query": "CapCut",
+    "status": "found",
+    "trackName": "CapCut: Photo & Video Editor",
+    "sellerName": "BYTEDANCE PTE. LTD.",
+    "trackId": 1500855883,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/7d/0b/ec7d0bd9-51af-0688-8c28-f0a345fe3c72/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "slack",
+    "query": "Slack",
+    "status": "found",
+    "trackName": "Slack",
+    "sellerName": "SLACK TECHNOLOGIES L.L.C.",
+    "trackId": 618783545,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/06/fb/3706fbb9-1498-cdac-4147-7ccc346635bf/slack_icon_prod-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "notion",
+    "query": "Notion",
+    "status": "found",
+    "trackName": "Notion: Notes, Tasks, AI",
+    "sellerName": "Notion Labs, Incorporated",
+    "trackId": 1232780281,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/70/7d/bd707d04-214e-48d6-f339-2afae4c21ad7/AppIconProd-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "firefox",
+    "query": "Firefox",
+    "status": "found",
+    "trackName": "Firefox Fast & Private Browser",
+    "sellerName": "Mozilla Corporation",
+    "trackId": 989804926,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/24/10/5c2410db-0e61-171f-ce50-50aec2389986/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "edge",
+    "query": "Microsoft Edge",
+    "status": "found",
+    "trackName": "Microsoft Edge",
+    "sellerName": "Microsoft Corporation",
+    "trackId": 1288723196,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/38/21/26/382126f0-35d3-997f-d33b-81f1a2212466/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "safari",
+    "query": "Safari",
+    "status": "found",
+    "trackName": "Safari",
+    "sellerName": "Apple Inc.",
+    "trackId": 1146562112,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/4c/cb/234ccbb4-e65a-bb94-f877-3d230743e9e3/safari-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "vlc",
+    "query": "VLC media player",
+    "status": "found",
+    "trackName": "VLC media player",
+    "sellerName": "VideoLAN",
+    "trackId": 650377962,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/5a/7c/225a7c89-472a-8fa7-fe11-ed6aaa8a5c21/AppIcon-1x_U007emarketing-0-0-0-7-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "youtube-tv",
+    "query": "YouTube TV",
+    "status": "found",
+    "trackName": "YouTube TV",
+    "sellerName": "Google LLC",
+    "trackId": 1193350206,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/5d/9c/ee5d9caf-5893-96e5-c8b8-62e717ede365/logo_youtube_television_2024_q4_color-0-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "snapchat",
+    "query": "Snapchat",
+    "status": "found",
+    "trackName": "Snapchat",
+    "sellerName": "Snap, Inc.",
+    "trackId": 447188370,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/15/b3/22/15b322e0-cb0d-b30d-93af-458c2c433a8a/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "clubhouse",
+    "query": "Clubhouse",
+    "status": "found",
+    "trackName": "Clubhouse",
+    "sellerName": "Alpha Exploration Co.",
+    "trackId": 1503133294,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/67/3b/ca/673bca65-ad58-513e-c70a-f58d0cd87000/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "paypal",
+    "query": "PayPal",
+    "status": "found",
+    "trackName": "PayPal - Pay, Send, Save",
+    "sellerName": "PayPal, Inc.",
+    "trackId": 283646709,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/95/49/9b9549d6-ea14-2583-03e7-8e8bc7251725/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "tunein",
+    "query": "TuneIn Radio",
+    "status": "found",
+    "trackName": "TuneIn Radio: Music & Sports",
+    "sellerName": "TuneIn",
+    "trackId": 418987775,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/cf/33/cbcf33b6-650b-b6a8-7a3c-8a404cc3a29d/AppIconFree-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "aol-mail",
+    "query": "AOL Mail",
+    "status": "found",
+    "trackName": "AOL Mail, News, Weather",
+    "sellerName": "AOL Media LLC",
+    "trackId": 646100661,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/97/4a/51974a5e-c50c-d5c0-5b92-f6ce6971d55a/AolAppRelease-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "microsoft-teams",
+    "query": "Microsoft Teams",
+    "status": "found",
+    "trackName": "Microsoft Teams",
+    "sellerName": "Microsoft Corporation",
+    "trackId": 1113153706,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fa/7b/87/fa7b87d4-cd47-baa8-62e0-6c9043d87592/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "yelp",
+    "query": "Yelp",
+    "status": "found",
+    "trackName": "Yelp: Food, Services & Reviews",
+    "sellerName": "Yelp, Inc.",
+    "trackId": 284910350,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/65/88/18658854-8f4a-379b-c583-fcea931e9f9e/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "ticketmaster",
+    "query": "Ticketmaster",
+    "status": "found",
+    "trackName": "Ticketmaster－Buy, Sell Tickets",
+    "sellerName": "Ticketmaster L.L.C",
+    "trackId": 500003565,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/66/33/d7/6633d732-ae05-9f13-9e24-dda381c73345/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "priceline",
+    "query": "Priceline",
+    "status": "found",
+    "trackName": "Priceline - Hotel, Car, Flight",
+    "sellerName": "priceline.com",
+    "trackId": 336381998,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b6/ea/6d/b6ea6d06-cc59-c3c6-648c-4944bf404728/Standard_App_Icon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "stubhub",
+    "query": "StubHub",
+    "status": "found",
+    "trackName": "StubHub: Event Tickets",
+    "sellerName": "Stubhub, Inc",
+    "trackId": 366562751,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/38/c8/72/38c872ef-8f02-528c-60cb-3200d5582d08/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "grubhub",
+    "query": "Grubhub",
+    "status": "found",
+    "trackName": "Grubhub: Food Delivery",
+    "sellerName": "GrubHub Inc",
+    "trackId": 302920553,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/90/75/d5/9075d55c-0dae-e47b-8704-b463a6c8ece2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "uber",
+    "query": "Uber",
+    "status": "found",
+    "trackName": "Uber - Request a ride",
+    "sellerName": "Uber Technologies, Inc.",
+    "trackId": 368677368,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8d/26/48/8d264872-4caa-a11e-c450-6cee5355381b/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "google-maps",
+    "query": "Google Maps",
+    "status": "found",
+    "trackName": "Google Maps",
+    "sellerName": "Google LLC",
+    "trackId": 585027354,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4e/d3/e2/4ed3e273-5114-70b7-b919-dca325bee1aa/maps_2025-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "netflix",
+    "query": "Netflix",
+    "status": "found",
+    "trackName": "Netflix",
+    "sellerName": "Netflix, Inc.",
+    "trackId": 363590051,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e4/0b/eb/e40bebc0-460a-2d76-e82d-5e46512beb82/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "flickr",
+    "query": "Flickr",
+    "status": "found",
+    "trackName": "Flickr",
+    "sellerName": "Flickr, Inc.",
+    "trackId": 328407587,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f2/2e/b7/f22eb72f-0582-8ef9-5c3b-8474da3aaeaa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "tumblr",
+    "query": "Tumblr",
+    "status": "found",
+    "trackName": "Tumblr: Social Media & Art",
+    "sellerName": "Tumblr, Inc.",
+    "trackId": 305343404,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b0/ce/05/b0ce0560-5fb3-f74c-2641-db397eba297c/TumblrIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "reddit",
+    "query": "Reddit",
+    "status": "found",
+    "trackName": "Reddit",
+    "sellerName": "REDDIT, INC.",
+    "trackId": 1064216828,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/21/41/4a/21414a76-4704-5801-452d-949dcb554447/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "max",
+    "query": "Max",
+    "status": "found",
+    "trackName": "HBO Max: Stream Movies & TV",
+    "sellerName": "WarnerMedia Global Digital Services, LLC",
+    "trackId": 1666653815,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/6e/f6/bd6ef6f1-dd5f-9719-d319-7320e82b0d32/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "tinder",
+    "query": "Tinder",
+    "status": "found",
+    "trackName": "Tinder Dating App: Date & Chat",
+    "sellerName": "Tinder LLC",
+    "trackId": 547702041,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/ec/15/9cec1528-31bb-8c2d-209b-07bb136f47ec/AppIcon-BrandFlame-0-0-1x_U007ephone-0-1-0-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "disney-plus",
+    "query": "Disney+",
+    "status": "found",
+    "trackName": "Disney+",
+    "sellerName": "Disney Electronic Content, Inc.",
+    "trackId": 1446075923,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/d9/1d/dfd91d3b-a9f3-12aa-1b1b-af40f6233374/AppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "gemini",
+    "query": "Google Gemini",
+    "status": "found",
+    "trackName": "Google Gemini",
+    "sellerName": "Google LLC",
+    "trackId": 6477489729,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fe/db/55/fedb5542-d8b9-9f88-be27-3a581bb4e169/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "meta-ai",
+    "query": "Meta AI",
+    "status": "found",
+    "trackName": "Meta AI",
+    "sellerName": "Meta Platforms, Inc.",
+    "trackId": 1558240027,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/d4/ad/f9d4adf9-98f2-3cdd-f834-059106e29a67/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "zoom",
+    "query": "Zoom Workplace",
+    "status": "found",
+    "trackName": "Zoom Workplace",
+    "sellerName": "Zoom Communications, Inc.",
+    "trackId": 546505307,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/68/b5/ee68b591-83a9-c25e-5fbd-5d8f29f4b7a7/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg"
+  },
+  {
+    "id": "temu",
+    "query": "Temu",
+    "status": "found",
+    "trackName": "Temu: Shop Like a Billionaire",
+    "sellerName": "Whaleco Inc.",
+    "trackId": 1641486558,
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/26/72/e626722b-0733-8819-dd8b-7e9b83f36b5b/AppIcon-0-1x_U007epad-0-1-0-0-85-220-0.png/512x512bb.jpg"
+  }
+]

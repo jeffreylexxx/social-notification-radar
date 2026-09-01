@@ -1,0 +1,384 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T12:35:10.001Z",
+  "apps": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "count": 15,
+      "rank": 1
+    },
+    {
+      "id": "google-photos",
+      "name": "Google 相册",
+      "count": 15,
+      "rank": 2
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "count": 15,
+      "rank": 3
+    },
+    {
+      "id": "x",
+      "name": "X（Twitter）",
+      "count": 15,
+      "rank": 4
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "count": 14,
+      "rank": 5
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "count": 13,
+      "rank": 6
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "count": 13,
+      "rank": 7
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "count": 12,
+      "rank": 8
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "count": 12,
+      "rank": 9
+    },
+    {
+      "id": "google-ads",
+      "name": "Google Ads",
+      "count": 12,
+      "rank": 10
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "count": 12,
+      "rank": 11
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "count": 11,
+      "rank": 12
+    },
+    {
+      "id": "line",
+      "name": "LINE",
+      "count": 11,
+      "rank": 13
+    },
+    {
+      "id": "tumblr",
+      "name": "Tumblr",
+      "count": 11,
+      "rank": 14
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "count": 10,
+      "rank": 15
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "count": 10,
+      "rank": 16
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "count": 10,
+      "rank": 17
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "count": 10,
+      "rank": 18
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "count": 10,
+      "rank": 19
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "count": 10,
+      "rank": 20
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "count": 9,
+      "rank": 21
+    },
+    {
+      "id": "grubhub",
+      "name": "Grubhub",
+      "count": 9,
+      "rank": 22
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "count": 9,
+      "rank": 23
+    },
+    {
+      "id": "yelp",
+      "name": "Yelp",
+      "count": 9,
+      "rank": 24
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "count": 8,
+      "rank": 25
+    },
+    {
+      "id": "amazon-music",
+      "name": "Amazon Music",
+      "count": 8,
+      "rank": 26
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "count": 8,
+      "rank": 27
+    },
+    {
+      "id": "clubhouse",
+      "name": "Clubhouse",
+      "count": 8,
+      "rank": 28
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "count": 8,
+      "rank": 29
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "count": 8,
+      "rank": 30
+    },
+    {
+      "id": "microsoft-teams",
+      "name": "Microsoft Teams",
+      "count": 8,
+      "rank": 31
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "count": 8,
+      "rank": 32
+    },
+    {
+      "id": "priceline",
+      "name": "Priceline",
+      "count": 8,
+      "rank": 33
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "count": 8,
+      "rank": 34
+    },
+    {
+      "id": "youtube-music",
+      "name": "YouTube Music",
+      "count": 8,
+      "rank": 35
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "count": 8,
+      "rank": 36
+    },
+    {
+      "id": "amazon-alexa",
+      "name": "Amazon Alexa",
+      "count": 7,
+      "rank": 37
+    },
+    {
+      "id": "disney-plus",
+      "name": "Disney+",
+      "count": 7,
+      "rank": 38
+    },
+    {
+      "id": "flickr",
+      "name": "Flickr",
+      "count": 7,
+      "rank": 39
+    },
+    {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "count": 7,
+      "rank": 40
+    },
+    {
+      "id": "iheartradio",
+      "name": "iHeartRadio",
+      "count": 7,
+      "rank": 41
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "count": 7,
+      "rank": 42
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "count": 7,
+      "rank": 43
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "count": 7,
+      "rank": 44
+    },
+    {
+      "id": "stubhub",
+      "name": "StubHub",
+      "count": 7,
+      "rank": 45
+    },
+    {
+      "id": "ticketmaster",
+      "name": "Ticketmaster",
+      "count": 7,
+      "rank": 46
+    },
+    {
+      "id": "youtube-tv",
+      "name": "YouTube TV",
+      "count": 7,
+      "rank": 47
+    },
+    {
+      "id": "accuweather",
+      "name": "AccuWeather",
+      "count": 6,
+      "rank": 48
+    },
+    {
+      "id": "aol-mail",
+      "name": "AOL Mail",
+      "count": 6,
+      "rank": 49
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "count": 6,
+      "rank": 50
+    },
+    {
+      "id": "fitbit",
+      "name": "Fitbit",
+      "count": 6,
+      "rank": 51
+    },
+    {
+      "id": "edge",
+      "name": "Microsoft Edge",
+      "count": 6,
+      "rank": 52
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive",
+      "count": 6,
+      "rank": 53
+    },
+    {
+      "id": "tunein",
+      "name": "TuneIn Radio",
+      "count": 6,
+      "rank": 54
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "count": 5,
+      "rank": 55
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "count": 5,
+      "rank": 56
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "count": 5,
+      "rank": 57
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "count": 5,
+      "rank": 58
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "count": 5,
+      "rank": 59
+    },
+    {
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "count": 5,
+      "rank": 60
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "count": 5,
+      "rank": 61
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "count": 4,
+      "rank": 62
+    },
+    {
+      "id": "vlc",
+      "name": "VLC Media Player",
+      "count": 3,
+      "rank": 63
+    }
+  ]
+}
