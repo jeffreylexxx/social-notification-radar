@@ -1,0 +1,64 @@
+name: Daily source monitor
+
+on:
+  schedule:
+    - cron: "15 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: notification-radar-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Monitor sources and rebuild snapshots
+        run: npm run update
+
+      - name: Read monitor result
+        id: monitor
+        shell: bash
+        run: |
+          node -e "const d=require('./data/change-summary.json'); const g=require('./data/change-summary-global.json'); const fs=require('fs'); fs.appendFileSync(process.env.GITHUB_OUTPUT, 'changed='+(d.changedSources.length+g.changedSources.length>0)+'\nfailed='+(d.failedSources.length+g.failedSources.length)+'\n')"
+
+      - name: Commit daily data
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "data: daily source monitor"
+          git push
+
+      - name: Open review issue when a source changes
+        if: steps.monitor.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const domestic = JSON.parse(fs.readFileSync('data/change-summary.json', 'utf8'));
+            const global = JSON.parse(fs.readFileSync('data/change-summary-global.json', 'utf8'));
+            const changed = [
+              ...domestic.changedSources.map(source => ({...source, scope: '国内'})),
+              ...global.changedSources.map(source => ({...source, scope: '全球'}))
+            ];
+            const lines = changed.map(source =>
+              `- [${source.scope}] [${source.title || source.url}](${source.url})（关联应用：${(source.apps || []).join('、')}）`
+            );
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `提醒雷达：${domestic.date} 有 ${lines.length} 个来源发生变化`,
+              body: `每日监测发现以下页面内容指纹变化。请人工核对提醒分类，必要时修改 data/apps.json 或 data/global-apps.json 并重新运行工作流。\n\n${lines.join('\n')}`
+            });
