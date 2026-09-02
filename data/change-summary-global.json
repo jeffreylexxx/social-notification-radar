@@ -1,5 +1,137 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "changedSources": [],
-  "failedSources": []
+  "failedSources": [
+    {
+      "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "title": "DataReportal Digital 2026",
+      "note": "时长与打开次数来自 Similarweb App Intelligence 的全球 Android 样本（不含中国）；MAU 由 Meta 另页披露为 30 亿。",
+      "type": "usage-data",
+      "apps": [
+        "instagram",
+        "facebook",
+        "x",
+        "whatsapp",
+        "youtube",
+        "messenger",
+        "discord",
+        "telegram",
+        "tiktok",
+        "threads",
+        "linkedin",
+        "snapchat",
+        "reddit"
+      ],
+      "finalUrl": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "status": "http-error",
+      "httpStatus": 404,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "debe1f0603132aaab53190c118db6a2df1203bb697e16e2909bd016c09f01d49",
+      "bytes": 85798,
+      "changed": false
+    },
+    {
+      "title": "X 手机通知帮助",
+      "url": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "type": "官方帮助",
+      "note": "官方列出提及、回复、转帖、点赞、关注、私信、新闻、Spaces 等通知类型。",
+      "apps": [
+        "x"
+      ],
+      "finalUrl": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "4a56917dd55b1150c4eedd02b9a0cd6c94f4fcb26a3617887b432fab57cb80d4",
+      "bytes": 5782,
+      "changed": false
+    },
+    {
+      "title": "X 移动 App DAU",
+      "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
+      "type": "行业估算代理",
+      "note": "报道引述 Similarweb：2026-01-07，X 的 iOS 与 Android 合计移动 DAU 约 1.25 亿；DAU 不作为 MAU。",
+      "apps": [
+        "x"
+      ],
+      "finalUrl": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "9d0e26b2a6238b35e12175597aab169bd8b304cdaeb7eb6075ece180db6228df",
+      "bytes": 851,
+      "changed": false
+    },
+    {
+      "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "title": "PayPal 年报",
+      "note": "活跃账户可能含商户且不是 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "paypal"
+      ],
+      "finalUrl": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "481b7407f7ca0d41d8775d30c5aff001d49fdf0e6f04949dc32f92e582acf3ce",
+      "bytes": 5792,
+      "changed": false
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
+      "title": "Microsoft Teams 官方博客",
+      "note": "跨桌面、网页和移动端产品 MAU，不等同手机 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "microsoft-teams"
+      ],
+      "finalUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
+      "status": "http-error",
+      "httpStatus": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "5b79c5f732691e3432cd2d8e29ba23d57e8c598177a927eba0e9de526447e1c0",
+      "bytes": 228237,
+      "changed": false
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
+      "title": "Yelp 2025 Form 10-K",
+      "note": "官方口径为达到最低参与门槛的 App 月活独立设备，全年月均 2,800.9 万；设备数不完全等同人数。",
+      "type": "usage-data",
+      "apps": [
+        "yelp"
+      ],
+      "finalUrl": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "a8cca0ebb8d458cdcf42d0f0a7223caf063112378657ef0157ae034f8985ef0c",
+      "bytes": 4819,
+      "changed": false
+    },
+    {
+      "url": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
+      "title": "Flickr DSA 披露",
+      "note": "Flickr 依据欧盟 DSA 披露该期间欧盟平均月活约 19.7 万；仅为欧盟且覆盖平台，不作为全球手机 App MAU 排序值。",
+      "type": "usage-data",
+      "apps": [
+        "flickr"
+      ],
+      "finalUrl": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "88439b891bdd4a9ea28e2086661ff125cf9d87d2ab4328b566e3efa56b01048c",
+      "bytes": 6019,
+      "changed": false
+    }
+  ]
 }

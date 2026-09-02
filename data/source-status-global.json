@@ -1,8 +1,8 @@
 {
-  "checkedAt": null,
+  "checkedAt": "2026-09-02T21:04:38.637Z",
   "sourceCount": 125,
   "changedCount": 0,
-  "failedCount": 0,
+  "failedCount": 7,
   "sources": [
     {
       "title": "Instagram · App Store",
@@ -12,10 +12,13 @@
       "apps": [
         "instagram"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/instagram/id389801252",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "654ed3bfd1365533a76598780b5c79f953c8fdf0a4f9553daad240a488583a48",
+      "bytes": 801237,
       "changed": false
     },
     {
@@ -26,10 +29,13 @@
       "apps": [
         "instagram"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "100e858549fa4e6d823876ed23db7eed381f60ff77e36cd4cec0f29fb269f119",
+      "bytes": 454432,
       "changed": false
     },
     {
@@ -52,10 +58,13 @@
         "snapchat",
         "reddit"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "status": "http-error",
+      "httpStatus": 404,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "debe1f0603132aaab53190c118db6a2df1203bb697e16e2909bd016c09f01d49",
+      "bytes": 85798,
       "changed": false
     },
     {
@@ -66,24 +75,30 @@
       "apps": [
         "facebook"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/facebook/id284882215",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "7fc4f9119dbf467ef9b3523919f57e7953267bb9e8fb9bf0fc98368d38e78611",
+      "bytes": 920221,
       "changed": false
     },
     {
+      "title": "Facebook 2023 Q3 MAU",
       "url": "https://investor.fb.com/files/doc_earnings/2023/q3/earnings-result/Meta-09-30-2022-Exhibit-99-1-FINAL.pdf",
-      "title": "Meta 2023 Q3 业绩",
-      "note": "Meta 已于 2024 年起停止披露 Facebook 单产品 MAU；此处保留最后阶段官方历史值 30.5 亿。",
-      "type": "usage-data",
+      "type": "官方财报",
+      "note": "最后阶段单产品官方值为 30.5 亿 MAU；之后停止披露。",
       "apps": [
         "facebook"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://s21.q4cdn.com/399680738/files/doc_earnings/2023/q3/earnings-result/Meta-09-30-2022-Exhibit-99-1-FINAL.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "7147a1e6254cdbc10369da7e4e3815eb4c31c3f2a593d158a423b25a88e6b5f0",
+      "bytes": 181365,
       "changed": false
     },
     {
@@ -94,10 +109,13 @@
       "apps": [
         "x"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "4a56917dd55b1150c4eedd02b9a0cd6c94f4fcb26a3617887b432fab57cb80d4",
+      "bytes": 5782,
       "changed": false
     },
     {
@@ -108,10 +126,13 @@
       "apps": [
         "x"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/x/id333903271",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "ae8308df970b483010b0c6022842b2b673e58f5552901d52b73ed66cba3ac5fc",
+      "bytes": 817308,
       "changed": false
     },
     {
@@ -122,10 +143,13 @@
       "apps": [
         "x"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "9d0e26b2a6238b35e12175597aab169bd8b304cdaeb7eb6075ece180db6228df",
+      "bytes": 851,
       "changed": false
     },
     {
@@ -136,10 +160,13 @@
       "apps": [
         "whatsapp"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://faq.whatsapp.com/797069521522888/?cms_platform=web",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=\"utf-8\"",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "b7d15f7bcc97624dd4e1b1ff02e51ae3f3bb804ccdc3157e80e53562715d9e3c",
+      "bytes": 1223770,
       "changed": false
     },
     {
@@ -150,10 +177,13 @@
       "apps": [
         "whatsapp"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "ab7e8b004ed4c0b3c672f7bda56395d5d642b2a1232a710b47f262a03bc86b2c",
+      "bytes": 665949,
       "changed": false
     },
     {
@@ -164,10 +194,13 @@
       "apps": [
         "whatsapp"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://techcrunch.com/2025/05/01/whatsapp-now-has-more-than-3-billion-users/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "152b78975e27aa80f15d075ca670fe02ce3be39b6178a077d836af7aa4cd5939",
+      "bytes": 230981,
       "changed": false
     },
     {
@@ -178,10 +211,13 @@
       "apps": [
         "youtube"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://support.google.com/youtube/answer/3382248?hl=en",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "5857dd71482cdee488715c0632de6ed88f9506ceb603c3750bd8dc8ec497ee33",
+      "bytes": 1418749,
       "changed": false
     },
     {
@@ -192,10 +228,13 @@
       "apps": [
         "youtube"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/youtube/id544007664",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "7f380025f37e23903b64a2d3172aa3b006a579fafcf7c6009f9e7fc83c16535d",
+      "bytes": 1033866,
       "changed": false
     },
     {
@@ -206,10 +245,13 @@
       "apps": [
         "gmail"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://support.google.com/mail/answer/1075549?hl=en",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "af2ad03a9ea60c3b64b2158a4121ccf96b8b813a43094e2be314ca36fc15bd3b",
+      "bytes": 1420561,
       "changed": false
     },
     {
@@ -220,10 +262,13 @@
       "apps": [
         "gmail"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "086088b546fc8f8a2813efc7aeeac62904b80329d81999de48dee42d37bfe8c5",
+      "bytes": 817564,
       "changed": false
     },
     {
@@ -234,10 +279,13 @@
       "apps": [
         "gmail"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "570d3c16e7cdf278f08d0a8140cca214684bcafaf9757808c96e354fb4087f5f",
+      "bytes": 374084,
       "changed": false
     },
     {
@@ -248,10 +296,13 @@
       "apps": [
         "google-photos"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://support.google.com/photos/answer/15604413?hl=en",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "b4ccc4016f3a9e78696218592b86e8064ad37aaffc35dc54e6f4daee8c6c2f77",
+      "bytes": 1599035,
       "changed": false
     },
     {
@@ -262,10 +313,13 @@
       "apps": [
         "google-photos"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/google-photos-backup-edit/id962194608",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2620b9d1bd19bee22284b6fd1eabf0116de3f5ae5f3ae6d634fcc046a5353149",
+      "bytes": 868142,
       "changed": false
     },
     {
@@ -276,10 +330,13 @@
       "apps": [
         "google-photos"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://blog.google/products-and-platforms/products/photos/google-photos-10-years-tips-tricks/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "615087b26021da4a8193b7ac2275a225672aa0aa16f35886aa675de6969a0f3b",
+      "bytes": 382861,
       "changed": false
     },
     {
@@ -290,10 +347,13 @@
       "apps": [
         "google-ads"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://support.google.com/google-ads/answer/9972066?hl=en",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "e5ff303ce3050332aaca96db38a5cd4347cdc89260d3073b305bdd34cffd213d",
+      "bytes": 1668077,
       "changed": false
     },
     {
@@ -304,10 +364,13 @@
       "apps": [
         "google-ads"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/google-ads/id1037457231",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "dfe51c459147885a6c935fa2fd01b6bd4f7587ae155cd3ab8d19e4269eb5b791",
+      "bytes": 755205,
       "changed": false
     },
     {
@@ -318,10 +381,13 @@
       "apps": [
         "messenger"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/messenger/id454638411",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "b5bd17e2e90317e3acfa6e6c2e4e4edc1d1c3c68b4c838dff0a5e050aaf663bd",
+      "bytes": 852800,
       "changed": false
     },
     {
@@ -332,10 +398,13 @@
       "apps": [
         "grok"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/grok-ai/id6670324846",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "daafcc66abedf60558d2652e925cfbe9d3092384427f1c740e70078c9f746547",
+      "bytes": 587015,
       "changed": false
     },
     {
@@ -350,10 +419,13 @@
         "copilot",
         "meta-ai"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "00093a020c391980064da3439b55f4814f9fefaca74dad43cfd5576acace8d1b",
+      "bytes": 391862,
       "changed": false
     },
     {
@@ -364,24 +436,30 @@
       "apps": [
         "discord"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "d37577128c9ab3d52458082e8e41df852872b4aa3dac595ab702abadf8a1fe49",
+      "bytes": 604392,
       "changed": false
     },
     {
+      "title": "Discord MAU",
       "url": "https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini",
-      "title": "Discord 官方新闻稿",
-      "note": "官方披露全球 MAU 超过 2 亿。",
-      "type": "usage-data",
+      "type": "官方规模数据",
+      "note": "Discord 官方披露超过 2 亿 MAU。",
       "apps": [
         "discord"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "cf13cfe523e522c55e7aee675ca246aecb74b147eed4fe11e205baf5e151c30a",
+      "bytes": 105208,
       "changed": false
     },
     {
@@ -392,10 +470,13 @@
       "apps": [
         "amazon-alexa"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/amazon-alexa/id944011620",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "6fad4bd83b91c5acf81989f29242a5ec45b9f1c8702cd3ce2bfe478729cc79fa",
+      "bytes": 807880,
       "changed": false
     },
     {
@@ -406,10 +487,13 @@
       "apps": [
         "amazon-alexa"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "1222d66afb63e48b11dbf82d0355a09b99ad93003ed1d434ef97fdfe1bcea2e2",
+      "bytes": 292911,
       "changed": false
     },
     {
@@ -420,10 +504,13 @@
       "apps": [
         "spotify"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "785d361dca9097f3dee4133865205b59badbd44e7fbcaa5dbdaf7721831afd3d",
+      "bytes": 689341,
       "changed": false
     },
     {
@@ -434,10 +521,13 @@
       "apps": [
         "spotify"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "79d1e8050273447d2d256cf4a3aaad1fa648460fdcf530dab0fc03cfd69810e5",
+      "bytes": 167831,
       "changed": false
     },
     {
@@ -448,24 +538,30 @@
       "apps": [
         "telegram"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "374ec61248e8ab00d2e8c0c51d1ebb71b60874543314b7f4d5268c973237f6ff",
+      "bytes": 530718,
       "changed": false
     },
     {
+      "title": "Telegram MAU",
       "url": "https://telegram.org/press",
-      "title": "Telegram Press Info",
-      "note": "官方称 2025 年月活跃用户超过 10 亿。",
-      "type": "usage-data",
+      "type": "官方规模数据",
+      "note": "Telegram 官方称 2025 年超过 10 亿 MAU。",
       "apps": [
         "telegram"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://telegram.org/press",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "bb33678e461399702bf052411fdf8913bc20073ecf8e65067bbd15089f0e9b45",
+      "bytes": 22864,
       "changed": false
     },
     {
@@ -476,10 +572,13 @@
       "apps": [
         "line"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/line/id443904275",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "228b79fd5c1e1a88be0620e38fe07ff754bffa59ec23dd6071c0d902fda162b1",
+      "bytes": 749927,
       "changed": false
     },
     {
@@ -490,10 +589,13 @@
       "apps": [
         "line"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.linecorp.com/en/csr/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "20ffba2a2b997f6aa95d8b4f01184a0dc590be0273974af6a31ae57f0df28eb6",
+      "bytes": 1709352,
       "changed": false
     },
     {
@@ -504,10 +606,13 @@
       "apps": [
         "chatgpt"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "cff13410b0c61a3fc5a5adfafe2e2b63b5eabf27c61607e76b4671f4e37dceb0",
+      "bytes": 676758,
       "changed": false
     },
     {
@@ -518,10 +623,13 @@
       "apps": [
         "chatgpt"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://sensortower.com/press/sensor-tower-state-of-ai-2026-report-global-time-spent-on-generative-ai-apps-projected-to-more-than-double-year-over-year",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "b37b2032035d16e7fb8ed2f6b287a7322dd95004b57b7804c312990b2c67394b",
+      "bytes": 116589,
       "changed": false
     },
     {
@@ -532,10 +640,13 @@
       "apps": [
         "chatgpt"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://investgame.net/wp-content/uploads/2025/07/sensor_tower__state_of_ai_apps_report_2025.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "86e07670cbbaaf636542f3cd0c338b202d4dd9a9c0a11ac85dddbeff06c5f62a",
+      "bytes": 17197211,
       "changed": false
     },
     {
@@ -546,10 +657,13 @@
       "apps": [
         "perplexity"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "9c7757b972ed85d1e48624acb888a20c9be42ed9293bca8dc15b45628cfbf321",
+      "bytes": 530202,
       "changed": false
     },
     {
@@ -560,10 +674,13 @@
       "apps": [
         "claude"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "0fd51b6bf06e4caba8c7af61abaa23feb3964ea03a1b325764245ccbcae55070",
+      "bytes": 629052,
       "changed": false
     },
     {
@@ -574,10 +691,13 @@
       "apps": [
         "tiktok"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "d67a75cf0fe68030a597846942eda50b41ff4dee3c89983f697e731caddd18ab",
+      "bytes": 926263,
       "changed": false
     },
     {
@@ -588,10 +708,13 @@
       "apps": [
         "tiktok"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://jingdaily.com/intels/2026-04/29/tiktok-tops-2-billion-users-shop-gmv-climbs-94-in-2025",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "9c890de667d42cdb14b99c9b2004919c0853c84283618704e77a620462b0b365",
+      "bytes": 342750,
       "changed": false
     },
     {
@@ -602,10 +725,13 @@
       "apps": [
         "fitbit"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/google-health-fitbit/id462638897",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "3ffcd0a72f1fd977a8549592871d916f90a675c6d73bdaa99e652976278ba20e",
+      "bytes": 815932,
       "changed": false
     },
     {
@@ -616,10 +742,13 @@
       "apps": [
         "fitbit"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-community-grows-25m-active-users/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2837a8967a62065564f2be5d6d0c171bea5f78d27f28b354f7d350cdcd3e23c6",
+      "bytes": 349733,
       "changed": false
     },
     {
@@ -630,10 +759,13 @@
       "apps": [
         "iheartradio"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "6aae48e5650176942c2f1eee7a266049e1cd639df15834bba7a146f78d9c6c81",
+      "bytes": 746862,
       "changed": false
     },
     {
@@ -644,10 +776,13 @@
       "apps": [
         "iheartradio"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.iheartmedia.com/digital",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "e10b013ed9020f70d05709ddbc58ceaeff119c9de4be78a3818f260ff22da9d8",
+      "bytes": 9576,
       "changed": false
     },
     {
@@ -658,10 +793,13 @@
       "apps": [
         "amazon-music"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/amazon-music-songs-podcasts/id510855668",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "c89dc6561e61940027a8acb381d3d3fdf9bf4d0ba65c6280b63bba077a6df2b4",
+      "bytes": 851154,
       "changed": false
     },
     {
@@ -672,10 +810,13 @@
       "apps": [
         "youtube-music"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/youtube-music/id1017492454",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "3b8126e065155046e53f5bce7681200756b13931ece690b246fbf3e69cb0f99b",
+      "bytes": 855947,
       "changed": false
     },
     {
@@ -687,10 +828,13 @@
         "youtube-music",
         "youtube-tv"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://blog.youtube/inside-youtube/our-big-bets-for-2025/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "6d63bf8ff3b1b59fda0a57a63ba4981b64780ed1992e9d84b26605129bb4d686",
+      "bytes": 146817,
       "changed": false
     },
     {
@@ -701,10 +845,13 @@
       "apps": [
         "copilot"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/microsoft-copilot/id541164041",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "6be7ad4f2f24321958924d21ae00c50b0b076748232e2a4da788beed2866526f",
+      "bytes": 784244,
       "changed": false
     },
     {
@@ -715,10 +862,13 @@
       "apps": [
         "onedrive"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/microsoft-onedrive/id477537958",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "280a9e4ab3d7a305f5d1d6645e20eb1a022a30df3dd2e706008d4cabbabacdef",
+      "bytes": 811885,
       "changed": false
     },
     {
@@ -729,10 +879,13 @@
       "apps": [
         "threads"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/threads/id6446901002",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2a8cf274ae931c40c0e6f13f569f29329c4145ce7ecbfeab1ee9490fe0ef6825",
+      "bytes": 703676,
       "changed": false
     },
     {
@@ -743,10 +896,13 @@
       "apps": [
         "threads"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://about.fb.com/news/2026/06/meta-launching-new-features-500-million-monthly-threads-users/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "a53c5a26dd374fc43292bafe7e4add151412c44cdc4420e203aec49af2b8dbd4",
+      "bytes": 496384,
       "changed": false
     },
     {
@@ -757,10 +913,13 @@
       "apps": [
         "linkedin"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/linkedin-community-network/id288429040",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "a952bbbc34e548d0369f74724acfe448999770e85511d4198f14aaa5a018dcf1",
+      "bytes": 797498,
       "changed": false
     },
     {
@@ -771,10 +930,13 @@
       "apps": [
         "github"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/github/id1477376905",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "da2d13c34e00835456114b0bdf3b62cff20ba9b8b558ec0ab4eb030465b41ad6",
+      "bytes": 571615,
       "changed": false
     },
     {
@@ -785,10 +947,13 @@
       "apps": [
         "github"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://github.blog/news-insights/octoverse/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "5fadbf4fd945db937117797a84461d16536817c4b5ea12f98a9bdf07388b53d0",
+      "bytes": 189364,
       "changed": false
     },
     {
@@ -799,10 +964,13 @@
       "apps": [
         "chrome"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/google-chrome/id535886823",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "88d489f07e8b1ff1af9510c91f2b264bef7569fe0841b285d5ca164691d508f1",
+      "bytes": 862687,
       "changed": false
     },
     {
@@ -813,10 +981,13 @@
       "apps": [
         "chrome"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://services.google.com/fh/files/misc/bce-protected-profiles-whitepaper.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "8c6bdc738bcfa2cd41d9428973c2332001d546b4814c03912adbccf5f55053e9",
+      "bytes": 3277029,
       "changed": false
     },
     {
@@ -827,10 +998,13 @@
       "apps": [
         "accuweather"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/accuweather-weather-forecast/id300048137",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "3e00083bdc2639a2a5ad00fc5a5df41afffb2b0cc1d419f10dac8e0693263137",
+      "bytes": 657045,
       "changed": false
     },
     {
@@ -841,10 +1015,13 @@
       "apps": [
         "accuweather"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://advertising.accuweather.com/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "b003017eadf9664a89914a7592896da2eb837b1fe52495f1a235312c6b020c59",
+      "bytes": 113017,
       "changed": false
     },
     {
@@ -855,10 +1032,13 @@
       "apps": [
         "soundcloud"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/soundcloud-the-music-you-love/id336353151",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2c04ff93d998d37cdef5c6f2463e353167cadf38685d70b1be7fdca509e6c273",
+      "bytes": 662073,
       "changed": false
     },
     {
@@ -869,10 +1049,13 @@
       "apps": [
         "soundcloud"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.wmg.com/news/warner-music-group-and-soundcloud-announce-groundbreaking-partnership-20036",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "eac913c145dcf1e7fd84f92f9349ceb0e11547e89105efe2c39007a8c0b9d530",
+      "bytes": 96416,
       "changed": false
     },
     {
@@ -883,10 +1066,13 @@
       "apps": [
         "capcut"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "00bd0c63ec1e34660b43810244a32e8115cfa9f42ccd3831703a4b48baf5f3fc",
+      "bytes": 808728,
       "changed": false
     },
     {
@@ -897,10 +1083,13 @@
       "apps": [
         "capcut"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.scmp.com/tech/big-tech/article/3275336/bytedances-capcut-doubao-top-global-ai-app-downloads-outpacing-chatgpt-report",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "9b5227346b4fdb52eddb7935a2f7f65156aec244ac1ab8533de3191a034f2b50",
+      "bytes": 1143760,
       "changed": false
     },
     {
@@ -911,10 +1100,13 @@
       "apps": [
         "slack"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://slack.com/intl/zh-cn/help/articles/201355156-%E9%85%8D%E7%BD%AE%E4%BD%A0%E7%9A%84-Slack-%E9%80%9A%E7%9F%A5",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "e25742ff66e0e0d50080bb7e607c4814657b9dfc3a4c8a5f5f7e0a7f5ad8e34d",
+      "bytes": 108531,
       "changed": false
     },
     {
@@ -925,10 +1117,13 @@
       "apps": [
         "slack"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/slack/id618783545",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "4ae1c3ca24a028560cfe2a0a764cfd76d3d941ad38fba4c61d8a2231f0b50378",
+      "bytes": 651180,
       "changed": false
     },
     {
@@ -939,10 +1134,13 @@
       "apps": [
         "notion"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/notion-notes-tasks-ai/id1232780281",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "03b90bb48539bbd9fa3e9bb524e50f2115ca3ec91d37ec04448ff2a2e3259994",
+      "bytes": 710732,
       "changed": false
     },
     {
@@ -953,10 +1151,13 @@
       "apps": [
         "notion"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.notion.com/blog/100-million-of-you",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "c3b9f82317a52d7a1a2fb6122b54f36223aebd3c923b7d3a09f155665c2bfaa3",
+      "bytes": 179512,
       "changed": false
     },
     {
@@ -967,10 +1168,13 @@
       "apps": [
         "firefox"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/firefox-fast-private-browser/id989804926",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "0e8c1d00d40a74c82ebcb3399272fe20d12a7dfd9d00eb4f5774698a6c7dd26c",
+      "bytes": 658567,
       "changed": false
     },
     {
@@ -981,10 +1185,13 @@
       "apps": [
         "firefox"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.mozilla.org/en-US/advertising/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "25e756f15c9eb1e70fbb8def1691b0eadcc410e99321a27d33d2dd1d597437d0",
+      "bytes": 48647,
       "changed": false
     },
     {
@@ -995,10 +1202,13 @@
       "apps": [
         "edge"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/microsoft-edge/id1288723196",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "89e36a56ce41628f7e1deb724bb27238b7a524c40a4cad67759cd86dfb1068f2",
+      "bytes": 820515,
       "changed": false
     },
     {
@@ -1009,10 +1219,13 @@
       "apps": [
         "safari"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/safari/id1146562112",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "70e87d2ac7714a34da702ac6d44283f96b97b0a69dc93172bf59939fec578230",
+      "bytes": 589974,
       "changed": false
     },
     {
@@ -1023,10 +1236,13 @@
       "apps": [
         "vlc"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/vlc-media-player/id650377962",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2730654e344024df3c54870071a88e1409b6e3b173a6d15d7b1b2b1908282a0f",
+      "bytes": 549425,
       "changed": false
     },
     {
@@ -1037,10 +1253,13 @@
       "apps": [
         "vlc"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "adf7f76d7021c566ee0d1dd14400ab8cf49f787fe9c33d78b845e96761b87242",
+      "bytes": 209028,
       "changed": false
     },
     {
@@ -1051,10 +1270,13 @@
       "apps": [
         "youtube-tv"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/youtube-tv/id1193350206",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "1be0fbef68743a74786b6fe8b634333f5848f5005843ee4c3e1c50473144aaf3",
+      "bytes": 816762,
       "changed": false
     },
     {
@@ -1065,10 +1287,13 @@
       "apps": [
         "snapchat"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://help.snapchat.com/hc/en-us/articles/7012316327444-How-do-I-control-my-Snapchat-notifications-on-iOS",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "29c55db3f65bace0fbebee012e5aead2e1f4c86e6da47c0f7c9f7257f396680d",
+      "bytes": 80239,
       "changed": false
     },
     {
@@ -1079,10 +1304,13 @@
       "apps": [
         "snapchat"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/snapchat/id447188370",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "eb8e3eed75bba6fae49182f998fd6cf66abe02574c31214217b6e239b0dae315",
+      "bytes": 867808,
       "changed": false
     },
     {
@@ -1093,10 +1321,13 @@
       "apps": [
         "snapchat"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "31a89657882d2b7a43c82fb698099753f43f1c62c394b221b58640ad23a2340a",
+      "bytes": 588313,
       "changed": false
     },
     {
@@ -1107,10 +1338,13 @@
       "apps": [
         "clubhouse"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/clubhouse/id1503133294",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "06a436cfcc763bfe88dcdcee389b617376d8fc42fca24510c7559d87c7b19bdf",
+      "bytes": 518405,
       "changed": false
     },
     {
@@ -1121,10 +1355,13 @@
       "apps": [
         "clubhouse"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://profiletree.com/clubhouse-social-media-app/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "66312b4e2f8d0b19c78e6f0169f6aaba28412e02df98ba87d62fa7287bb8fd61",
+      "bytes": 135490,
       "changed": false
     },
     {
@@ -1135,10 +1372,13 @@
       "apps": [
         "paypal"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/paypal-pay-send-save/id283646709",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "49e2b9868388623a88628d290cde79ed82488e3a26fef2fbbd026386d514caa6",
+      "bytes": 701387,
       "changed": false
     },
     {
@@ -1149,10 +1389,13 @@
       "apps": [
         "paypal"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "481b7407f7ca0d41d8775d30c5aff001d49fdf0e6f04949dc32f92e582acf3ce",
+      "bytes": 5792,
       "changed": false
     },
     {
@@ -1163,10 +1406,13 @@
       "apps": [
         "tunein"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/tunein-radio-music-sports/id418987775",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "244099143aadd05a949d5f4bffd63c5db52c535cb42c8ab120a310b6d653a419",
+      "bytes": 771906,
       "changed": false
     },
     {
@@ -1177,10 +1423,13 @@
       "apps": [
         "tunein"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://corporate.stingray.com/acquisitions/stingray-acquires-tunein/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2fcff3cfc0df4c57882c328e28ef4ec242164ba17349e0120bbd1464a1a0aa98",
+      "bytes": 784427,
       "changed": false
     },
     {
@@ -1191,10 +1440,13 @@
       "apps": [
         "aol-mail"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/aol-mail-news-weather/id646100661",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "a9f209d1ada9560e2e31b3f7d82a2db7f49270f3e790aef74a89ee4737563884",
+      "bytes": 753487,
       "changed": false
     },
     {
@@ -1205,10 +1457,13 @@
       "apps": [
         "aol-mail"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.aol.com/about-us/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "bdaa1e93d6623cbc8758d7aa6a4905b56f67bb87772344a975afbc6681e8ae28",
+      "bytes": 264493,
       "changed": false
     },
     {
@@ -1219,10 +1474,13 @@
       "apps": [
         "microsoft-teams"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://support.microsoft.com/en-us/teams/notifications-settings/manage-notifications-in-microsoft-teams",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "8e76c6b64572e0bc87f00c53630df083188927fa79f64ec2e8be2708d8e139b5",
+      "bytes": 146722,
       "changed": false
     },
     {
@@ -1233,10 +1491,13 @@
       "apps": [
         "microsoft-teams"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "5072946b5eb8b270ea3f69a3e7433b6ed324b506308c0ba777b8836ffde8cfc7",
+      "bytes": 739255,
       "changed": false
     },
     {
@@ -1247,10 +1508,13 @@
       "apps": [
         "microsoft-teams"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
+      "status": "http-error",
+      "httpStatus": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "5b79c5f732691e3432cd2d8e29ba23d57e8c598177a927eba0e9de526447e1c0",
+      "bytes": 228237,
       "changed": false
     },
     {
@@ -1261,10 +1525,13 @@
       "apps": [
         "yelp"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/yelp-food-services-reviews/id284910350",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2667181a08ebf33d576d2e2bb99a12144809a1fa4de91d8972c3c4629cd2689d",
+      "bytes": 748360,
       "changed": false
     },
     {
@@ -1275,10 +1542,13 @@
       "apps": [
         "yelp"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "a8cca0ebb8d458cdcf42d0f0a7223caf063112378657ef0157ae034f8985ef0c",
+      "bytes": 4819,
       "changed": false
     },
     {
@@ -1289,10 +1559,13 @@
       "apps": [
         "ticketmaster"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/ticketmaster-buy-sell-tickets/id500003565",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "5f205a5f5a3bde6ab7293b6e7cc08b57689cf1c23cc78a45ed11b3a78c285f56",
+      "bytes": 679154,
       "changed": false
     },
     {
@@ -1303,10 +1576,13 @@
       "apps": [
         "ticketmaster"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://business.ticketmaster.com/ticketing-straight-to-your-app/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "4b802760d8fd402c4e8fc794319094e143ed6e9d9f31d783c446f7fa5bf1199f",
+      "bytes": 172035,
       "changed": false
     },
     {
@@ -1317,10 +1593,13 @@
       "apps": [
         "priceline"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/priceline-hotel-car-flight/id336381998",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "84abd9cfe995738afa00a586702ca7b958cdd1c8a8e3eaed98b72f8a9d948a16",
+      "bytes": 675206,
       "changed": false
     },
     {
@@ -1331,10 +1610,13 @@
       "apps": [
         "stubhub"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/stubhub-event-tickets/id366562751",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "d5c70b022398c37c6bf34a4e0fb272660f9fc187172824e50a8d7bc74372e696",
+      "bytes": 544576,
       "changed": false
     },
     {
@@ -1345,10 +1627,13 @@
       "apps": [
         "stubhub"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://newsroom.stubhub.com/2026/03/18/stubhub-launches-distribution-manager-an-ai-powered-tool-for-artists-teams-and-venues/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "6ec84f5bfb33b79e9bfafec15313cbb71229d1e72157a4b9008239dc0e8303b6",
+      "bytes": 149728,
       "changed": false
     },
     {
@@ -1359,10 +1644,13 @@
       "apps": [
         "grubhub"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/grubhub-food-delivery/id302920553",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "f9b35bcbf817a35d87ec59d62007e6b7b51fcea1bacee574470df74766d2367c",
+      "bytes": 707662,
       "changed": false
     },
     {
@@ -1373,10 +1661,13 @@
       "apps": [
         "grubhub"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://s205.q4cdn.com/266311280/files/doc_financials/2024/ar/AR2024_JET-com.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "35b664b177c2568bdb6cede145eb0963c603593a4b1f860e826c71ac6576aff7",
+      "bytes": 17284913,
       "changed": false
     },
     {
@@ -1387,10 +1678,13 @@
       "apps": [
         "uber"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/uber-request-a-ride/id368677368",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2596b7e0a13b0f4bbe068eea02cc9d08e458a4d13e6960c665f1452c25aecdd5",
+      "bytes": 799056,
       "changed": false
     },
     {
@@ -1401,10 +1695,13 @@
       "apps": [
         "uber"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "1c55be76d6c9a4dd18f71558d9aac5b8aff522363109978256feb80d64d952d8",
+      "bytes": 456258,
       "changed": false
     },
     {
@@ -1415,10 +1712,13 @@
       "apps": [
         "google-maps"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://support.google.com/maps/answer/6149565?hl=en",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "9debe83f461ccc4a9372a59a18b466ea745a72581c23567d24bbf07231645bb4",
+      "bytes": 1436885,
       "changed": false
     },
     {
@@ -1429,10 +1729,13 @@
       "apps": [
         "google-maps"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/google-maps/id585027354",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "b91bd1216347ccfea4e549c49d8e21d73776a56eafc463185bc5550e921d9455",
+      "bytes": 832723,
       "changed": false
     },
     {
@@ -1443,10 +1746,13 @@
       "apps": [
         "google-maps"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://abc.xyz/investor/events/event-details/2024/2024-q3-earnings-call/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "6e891b48a909114a1161376c7909fd69d848402f09a585e7f61d57e51aaab05d",
+      "bytes": 133552,
       "changed": false
     },
     {
@@ -1457,10 +1763,13 @@
       "apps": [
         "netflix"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/netflix/id363590051",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "4c83d089cfc53540222d48cbfedcb910c1e61cbd2bd8a98326392dca353c60e8",
+      "bytes": 859221,
       "changed": false
     },
     {
@@ -1471,10 +1780,13 @@
       "apps": [
         "netflix"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "b3ee1e7b4c6624bf4ce1a54a1928bc29fa15d5739de9282c28a16de87c37c9cf",
+      "bytes": 46638,
       "changed": false
     },
     {
@@ -1485,10 +1797,13 @@
       "apps": [
         "flickr"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/flickr/id328407587",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "363bb5ac8b46b85880368e064f4cd1b7a18498eb1c9b9abcec1ab4eed102f509",
+      "bytes": 540769,
       "changed": false
     },
     {
@@ -1499,10 +1814,13 @@
       "apps": [
         "flickr"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "88439b891bdd4a9ea28e2086661ff125cf9d87d2ab4328b566e3efa56b01048c",
+      "bytes": 6019,
       "changed": false
     },
     {
@@ -1513,10 +1831,13 @@
       "apps": [
         "tumblr"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/tumblr-social-media-art/id305343404",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "b9b1c37ef86ce725adeebb200f9e7192e46c483f4e33ac6a6c6e2876d44f1ecf",
+      "bytes": 614063,
       "changed": false
     },
     {
@@ -1527,10 +1848,13 @@
       "apps": [
         "tumblr"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://advertise.tumblr.com/audience/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "5dc4a2db804d4c844ee6b93d07f393942747780db34258ff37dc93404f280463",
+      "bytes": 165769,
       "changed": false
     },
     {
@@ -1541,10 +1865,13 @@
       "apps": [
         "reddit"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/reddit/id1064216828",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "18c53a08e3f9604da6dd45a96f1265e46f92788980267fc76f1a706a833badc4",
+      "bytes": 647479,
       "changed": false
     },
     {
@@ -1555,10 +1882,13 @@
       "apps": [
         "reddit"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Second-Quarter-2026-Results/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "c548864bcc7c4b701ddf0965b76890939f81c3f4a705c2a6f2f34628cd292d92",
+      "bytes": 317587,
       "changed": false
     },
     {
@@ -1569,10 +1899,13 @@
       "apps": [
         "max"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "bc87595b31e5d86fb6161bdc84e3b78e269359b5a1f7b6f6b2b523f63477ad9a",
+      "bytes": 810115,
       "changed": false
     },
     {
@@ -1583,10 +1916,13 @@
       "apps": [
         "max"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://s201.q4cdn.com/336605034/files/doc_earnings/2025/q4/earnings-result/WBD-4Q25-Shareholder-Letter.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "e8e96bc4a0fbd54192528151dc0245d102d78b64048cd947f93a7315ccae82b4",
+      "bytes": 255679,
       "changed": false
     },
     {
@@ -1597,10 +1933,13 @@
       "apps": [
         "tinder"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/tinder-dating-app-date-chat/id547702041",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "94df76df7939622b5dbf021cef2851be7b4db25dcbaa30da33c183338ac99ab7",
+      "bytes": 756581,
       "changed": false
     },
     {
@@ -1611,10 +1950,13 @@
       "apps": [
         "tinder"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.tinderpressroom.com/about",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "09aafda87498fe6e807e9c5812a1d74c791cce8558b4da3ccffb051c2b8731e8",
+      "bytes": 16683,
       "changed": false
     },
     {
@@ -1625,10 +1967,13 @@
       "apps": [
         "disney-plus"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/disney/id1446075923",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "bddea17ed9494a10d16753032890a1a4287cece662543bde09212c4fb63762b8",
+      "bytes": 847238,
       "changed": false
     },
     {
@@ -1639,10 +1984,13 @@
       "apps": [
         "disney-plus"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "a1ab2319a30df54e29003bb2bfa75263e7bbb47bb0c3b229c4dcfbf4fa47b36a",
+      "bytes": 581513,
       "changed": false
     },
     {
@@ -1653,24 +2001,30 @@
       "apps": [
         "gemini"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/google-gemini/id6477489729",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "e027b50be7766b60d132f3b168169013dce5080ee784d0c6bd8cbe1daf492a43",
+      "bytes": 908611,
       "changed": false
     },
     {
+      "title": "Gemini App MAU 突破 10 亿",
       "url": "https://blog.google/intl/ko-kr/company-news/inside-google/gemini-one-billion-monthly-users-kr/",
-      "title": "Google：Gemini 月活突破 10 亿",
-      "note": "Google 官方明确称 Gemini App 月活用户超过 10 亿。",
-      "type": "usage-data",
+      "type": "官方规模数据",
+      "note": "Google 2026-08 明确披露 Gemini App 月活超过 10 亿。",
       "apps": [
         "gemini"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://blog.google/intl/ko-kr/company-news/inside-google/gemini-one-billion-monthly-users-kr/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "5c684ab2f2dc7b70b68899aef794023d9945da2dfc3f3328900ef56e2aacbade",
+      "bytes": 321936,
       "changed": false
     },
     {
@@ -1681,10 +2035,13 @@
       "apps": [
         "gemini"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://sensortower.com/blog/top-chatgpt-competitors",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "97f1dd29cbac6320e58a059038261b0b1a5fc3d05e5d9924252566ac8b8bcef5",
+      "bytes": 156487,
       "changed": false
     },
     {
@@ -1695,10 +2052,13 @@
       "apps": [
         "meta-ai"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/meta-ai/id1558240027",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "801e1829e8a31d073003ab680468670e93ed47101dbf4bc2bf6a06dc23ee0aa0",
+      "bytes": 853162,
       "changed": false
     },
     {
@@ -1709,10 +2069,13 @@
       "apps": [
         "zoom"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/zoom-workplace/id546505307",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "2e18dfaeee8d421f63ae213246a7c0d186fca621eafd7ca2044f7feee31aa50b",
+      "bytes": 901431,
       "changed": false
     },
     {
@@ -1723,10 +2086,13 @@
       "apps": [
         "zoom"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://investors.zoom.us/static-files/0229c042-e707-4b11-9110-6ea1e9ce31b4",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "65df237cd1234b02e931108a129a019c3300d9fbaba2c7587a931d6edcdd31f4",
+      "bytes": 186339,
       "changed": false
     },
     {
@@ -1737,24 +2103,30 @@
       "apps": [
         "temu"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "63e22fcb7a500ed060df26e4e48bfe4fda982213a1efdf83e6175b81b20dbeac",
+      "bytes": 604715,
       "changed": false
     },
     {
+      "title": "Temu 全球 App MAU",
       "url": "https://www.techtimes.com/articles/325406/20260824/pdd-q2-earnings-beat-expectations-temu-loses-11-users-before-eu-deadline.htm",
-      "title": "TechTimes 引述财新与 Sensor Tower",
-      "note": "报道给出 Temu 全球 MAU 4.67 亿；非公司官方值，详情中保留来源层级。",
-      "type": "usage-data",
+      "type": "行业报告转述",
+      "note": "TechTimes 引述财新与 Sensor Tower，给出 Temu 2026 Q2 全球 MAU 4.67 亿。",
       "apps": [
         "temu"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.techtimes.com/articles/325406/20260824/pdd-q2-earnings-beat-expectations-temu-loses-11-users-before-eu-deadline.htm",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "49d98e36cdd4e15a09bfa10705cfaaf9e961c3e866fdbf5227105aa64bff3e0f",
+      "bytes": 340060,
       "changed": false
     },
     {
@@ -1765,10 +2137,13 @@
       "apps": [
         "temu"
       ],
-      "status": "not-checked",
-      "checkedAt": null,
-      "hash": null,
-      "bytes": null,
+      "finalUrl": "https://www.aol.com/news/chinese-shopping-app-temu-microsoft-233940417.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "hash": "c4b0efc4255349a07968ecf6a36109b613e52ca5a0da2a863e2ef686d5fd2dcc",
+      "bytes": 772712,
       "changed": false
     }
   ]
