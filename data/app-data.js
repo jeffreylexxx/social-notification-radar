@@ -7,10 +7,10 @@ window.APP_DATA = {
     "countingRule": "可由不同事件独立触发的一种提醒场景计为一项；声音、横幅、锁屏和角标等展示方式不重复计数。",
     "disclaimer": "数量为公开资料能够支持的已确认下限，不代表厂商公布的官方总数。应用版本、系统、账号身份和地区可能导致实际项目不同。",
     "snapshotDate": "2026-09-02",
-    "generatedAt": "2026-09-01T21:02:13.967Z",
+    "generatedAt": "2026-09-02T00:47:53.489Z",
     "sourceCount": 167,
-    "changedSourceCount": 27,
-    "failedSourceCount": 11,
+    "changedSourceCount": 0,
+    "failedSourceCount": 6,
     "previousSnapshotDate": "2026-09-01"
   },
   "apps": [

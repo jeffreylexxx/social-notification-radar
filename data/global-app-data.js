@@ -8,10 +8,10 @@ window.APP_DATA = {
     "disclaimer": "通知数量是基于公开产品资料整理的可独立识别提醒场景，不等同于某一手机型号或版本中的设置开关数量。",
     "usageNote": "日均时长、日均打开与 App MAU 必须有公开来源和明确时间；跨端用户、会员、订阅、账户、DAU/WAU 仅作为代理标签展示，不写入 MAU 排序值。",
     "snapshotDate": "2026-09-02",
-    "generatedAt": "2026-09-01T21:03:30.875Z",
-    "sourceCount": 88,
+    "generatedAt": "2026-09-02T01:02:50.149Z",
+    "sourceCount": 125,
     "changedSourceCount": 0,
-    "failedSourceCount": 28,
+    "failedSourceCount": 0,
     "previousSnapshotDate": "2026-09-01"
   },
   "apps": [
@@ -70,14 +70,14 @@ window.APP_DATA = {
       ],
       "usage": {
         "durationMinutes": 67,
-        "launches": null,
+        "launches": 9.1,
         "activeUsers": 305000,
         "period": "2025-08 / MAU 2023 Q3",
         "methodLabel": "Android 全球日均；MAU 为官方历史值",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "时长来自 Similarweb 全球 Android 样本；Meta 已停止披露 Facebook 单产品 MAU，保留 2023 Q3 官方历史值 30.5 亿。"
+          "note": "时长与打开次数来自 Similarweb 全球 Android 样本；Meta 已停止披露 Facebook 单产品 MAU，保留 2023 Q3 官方历史值 30.5 亿。"
         }
       },
       "count": 15,
@@ -85,6 +85,77 @@ window.APP_DATA = {
       "rank": 1,
       "previousRank": 1,
       "rankChange": 0
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "appCategory": "短视频与资讯",
+      "logo": "assets/logos/global/tiktok.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动反馈",
+          "items": [
+            "点赞",
+            "评论",
+            "评论回复",
+            "提及",
+            "内容被转发",
+            "内容被收藏"
+          ]
+        },
+        {
+          "name": "关系与消息",
+          "items": [
+            "新关注者",
+            "关注请求",
+            "私信",
+            "群聊消息",
+            "联系人加入"
+          ]
+        },
+        {
+          "name": "内容与直播",
+          "items": [
+            "关注账号发布内容",
+            "直播开始",
+            "内容推荐",
+            "热门趋势"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "TikTok - Videos, Shop & LIVE · App Store",
+          "url": "https://apps.apple.com/us/app/id835599320",
+          "type": "官方应用页",
+          "note": "开发者：TIKTOK PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "TikTok 全球 App MAU 突破 20 亿",
+          "url": "https://jingdaily.com/intels/2026-04/29/tiktok-tops-2-billion-users-shop-gmv-climbs-94-in-2025",
+          "type": "行业报告转述",
+          "note": "Jing Daily 引述 Sensor Tower，称 TikTok 2026 Q1 全球移动 App MAU 首次超过 20 亿。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 97,
+        "launches": 10,
+        "activeUsers": 200000,
+        "period": "2025-08 / MAU 2026 Q1",
+        "methodLabel": "Android 全球日均；Sensor Tower 全球 App MAU",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长与打开次数来自 Similarweb App Intelligence 全球 Android 样本，不含中国；Sensor Tower 数据经行业媒体报道显示 2026 Q1 全球移动 App MAU 突破 20 亿。"
+        }
+      },
+      "count": 15,
+      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
+      "rank": 2,
+      "previousRank": 3,
+      "rankChange": 1
     },
     {
       "id": "google-photos",
@@ -143,79 +214,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2025-05",
+        "methodLabel": "产品月用户（跨端代理）",
+        "activeUserLabel": "超过 15 亿月用户（跨端）",
+        "source": {
+          "url": "https://blog.google/products-and-platforms/products/photos/google-photos-10-years-tips-tricks/",
+          "title": "Google Photos 十周年",
+          "note": "Google 披露每月超过 15 亿人使用 Google Photos；未限定手机 App，故不写入严格 MAU 排序。"
+        }
       },
       "count": 15,
       "categorySummary": "共享活动 8，回忆与创作 3，伙伴与存储 4",
-      "rank": 2,
-      "previousRank": 2,
-      "rankChange": 0
-    },
-    {
-      "id": "tiktok",
-      "name": "TikTok",
-      "appCategory": "短视频与资讯",
-      "logo": "assets/logos/global/tiktok.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "互动反馈",
-          "items": [
-            "点赞",
-            "评论",
-            "评论回复",
-            "提及",
-            "内容被转发",
-            "内容被收藏"
-          ]
-        },
-        {
-          "name": "关系与消息",
-          "items": [
-            "新关注者",
-            "关注请求",
-            "私信",
-            "群聊消息",
-            "联系人加入"
-          ]
-        },
-        {
-          "name": "内容与直播",
-          "items": [
-            "关注账号发布内容",
-            "直播开始",
-            "内容推荐",
-            "热门趋势"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "TikTok - Videos, Shop & LIVE · App Store",
-          "url": "https://apps.apple.com/us/app/id835599320",
-          "type": "官方应用页",
-          "note": "开发者：TIKTOK PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": 97,
-        "launches": 9.7,
-        "activeUsers": null,
-        "period": "2025-08",
-        "methodLabel": "Android 全球日均",
-        "source": {
-          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
-          "title": "DataReportal Digital 2026",
-          "note": "Similarweb App Intelligence 全球 Android 样本，不含中国；公开广告触达量不等同 MAU。"
-        }
-      },
-      "count": 15,
-      "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
       "rank": 3,
-      "previousRank": 3,
-      "rankChange": 0
+      "previousRank": 2,
+      "rankChange": -1
     },
     {
       "id": "x",
@@ -268,18 +280,25 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id333903271",
           "type": "官方应用页",
           "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "X 移动 App DAU",
+          "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
+          "type": "行业估算代理",
+          "note": "报道引述 Similarweb：2026-01-07，X 的 iOS 与 Android 合计移动 DAU 约 1.25 亿；DAU 不作为 MAU。"
         }
       ],
       "usage": {
         "durationMinutes": 28,
-        "launches": null,
+        "launches": 6.8,
         "activeUsers": null,
-        "period": "2025-08",
-        "methodLabel": "Android 全球日均",
+        "period": "2025-08 / 移动 DAU 2026-01-07",
+        "methodLabel": "Android 全球日均；移动 DAU 代理",
+        "activeUserLabel": "1.25 亿移动 DAU",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "Similarweb App Intelligence 全球 Android 样本，不含中国。"
+          "note": "时长与打开次数来自 Similarweb App Intelligence 全球 Android 样本，不含中国；Similarweb 另估算 iOS 与 Android 合计移动 DAU 约 1.25 亿，DAU 不写入 MAU 排序。"
         }
       },
       "count": 15,
@@ -342,7 +361,7 @@ window.APP_DATA = {
       ],
       "usage": {
         "durationMinutes": 73,
-        "launches": 12,
+        "launches": 12.3,
         "activeUsers": 300000,
         "period": "2025-08 / MAU 2025-09",
         "methodLabel": "Android 全球日均；MAU 官方",
@@ -405,7 +424,7 @@ window.APP_DATA = {
       ],
       "usage": {
         "durationMinutes": 6,
-        "launches": null,
+        "launches": 3.2,
         "activeUsers": null,
         "period": "2025-08 / 会员规模 2023–2025",
         "methodLabel": "Android 全球日均；会员账户数",
@@ -413,7 +432,7 @@ window.APP_DATA = {
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "时长来自 Similarweb 全球 Android 样本；会员数不是 App MAU。"
+          "note": "时长与打开次数来自 Similarweb 全球 Android 样本；会员数不是 App MAU。"
         }
       },
       "count": 13,
@@ -465,18 +484,25 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id1064216828",
           "type": "官方应用页",
           "note": "开发者：REDDIT, INC.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Reddit 2026 Q2 周活",
+          "url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Second-Quarter-2026-Results/default.aspx",
+          "type": "官方财报代理",
+          "note": "Reddit 官方披露 WAUq 5.146 亿；覆盖网页与 App，且不是 MAU。"
         }
       ],
       "usage": {
         "durationMinutes": 19,
-        "launches": null,
+        "launches": 4.7,
         "activeUsers": null,
-        "period": "2025-08",
-        "methodLabel": "Android 全球日均",
+        "period": "2025-08 / WAUq 2026 Q2",
+        "methodLabel": "Android 全球日均；周活独立用户代理",
+        "activeUserLabel": "5.15 亿周活独立用户（跨网页/App）",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "Similarweb App Intelligence 全球 Android 样本，不含中国；Reddit 财报核心口径为 DAUq，未写入 MAU。"
+          "note": "时长与打开次数来自 Similarweb App Intelligence 全球 Android 样本，不含中国；Reddit 2026 Q2 披露 WAUq 5.146 亿，覆盖网页与 App，故不写入 MAU 排序。"
         }
       },
       "count": 13,
@@ -543,14 +569,14 @@ window.APP_DATA = {
       ],
       "usage": {
         "durationMinutes": 17,
-        "launches": null,
+        "launches": 6.5,
         "activeUsers": 94600,
         "period": "2025-08 / MAU 2025 Q4",
         "methodLabel": "Android 全球日均；MAU 官方",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "时长来自 Similarweb 全球 Android 样本；Snap 2025 Q4 披露 MAU 9.46 亿。"
+          "note": "时长与打开次数来自 Similarweb 全球 Android 样本；Snap 2025 Q4 披露 MAU 9.46 亿。"
         }
       },
       "count": 12,
@@ -611,14 +637,14 @@ window.APP_DATA = {
       ],
       "usage": {
         "durationMinutes": 4,
-        "launches": null,
+        "launches": 1.9,
         "activeUsers": 50000,
         "period": "2025-08 / MAU 2026-06",
         "methodLabel": "Android 全球日均；MAU 官方",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "时长来自 Similarweb 全球 Android 样本；Meta 2026-06 披露 Threads 达 5 亿 MAU。"
+          "note": "时长与打开次数来自 Similarweb 全球 Android 样本；Meta 2026-06 披露 Threads 达 5 亿 MAU。"
         }
       },
       "count": 12,
@@ -626,6 +652,69 @@ window.APP_DATA = {
       "rank": 9,
       "previousRank": 9,
       "rankChange": 0
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "appCategory": "购物与电商",
+      "logo": "assets/logos/global/temu.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "订单物流",
+          "items": [
+            "下单成功",
+            "付款状态",
+            "卖家发货",
+            "物流运输",
+            "派送中",
+            "签收完成",
+            "退款或退货"
+          ]
+        },
+        {
+          "name": "互动与价格",
+          "items": [
+            "客服消息",
+            "降价提醒",
+            "补货提醒",
+            "购物车提醒",
+            "优惠活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Temu: Shop Like a Billionaire · App Store",
+          "url": "https://apps.apple.com/us/app/id1641486558",
+          "type": "官方应用页",
+          "note": "开发者：Whaleco Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Temu 全球 App MAU",
+          "url": "https://www.techtimes.com/articles/325406/20260824/pdd-q2-earnings-beat-expectations-temu-loses-11-users-before-eu-deadline.htm",
+          "type": "行业报告转述",
+          "note": "TechTimes 引述财新与 Sensor Tower，给出 Temu 2026 Q2 全球 MAU 4.67 亿。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 3.3,
+        "launches": null,
+        "activeUsers": 46700,
+        "period": "2023 Q4（时长历史值）/ 2026 Q2 MAU",
+        "methodLabel": "美国周均换算日均；Sensor Tower 全球 App MAU（二手转述）",
+        "source": {
+          "url": "https://www.aol.com/news/chinese-shopping-app-temu-microsoft-233940417.html",
+          "title": "NBC News / AOL 引述 Sensor Tower",
+          "note": "Sensor Tower 估算 2023 年末美国用户每周使用 Temu 23 分钟，按 23÷7=3.3 分钟/日换算并标记历史值；2026 Q2 全球 MAU 4.67 亿来自另一篇行业报道。"
+        }
+      },
+      "count": 12,
+      "categorySummary": "订单物流 7，互动与价格 5",
+      "rank": 10,
+      "previousRank": 11,
+      "rankChange": 1
     },
     {
       "id": "google-ads",
@@ -686,61 +775,9 @@ window.APP_DATA = {
       },
       "count": 12,
       "categorySummary": "投放状态 4，效果 4，账户服务 4",
-      "rank": 10,
-      "previousRank": 10,
-      "rankChange": 0
-    },
-    {
-      "id": "temu",
-      "name": "Temu",
-      "appCategory": "购物与电商",
-      "logo": "assets/logos/global/temu.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "订单物流",
-          "items": [
-            "下单成功",
-            "付款状态",
-            "卖家发货",
-            "物流运输",
-            "派送中",
-            "签收完成",
-            "退款或退货"
-          ]
-        },
-        {
-          "name": "互动与价格",
-          "items": [
-            "客服消息",
-            "降价提醒",
-            "补货提醒",
-            "购物车提醒",
-            "优惠活动"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Temu: Shop Like a Billionaire · App Store",
-          "url": "https://apps.apple.com/us/app/id1641486558",
-          "type": "官方应用页",
-          "note": "开发者：Whaleco Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 12,
-      "categorySummary": "订单物流 7，互动与价格 5",
       "rank": 11,
-      "previousRank": 11,
-      "rankChange": 0
+      "previousRank": 10,
+      "rankChange": -1
     },
     {
       "id": "youtube",
@@ -912,8 +949,14 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2025-03",
+        "methodLabel": "平台 MAU（跨网页与 App）",
+        "activeUserLabel": "9,500 万平台 MAU",
+        "source": {
+          "url": "https://advertise.tumblr.com/audience/",
+          "title": "Tumblr Ads Audience",
+          "note": "Tumblr 内部数据披露全球 MAU 9,500 万，但未拆分手机 App，故不写入严格 App MAU 排序。"
+        }
       },
       "count": 11,
       "categorySummary": "互动反馈 6，关系与消息 5",
@@ -966,14 +1009,14 @@ window.APP_DATA = {
       ],
       "usage": {
         "durationMinutes": 30,
-        "launches": null,
+        "launches": 9.9,
         "activeUsers": 100000,
         "period": "2025-08 / MAU 2025",
         "methodLabel": "Android 全球日均；MAU 官方",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "时长来自 Similarweb 全球 Android 样本；Telegram 官方称 2025 年 MAU 超过 10 亿。"
+          "note": "时长与打开次数来自 Similarweb 全球 Android 样本；Telegram 官方称 2025 年 MAU 超过 10 亿。"
         }
       },
       "count": 10,
@@ -1027,14 +1070,14 @@ window.APP_DATA = {
       ],
       "usage": {
         "durationMinutes": 15,
-        "launches": null,
+        "launches": 7.3,
         "activeUsers": 20000,
         "period": "2025-08 / MAU 2025",
         "methodLabel": "Android 全球日均；MAU 官方",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "时长来自 Similarweb 全球 Android 样本；Discord 官方披露 MAU 超过 2 亿。"
+          "note": "时长与打开次数来自 Similarweb 全球 Android 样本；Discord 官方披露 MAU 超过 2 亿。"
         }
       },
       "count": 10,
@@ -1042,6 +1085,66 @@ window.APP_DATA = {
       "rank": 16,
       "previousRank": 16,
       "rankChange": 0
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/tinder.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "匹配互动",
+          "items": [
+            "新匹配",
+            "新消息",
+            "消息反应",
+            "资料获赞",
+            "超级喜欢"
+          ]
+        },
+        {
+          "name": "推荐与活动",
+          "items": [
+            "新推荐对象",
+            "位置或活动推荐",
+            "配对即将过期"
+          ]
+        },
+        {
+          "name": "安全与服务",
+          "items": [
+            "账号安全",
+            "订阅或营销"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tinder Dating App: Date & Chat · App Store",
+          "url": "https://apps.apple.com/us/app/id547702041",
+          "type": "官方应用页",
+          "note": "开发者：Tinder LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 5000,
+        "period": "官网当前值（抓取于 2026-09）",
+        "methodLabel": "每月 App 用户",
+        "source": {
+          "url": "https://www.tinderpressroom.com/about",
+          "title": "Tinder Newsroom · About Tinder",
+          "note": "Tinder 官方称 App 每月服务约 5,000 万用户，覆盖 190 个国家；按其明确的每月 App 用户口径写入。"
+        }
+      },
+      "count": 10,
+      "categorySummary": "匹配互动 5，推荐与活动 3，安全与服务 2",
+      "rank": 17,
+      "previousRank": 19,
+      "rankChange": 2
     },
     {
       "id": "messenger",
@@ -1082,21 +1185,21 @@ window.APP_DATA = {
       ],
       "usage": {
         "durationMinutes": 19,
-        "launches": null,
+        "launches": 9.1,
         "activeUsers": null,
         "period": "2025-08",
         "methodLabel": "Android 全球日均",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "Similarweb App Intelligence 全球 Android 样本，不含中国。"
+          "note": "时长与打开次数来自 Similarweb App Intelligence 全球 Android 样本，不含中国。"
         }
       },
       "count": 10,
       "categorySummary": "消息 6，通话与活动 4",
-      "rank": 17,
+      "rank": 18,
       "previousRank": 17,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "slack",
@@ -1155,64 +1258,9 @@ window.APP_DATA = {
       },
       "count": 10,
       "categorySummary": "沟通 5，协作 4，服务 1",
-      "rank": 18,
-      "previousRank": 18,
-      "rankChange": 0
-    },
-    {
-      "id": "tinder",
-      "name": "Tinder",
-      "appCategory": "社交与社区",
-      "logo": "assets/logos/global/tinder.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "匹配互动",
-          "items": [
-            "新匹配",
-            "新消息",
-            "消息反应",
-            "资料获赞",
-            "超级喜欢"
-          ]
-        },
-        {
-          "name": "推荐与活动",
-          "items": [
-            "新推荐对象",
-            "位置或活动推荐",
-            "配对即将过期"
-          ]
-        },
-        {
-          "name": "安全与服务",
-          "items": [
-            "账号安全",
-            "订阅或营销"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Tinder Dating App: Date & Chat · App Store",
-          "url": "https://apps.apple.com/us/app/id547702041",
-          "type": "官方应用页",
-          "note": "开发者：Tinder LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 10,
-      "categorySummary": "匹配互动 5，推荐与活动 3，安全与服务 2",
       "rank": 19,
-      "previousRank": 19,
-      "rankChange": 0
+      "previousRank": 18,
+      "rankChange": -1
     },
     {
       "id": "uber",
@@ -1255,14 +1303,86 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2026 Q2",
+        "methodLabel": "平台 MAPC（非单 App MAU）",
+        "activeUserLabel": "2.08 亿月活平台消费者",
+        "source": {
+          "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+          "title": "Uber 2026 Q2 业绩",
+          "note": "官方披露出行与配送平台月活消费者 2.08 亿；覆盖多个业务，不等同 Uber 单 App MAU。"
+        }
       },
       "count": 10,
       "categorySummary": "行程 6，安全与交易 4",
       "rank": 20,
       "previousRank": 20,
       "rankChange": 0
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "appCategory": "即时通讯",
+      "logo": "assets/logos/global/whatsapp.jpg",
+      "confidence": "high",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "消息",
+          "items": [
+            "单聊新消息",
+            "群聊新消息",
+            "消息回复",
+            "消息反应",
+            "@提及",
+            "频道或公告更新"
+          ]
+        },
+        {
+          "name": "通话与活动",
+          "items": [
+            "语音来电",
+            "视频来电",
+            "未接来电"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "WhatsApp 通知管理",
+          "url": "https://faq.whatsapp.com/797069521522888/",
+          "type": "官方帮助",
+          "note": "官方说明单聊、群聊、通话、反应、提及和未读角标等通知。"
+        },
+        {
+          "title": "WhatsApp Messenger · App Store",
+          "url": "https://apps.apple.com/us/app/id310633997",
+          "type": "官方应用页",
+          "note": "开发者：WhatsApp Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "WhatsApp 超过 30 亿 MAU",
+          "url": "https://techcrunch.com/2025/05/01/whatsapp-now-has-more-than-3-billion-users/",
+          "type": "电话会披露 / 新闻核验",
+          "note": "Meta CEO 在 2025 Q1 业绩电话会上明确称 WhatsApp 每月用户超过 30 亿。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 59,
+        "launches": 20.7,
+        "activeUsers": 300000,
+        "period": "2025-08 / MAU 2025-04",
+        "methodLabel": "Android 全球日均；MAU 官方电话会披露",
+        "source": {
+          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+          "title": "DataReportal Digital 2026",
+          "note": "时长与日均打开来自 Similarweb 全球 Android 样本；Meta CEO 在 2025 Q1 业绩电话会上披露 WhatsApp 月活超过 30 亿。"
+        }
+      },
+      "count": 9,
+      "categorySummary": "消息 6，通话与活动 3",
+      "rank": 21,
+      "previousRank": 23,
+      "rankChange": 2
     },
     {
       "id": "spotify",
@@ -1308,20 +1428,74 @@ window.APP_DATA = {
       "usage": {
         "durationMinutes": null,
         "launches": null,
-        "activeUsers": 69600,
-        "period": "2025 Q2",
+        "activeUsers": 77700,
+        "period": "2026 Q2",
         "methodLabel": "MAU",
         "source": {
-          "url": "https://newsroom.spotify.com/2025-07-29/spotify-reports-second-quarter-2025-earnings/",
-          "title": "Spotify 2025 Q2 业绩",
-          "note": "官方披露 MAU 6.96 亿。"
+          "url": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
+          "title": "Spotify 2026 Q2 业绩",
+          "note": "官方披露 MAU 7.77 亿。"
         }
       },
       "count": 9,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 2",
-      "rank": 21,
+      "rank": 22,
       "previousRank": 21,
-      "rankChange": 0
+      "rankChange": -1
+    },
+    {
+      "id": "yelp",
+      "name": "Yelp",
+      "appCategory": "本地生活",
+      "logo": "assets/logos/global/yelp.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "互动",
+          "items": [
+            "评论获赞",
+            "评论回复",
+            "私信",
+            "好友活动"
+          ]
+        },
+        {
+          "name": "本地服务",
+          "items": [
+            "预订提醒",
+            "候位状态",
+            "商家回复",
+            "附近推荐",
+            "优惠活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yelp: Food, Services & Reviews · App Store",
+          "url": "https://apps.apple.com/us/app/id284910350",
+          "type": "官方应用页",
+          "note": "开发者：Yelp, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 2800,
+        "period": "2025 月均",
+        "methodLabel": "App 月活独立设备",
+        "source": {
+          "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
+          "title": "Yelp 2025 Form 10-K",
+          "note": "官方口径为达到最低参与门槛的 App 月活独立设备，全年月均 2,800.9 万；设备数不完全等同人数。"
+        }
+      },
+      "count": 9,
+      "categorySummary": "互动 4，本地服务 5",
+      "rank": 23,
+      "previousRank": 24,
+      "rankChange": 1
     },
     {
       "id": "grubhub",
@@ -1363,130 +1537,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2024",
+        "methodLabel": "North America 活跃消费者（非单 App MAU）",
+        "activeUserLabel": "2,200 万活跃消费者（北美分部）",
+        "source": {
+          "url": "https://s205.q4cdn.com/266311280/files/doc_financials/2024/ar/AR2024_JET-com.pdf",
+          "title": "Just Eat Takeaway.com 2024 年报",
+          "note": "年报披露 North America 分部 2024 年有 2,200 万活跃消费者；该分部以 Grubhub 为核心，但口径不是手机 App MAU，故仅作代理展示。"
+        }
       },
       "count": 9,
       "categorySummary": "订单 7，售后与营销 2",
-      "rank": 22,
-      "previousRank": 22,
-      "rankChange": 0
-    },
-    {
-      "id": "whatsapp",
-      "name": "WhatsApp",
-      "appCategory": "即时通讯",
-      "logo": "assets/logos/global/whatsapp.jpg",
-      "confidence": "high",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "消息",
-          "items": [
-            "单聊新消息",
-            "群聊新消息",
-            "消息回复",
-            "消息反应",
-            "@提及",
-            "频道或公告更新"
-          ]
-        },
-        {
-          "name": "通话与活动",
-          "items": [
-            "语音来电",
-            "视频来电",
-            "未接来电"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "WhatsApp 通知管理",
-          "url": "https://faq.whatsapp.com/797069521522888/",
-          "type": "官方帮助",
-          "note": "官方说明单聊、群聊、通话、反应、提及和未读角标等通知。"
-        },
-        {
-          "title": "WhatsApp Messenger · App Store",
-          "url": "https://apps.apple.com/us/app/id310633997",
-          "type": "官方应用页",
-          "note": "开发者：WhatsApp Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        },
-        {
-          "title": "WhatsApp 用户规模",
-          "url": "https://about.fb.com/news/2025/09/introducing-message-translations-whatsapp/",
-          "type": "官方规模数据",
-          "note": "Meta 称超过 30 亿人使用 WhatsApp；未把措辞提升为 MAU。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": 59,
-        "launches": 20.3,
-        "activeUsers": null,
-        "period": "2025-08 / 用户规模 2025-09",
-        "methodLabel": "Android 全球日均",
-        "activeUserLabel": "超过 30 亿用户",
-        "source": {
-          "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
-          "title": "DataReportal Digital 2026",
-          "note": "时长与日均打开来自 Similarweb 全球 Android 样本；Meta 披露超过 30 亿人使用，但原文未明确称 MAU。"
-        }
-      },
-      "count": 9,
-      "categorySummary": "消息 6，通话与活动 3",
-      "rank": 23,
-      "previousRank": 23,
-      "rankChange": 0
-    },
-    {
-      "id": "yelp",
-      "name": "Yelp",
-      "appCategory": "本地生活",
-      "logo": "assets/logos/global/yelp.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "互动",
-          "items": [
-            "评论获赞",
-            "评论回复",
-            "私信",
-            "好友活动"
-          ]
-        },
-        {
-          "name": "本地服务",
-          "items": [
-            "预订提醒",
-            "候位状态",
-            "商家回复",
-            "附近推荐",
-            "优惠活动"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Yelp: Food, Services & Reviews · App Store",
-          "url": "https://apps.apple.com/us/app/id284910350",
-          "type": "官方应用页",
-          "note": "开发者：Yelp, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 9,
-      "categorySummary": "互动 4，本地服务 5",
       "rank": 24,
-      "previousRank": 24,
-      "rankChange": 0
+      "previousRank": 22,
+      "rankChange": -2
     },
     {
       "id": "google-maps",
@@ -1548,6 +1612,117 @@ window.APP_DATA = {
       "rankChange": 0
     },
     {
+      "id": "capcut",
+      "name": "CapCut",
+      "appCategory": "创作与工具",
+      "logo": "assets/logos/global/capcut.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "创作任务",
+          "items": [
+            "导出完成",
+            "云项目同步",
+            "共享项目更新"
+          ]
+        },
+        {
+          "name": "模板与社区",
+          "items": [
+            "模板或素材更新",
+            "互动反馈",
+            "创作推荐"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "订阅权益",
+            "版本更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "CapCut: Photo & Video Editor · App Store",
+          "url": "https://apps.apple.com/us/app/id1500855883",
+          "type": "官方应用页",
+          "note": "开发者：BYTEDANCE PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 32300,
+        "period": "2024-07（历史数据）",
+        "methodLabel": "移动 App MAU（二手行业报告）",
+        "source": {
+          "url": "https://www.scmp.com/tech/big-tech/article/3275336/bytedances-capcut-doubao-top-global-ai-app-downloads-outpacing-chatgpt-report",
+          "title": "南华早报引述 QuestMobile",
+          "note": "报道明确列出 CapCut 2024-07 全球 MAU 3.23 亿；因时间较早，标记为历史数据。"
+        }
+      },
+      "count": 8,
+      "categorySummary": "创作任务 3，模板与社区 3，服务 2",
+      "rank": 26,
+      "previousRank": 27,
+      "rankChange": 1
+    },
+    {
+      "id": "clubhouse",
+      "name": "Clubhouse",
+      "appCategory": "社交与社区",
+      "logo": "assets/logos/global/clubhouse.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "房间",
+          "items": [
+            "关注者开房",
+            "预定房间开始",
+            "被邀请发言",
+            "房间提醒"
+          ]
+        },
+        {
+          "name": "互动",
+          "items": [
+            "新关注者",
+            "私信",
+            "提及",
+            "社区活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Clubhouse · App Store",
+          "url": "https://apps.apple.com/us/app/id1503133294",
+          "type": "官方应用页",
+          "note": "开发者：Alpha Exploration Co.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 1000,
+        "period": "2024 年初（行业估算）",
+        "methodLabel": "全球 App MAU（二手行业估算）",
+        "source": {
+          "url": "https://profiletree.com/clubhouse-social-media-app/",
+          "title": "ProfileTree 引述 Business of Apps",
+          "note": "报道引述 Business of Apps，估算 Clubhouse 2024 年初约有 1,000 万 MAU；公司未公开同期数据，故标记为行业估算。"
+        }
+      },
+      "count": 8,
+      "categorySummary": "房间 4，互动 4",
+      "rank": 27,
+      "previousRank": 28,
+      "rankChange": 1
+    },
+    {
       "id": "amazon-music",
       "name": "Amazon Music",
       "appCategory": "影音与音频",
@@ -1596,110 +1771,9 @@ window.APP_DATA = {
       },
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
-      "rank": 26,
-      "previousRank": 26,
-      "rankChange": 0
-    },
-    {
-      "id": "capcut",
-      "name": "CapCut",
-      "appCategory": "创作与工具",
-      "logo": "assets/logos/global/capcut.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "创作任务",
-          "items": [
-            "导出完成",
-            "云项目同步",
-            "共享项目更新"
-          ]
-        },
-        {
-          "name": "模板与社区",
-          "items": [
-            "模板或素材更新",
-            "互动反馈",
-            "创作推荐"
-          ]
-        },
-        {
-          "name": "服务",
-          "items": [
-            "订阅权益",
-            "版本更新"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "CapCut: Photo & Video Editor · App Store",
-          "url": "https://apps.apple.com/us/app/id1500855883",
-          "type": "官方应用页",
-          "note": "开发者：BYTEDANCE PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 8,
-      "categorySummary": "创作任务 3，模板与社区 3，服务 2",
-      "rank": 27,
-      "previousRank": 27,
-      "rankChange": 0
-    },
-    {
-      "id": "clubhouse",
-      "name": "Clubhouse",
-      "appCategory": "社交与社区",
-      "logo": "assets/logos/global/clubhouse.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "房间",
-          "items": [
-            "关注者开房",
-            "预定房间开始",
-            "被邀请发言",
-            "房间提醒"
-          ]
-        },
-        {
-          "name": "互动",
-          "items": [
-            "新关注者",
-            "私信",
-            "提及",
-            "社区活动"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Clubhouse · App Store",
-          "url": "https://apps.apple.com/us/app/id1503133294",
-          "type": "官方应用页",
-          "note": "开发者：Alpha Exploration Co.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 8,
-      "categorySummary": "房间 4，互动 4",
       "rank": 28,
-      "previousRank": 28,
-      "rankChange": 0
+      "previousRank": 26,
+      "rankChange": -2
     },
     {
       "id": "github",
@@ -1805,8 +1879,14 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2026-01",
+        "methodLabel": "产品用户规模（跨端代理）",
+        "activeUserLabel": "30 亿产品用户（跨端）",
+        "source": {
+          "url": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
+          "title": "Google：Gmail 进入 Gemini 时代",
+          "note": "Google 披露 30 亿用户依赖 Gmail；未限定手机 App，故不写入严格 MAU 排序。"
+        }
       },
       "count": 8,
       "categorySummary": "邮件 4，协作与日程 2，账号服务 2",
@@ -2020,8 +2100,14 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2014-11（历史数据）",
+        "methodLabel": "月度独立听众（跨端）",
+        "activeUserLabel": "1.75 亿月度听众（2014）",
+        "source": {
+          "url": "https://www.wmg.com/news/warner-music-group-and-soundcloud-announce-groundbreaking-partnership-20036",
+          "title": "Warner Music 与 SoundCloud 合作公告",
+          "note": "公告称 SoundCloud 当时每月有 1.75 亿独立听众；数据较旧且未限定手机 App，仅作历史代理展示。"
+        }
       },
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
@@ -2073,8 +2159,14 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "截至 2024-12",
+        "methodLabel": "订阅规模（非 MAU）",
+        "activeUserLabel": "1 亿+订阅（含试用）",
+        "source": {
+          "url": "https://blog.youtube/inside-youtube/our-big-bets-for-2025/",
+          "title": "YouTube CEO 2025 展望",
+          "note": "YouTube Music 与 Premium 合计超过 1 亿订阅，含试用；不是 App MAU。"
+        }
       },
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
@@ -2121,14 +2213,72 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2020-04（历史数据）",
+        "methodLabel": "每日会议参与人次（非独立用户）",
+        "activeUserLabel": "3 亿每日会议参与人次（2020）",
+        "source": {
+          "url": "https://investors.zoom.us/static-files/0229c042-e707-4b11-9110-6ea1e9ce31b4",
+          "title": "Zoom FY2021 股东信",
+          "note": "Zoom 当时披露每日会议参与人次平均达到 3 亿；同一人可重复计数，且数据较旧，不写入 MAU 排序。"
+        }
       },
       "count": 8,
       "categorySummary": "沟通 5，协作 3",
       "rank": 36,
       "previousRank": 36,
       "rankChange": 0
+    },
+    {
+      "id": "ticketmaster",
+      "name": "Ticketmaster",
+      "appCategory": "票务与旅行",
+      "logo": "assets/logos/global/ticketmaster.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "票务",
+          "items": [
+            "开售提醒",
+            "活动临近",
+            "电子票可用",
+            "票务转让状态",
+            "活动变更或取消"
+          ]
+        },
+        {
+          "name": "服务",
+          "items": [
+            "付款或退款",
+            "推荐活动"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ticketmaster－Buy, Sell Tickets · App Store",
+          "url": "https://apps.apple.com/us/app/id500003565",
+          "type": "官方应用页",
+          "note": "开发者：Ticketmaster L.L.C。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 3000,
+        "period": "2025-09",
+        "methodLabel": "全球 Ticketmaster App MAU 官方",
+        "source": {
+          "url": "https://business.ticketmaster.com/ticketing-straight-to-your-app/",
+          "title": "Ticketmaster Business",
+          "note": "官方披露 Ticketmaster App 每月有超过 3,000 万活跃用户，覆盖 iOS、Android 与 21 个市场。"
+        }
+      },
+      "count": 7,
+      "categorySummary": "票务 5，服务 2",
+      "rank": 37,
+      "previousRank": 46,
+      "rankChange": 9
     },
     {
       "id": "amazon-alexa",
@@ -2168,14 +2318,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2025 股东信",
+        "methodLabel": "活跃端点（非用户）",
+        "activeUserLabel": "6 亿活跃端点",
+        "source": {
+          "url": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
+          "title": "Amazon CEO 2025 股东信",
+          "note": "官方披露 Alexa 在设备、汽车、办公与影音端共有 6 亿活跃端点；不是 App MAU。"
+        }
       },
       "count": 7,
       "categorySummary": "设备与家庭 4，服务 3",
-      "rank": 37,
+      "rank": 38,
       "previousRank": 37,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "disney-plus",
@@ -2215,14 +2371,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2025 Q2",
+        "methodLabel": "付费订阅（非 MAU）",
+        "activeUserLabel": "1.26 亿付费订阅",
+        "source": {
+          "url": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
+          "title": "Disney 2025 Q2 业绩",
+          "note": "官方披露 Disney+ 付费订阅 1.26 亿；订阅账户不是 App MAU。"
+        }
       },
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
-      "rank": 38,
+      "rank": 39,
       "previousRank": 38,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "flickr",
@@ -2257,14 +2419,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2026-01 至 2026-07",
+        "methodLabel": "欧盟平台月活代理",
+        "activeUserLabel": "19.7 万欧盟平台 MAU",
+        "source": {
+          "url": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
+          "title": "Flickr DSA 披露",
+          "note": "Flickr 依据欧盟 DSA 披露该期间欧盟平均月活约 19.7 万；仅为欧盟且覆盖平台，不作为全球手机 App MAU 排序值。"
+        }
       },
       "count": 7,
       "categorySummary": "共享活动 7",
-      "rank": 39,
+      "rank": 40,
       "previousRank": 39,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "chrome",
@@ -2304,14 +2472,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2025 白皮书",
+        "methodLabel": "浏览器用户规模（跨端）",
+        "activeUserLabel": "20 亿+浏览器用户（跨端）",
+        "source": {
+          "url": "https://services.google.com/fh/files/misc/bce-protected-profiles-whitepaper.pdf",
+          "title": "Google Chrome Enterprise 白皮书",
+          "note": "Google 材料称 Chrome 超过 20 亿用户；未拆分手机 App 或 MAU，故仅作代理展示。"
+        }
       },
       "count": 7,
       "categorySummary": "网页与下载 3，账号与安全 4",
-      "rank": 40,
+      "rank": 41,
       "previousRank": 40,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "iheartradio",
@@ -2351,14 +2525,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "官网当前值（抓取于 2026-09）",
+        "methodLabel": "注册用户（跨端）",
+        "activeUserLabel": "1.88 亿注册用户",
+        "source": {
+          "url": "https://www.iheartmedia.com/digital",
+          "title": "iHeartMedia · iHeartRadio",
+          "note": "iHeartRadio 官方称 App 超过 1.88 亿注册用户，并覆盖 500 多个平台；注册量不是 MAU。"
+        }
       },
       "count": 7,
       "categorySummary": "内容更新 4，推荐与社交 3",
-      "rank": 41,
+      "rank": 42,
       "previousRank": 41,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "max",
@@ -2398,14 +2578,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2025 Q4",
+        "methodLabel": "WBD 流媒体订阅（非单 App MAU）",
+        "activeUserLabel": "约 1.32 亿流媒体订阅",
+        "source": {
+          "url": "https://s201.q4cdn.com/336605034/files/doc_earnings/2025/q4/earnings-result/WBD-4Q25-Shareholder-Letter.pdf",
+          "title": "WBD 2025 Q4 股东信",
+          "note": "WBD 流媒体板块（含 HBO Max 与 discovery+）期末约 1.32 亿订阅；不是 Max 单 App MAU。"
+        }
       },
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
-      "rank": 42,
+      "rank": 43,
       "previousRank": 42,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "netflix",
@@ -2456,9 +2642,9 @@ window.APP_DATA = {
       },
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
-      "rank": 43,
+      "rank": 44,
       "previousRank": 43,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "notion",
@@ -2498,14 +2684,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2024-08",
+        "methodLabel": "累计/当前用户规模（非 MAU）",
+        "activeUserLabel": "1 亿+用户",
+        "source": {
+          "url": "https://www.notion.com/blog/100-million-of-you",
+          "title": "Notion：100 Million of You",
+          "note": "Notion 官方称 2024-08 用户数突破 1 亿，但未称月活、也未限定手机 App，故仅作代理展示。"
+        }
       },
       "count": 7,
       "categorySummary": "沟通 5，协作 2",
-      "rank": 44,
+      "rank": 45,
       "previousRank": 44,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "stubhub",
@@ -2545,61 +2737,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 7,
-      "categorySummary": "票务 5，服务 2",
-      "rank": 45,
-      "previousRank": 45,
-      "rankChange": 0
-    },
-    {
-      "id": "ticketmaster",
-      "name": "Ticketmaster",
-      "appCategory": "票务与旅行",
-      "logo": "assets/logos/global/ticketmaster.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "票务",
-          "items": [
-            "开售提醒",
-            "活动临近",
-            "电子票可用",
-            "票务转让状态",
-            "活动变更或取消"
-          ]
-        },
-        {
-          "name": "服务",
-          "items": [
-            "付款或退款",
-            "推荐活动"
-          ]
+        "period": "2026-03",
+        "methodLabel": "全球注册用户（非 MAU）",
+        "activeUserLabel": "1.25 亿+注册用户",
+        "source": {
+          "url": "https://newsroom.stubhub.com/2026/03/18/stubhub-launches-distribution-manager-an-ai-powered-tool-for-artists-teams-and-venues/",
+          "title": "StubHub Newsroom",
+          "note": "StubHub 官方披露全球注册用户超过 1.25 亿；注册量不是手机 App MAU。"
         }
-      ],
-      "sources": [
-        {
-          "title": "Ticketmaster－Buy, Sell Tickets · App Store",
-          "url": "https://apps.apple.com/us/app/id500003565",
-          "type": "官方应用页",
-          "note": "开发者：Ticketmaster L.L.C。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
       },
       "count": 7,
       "categorySummary": "票务 5，服务 2",
       "rank": 46,
-      "previousRank": 46,
-      "rankChange": 0
+      "previousRank": 45,
+      "rankChange": -1
     },
     {
       "id": "youtube-tv",
@@ -2639,14 +2790,77 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "截至 2024-12",
+        "methodLabel": "订阅规模（非 MAU）",
+        "activeUserLabel": "800 万+订阅",
+        "source": {
+          "url": "https://blog.youtube/inside-youtube/our-big-bets-for-2025/",
+          "title": "YouTube CEO 2025 展望",
+          "note": "YouTube TV 超过 800 万订阅；不是 App MAU。"
+        }
       },
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
       "rank": 47,
       "previousRank": 47,
       "rankChange": 0
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/chatgpt.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态",
+            "产品功能更新"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "ChatGPT · App Store",
+          "url": "https://apps.apple.com/us/app/id6448311069",
+          "type": "官方应用页",
+          "note": "开发者：OpenAI OpCo, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "ChatGPT 移动 App 达 10 亿 MAU",
+          "url": "https://sensortower.com/press/sensor-tower-state-of-ai-2026-report-global-time-spent-on-generative-ai-apps-projected-to-more-than-double-year-over-year",
+          "type": "行业报告",
+          "note": "Sensor Tower 2026-06 新闻稿确认 ChatGPT 于 2026-05 成为最快达到 10 亿 MAU 的移动 App。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 16,
+        "launches": 7.8,
+        "activeUsers": 100000,
+        "period": "H1 2025 / MAU 2026-05",
+        "methodLabel": "全球 iOS + Google Play；App MAU",
+        "source": {
+          "url": "https://investgame.net/wp-content/uploads/2025/07/sensor_tower__state_of_ai_apps_report_2025.pdf",
+          "title": "Sensor Tower State of AI Apps 2025",
+          "note": "日均时长与打开次数为 H1 2025 全球移动 App 用户均值；Sensor Tower 2026-05 披露移动 App MAU 达 10 亿。"
+        }
+      },
+      "count": 6,
+      "categorySummary": "任务与内容 3，账号与产品 3",
+      "rank": 48,
+      "previousRank": 50,
+      "rankChange": 2
     },
     {
       "id": "accuweather",
@@ -2685,14 +2899,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2025-07",
+        "methodLabel": "跨网页与 App 月访客",
+        "activeUserLabel": "2 亿月度访客（跨端）",
+        "source": {
+          "url": "https://advertising.accuweather.com/",
+          "title": "AccuWeather Advertising",
+          "note": "官方广告页披露 2 亿全球月度独立访客与人均日访 3 次，但未限定手机 App，故仅作代理展示。"
+        }
       },
       "count": 6,
       "categorySummary": "恶劣天气 3，日常预报 3",
-      "rank": 48,
+      "rank": 49,
       "previousRank": 48,
-      "rankChange": 0
+      "rankChange": -1
     },
     {
       "id": "aol-mail",
@@ -2731,60 +2951,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "官网当前值（抓取于 2026-09）",
+        "methodLabel": "AOL 跨产品月用户 / 邮件日用户",
+        "activeUserLabel": "300 万邮件日用户（跨端）",
+        "source": {
+          "url": "https://www.aol.com/about-us/",
+          "title": "AOL · About Us",
+          "note": "AOL 官方称全站每月 3,000 万用户、每天 300 万人查看邮件；未披露 AOL Mail 手机 App MAU，故仅作代理展示。"
+        }
       },
       "count": 6,
       "categorySummary": "邮件 4，协作与日程 2",
-      "rank": 49,
-      "previousRank": 49,
-      "rankChange": 0
-    },
-    {
-      "id": "chatgpt",
-      "name": "ChatGPT",
-      "appCategory": "AI 助手",
-      "logo": "assets/logos/global/chatgpt.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "任务与内容",
-          "items": [
-            "后台任务完成",
-            "生成结果就绪",
-            "共享或协作更新"
-          ]
-        },
-        {
-          "name": "账号与产品",
-          "items": [
-            "账号安全",
-            "服务状态",
-            "产品功能更新"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "ChatGPT · App Store",
-          "url": "https://apps.apple.com/us/app/id6448311069",
-          "type": "官方应用页",
-          "note": "开发者：OpenAI OpCo, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 6,
-      "categorySummary": "任务与内容 3，账号与产品 3",
       "rank": 50,
-      "previousRank": 50,
-      "rankChange": 0
+      "previousRank": 49,
+      "rankChange": -1
     },
     {
       "id": "fitbit",
@@ -2823,8 +3003,14 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2017（历史数据）",
+        "methodLabel": "活跃用户（未限定手机 App MAU）",
+        "activeUserLabel": "2,500 万+活跃用户（2017）",
+        "source": {
+          "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-community-grows-25m-active-users/",
+          "title": "Fitbit 官方博客",
+          "note": "Fitbit 官方当年披露活跃用户超过 2,500 万，但时间较早且未限定手机 App 月活，仅作历史代理展示。"
+        }
       },
       "count": 6,
       "categorySummary": "健康目标 3，设备与社交 3",
@@ -2961,14 +3147,126 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2025-11",
+        "methodLabel": "月活听众（跨 200+ 平台）",
+        "activeUserLabel": "7,500 万+月活听众（跨端）",
+        "source": {
+          "url": "https://corporate.stingray.com/acquisitions/stingray-acquires-tunein/",
+          "title": "Stingray 收购 TuneIn 公告",
+          "note": "收购方官方公告称 TuneIn 全球每月活跃听众超过 7,500 万，但覆盖车机、网页及连接设备，故不写入手机 App MAU 排序。"
+        }
       },
       "count": 6,
       "categorySummary": "内容更新 4，推荐与社交 2",
       "rank": 54,
       "previousRank": 54,
       "rankChange": 0
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/gemini.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Gemini · App Store",
+          "url": "https://apps.apple.com/us/app/id6477489729",
+          "type": "官方应用页",
+          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Gemini App MAU 突破 10 亿",
+          "url": "https://blog.google/intl/ko-kr/company-news/inside-google/gemini-one-billion-monthly-users-kr/",
+          "type": "官方规模数据",
+          "note": "Google 2026-08 明确披露 Gemini App 月活超过 10 亿。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": 1.8,
+        "launches": 0.9,
+        "activeUsers": 100000,
+        "period": "2025-07 / MAU 2026-08",
+        "methodLabel": "美国移动 App 周均换算日均；App MAU 官方",
+        "source": {
+          "url": "https://sensortower.com/blog/top-chatgpt-competitors",
+          "title": "Sensor Tower：ChatGPT 竞争应用",
+          "note": "Sensor Tower 披露 2025 年 7 月中旬美国 Gemini App 用户每周约 12.5 分钟、6.5 次；网页按 12.5÷7=1.8 分钟/日、6.5÷7=0.9 次/日换算。MAU 另由 Google 官方披露为 10 亿。"
+        }
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 55,
+      "previousRank": 57,
+      "rankChange": 2
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/meta-ai.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Meta AI · App Store",
+          "url": "https://apps.apple.com/us/app/id1558240027",
+          "type": "官方应用页",
+          "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 6100,
+        "period": "2026 Q2",
+        "methodLabel": "Sensor Tower 全球移动 App MAU",
+        "source": {
+          "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+          "title": "EL PAÍS / EFE 引述 Sensor Tower",
+          "note": "报道列出 Meta AI 全球移动 App MAU 6,100 万。"
+        }
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 56,
+      "previousRank": 59,
+      "rankChange": 3
     },
     {
       "id": "claude",
@@ -3005,14 +3303,169 @@ window.APP_DATA = {
       "usage": {
         "durationMinutes": null,
         "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "activeUsers": 5600,
+        "period": "2026 Q2",
+        "methodLabel": "Sensor Tower 全球移动 App MAU",
+        "source": {
+          "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+          "title": "EL PAÍS / EFE 引述 Sensor Tower",
+          "note": "报道列出 Claude 全球移动 App MAU 5,600 万。"
+        }
       },
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 55,
+      "rank": 57,
       "previousRank": 55,
+      "rankChange": -2
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/grok.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Grok AI · App Store",
+          "url": "https://apps.apple.com/us/app/id6670324846",
+          "type": "官方应用页",
+          "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 5000,
+        "period": "2026 Q2",
+        "methodLabel": "Sensor Tower 全球移动 App MAU",
+        "source": {
+          "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+          "title": "EL PAÍS / EFE 引述 Sensor Tower",
+          "note": "报道列出 Grok 全球移动 App MAU 5,000 万。"
+        }
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 58,
+      "previousRank": 58,
+      "rankChange": 0
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/perplexity.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Perplexity - AI Search & Chat · App Store",
+          "url": "https://apps.apple.com/us/app/id1668000334",
+          "type": "官方应用页",
+          "note": "开发者：Perplexity AI Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 4400,
+        "period": "2026 Q2",
+        "methodLabel": "Sensor Tower 全球移动 App MAU",
+        "source": {
+          "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+          "title": "EL PAÍS / EFE 引述 Sensor Tower",
+          "note": "报道列出 Perplexity 全球移动 App MAU 4,400 万。"
+        }
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 59,
+      "previousRank": 61,
+      "rankChange": 2
+    },
+    {
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "appCategory": "AI 助手",
+      "logo": "assets/logos/global/copilot.jpg",
+      "confidence": "low",
+      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
+      "categories": [
+        {
+          "name": "任务与内容",
+          "items": [
+            "后台任务完成",
+            "生成结果就绪",
+            "共享或协作更新"
+          ]
+        },
+        {
+          "name": "账号与产品",
+          "items": [
+            "账号安全",
+            "服务状态"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft Copilot · App Store",
+          "url": "https://apps.apple.com/us/app/id541164041",
+          "type": "官方应用页",
+          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        }
+      ],
+      "usage": {
+        "durationMinutes": null,
+        "launches": null,
+        "activeUsers": 3100,
+        "period": "2026 Q2",
+        "methodLabel": "Sensor Tower 全球移动 App MAU",
+        "source": {
+          "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+          "title": "EL PAÍS / EFE 引述 Sensor Tower",
+          "note": "报道列出 Microsoft Copilot 全球移动 App MAU 3,100 万。"
+        }
+      },
+      "count": 5,
+      "categorySummary": "任务与内容 3，账号与产品 2",
+      "rank": 60,
+      "previousRank": 60,
       "rankChange": 0
     },
     {
@@ -3051,239 +3504,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2026 页面当前值",
+        "methodLabel": "跨桌面与移动月活",
+        "activeUserLabel": "2.1 亿+月活（跨端）",
+        "source": {
+          "url": "https://www.mozilla.org/en-US/advertising/",
+          "title": "Mozilla Advertising",
+          "note": "Mozilla 披露 Firefox 全球月活超过 2.1 亿，但未拆分手机 App，故不写入严格 MAU 排序。"
+        }
       },
       "count": 5,
       "categorySummary": "网页与下载 3，账号与安全 2",
-      "rank": 56,
-      "previousRank": 56,
-      "rankChange": 0
-    },
-    {
-      "id": "gemini",
-      "name": "Gemini",
-      "appCategory": "AI 助手",
-      "logo": "assets/logos/global/gemini.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "任务与内容",
-          "items": [
-            "后台任务完成",
-            "生成结果就绪",
-            "共享或协作更新"
-          ]
-        },
-        {
-          "name": "账号与产品",
-          "items": [
-            "账号安全",
-            "服务状态"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Google Gemini · App Store",
-          "url": "https://apps.apple.com/us/app/id6477489729",
-          "type": "官方应用页",
-          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 5,
-      "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 57,
-      "previousRank": 57,
-      "rankChange": 0
-    },
-    {
-      "id": "grok",
-      "name": "Grok",
-      "appCategory": "AI 助手",
-      "logo": "assets/logos/global/grok.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "任务与内容",
-          "items": [
-            "后台任务完成",
-            "生成结果就绪",
-            "共享或协作更新"
-          ]
-        },
-        {
-          "name": "账号与产品",
-          "items": [
-            "账号安全",
-            "服务状态"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Grok AI · App Store",
-          "url": "https://apps.apple.com/us/app/id6670324846",
-          "type": "官方应用页",
-          "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 5,
-      "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 58,
-      "previousRank": 58,
-      "rankChange": 0
-    },
-    {
-      "id": "meta-ai",
-      "name": "Meta AI",
-      "appCategory": "AI 助手",
-      "logo": "assets/logos/global/meta-ai.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "任务与内容",
-          "items": [
-            "后台任务完成",
-            "生成结果就绪",
-            "共享或协作更新"
-          ]
-        },
-        {
-          "name": "账号与产品",
-          "items": [
-            "账号安全",
-            "服务状态"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Meta AI · App Store",
-          "url": "https://apps.apple.com/us/app/id1558240027",
-          "type": "官方应用页",
-          "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 5,
-      "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 59,
-      "previousRank": 59,
-      "rankChange": 0
-    },
-    {
-      "id": "copilot",
-      "name": "Microsoft Copilot",
-      "appCategory": "AI 助手",
-      "logo": "assets/logos/global/copilot.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "任务与内容",
-          "items": [
-            "后台任务完成",
-            "生成结果就绪",
-            "共享或协作更新"
-          ]
-        },
-        {
-          "name": "账号与产品",
-          "items": [
-            "账号安全",
-            "服务状态"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Microsoft Copilot · App Store",
-          "url": "https://apps.apple.com/us/app/id541164041",
-          "type": "官方应用页",
-          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 5,
-      "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 60,
-      "previousRank": 60,
-      "rankChange": 0
-    },
-    {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "appCategory": "AI 助手",
-      "logo": "assets/logos/global/perplexity.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "任务与内容",
-          "items": [
-            "后台任务完成",
-            "生成结果就绪",
-            "共享或协作更新"
-          ]
-        },
-        {
-          "name": "账号与产品",
-          "items": [
-            "账号安全",
-            "服务状态"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Perplexity - AI Search & Chat · App Store",
-          "url": "https://apps.apple.com/us/app/id1668000334",
-          "type": "官方应用页",
-          "note": "开发者：Perplexity AI Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 5,
-      "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 61,
-      "previousRank": 61,
-      "rankChange": 0
+      "previousRank": 56,
+      "rankChange": -5
     },
     {
       "id": "safari",
@@ -3358,8 +3592,14 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2026-08",
+        "methodLabel": "累计下载量（非活跃用户）",
+        "activeUserLabel": "70 亿累计下载（跨平台）",
+        "source": {
+          "url": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
+          "title": "TechCrunch",
+          "note": "VLC 跨平台累计下载突破 70 亿；下载量不等于用户或 MAU，仅用于说明产品规模。"
+        }
       },
       "count": 3,
       "categorySummary": "播放与服务 3",

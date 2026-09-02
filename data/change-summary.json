@@ -1,466 +1,6 @@
 {
   "date": "2026-09-02",
-  "changedSources": [
-    {
-      "title": "微信视频号通知设置说明",
-      "url": "https://www.php.cn/faq/2517049.html",
-      "type": "article",
-      "note": "列出视频号更新、私信、直播、点赞及评论提醒。",
-      "apps": [
-        "wechat"
-      ],
-      "finalUrl": "https://www.php.cn/faq/2517049.html",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "4a4e71f0cc5cd6d2f57f5fe9938541f39c347e0f9dba7feb852db4dd9be65fbc",
-      "bytes": 5470,
-      "changed": true
-    },
-    {
-      "title": "小红书评论与点赞提醒设置",
-      "url": "https://www.ntszjs.com/glzx/111.html",
-      "type": "article",
-      "note": "补充评论、赞、收藏和应用内消息横幅。",
-      "apps": [
-        "xiaohongshu"
-      ],
-      "finalUrl": "https://www.ntszjs.com/glzx/111.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "1f58291e1ee5174c54f17b86f3824d5677cb7c33c17279b0ea4ac8e936dada6a",
-      "bytes": 31303,
-      "changed": true
-    },
-    {
-      "title": "抖音常见问题",
-      "url": "https://www.douyin.com/help",
-      "type": "official",
-      "note": "逐项列出私信、点赞、评论、提及、关注、上线、作品、推荐、直播和活动通知。",
-      "apps": [
-        "douyin"
-      ],
-      "finalUrl": "https://www.douyin.com/help",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "1c12ec2fc4f26863623288ab59310800052907bb0ebbeb379d4d0d5f3d3481ec",
-      "bytes": 826538,
-      "changed": true
-    },
-    {
-      "title": "美团基本功能隐私政策",
-      "url": "https://rules-center.meituan.com/m/detail/2",
-      "type": "official",
-      "note": "列出服务、安全、商业通知以及直播、榜单、行程、秒杀、签到提醒。",
-      "apps": [
-        "meituan"
-      ],
-      "finalUrl": "https://rules-center.meituan.com/m/detail/2",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "89b0954531ce860de55e6e307e8daefd52c465108b06752868c8ba2d88b367c8",
-      "bytes": 190379,
-      "changed": true
-    },
-    {
-      "title": "美团退款帮助",
-      "url": "https://i.meituan.com/help/refund",
-      "type": "official",
-      "note": "说明退款短信和App到账推送。",
-      "apps": [
-        "meituan"
-      ],
-      "finalUrl": "https://i.meituan.com/help/refund",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "eb59dba04daa199bd513c05bb32a5c81fbb2c2e452140535ad2969096d7f3344",
-      "bytes": 35507,
-      "changed": true
-    },
-    {
-      "title": "多闪 App Store 页面",
-      "url": "https://apps.apple.com/cn/app/%E5%A4%9A%E9%97%AA/id1435602536",
-      "type": "app-store",
-      "note": "列出聊天、群聊、视频通话、朋友动态和任务。",
-      "apps": [
-        "duoshan"
-      ],
-      "finalUrl": "https://apps.apple.com/cn/app/%E5%A4%9A%E9%97%AA/id1435602536",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "85145d6571a002eff93a98d43e842297ae80d145a48350e871aefd45a8c88db2",
-      "bytes": 703580,
-      "changed": true
-    },
-    {
-      "title": "知乎个人信息保护指引",
-      "url": "https://www.zhihu.com/term/old-privacy-5",
-      "type": "official",
-      "note": "列出赞同、喜欢、收藏、评论、订阅、关注、私信和推送设置。",
-      "apps": [
-        "zhihu"
-      ],
-      "finalUrl": "https://www.zhihu.com/term/old-privacy-5",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "5798801f7fa8fbca2865c3dc28a11521f994bf57aea5e90dd603597df66c7443",
-      "bytes": 106025,
-      "changed": true
-    },
-    {
-      "title": "知乎消息推送设置说明",
-      "url": "https://www.php.cn/faq/2343515.html",
-      "type": "article",
-      "note": "补充关注内容、评论、私信与赞同推送。",
-      "apps": [
-        "zhihu"
-      ],
-      "finalUrl": "https://www.php.cn/faq/2343515.html",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "6eaaa3cb71662e255f5f413e5a2cfc2ca09bce1d15592195206d81fa3e973cf5",
-      "bytes": 5470,
-      "changed": true
-    },
-    {
-      "title": "淘宝开放平台消息类目",
-      "url": "https://developer.alibaba.com/docs/topicDetail.htm?apiId=1926",
-      "type": "official",
-      "note": "列出退款、物流、工单和服务状态变更消息。",
-      "apps": [
-        "taobao"
-      ],
-      "finalUrl": "https://developer.alibaba.com/docs/topicDetail.htm?apiId=1926",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html;charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "2d394503effb7d74da806cfde0503f8a778dde4702e431911b675a5e5925c2d3",
-      "bytes": 31281,
-      "changed": true
-    },
-    {
-      "title": "京东帮助中心",
-      "url": "https://help.jd.com/user/service.html",
-      "type": "official",
-      "note": "包含消息订阅、我的关注、资产、订单和活动入口。",
-      "apps": [
-        "jd"
-      ],
-      "finalUrl": "https://help.jd.com/user/service.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "94ac8daab752435d7e4117bb1fdcc97a0d25f339320776a7a48afe5b8d25ffb2",
-      "bytes": 29528,
-      "changed": true
-    },
-    {
-      "title": "京东隐私帮助",
-      "url": "https://help.jd.com/user/issue/965-4268.html",
-      "type": "official",
-      "note": "说明消息中心和消息设置。",
-      "apps": [
-        "jd"
-      ],
-      "finalUrl": "https://help.jd.com/user/issue/965-4268.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "6f694e5c64e00a5c18ec216460fcf3aa3a48332a4797eb438aa2d80ae973299f",
-      "bytes": 170538,
-      "changed": true
-    },
-    {
-      "title": "微博客服功能帮助",
-      "url": "https://kefu.weibo.com/faqclassifylist?id=2793&typename=%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8",
-      "type": "official",
-      "note": "明确列出@、评论、赞、私信、好友圈、小铃铛和特别关注提醒。",
-      "apps": [
-        "weibo"
-      ],
-      "finalUrl": "https://kefu.weibo.com/faqclassifylist?id=2793&typename=%E5%8A%9F%E8%83%BD%E4%BD%BF%E7%94%A8",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "36105c0cabb899b417cb44f83b852ae1af8262dd4365704ba7a6fd6e078997a1",
-      "bytes": 393681,
-      "changed": true
-    },
-    {
-      "title": "微博一键防护说明",
-      "url": "https://kefu.weibo.com/faqdetail?id=21580",
-      "type": "official",
-      "note": "说明私信、评论、转赞评@和粉丝提醒。",
-      "apps": [
-        "weibo"
-      ],
-      "finalUrl": "https://kefu.weibo.com/faqdetail?id=21580",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "0df754e6cb54a52cc9d46368b98bf3ece589b9f733a0b49e8eb19a464c0ef5d7",
-      "bytes": 24484,
-      "changed": true
-    },
-    {
-      "title": "Bilibili 消息设置接口整理",
-      "url": "https://git.xfe.studio/XFEstudio/bilibili-API-collect/Blob?branch=master&path=docs%2Fmessage%2Fsettings.md",
-      "type": "community-doc",
-      "note": "列出赞、回复、@、应援团和未关注人消息开关。",
-      "apps": [
-        "bilibili"
-      ],
-      "finalUrl": "https://git.xfe.studio/XFEstudio/bilibili-API-collect/Blob?branch=master&path=docs%2Fmessage%2Fsettings.md",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "3cb7e95a4292d775f6de1e333c51c8d0ea34714b8954dac0b6f3bb21d3aa499d",
-      "bytes": 213854,
-      "changed": true
-    },
-    {
-      "title": "Bilibili 消息中心使用说明",
-      "url": "https://daiki-zinsei.com/bilibili-app-download/",
-      "type": "article",
-      "note": "列出回复、@、赞和系统通知入口。",
-      "apps": [
-        "bilibili"
-      ],
-      "finalUrl": "https://daiki-zinsei.com/bilibili-app-download/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "7d1580d9d564205ba8bc8b9c11b0480fe5d3bdc21fec1d203fac7bd6269db57d",
-      "bytes": 1114339,
-      "changed": true
-    },
-    {
-      "title": "爱奇艺互动提醒设置",
-      "url": "https://www.php.cn/faq/2810115.html",
-      "type": "article",
-      "note": "列出弹幕回复、点赞、评论、关注、会员和签到提醒。",
-      "apps": [
-        "iqiyi"
-      ],
-      "finalUrl": "https://www.php.cn/faq/2810115.html",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "e3639fa249fc810eeb83da3c7392f9b0c18b8d932fd694f1cacb52f6935c2644",
-      "bytes": 5470,
-      "changed": true
-    },
-    {
-      "title": "小宇宙 App Store 页面",
-      "url": "https://apps.apple.com/vu/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313",
-      "type": "app-store",
-      "note": "版本记录确认语音动态和实时活动评论设置。",
-      "apps": [
-        "xiaoyuzhou"
-      ],
-      "finalUrl": "https://apps.apple.com/vu/app/%E5%B0%8F%E5%AE%87%E5%AE%99-%E4%B8%80%E8%B5%B7%E5%90%AC%E6%92%AD%E5%AE%A2/id1488894313",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "176f133e65beca970fb3e1409283456b5670354a2eba34c9e8b85c2d8518f4fa",
-      "bytes": 464462,
-      "changed": true
-    },
-    {
-      "title": "拼多多消息通知管理",
-      "url": "https://www.php.cn/faq/2305396.html",
-      "type": "article",
-      "note": "列出订单、物流、拼单、降价、活动、精选、签到和直播提醒。",
-      "apps": [
-        "pinduoduo"
-      ],
-      "finalUrl": "https://www.php.cn/faq/2305396.html",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "7982220ffd81350dd185835e198da923ba552bf6eaa195a43257b5364a1fe99d",
-      "bytes": 5470,
-      "changed": true
-    },
-    {
-      "title": "支付宝生活号平台",
-      "url": "https://open.alipay.com/channel/publicAppIndex.htm",
-      "type": "official",
-      "note": "确认生活号信息推送和模板消息。",
-      "apps": [
-        "alipay"
-      ],
-      "finalUrl": "https://open.alipay.com/channel/publicAppIndex.htm",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "789340173b3028df0bc6df0864d3973d660f15cb1f415c6d3e4e7b823c005f5d",
-      "bytes": 68667,
-      "changed": true
-    },
-    {
-      "title": "小米相机通知帮助",
-      "url": "https://www.mi.com/tw/support/faq/details/KA-493432/",
-      "type": "official",
-      "note": "确认检测推送和可配置的事件通知类型。",
-      "apps": [
-        "mijia"
-      ],
-      "finalUrl": "https://www.mi.com/tw/support/faq/details/KA-493432/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "c824f6de29270d184a123c0273640b6dfbc32398fb8ae16f04ed3f76ff4500ad",
-      "bytes": 63328,
-      "changed": true
-    },
-    {
-      "title": "红果短剧 App Store 页面",
-      "url": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032",
-      "type": "app-store",
-      "note": "确认追剧、预约上线通知和评论功能。",
-      "apps": [
-        "hongguo"
-      ],
-      "finalUrl": "https://apps.apple.com/cn/app/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7-%E6%B5%B7%E9%87%8F%E7%83%AD%E9%97%A8%E7%9F%AD%E5%89%A7%E9%9A%8F%E5%BF%83%E7%9C%8B/id6451407032",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "f6f72802ff9f95a87cd16e9b024235027cada2999e33a817c274cf5311c1db72",
-      "bytes": 576699,
-      "changed": true
-    },
-    {
-      "title": "红果追剧提醒设置",
-      "url": "https://www.php.cn/faq/2188465.html",
-      "type": "article",
-      "note": "列出连载、开播、签到、补贴和奖励提醒。",
-      "apps": [
-        "hongguo"
-      ],
-      "finalUrl": "https://www.php.cn/faq/2188465.html",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "c84e2d44c3bed33975af8414c2162e66afd068cbb0a95ec406d6394544360440",
-      "bytes": 5470,
-      "changed": true
-    },
-    {
-      "title": "QQ音乐推送设置说明",
-      "url": "https://www.php.cn/faq/3046045.html",
-      "type": "article",
-      "note": "列出系统、私信、点赞评论、新歌、新MV和直播更新。",
-      "apps": [
-        "qq-music"
-      ],
-      "finalUrl": "https://www.php.cn/faq/3046045.html",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "6d75ef7197e84d17a99ddc1373698429781216a5eadaa0f8c073449f1138836c",
-      "bytes": 5470,
-      "changed": true
-    },
-    {
-      "title": "QQ音乐评论点赞提醒",
-      "url": "https://jingyan.baidu.com/article/066074d623fc0282c31cb064.html",
-      "type": "article",
-      "note": "确认评论点赞独立推送开关。",
-      "apps": [
-        "qq-music"
-      ],
-      "finalUrl": "https://jingyan.baidu.com/article/066074d623fc0282c31cb064.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "4994b75ecbf44b5e57b506a0056d94776850293db37d79e6de4e5defb2dd34e2",
-      "bytes": 66152,
-      "changed": true
-    },
-    {
-      "title": "今日头条隐私政策",
-      "url": "https://www.toutiao.com/privacy_protection/?external=true",
-      "type": "official",
-      "note": "确认关注、评论、收藏、点赞、分享、预约和推送记录。",
-      "apps": [
-        "toutiao"
-      ],
-      "finalUrl": "https://www.toutiao.com/privacy_protection/?external=true",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "71aff56297595ac155e2ba0034d3b9a9361bd1ba39fbd5dc262aa0df3b68012f",
-      "bytes": 4911,
-      "changed": true
-    },
-    {
-      "title": "豆包隐私政策",
-      "url": "https://www.doubao.com/legal/privacy",
-      "type": "official",
-      "note": "明确列出日程提醒和应用通知总结播报。",
-      "apps": [
-        "doubao"
-      ],
-      "finalUrl": "https://www.doubao.com/legal/privacy",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "3185362c5a05a0909c8514c2b9f6bc997824c2bc30519f33ca44b770ebc04fc1",
-      "bytes": 78445,
-      "changed": true
-    },
-    {
-      "title": "华为耳机豆包通知播报说明",
-      "url": "https://consumer.huawei.com/cn/support/content/zh-cn16094391/",
-      "type": "official-partner",
-      "note": "确认豆包生成消息并播报通知栏消息的功能。",
-      "apps": [
-        "doubao"
-      ],
-      "finalUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16094391/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "58a1165709052bcfcf8b64c58830a5692ff00c1143893c55d75cfbde08f5f53c",
-      "bytes": 155278,
-      "changed": true
-    }
-  ],
+  "changedSources": [],
   "failedSources": [
     {
       "title": "微信视频号通知设置说明",
@@ -474,10 +14,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "4a4e71f0cc5cd6d2f57f5fe9938541f39c347e0f9dba7feb852db4dd9be65fbc",
-      "bytes": 5470,
-      "changed": true
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "3d9d3c76f2c2970fc00902753ceb9cad26f7a2f94d31e2634247cb62156903b3",
+      "bytes": 5534,
+      "changed": false
     },
     {
       "title": "知乎消息推送设置说明",
@@ -491,10 +31,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "6eaaa3cb71662e255f5f413e5a2cfc2ca09bce1d15592195206d81fa3e973cf5",
-      "bytes": 5470,
-      "changed": true
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "976bca89a620db269a3ee34edf184ffb76581368414e499e35fe1b5f31be57c1",
+      "bytes": 5513,
+      "changed": false
     },
     {
       "title": "爱奇艺互动提醒设置",
@@ -508,10 +48,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "e3639fa249fc810eeb83da3c7392f9b0c18b8d932fd694f1cacb52f6935c2644",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8985a7b4d0470d83daa5e76a099434cedcc9d080a6ec0c979bae47f8d152ff65",
       "bytes": 5470,
-      "changed": true
+      "changed": false
     },
     {
       "title": "拼多多消息通知管理",
@@ -525,10 +65,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "7982220ffd81350dd185835e198da923ba552bf6eaa195a43257b5364a1fe99d",
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "52cc1e81203f7442c752dec5ae12ab8c09ed7d16bcc414735de352e6d99491ba",
       "bytes": 5470,
-      "changed": true
+      "changed": false
     },
     {
       "title": "红果追剧提醒设置",
@@ -542,10 +82,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "c84e2d44c3bed33975af8414c2162e66afd068cbb0a95ec406d6394544360440",
-      "bytes": 5470,
-      "changed": true
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "9a569fa74c3c15f738b0365f52590e389bece5e714d6fde8c2a3e84245e0232e",
+      "bytes": 5534,
+      "changed": false
     },
     {
       "title": "QQ音乐推送设置说明",
@@ -559,87 +99,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "6d75ef7197e84d17a99ddc1373698429781216a5eadaa0f8c073449f1138836c",
-      "bytes": 5470,
-      "changed": true
-    },
-    {
-      "title": "百度财报、QuestMobile监测及百度营销资料",
-      "url": "https://aigc.idigital.com.cn/djyanbao/%E3%80%90%E5%8D%8E%E6%B3%B0%E8%AF%81%E5%88%B8%E3%80%91%E7%99%BE%E5%BA%A6%E9%9B%86%E5%9B%A2-SW%EF%BC%8809888%EF%BC%89%EF%BC%9A%E5%85%85%E6%B2%9B%E7%8E%B0%E9%87%91%E5%82%A8%E5%A4%87%E6%94%AF%E6%8C%81AI%E8%BD%AC%E5%9E%8B%E9%95%BF%E8%B7%AF-2025-01-12.pdf",
-      "note": "QuestMobile 披露百度 App 2024 年 11 月人均单日使用约 40 分钟；百度营销资料披露 2017 年人均单日使用 8 次；百度官方披露 2025 年 12 月 MAU 6.79 亿。三项指标跨期。",
-      "type": "usage-data",
-      "apps": [
-        "baidu"
-      ],
-      "status": "fetch-error",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": null,
-      "bytes": null,
-      "changed": false,
-      "error": "fetch failed"
-    },
-    {
-      "title": "元宝任务功能研究资料",
-      "url": "https://www.cdut.edu.cn/__local/F/C9/EB/C02614CCC4A0369B16A7EC1C52A_B628CD50_6125D1.pdf",
-      "type": "official",
-      "note": "记录元宝任务功能可设置提醒。",
-      "apps": [
-        "yuanbao"
-      ],
-      "status": "fetch-error",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": null,
-      "bytes": null,
-      "changed": false,
-      "error": "fetch failed"
-    },
-    {
-      "title": "喜马拉雅招股书、移动知识付费研究及月狐监测",
-      "url": "https://pdf.hanspub.org/hjdm20180300000_43341897.pdf",
-      "note": "研究资料披露 2017 年第二季度喜马拉雅周人均启动 5.8 次，5.8÷7=日均约 0.8 次；招股书披露移动端 2023 年 DAU 日均收听 130 分钟；月狐披露 2025 年第一季度移动端季度平均 MAU 9,461 万。三项跨期，打开次数为历史值。",
-      "type": "usage-data",
-      "apps": [
-        "ximalaya"
-      ],
-      "finalUrl": "https://pdf.hanspub.org/hjdm20180300000_43341897.pdf",
-      "status": "http-error",
-      "httpStatus": 404,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": "fdfd268cc1e4383fcae3daa849a7ddb998fa125bda6c2d8751893c0f94880d7e",
-      "bytes": 1029,
+      "checkedAt": "2026-08-31T03:32:43.273Z",
+      "hash": "8c82131b47421e710a2b938eb0508f3eb1f335f3b9c8dfb739ac33cf75dce09c",
+      "bytes": 5513,
       "changed": false
-    },
-    {
-      "title": "QuestMobile 视频应用监测及月狐 App 榜单",
-      "url": "https://www.ichdata.com/wp-content/pdf/rta/2019%E7%A9%BF%E5%B1%B1%E7%94%B2%E6%95%88%E6%9E%9C%E8%90%A5%E9%94%80%E9%80%9A%E6%A1%88%28%E5%90%ABRTA%29.pdf",
-      "note": "QuestMobile 2018 年 10 月监测显示西瓜视频人均单日使用约 19 次；公开平台数据披露 2020 年平均使用时长超过 100 分钟；月狐 2026 年 1 月榜单记录 MAU 约 1.30 亿。三项指标跨期，时长按公开下限展示。",
-      "type": "usage-data",
-      "apps": [
-        "xigua"
-      ],
-      "status": "fetch-error",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": null,
-      "bytes": null,
-      "changed": false,
-      "error": "timeout"
-    },
-    {
-      "title": "瑞幸数字化服务研究",
-      "url": "https://www.ccidanpo.org/sites/default/files/c26636204.2020.01.03.pdf",
-      "type": "research",
-      "note": "记录制作、配送状态短信以及交易结束后的优惠券触达。",
-      "apps": [
-        "luckin"
-      ],
-      "status": "fetch-error",
-      "checkedAt": "2026-09-01T21:02:13.967Z",
-      "hash": null,
-      "bytes": null,
-      "changed": false,
-      "error": "fetch failed"
     }
   ]
 }
