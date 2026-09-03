@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-03",
+  "date": "2026-09-04",
   "changedSources": [
     {
       "title": "微信视频号通知设置说明",
@@ -13,8 +13,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "8ae77584a7a1e5d260393b9855688a735b1cecc30bad6e5be84fdd2e75fe7bcb",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "553387272cc93eef82e5f6dd3580083e350afa9fb1704437cf8fc4da17cf6562",
       "bytes": 5470,
       "changed": true
     },
@@ -30,9 +30,26 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "55c3a67fd6a5ac7e33bddb1fe51fd15728d7e07eeec96a9e7e5dc0a78998852d",
-      "bytes": 31388,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "6ea4f35b75ed1db403f2f730782bfe071dd7b8c694213ecc27655b547c4c4612",
+      "bytes": 30670,
+      "changed": true
+    },
+    {
+      "title": "月狐双十一监测与 QuestMobile 流量数据",
+      "url": "https://www.dcbbs.com/p-183112.html",
+      "note": "月狐披露 2021 年 10 月小红书人均日启动次数由 3.9 次升至 4.7 次；原有日均时长为 2024 年 2 月监测，QuestMobile 披露 2025 年 10 月 App MAU 2.35 亿。三项跨期，打开次数为历史值。",
+      "type": "usage-data",
+      "apps": [
+        "xiaohongshu"
+      ],
+      "finalUrl": "https://www.dcbbs.com/p-183112.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "61dac748e8b43b096fd2f3b34ec759b777870b3bde2f34af20215e4325aad0e7",
+      "bytes": 144060,
       "changed": true
     },
     {
@@ -47,9 +64,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "35f0e5e8d368be11e18b3b87329615e3ad64c5dc11ca1f6047fcd49a4027e91c",
-      "bytes": 829942,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "aae5c9b5eca0f5658bf7e26678cde4092f6b5cb798c9392e63bbded210ae0afe",
+      "bytes": 829110,
       "changed": true
     },
     {
@@ -64,9 +81,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "e985a09f4e01ca2590fb7217cfdc64f2a43ea226df5ae25a83caae9a146b5f50",
-      "bytes": 190377,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "6f4e0c09b9148bcbd646906680f4df7e09856f204fd7d9c2325a28d0fe1f766a",
+      "bytes": 190380,
       "changed": true
     },
     {
@@ -81,9 +98,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "aa224a697983292385276b39fbfb3e083eec6bec5f7cfa7ca531eba256cbb3f9",
-      "bytes": 35505,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "e081def98dcb0232c655cc31252df40d7ed65b8cfb8bc44830532cba89847a60",
+      "bytes": 35508,
       "changed": true
     },
     {
@@ -98,9 +115,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "18c8e3f91730a29bf6ceb6fd3771b154db0a5d699b6df45eb90c4bb2a0fe357e",
-      "bytes": 703571,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "0fe317eee7c131f8e9f1a44eee95f244e598fc2b6b9b45b748940db7596bad5b",
+      "bytes": 818076,
       "changed": true
     },
     {
@@ -115,8 +132,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "e88a4328fef2e44ba56fe135205a2994c4d5061a43e5291b2b413edc749697b7",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "ce413a760fde663568eaeb6d99bf9ff7d9115e837d3e4807641bdd1b0bce902d",
       "bytes": 106025,
       "changed": true
     },
@@ -132,9 +149,43 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "e8b585c7b66861e9e751da31b4251080b50163d0cee66c6003843cd9f1c5764f",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "0a19c901a4fee6df33e49c44065bc2e6ea61ae5679efbd31150ef2b8aadf285d",
       "bytes": 5470,
+      "changed": true
+    },
+    {
+      "title": "知乎 2025 年第二季度业绩电话会记录",
+      "url": "https://www.roic.ai/quote/ZH/transcripts/2025-year/2-quarter",
+      "type": "usage-data",
+      "note": "业绩电话会披露日均用户时长超过 39 分钟；该项与年报的平均 MAU 分别标注，避免混淆统计周期。",
+      "apps": [
+        "zhihu"
+      ],
+      "finalUrl": "https://www.roic.ai/quote/ZH/transcripts/2025-year/2-quarter",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "6a089130e1e946d735c3b965e42b8363ef4ec71e5cdf1165570e43ac5ebcbd89",
+      "bytes": 353322,
+      "changed": true
+    },
+    {
+      "title": "知乎年报、业绩电话会与移动阅读研究",
+      "url": "https://xmtxy.xjtu.edu.cn/__local/5/AA/EF/3BE98F474CD453829B6160BC84F_30025676_245211.pdf",
+      "note": "研究资料披露 2017 年 10 月知乎人均日启动 5.35 次，页面按一位小数显示为 5.4 次；年报披露 2024 年平均 MAU 8,300 万，2025 年第二季度业绩电话会披露日均用户时长超过 39 分钟。三项跨期。",
+      "type": "usage-data",
+      "apps": [
+        "zhihu"
+      ],
+      "finalUrl": "https://xmtxy.xjtu.edu.cn/__local/5/AA/EF/3BE98F474CD453829B6160BC84F_30025676_245211.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "3c0d168390778e1a0b89d824b9399390778cf8bb20fcd9286bc82b50cbddd1c4",
+      "bytes": 7078,
       "changed": true
     },
     {
@@ -149,9 +200,31 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "c5100a83e9df11dee990c28705df39a4781939e9e8cc848088ab5caee58a4401",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "b881d1e326d816d694d967d669c964e384615f3a4ba4ffd5cf3d3889ae885b02",
       "bytes": 31281,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 秋季报告及月狐 2026 年 1 月 App 榜",
+      "url": "https://www.moonfox.cn/insight/news/2005",
+      "note": "QuestMobile 披露 2025 年 9 月淘宝 App 月人均使用时长 4.4 小时、使用 73.9 次，页面按 30 天换算；月狐披露 2026 年 1 月 MAU 为 95,897 万。",
+      "type": "usage-data",
+      "apps": [
+        "taobao",
+        "mijia",
+        "dingtalk",
+        "cainiao",
+        "hellobike",
+        "chrome"
+      ],
+      "finalUrl": "https://www.moonfox.cn/insight/news/2005",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "240e97146485fd264d87b9406d08fa2f6a2335de66f54490466d1857a4050bc1",
+      "bytes": 687718,
       "changed": true
     },
     {
@@ -166,8 +239,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "a6d557f0faa7521d28def6cf494c2559d40a36b82032d4dd8608a0576f8e59c6",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "be8b44c608ef707341dc173d87786e5ee9bf31b37dd962b3807a0c07c4bce60e",
       "bytes": 29528,
       "changed": true
     },
@@ -183,8 +256,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "7225be3e8cef709acae1694407e22ccaded4333177525a333b121712071ae435",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "29f4e764f37760e30531ff699c25f8d763d1d540ae552e7d7877f58fa80d4649",
       "bytes": 170538,
       "changed": true
     },
@@ -200,9 +273,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "b26726df692d6612e051f4d142a960e03b11748409795ba3015da08ed7ac47b6",
-      "bytes": 393777,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "82d3bc34a06d08c5cda8bfb90201932a595714c75aa9e717bc3954e471abf7c4",
+      "bytes": 393705,
       "changed": true
     },
     {
@@ -217,8 +290,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "6ee9d2adab910f1f6085485a0cf25474d1879e44582cb3f30229df5c36bdc19d",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "d1701bdff0dc1f919892ee3f25a33936162f4cbcf764e8c17567ac8aff612830",
       "bytes": 24484,
       "changed": true
     },
@@ -234,9 +307,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "008ccbf4137e3a0fcd7d2899ec4d3dd35db9662ecaa82272d3fe391dfdca53d7",
-      "bytes": 214486,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "a9fe503e0cc7ca760f826f9410d29e7e4193631fcd6ca8b92e2c325c99820890",
+      "bytes": 214589,
       "changed": true
     },
     {
@@ -251,9 +324,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "39c7f5aed899936d65cd6941ca54de992c8a142ab65b7b8c51952e9a206f31e3",
-      "bytes": 1114294,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "25717694475184a7db1cb743caa0c57222d8aec1339f4fde6ea906c8b2168312",
+      "bytes": 1113998,
       "changed": true
     },
     {
@@ -268,8 +341,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "db0085a3e2396cd69c2e421cb28943be61ea1216e0d84e51efa294f66037d8ba",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "51adae1ad1c3fcf0417e57ca70ebce3473c4a1f1b1e33420656d9d3deb3615a8",
       "bytes": 5470,
       "changed": true
     },
@@ -285,9 +358,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "fdc44abc885497367b66cc8ae864ce8c9a1d4ed88e3b2b3774c9b541f77d0499",
-      "bytes": 464459,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "f9d25467e3b49273dddae1087d108dbc5cc8ff23c5abe3b640c8790046d9716c",
+      "bytes": 566694,
       "changed": true
     },
     {
@@ -302,8 +375,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "6b335c14afb552463f7563aed4937629fb40f5e31b437756ad9f87d54bbf1bd6",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "2bafe17ab5f91b1762bea091413b6a7eef1d126ba92a3b49351ccc739fb88d8d",
       "bytes": 5470,
       "changed": true
     },
@@ -319,8 +392,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "d54f5ee77b6fb213181c43f2e034184687a3603c19323b4ca362148132463e02",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "189cdf7245bf6f9b10c0c8508f643b66b7dd5682e639ff3dfb44c46216f18166",
       "bytes": 68667,
       "changed": true
     },
@@ -336,9 +409,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "213184e1bfdf34b8d85ce2132c18f7299a1bbc2c05efbe497b618303fc8f3457",
-      "bytes": 63331,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "d1059cb34a0066a7bde728dd33469e8858726e0b0da920811bad92c1f3a7047f",
+      "bytes": 63329,
       "changed": true
     },
     {
@@ -353,9 +426,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "c7eb54c49909b5b098e93aa64e5866a77b9ba961fc92dbc865de892e1c9ab5dd",
-      "bytes": 576699,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "6fbb6aa872ad93bf16d709f3166d0458aaa343995213ccc768606838d9fbed12",
+      "bytes": 699026,
       "changed": true
     },
     {
@@ -370,8 +443,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "d812b867a453340e77994936d40eefaaae619aeed63e73ccba44917cb07c9622",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "74681d30542d75c18e58771453e0cee2fce7cb8692e41a38b89aff32ed9271aa",
       "bytes": 5470,
       "changed": true
     },
@@ -387,8 +460,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "d0f9926bcdcd5fa4bd46fce30f71c09b1333e52b96f3ece9b68e973783806f53",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "eec285177b1558f06f76eb45eb4922d4c9b91b240226d1d81f9fec81c512a1f1",
       "bytes": 5470,
       "changed": true
     },
@@ -404,9 +477,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "c9315fdf75b97dffae529025261cd589c8c3850dbf89c2fbc88893f990ce83fb",
-      "bytes": 136954,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "e3c4efb64f5f991bf1cd6f2384005273ecd66b8df766250b6119a9b4cb20e707",
+      "bytes": 149807,
       "changed": true
     },
     {
@@ -421,26 +494,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "8b7c3fae059172e6e2a31b4e9e90080d8cb280f16dd706e4498f8970cfa7ab61",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "d44eac6a802e618f11aa4764c1cb4505c62633e4be3b1cb01fd56b2f2448baaa",
       "bytes": 4911,
-      "changed": true
-    },
-    {
-      "title": "豆包隐私政策",
-      "url": "https://www.doubao.com/legal/privacy",
-      "type": "official",
-      "note": "明确列出日程提醒和应用通知总结播报。",
-      "apps": [
-        "doubao"
-      ],
-      "finalUrl": "https://www.doubao.com/legal/privacy",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "3185362c5a05a0909c8514c2b9f6bc997824c2bc30519f33ca44b770ebc04fc1",
-      "bytes": 78445,
       "changed": true
     },
     {
@@ -455,9 +511,1081 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "58a1165709052bcfcf8b64c58830a5692ff00c1143893c55d75cfbde08f5f53c",
-      "bytes": 155278,
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "f5d13377145cf8cd127b3db8d4b184b2110f58c3549f2803e4a27f58d440299d",
+      "bytes": 155300,
+      "changed": true
+    },
+    {
+      "title": "钉钉 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id930368978",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "dingtalk"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E9%92%89%E9%92%89/id930368978",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "5e3ce921649ca90c46e34cc9dbc3d10f7b8626d58f1f6fd4178bd6d7f690586b",
+      "bytes": 756840,
+      "changed": true
+    },
+    {
+      "title": "飞书 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1401729613",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "feishu"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E9%A3%9E%E4%B9%A6-%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E6%97%97%E4%B8%8B-ai-%E5%B7%A5%E4%BD%9C%E5%B9%B3%E5%8F%B0/id1401729613",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "e8f3f3792437bf6f441a0556f98c4dbb20318fb30226333b1f290c094aa91bf6",
+      "bytes": 650406,
+      "changed": true
+    },
+    {
+      "title": "飞书项目通知中心",
+      "url": "https://www.feishu.cn/content/3wjpjvaj",
+      "type": "official",
+      "note": "明确列出@、催办、节点完成、负责人变更和系统变更通知。",
+      "apps": [
+        "feishu"
+      ],
+      "finalUrl": "https://www.feishu.cn/content/3wjpjvaj",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "f0d3bb945ecf95f82a0434536398f92e5d5f73f5ec49f1d89fa4b1ae43786d11",
+      "bytes": 516298,
+      "changed": true
+    },
+    {
+      "title": "菜鸟 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id951610982",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "cainiao"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E8%8F%9C%E9%B8%9F-%E5%BF%AB%E9%80%92%E7%89%A9%E6%B5%81%E8%BD%BB%E6%9D%BE%E6%9F%A5%E5%AF%84%E5%8F%96/id951610982",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "77dc181ab21e04f1790161cdfe18fd4ed0bebce0ba38192c12335d3cd91abd4b",
+      "bytes": 728365,
+      "changed": true
+    },
+    {
+      "title": "菜鸟 App 官方介绍",
+      "url": "https://www.cainiao.com/technology-cainiao-app.html",
+      "type": "official",
+      "note": "明确说明到站立马通知、包裹状态与预测送达。",
+      "apps": [
+        "cainiao"
+      ],
+      "finalUrl": "https://www.cainiao.com/technology-cainiao-app.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "197bdff6da4fb2487c91e80e7804c38cb6088685d328a0c6d2db02b4895d668b",
+      "bytes": 43207,
+      "changed": true
+    },
+    {
+      "title": "美图秀秀 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id416048305",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "meitu"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%BE%8E%E5%9B%BE%E7%A7%80%E7%A7%80-%E8%A7%86%E9%A2%91-%E5%9B%BE%E7%89%87-live%E4%BA%BA%E5%83%8F%E7%B2%BE%E4%BF%AE%E5%B7%A5%E5%85%B7/id416048305",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "35d68c6998662595120552d16274d4797870b5d6df7a22d5e0cf97d8a15e07f6",
+      "bytes": 955597,
+      "changed": true
+    },
+    {
+      "title": "高德地图 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id461703208",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "amap"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E9%AB%98%E5%BE%B7%E5%9C%B0%E5%9B%BE-%E9%AB%98%E5%BE%B7%E6%89%93%E8%BD%A6-%E5%AF%BC%E8%88%AA%E5%85%AC%E4%BA%A4%E5%9C%B0%E9%93%81%E5%87%BA%E8%A1%8C/id461703208",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "bc22013b57954743a819b09dde842941ff5b9b42b1eea8ea17efe037b8fa75c6",
+      "bytes": 879249,
+      "changed": true
+    },
+    {
+      "title": "高德国庆 App 监测、QuestMobile 春季报告及车生活报告",
+      "url": "https://www.36kr.com/p/1446168040974214",
+      "note": "监测显示高德地图 2021 年 10 月 1 日人均日启动达到 4.42 次，页面按一位小数显示 4.4 次；该值是国庆峰值而非普通日均。QuestMobile 另披露 2022 年 9 月平均单日使用 11.5 分钟、2025 年 3 月 MAU 8.73 亿，三项跨期。",
+      "type": "usage-data",
+      "apps": [
+        "amap"
+      ],
+      "finalUrl": "https://www.36kr.com/p/1446168040974214",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "3a065fe0d2c6b81c13038a1c3630e6f338c08c953bf5c43474aadaefde59c3bc",
+      "bytes": 99444,
+      "changed": true
+    },
+    {
+      "title": "百度 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id382201985",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "baidu"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%99%BE%E5%BA%A6-ai%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2/id382201985",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "1b13a6fe84b3f59156c8cc9e59ede619faf0cd7073c19cf9bf190d8ff4abf987",
+      "bytes": 996905,
+      "changed": true
+    },
+    {
+      "title": "百度地图 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id452186370",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "baidu-maps"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE-%E6%99%BA%E8%83%BD%E5%AF%BC%E8%88%AA-%E6%89%93%E8%BD%A6%E5%9C%B0%E9%93%81%E5%85%AC%E4%BA%A4%E6%9B%B4%E5%BF%AB%E5%87%BA%E8%A1%8C/id452186370",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "e089bcb2674a8f468c34d2f7a486f802642cf508514c7bc6cf196210d39adc79",
+      "bytes": 1019452,
+      "changed": true
+    },
+    {
+      "title": "哈啰 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1165227346",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "hellobike"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%93%88%E5%95%B0-%E9%AA%91%E8%BD%A6%E9%A1%BA%E9%A3%8E%E8%BD%A6%E6%89%93%E8%BD%A6%E7%A7%9F%E8%BD%A6/id1165227346",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "b2ee70b4c8308cb5680d029247dcf1faddd3dae0618eb234713615abea33d22f",
+      "bytes": 746548,
+      "changed": true
+    },
+    {
+      "title": "荣耀：哈啰骑行订单进度提醒",
+      "url": "https://www.honor.com/cn/support/content/zh-cn15882785/",
+      "type": "official",
+      "note": "确认骑行、待支付和完成等订单状态会以系统动态通知展示。",
+      "apps": [
+        "hellobike"
+      ],
+      "finalUrl": "https://www.honor.com/cn/support/content/zh-cn15882785/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "77ab60cb9c9c8ea4ae8afe0bda52747d5f02872d6c4fbbad1625d4495960538b",
+      "bytes": 854238,
+      "changed": true
+    },
+    {
+      "title": "千问 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6466733523",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "qianwen"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%8D%83%E9%97%AE-%E9%98%BF%E9%87%8Cai%E5%8A%A9%E6%89%8B/id6466733523",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "f686e84a4992fa38e5166b7734cb972b41d4b40fdf7c636dd07d3e1ec878a271",
+      "bytes": 710199,
+      "changed": true
+    },
+    {
+      "title": "DeepSeek App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6737597349",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "deepseek"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/deepseek-ai-%E6%99%BA%E8%83%BD%E5%8A%A9%E6%89%8B/id6737597349",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "e41c6f41fa6c04d2746fcf89e32e5a6efadad41b9f8324229d730632ea1eddc3",
+      "bytes": 644124,
+      "changed": true
+    },
+    {
+      "title": "DeepSeek 官方网站",
+      "url": "https://www.deepseek.com/zh/",
+      "type": "official",
+      "note": "确认官方 App 产品入口；公开资料未找到可细分的推送设置，按保守下限计。",
+      "apps": [
+        "deepseek"
+      ],
+      "finalUrl": "https://www.deepseek.com/zh/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "d82a49cefc9f35e4fc31f00e24836f47a2365fd455478f74b6065907a0d6453c",
+      "bytes": 86867,
+      "changed": true
+    },
+    {
+      "title": "元宝 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6480446430",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "yuanbao"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%85%83%E5%AE%9D-%E8%85%BE%E8%AE%AF%E5%85%A8%E8%83%BDai%E5%8A%A9%E6%89%8B/id6480446430",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "fddb19204b9266710a7731716df8dd9370418b23bdca1a5ec111b0271624895e",
+      "bytes": 843832,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 2026 年 6 月 AI App 榜单",
+      "url": "https://www.chooseai.net/news/5058/",
+      "note": "榜单披露腾讯元宝 App MAU 4,984 万、月人均时长 58.6 分钟、月人均使用 29.2 次；58.6÷30=日均约 2.0 分钟，29.2÷30=日均约 1.0 次。",
+      "type": "usage-data",
+      "apps": [
+        "yuanbao",
+        "kimi"
+      ],
+      "finalUrl": "https://www.chooseai.net/news/5058/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "b64105d47a5aee18cc16d7844192889ed9e12fcd500705babd1ebfedee2ca455",
+      "bytes": 1530037,
+      "changed": true
+    },
+    {
+      "title": "星巴克中国 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id499819758",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "starbucks"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%AD%E5%9B%BD/id499819758",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "85379a87a0cb0632e7a973ccf15ea5127b5442cc39d5900c20b7401c4e27b01d",
+      "bytes": 635036,
+      "changed": true
+    },
+    {
+      "title": "剪映 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1458072671",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "jianying"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%89%AA%E6%98%A0-%E6%8A%96%E9%9F%B3%E5%AE%98%E6%96%B9ai%E5%88%9B%E4%BD%9C%E7%A5%9E%E5%99%A8/id1458072671",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "a3c52db939dd4484e6c6aefe1616592e7f802f5ccb2dc92d23015a0e56ebda8b",
+      "bytes": 882309,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 图表与剪辑 App 行业报道",
+      "url": "https://www.10100.com/article/180795",
+      "note": "2024 年 6 月月人均使用时长 50.2 分钟，按 30 天换算为日均 1.7 分钟；2024 年 11 月 MAU 3.18 亿、月总使用 76.47 亿次，据此换算月人均约 24.1 次、日均约 0.8 次。指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "jianying"
+      ],
+      "finalUrl": "https://www.10100.com/article/180795",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "4faf98ee93eef41bd1531ad7aadd4f616623ca85251a42174ff7dd477bb5ea59",
+      "bytes": 151018,
+      "changed": true
+    },
+    {
+      "title": "即梦AI App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6503676563",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "jimeng"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%8D%B3%E6%A2%A6ai-%E6%8A%96%E9%9F%B3%E6%97%97%E4%B8%8Bai%E5%9B%BE%E7%89%87%E5%92%8C%E8%A7%86%E9%A2%91%E5%B7%A5%E5%85%B7/id6503676563",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "1a42d1d65cc97faf3dbae7e883e4739c4f8bdf764ae4c8067624178f578512da",
+      "bytes": 739184,
+      "changed": true
+    },
+    {
+      "title": "百度网盘 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id547166701",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "baidu-netdisk"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98/id547166701",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "9560411c9b808e8b4a08e6ae23c7ee2f0d1481cacbe2bf939dc44e0fe89df143",
+      "bytes": 976028,
+      "changed": true
+    },
+    {
+      "title": "腾讯会议 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1484048379",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "tencent-meeting"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E4%BC%9A%E8%AE%AE-%E5%A4%9A%E4%BA%BA%E5%AE%9E%E6%97%B6%E8%A7%86%E9%A2%91%E4%BC%9A%E8%AE%AE%E8%BD%AF%E4%BB%B6/id1484048379",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "d96e6f8c4644fc9e7763df410f869ce01e8f10523f4124387f8493b182d6b6bd",
+      "bytes": 905015,
+      "changed": true
+    },
+    {
+      "title": "腾讯会议：会议前",
+      "url": "https://meeting.tencent.com/support/topic/1625/",
+      "type": "official",
+      "note": "确认会议邀请、开始前提醒和移动端消息通知。",
+      "apps": [
+        "tencent-meeting"
+      ],
+      "finalUrl": "https://meeting.tencent.com/support/topic/1625/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "e244ecbd7d393f9ac40c49ab22c92ac1dbb47be9f671cab8991d309d5cff098b",
+      "bytes": 160444,
+      "changed": true
+    },
+    {
+      "title": "企业微信 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1087897068",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "wecom"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1/id1087897068",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "c78242851d50571193deaf2c244c0b67bd7386366a35b97c70459c3b6e64642e",
+      "bytes": 972632,
+      "changed": true
+    },
+    {
+      "title": "Chrome 浏览器 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id535886823",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "chrome"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/google-chrome/id535886823",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "daa290b3f9be01ce4f616b7dd50e2134f7b7aa58d7710a331db171ba71e7f875",
+      "bytes": 830673,
+      "changed": true
+    },
+    {
+      "title": "Google Chrome：通过通知接收快讯",
+      "url": "https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DiOS&hl=zh-Hant",
+      "type": "official",
+      "note": "官方明确 iPhone 或 iPad 不显示 Chrome 通知；此占位项不计入通知数。",
+      "apps": [
+        "chrome"
+      ],
+      "finalUrl": "https://support.google.com/chrome/answer/3220216?co=GENIE.Platform%3DiOS&hl=zh-Hant",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "fa645bd30c14f52fd791ce3a5960931c430fdbdf9ea9cf3abf21243a4657ca3f",
+      "bytes": 1617472,
+      "changed": true
+    },
+    {
+      "title": "有道翻译官 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id576337924",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "youdao-translate"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E6%9C%89%E9%81%93%E7%BF%BB%E8%AF%91%E5%AE%98-107%E7%A7%8D%E8%AF%AD%E8%A8%80%E7%BF%BB%E8%AF%91/id576337924",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "296439dd4bf88136217ba7bbc6805ab76482a625897e94905737093f7ebe60c4",
+      "bytes": 878877,
+      "changed": true
+    },
+    {
+      "title": "网易有道公开运营数据整理",
+      "url": "https://tool.lu/deck/qu/detail",
+      "note": "公开资料披露截至 2019 年 8 月 31 日有道翻译官 MAU 约 251 万，属于历史数据。未找到可核验且可比的日均使用时长或日均打开次数。",
+      "type": "usage-data",
+      "apps": [
+        "youdao-translate"
+      ],
+      "finalUrl": "https://tool.lu/deck/qu/detail",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "fd0f374652c9ee593d7ffce735cdd10f945566750ed3ca9457725bdab683501b",
+      "bytes": 190593,
+      "changed": true
+    },
+    {
+      "title": "墨迹天气 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id434209233",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "moji-weather"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%A2%A8%E8%BF%B9%E5%A4%A9%E6%B0%94-%E8%AE%A9%E6%9C%AA%E7%9F%A5%E5%8F%AF%E5%85%88%E7%9F%A5/id434209233",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "b45db3a3e55649a189781a19cb9c099f31e7319b74c1faef013e3151eb9b25be",
+      "bytes": 884783,
+      "changed": true
+    },
+    {
+      "title": "墨迹天气招股资料与易观天气 App 监测",
+      "url": "https://www.analysys.cn/article/detail/20020141",
+      "note": "招股资料披露 2017 年 1—9 月日均使用 2 分 36 秒，折合 2.6 分钟；易观披露 2020 年第四季度 MAU 1.59 亿、月人均启动 29.4 次，后者按 30 天换算为日均约 1.0 次。指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "moji-weather"
+      ],
+      "finalUrl": "https://www.analysys.cn/article/detail/20020141",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "58e2bbf781320bf52deb82dac222676c2bf52a58e98bd1e45b204ebac29874c1",
+      "bytes": 218077,
+      "changed": true
+    },
+    {
+      "title": "网易新闻 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id425349261",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "netease-news"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E6%96%B0%E9%97%BB-%E5%A4%B4%E6%9D%A1%E6%96%B0%E9%97%BB%E8%A7%86%E9%A2%91%E8%B5%84%E8%AE%AF%E5%B9%B3%E5%8F%B0/id425349261",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "08d62e253baf58179901b51fa21edc6619d968a74684d71219cff7784574b664",
+      "bytes": 740452,
+      "changed": true
+    },
+    {
+      "title": "喜马拉雅 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id876336838",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "ximalaya"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85-%E5%90%AC%E4%B9%A6%E7%A4%BE%E5%8C%BA-%E7%94%B5%E5%8F%B0%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E7%9B%B8%E5%A3%B0%E8%AF%84%E4%B9%A6/id876336838",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "f531e1af3f23d8cf9ae1ea2e457632a4623ffbc39a9c77c03131d554af68f2eb",
+      "bytes": 914504,
+      "changed": true
+    },
+    {
+      "title": "花椒直播 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id988396858",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "huajiao"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E8%8A%B1%E6%A4%92%E7%9B%B4%E6%92%AD-%E7%9B%B4%E6%92%AD%E8%A7%86%E9%A2%91%E8%81%8A%E5%A4%A9%E8%AF%AD%E9%9F%B3%E4%BA%A4%E5%8F%8B%E8%BD%AF%E4%BB%B6/id988396858",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "fbec1fda1668ba28e1cbaef7362f9e417be3f5afa66e5dceaa43e293ea3fa364",
+      "bytes": 646822,
+      "changed": true
+    },
+    {
+      "title": "花房集团招股书、易观直播监测及历史运营数据",
+      "url": "https://www.a-site.cn/article/150796.html",
+      "note": "历史运营数据披露 2016 年 4 月月人均启动 29 次，按 30 天换算为日均约 1.0 次；易观披露 2020 年第二季度人均单日使用 67.8 分钟；花房招股资料披露 2022 年前五个月平均 MAU 约 3,063 万。三项指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "huajiao"
+      ],
+      "finalUrl": "https://www.a-site.cn/article/150796.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "466b3db704b16c9fa2e470e6f2e548b8b8fb57c077cd17bc3b40a5519d517003",
+      "bytes": 27999,
+      "changed": true
+    },
+    {
+      "title": "映客直播 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id978985106",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "inke"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E6%98%A0%E5%AE%A2%E7%9B%B4%E6%92%AD-%E9%AB%98%E9%A2%9C%E5%80%BC%E7%9B%B4%E6%92%AD%E5%B9%B3%E5%8F%B0/id978985106",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "91b8a4a90744350ca05abf209b5dd66b32d8fee687d9bfcea3dc63803017ada2",
+      "bytes": 564569,
+      "changed": true
+    },
+    {
+      "title": "映客招股书报道及移动直播研究",
+      "url": "https://m.thepaper.cn/newsDetail_forward_2044301",
+      "note": "映客招股书披露 2017 年第四季度 APP 平均 MAU 为 2,518.4 万；移动直播行业研究披露 2016 年映客人均日启动时长 30.3 分钟、人均日启动 2.8 次；极光历史监测另给出 3.03 次。页面采用较保守的一位小数 3.0 次。",
+      "type": "usage-data",
+      "apps": [
+        "inke"
+      ],
+      "finalUrl": "https://m.thepaper.cn/newsDetail_forward_2044301",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "e724bc9f8f4bb0c7f740f70126bb531352a0cde34f76b6c75081c952f3ce3226",
+      "bytes": 75010,
+      "changed": true
+    },
+    {
+      "title": "西瓜视频 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1134496215",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "xigua"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E8%A5%BF%E7%93%9C%E8%A7%86%E9%A2%91/id1134496215",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "ab66ceeda398d79552bb1f3229b94da5de7822614e2c00ea36c08568a8ff1cbb",
+      "bytes": 807520,
+      "changed": true
+    },
+    {
+      "title": "天猫商城 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id518966501",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "tmall"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%A4%A9%E7%8C%AB-%E5%A5%BD%E5%93%81%E7%89%8C-%E5%A5%BD%E4%BB%B7%E6%A0%BC-%E4%B8%8A%E5%A4%A9%E7%8C%AB/id518966501",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "9ca11045cbcf7a60e2ca39a668049154e0cb88a093c7c09b2f36dd32e15b87be",
+      "bytes": 697076,
+      "changed": true
+    },
+    {
+      "title": "苏宁易购 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id424598114",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "suning"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E8%8B%8F%E5%AE%81%E6%98%93%E8%B4%AD/id424598114",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "f47f7cef6e7fbb057cc3e92027562d81e0ca8b4c294f0539146790e97ad7ab89",
+      "bytes": 548706,
+      "changed": true
+    },
+    {
+      "title": "唯品会 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id417200582",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "vipshop"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%94%AF%E5%93%81%E4%BC%9A/id417200582",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "fa4b095270e1db07d9126bc12c993c1e963b8c3030c3c7a96a7e42fe61934383",
+      "bytes": 695435,
+      "changed": true
+    },
+    {
+      "title": "得物 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1012871328",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "dewu"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%BE%97%E7%89%A9-%E5%BE%97%E5%88%B0%E7%BE%8E%E5%A5%BD%E4%BA%8B%E7%89%A9/id1012871328",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "c19eae552a43168909a87c909e6a0649d04812c30635e28d1318962f06169ba9",
+      "bytes": 812724,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 得物流量监测及社区电商分析",
+      "url": "https://m.thepaper.cn/newsDetail_forward_28258340",
+      "note": "QuestMobile 披露得物 2024 年 3 月 MAU 8,799.5 万；较早社区电商分析援引监测图称得物人均单日使用时长长期约 10 分钟。未找到可核验的日均打开次数，时长按近似历史值展示。",
+      "type": "usage-data",
+      "apps": [
+        "dewu"
+      ],
+      "finalUrl": "https://m.thepaper.cn/newsDetail_forward_28258340",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "725aa169a59e342471849500555d5cfec945bc5223af182b055124702dc16ea4",
+      "bytes": 86683,
+      "changed": true
+    },
+    {
+      "title": "山姆会员商店 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id818237113",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "sams"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%B1%B1%E5%A7%86%E4%BC%9A%E5%91%98%E5%95%86%E5%BA%97/id818237113",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "36858a3984853e9ac01f4e7eccbcd6d8ca5811413a638309cd361df97a82cc17",
+      "bytes": 655149,
+      "changed": true
+    },
+    {
+      "title": "转转 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1002355194",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "zhuanzhuan"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E8%BD%AC%E8%BD%AC-%E4%BA%8C%E6%89%8B%E5%AE%98%E6%96%B9%E9%AA%8C/id1002355194",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "20025def4b1c43feb598d5811ea8e39f1fa7443dad7710296155cec790de3d2c",
+      "bytes": 736762,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 二手交易 App 监测报道",
+      "url": "https://www.ikanchai.com/article/20160613/83540.shtml",
+      "note": "QuestMobile 2016 年 5 月监测披露转转 MAU 410 万、人均单日使用 11.4 分钟、人均单日使用 5.5 次。数据较旧，仅作为有明确年份的历史基准。",
+      "type": "usage-data",
+      "apps": [
+        "zhuanzhuan"
+      ],
+      "finalUrl": "https://www.ikanchai.com/article/20160613/83540.shtml",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "3a9a574b9f4d73860a544cdbd9320a9c6a713f76e3f71fb9a777818f7748f931",
+      "bytes": 71663,
+      "changed": true
+    },
+    {
+      "title": "抖音商城 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1485191072",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "douyin-mall"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E6%8A%96%E9%9F%B3%E5%95%86%E5%9F%8E-%E4%B8%8B%E5%8D%95%E8%BF%94%E7%A7%AF%E5%88%86-%E9%80%80%E8%B4%A7%E5%8C%85%E8%BF%90%E8%B4%B9/id1485191072",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "e22c719a4b149a2bb84d674338951b281839b8622219e4428e771cbb23323752",
+      "bytes": 822951,
+      "changed": true
+    },
+    {
+      "title": "豆瓣 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id907002334",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "douban"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E8%B1%86%E7%93%A3/id907002334",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "6cd27c8e93d19c70d23851704802935182e0082bdfc31ec7a4b8c853e5e9f93c",
+      "bytes": 702714,
+      "changed": true
+    },
+    {
+      "title": "QQ App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id444934666",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "qq"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/qq/id444934666",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "108d6d23759148ffd6dda60beb23f93a0b8cbb5780b2059a41780fc87ccf4e22",
+      "bytes": 998187,
+      "changed": true
+    },
+    {
+      "title": "美团外卖 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id737310995",
+      "type": "app-store",
+      "note": "官方应用商店的功能说明、版本记录与开发者信息。",
+      "apps": [
+        "meituan-food"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96-%E5%A4%96%E5%8D%96%E8%AE%A2%E9%A4%90-%E9%80%81%E5%95%A5%E9%83%BD%E5%BF%AB/id737310995",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "cf3d5553aa37ac5dec8ade07fe909ab494971d626187480d76b9ca06dc5eda3a",
+      "bytes": 704543,
+      "changed": true
+    },
+    {
+      "title": "易观外卖 App 监测及 QuestMobile 独立 App 监测",
+      "url": "https://www.tmtpost.com/5879786.html",
+      "note": "易观披露 2021 年 9 月美团外卖 APP 人均单日使用 7.58 分钟、日均打开 2.77 次；QuestMobile 披露 2024 年 10 月美团外卖独立 APP MAU 为 6,318 万。指标跨期，未使用微信小程序 MAU。",
+      "type": "usage-data",
+      "apps": [
+        "meituan-food"
+      ],
+      "finalUrl": "https://www.tmtpost.com/5879786.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "d9993ec738a7470274f149c94ad9d86d682f934cb04ce41d1cbce650c59f80f6",
+      "bytes": 157477,
+      "changed": true
+    },
+    {
+      "title": "携程旅行 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id379395415",
+      "type": "app-store",
+      "note": "官方应用商店页面确认酒店、机票、火车票、门票、用车、社区及账户服务范围。",
+      "apps": [
+        "ctrip"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C-%E8%AE%A2%E9%85%92%E5%BA%97%E6%9C%BA%E7%A5%A8%E7%81%AB%E8%BD%A6%E7%A5%A8/id379395415",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "5d534f62e9eb474cd8ca09b7453e14da1389c20951546a79646eb6cec3e922a6",
+      "bytes": 945688,
+      "changed": true
+    },
+    {
+      "title": "携程 Apple Watch 功能说明",
+      "url": "https://apps.apple.com/cn/app/id688037240",
+      "type": "official",
+      "note": "明确列出登机提醒、航班变更、值机柜台、登机口及行李转盘等行程提醒。",
+      "apps": [
+        "ctrip"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E6%90%BA%E7%A8%8B%E6%97%85%E8%A1%8C-%E6%9E%81%E9%80%9F%E7%89%88-%E9%85%92%E5%BA%97%E6%9C%BA%E7%A5%A8%E7%81%AB%E8%BD%A6%E7%A5%A8%E9%A2%84%E8%AE%A2/id688037240",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "517c2ad5afe355689437b1e9df1b61039a536b6b656ad926401da50abdb00beb",
+      "bytes": 729138,
+      "changed": true
+    },
+    {
+      "title": "大众点评 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id351091731",
+      "type": "app-store",
+      "note": "官方应用商店页面确认本地商户、用户评价、团购、预约、酒店门票和客服服务范围。",
+      "apps": [
+        "dianping"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84-%E5%90%83%E5%96%9D%E7%8E%A9%E4%B9%90%E6%8C%87%E5%8D%97/id351091731",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "ae38c1934e8bde4216c435fcfc271e1a008162d40f2a916e7494f5779d19364e",
+      "bytes": 749534,
+      "changed": true
+    },
+    {
+      "title": "优酷视频 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id336141475",
+      "type": "app-store",
+      "note": "官方应用商店页面确认影视、综艺、动漫、直播、缓存、会员及多屏同步等功能。",
+      "apps": [
+        "youku"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E4%BC%98%E9%85%B7%E8%A7%86%E9%A2%91-%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97-%E5%85%A8%E7%BD%91%E7%8B%AC%E6%92%AD/id336141475",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "44227a74a742c761bbe1208356cf35d523d01177b84eaad773ff8cc162cb794b",
+      "bytes": 1084981,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 视频应用监测与月狐 App 榜单",
+      "url": "https://www.36kr.com/p/3032764919279872",
+      "note": "QuestMobile 披露 2024 年 9 月优酷视频月人均单日使用 59.5 分钟；2018 年 10 月监测显示人均单日使用约 8 次；月狐披露 2026 年 1 月 MAU 2.1584 亿。三项指标跨期。",
+      "type": "usage-data",
+      "apps": [
+        "youku"
+      ],
+      "finalUrl": "https://www.36kr.com/p/3032764919279872",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "da4b66c7b85d3a8288e0b72c726ce1e77e4b56caa17700fa0194b70f9704d844",
+      "bytes": 103769,
+      "changed": true
+    },
+    {
+      "title": "滴滴 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id554499054",
+      "type": "app-store",
+      "note": "官方应用商店页面确认网约车、骑行、顺风车、火车票、租车、代驾、送货、会员等服务范围。",
+      "apps": [
+        "didi"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E6%BB%B4%E6%BB%B4-%E6%89%93%E8%BD%A6%E9%AA%91%E8%BD%A6%E9%A1%BA%E9%A3%8E%E8%BD%A6%E7%81%AB%E8%BD%A6%E7%A5%A8%E7%A7%9F%E8%BD%A6%E4%BB%A3%E9%A9%BE%E9%80%81%E8%B4%A7/id554499054",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "534e370fcdf03ea432808f4a873ad391da1457b5f8d97c708183571df7edc420",
+      "bytes": 767987,
+      "changed": true
+    },
+    {
+      "title": "网易云音乐 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id590338362",
+      "type": "app-store",
+      "note": "官方应用商店页面确认音乐、播客、评论、动态、一起听、歌房、会员和账户服务范围。",
+      "apps": [
+        "netease-cloud-music"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90-%E6%95%B0%E4%BA%BF%E9%9F%B3%E4%B9%90%E7%95%85%E5%90%AC/id590338362",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "d046e880921abeebb40315d2273a4837ef59fbcf1e5fbb5e83d83b2fd8d2fdb8",
+      "bytes": 970029,
+      "changed": true
+    },
+    {
+      "title": "瑞幸咖啡 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1296749505",
+      "type": "app-store",
+      "note": "官方应用商店页面确认在线点单、自提外送、优惠券、会员、积分与自由卡等功能。",
+      "apps": [
+        "luckin"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%91%9E%E5%B9%B8%E5%92%96%E5%95%A1/id1296749505",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "8e8d634b53a162badbf5eed0efff00d2979cdb15e6d9d79c203599c8bed1ed33",
+      "bytes": 599689,
+      "changed": true
+    },
+    {
+      "title": "盒马 App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id1063183999",
+      "type": "app-store",
+      "note": "官方应用商店页面确认生鲜商超、即时配送、会员和订单服务范围。",
+      "apps": [
+        "hema"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/%E7%9B%92%E9%A9%AC-%E9%B2%9C%E7%BE%8E%E7%94%9F%E6%B4%BB/id1063183999",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "9dbfcf178e5e7eadf1db45d566a9701f263c1a275dff87043b8013f6df5da1b3",
+      "bytes": 659119,
+      "changed": true
+    },
+    {
+      "title": "Kimi App Store 页面",
+      "url": "https://apps.apple.com/cn/app/id6474233312",
+      "type": "app-store",
+      "note": "官方应用商店页面确认搜索、文件处理、PPT、Agent、插件及会员等功能范围。",
+      "apps": [
+        "kimi"
+      ],
+      "finalUrl": "https://apps.apple.com/cn/app/kimi/id6474233312",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "54668bd61937adafb7f2fa4026525d5965d8cf6695e0c0d418efef13afa2a7f7",
+      "bytes": 636448,
+      "changed": true
+    },
+    {
+      "title": "Kimi 定时任务帮助",
+      "url": "https://www.kimi.ai/zh-hant/help/features/scheduled-tasks",
+      "type": "official",
+      "note": "明确说明每次定时任务执行都会建立一条标记为未读的通知。",
+      "apps": [
+        "kimi"
+      ],
+      "finalUrl": "https://www.kimi.ai/zh-hant/help/features/scheduled-tasks",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "a51451f7e9ede527cc630023b5c5d5aba859380d6719d60ea9007c4a40c2af0c",
+      "bytes": 390150,
+      "changed": true
+    },
+    {
+      "title": "Kimi 隐私政策",
+      "url": "https://www.kimi.com/user/agreement/userprivacy?version=v2",
+      "type": "official",
+      "note": "明确列出政策更新、服务变更、客服沟通、营销活动和安全事件通知。",
+      "apps": [
+        "kimi"
+      ],
+      "finalUrl": "https://www.kimi.com/user/agreement/userprivacy?version=v2",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "5052a0d0545bda7969845d9dca3906b8983d00c9da78701b2226b452cf86f157",
+      "bytes": 92284,
       "changed": true
     }
   ],
@@ -474,8 +1602,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "8ae77584a7a1e5d260393b9855688a735b1cecc30bad6e5be84fdd2e75fe7bcb",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "553387272cc93eef82e5f6dd3580083e350afa9fb1704437cf8fc4da17cf6562",
       "bytes": 5470,
       "changed": true
     },
@@ -491,8 +1619,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "e8b585c7b66861e9e751da31b4251080b50163d0cee66c6003843cd9f1c5764f",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "0a19c901a4fee6df33e49c44065bc2e6ea61ae5679efbd31150ef2b8aadf285d",
       "bytes": 5470,
       "changed": true
     },
@@ -508,8 +1636,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "db0085a3e2396cd69c2e421cb28943be61ea1216e0d84e51efa294f66037d8ba",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "51adae1ad1c3fcf0417e57ca70ebce3473c4a1f1b1e33420656d9d3deb3615a8",
       "bytes": 5470,
       "changed": true
     },
@@ -522,7 +1650,7 @@
         "xiaoyuzhou"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
       "hash": null,
       "bytes": null,
       "changed": false,
@@ -540,8 +1668,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "6b335c14afb552463f7563aed4937629fb40f5e31b437756ad9f87d54bbf1bd6",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "2bafe17ab5f91b1762bea091413b6a7eef1d126ba92a3b49351ccc739fb88d8d",
       "bytes": 5470,
       "changed": true
     },
@@ -557,8 +1685,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "d812b867a453340e77994936d40eefaaae619aeed63e73ccba44917cb07c9622",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "74681d30542d75c18e58771453e0cee2fce7cb8692e41a38b89aff32ed9271aa",
       "bytes": 5470,
       "changed": true
     },
@@ -574,8 +1702,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
-      "hash": "d0f9926bcdcd5fa4bd46fce30f71c09b1333e52b96f3ece9b68e973783806f53",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
+      "hash": "eec285177b1558f06f76eb45eb4922d4c9b91b240226d1d81f9fec81c512a1f1",
       "bytes": 5470,
       "changed": true
     },
@@ -588,7 +1716,7 @@
         "baidu"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
       "hash": null,
       "bytes": null,
       "changed": false,
@@ -606,7 +1734,7 @@
       "status": "http-error",
       "httpStatus": 404,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
       "hash": "fdfd268cc1e4383fcae3daa849a7ddb998fa125bda6c2d8751893c0f94880d7e",
       "bytes": 1029,
       "changed": false
@@ -620,7 +1748,7 @@
         "xigua"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
       "hash": null,
       "bytes": null,
       "changed": false,
@@ -635,7 +1763,7 @@
         "luckin"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-09-02T21:03:24.120Z",
+      "checkedAt": "2026-09-03T21:02:52.516Z",
       "hash": null,
       "bytes": null,
       "changed": false,

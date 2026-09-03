@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-02T21:04:38.637Z",
+  "checkedAt": "2026-09-03T21:04:06.341Z",
   "sourceCount": 125,
-  "changedCount": 0,
+  "changedCount": 113,
   "failedCount": 7,
   "sources": [
     {
@@ -16,10 +16,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "654ed3bfd1365533a76598780b5c79f953c8fdf0a4f9553daad240a488583a48",
-      "bytes": 801237,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "fc4676a0c2fbea226cacb6573581b131fbf0d37153d86411530c94cda0432f02",
+      "bytes": 925746,
+      "changed": true
     },
     {
       "title": "Instagram 30 亿 MAU",
@@ -33,10 +33,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "100e858549fa4e6d823876ed23db7eed381f60ff77e36cd4cec0f29fb269f119",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "dd78c96d36d0d71a8396c7b86faa93ab07a447fc2eaa690e6a5d8e95cccadc31",
       "bytes": 454432,
-      "changed": false
+      "changed": true
     },
     {
       "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
@@ -62,10 +62,10 @@
       "status": "http-error",
       "httpStatus": 404,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "debe1f0603132aaab53190c118db6a2df1203bb697e16e2909bd016c09f01d49",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "3fa9ff35a7893552e1abbdad1637d52c1fe61061f217dc44a6b613c152cb4095",
       "bytes": 85798,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Facebook · App Store",
@@ -79,10 +79,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "7fc4f9119dbf467ef9b3523919f57e7953267bb9e8fb9bf0fc98368d38e78611",
-      "bytes": 920221,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "420406147205de8553017b73828add2601ede0e08119c9f4d9d8ebe9b4efffe5",
+      "bytes": 1039455,
+      "changed": true
     },
     {
       "title": "Facebook 2023 Q3 MAU",
@@ -96,7 +96,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "7147a1e6254cdbc10369da7e4e3815eb4c31c3f2a593d158a423b25a88e6b5f0",
       "bytes": 181365,
       "changed": false
@@ -113,10 +113,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "4a56917dd55b1150c4eedd02b9a0cd6c94f4fcb26a3617887b432fab57cb80d4",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "7c0ce6ea0e75af099d526eff7b9962eb2ad3b34de51e40730e6a94253de48bb6",
       "bytes": 5782,
-      "changed": false
+      "changed": true
     },
     {
       "title": "X · App Store",
@@ -130,10 +130,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "ae8308df970b483010b0c6022842b2b673e58f5552901d52b73ed66cba3ac5fc",
-      "bytes": 817308,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "f90f037fb549ee843f5575756199fb70c1d9794db0832c73ad6394735980cedf",
+      "bytes": 912416,
+      "changed": true
     },
     {
       "title": "X 移动 App DAU",
@@ -144,13 +144,13 @@
         "x"
       ],
       "finalUrl": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "9d0e26b2a6238b35e12175597aab169bd8b304cdaeb7eb6075ece180db6228df",
-      "bytes": 851,
-      "changed": false
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "f7bbddffc77d4398de99e82b0139cd368d862c8c4900254e1adc7e86fde13bfd",
+      "bytes": 230362,
+      "changed": true
     },
     {
       "title": "WhatsApp 通知管理",
@@ -164,10 +164,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=\"utf-8\"",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "b7d15f7bcc97624dd4e1b1ff02e51ae3f3bb804ccdc3157e80e53562715d9e3c",
-      "bytes": 1223770,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "923cf55af0294de9d0ecc09abb876cf6c783adceb50cf23bb4471a1a43d6c545",
+      "bytes": 1241718,
+      "changed": true
     },
     {
       "title": "WhatsApp Messenger · App Store",
@@ -181,10 +181,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "ab7e8b004ed4c0b3c672f7bda56395d5d642b2a1232a710b47f262a03bc86b2c",
-      "bytes": 665949,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "4c588c52c183f8990351215d074e7ee37e2c5bdf1dd3586e3bd913a7220da025",
+      "bytes": 781157,
+      "changed": true
     },
     {
       "title": "WhatsApp 超过 30 亿 MAU",
@@ -198,10 +198,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "152b78975e27aa80f15d075ca670fe02ce3be39b6178a077d836af7aa4cd5939",
-      "bytes": 230981,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "21e8fff04fa6ba4faa7033800365835f75545a3fbb85975aaf5335717e08993d",
+      "bytes": 230711,
+      "changed": true
     },
     {
       "title": "YouTube 通知管理",
@@ -215,10 +215,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "5857dd71482cdee488715c0632de6ed88f9506ceb603c3750bd8dc8ec497ee33",
-      "bytes": 1418749,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "8e96f820b43199521534a483dced4ea6ec266c1ea3de09b2a25a25af9cb15bdf",
+      "bytes": 1604630,
+      "changed": true
     },
     {
       "title": "YouTube · App Store",
@@ -232,10 +232,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "7f380025f37e23903b64a2d3172aa3b006a579fafcf7c6009f9e7fc83c16535d",
-      "bytes": 1033866,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "0c15658024e20838519d31ba20dfcbc8de57f39de29201bfaa9f3ea1c3bee2b2",
+      "bytes": 1156464,
+      "changed": true
     },
     {
       "title": "Gmail 通知设置",
@@ -249,10 +249,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "af2ad03a9ea60c3b64b2158a4121ccf96b8b813a43094e2be314ca36fc15bd3b",
-      "bytes": 1420561,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "484d9b9a7fb25b8d8ecb54adb48d805cc6299ac1be1854264b1a1e69a7cb4372",
+      "bytes": 1605989,
+      "changed": true
     },
     {
       "title": "Gmail - Email by Google · App Store",
@@ -266,10 +266,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "086088b546fc8f8a2813efc7aeeac62904b80329d81999de48dee42d37bfe8c5",
-      "bytes": 817564,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "c5e02ba8cfe107632bfe63f504866a4b5fc10fb61af5463e747fc1acdfbf8485",
+      "bytes": 941974,
+      "changed": true
     },
     {
       "url": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
@@ -283,10 +283,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "570d3c16e7cdf278f08d0a8140cca214684bcafaf9757808c96e354fb4087f5f",
-      "bytes": 374084,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "c19b5c41ab95c4a91c18eb4f8c17a5680e7d21199f9db5fd7f37933b43a5a852",
+      "bytes": 373709,
+      "changed": true
     },
     {
       "title": "Google 相册动态类型",
@@ -300,10 +300,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "b4ccc4016f3a9e78696218592b86e8064ad37aaffc35dc54e6f4daee8c6c2f77",
-      "bytes": 1599035,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "7efd4869b2be1103d6c2879805b1dbb801d093a048acdd48dfb26824f5b9a162",
+      "bytes": 1605211,
+      "changed": true
     },
     {
       "title": "Google Photos: Backup & Edit · App Store",
@@ -317,10 +317,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2620b9d1bd19bee22284b6fd1eabf0116de3f5ae5f3ae6d634fcc046a5353149",
-      "bytes": 868142,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "658f9003ae07e00f076cd5e2fff837a87c2fda407fbe18a4122ba69f0c3acac5",
+      "bytes": 996169,
+      "changed": true
     },
     {
       "url": "https://blog.google/products-and-platforms/products/photos/google-photos-10-years-tips-tricks/",
@@ -334,10 +334,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "615087b26021da4a8193b7ac2275a225672aa0aa16f35886aa675de6969a0f3b",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "45e3d13904a143931dc5b4f77db5ff40144f8e2627f07a673bcc38aca708ef36",
       "bytes": 382861,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Google Ads 通知",
@@ -351,10 +351,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "e5ff303ce3050332aaca96db38a5cd4347cdc89260d3073b305bdd34cffd213d",
-      "bytes": 1668077,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "9b653e027c3722c9b96deb59a0246316f38921cda769228d66137399ec56b7f0",
+      "bytes": 1674367,
+      "changed": true
     },
     {
       "title": "Google Ads · App Store",
@@ -368,10 +368,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "dfe51c459147885a6c935fa2fd01b6bd4f7587ae155cd3ab8d19e4269eb5b791",
-      "bytes": 755205,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "4d6efe4687b76c1af30ac70db6256e5763236083798f546f55267d3e5c04664f",
+      "bytes": 863683,
+      "changed": true
     },
     {
       "title": "Messenger · App Store",
@@ -385,10 +385,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "b5bd17e2e90317e3acfa6e6c2e4e4edc1d1c3c68b4c838dff0a5e050aaf663bd",
-      "bytes": 852800,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "8b4dbb2e99e8ed2cc16cdf51dd7a6a1455bc947e9653d920545ac62668b466b2",
+      "bytes": 973349,
+      "changed": true
     },
     {
       "title": "Grok AI · App Store",
@@ -402,10 +402,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "daafcc66abedf60558d2652e925cfbe9d3092384427f1c740e70078c9f746547",
-      "bytes": 587015,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "43fb886dbc75e67f8b4803789f2f19576003f784696154d9e10e63ca90e0a244",
+      "bytes": 702619,
+      "changed": true
     },
     {
       "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
@@ -423,10 +423,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "00093a020c391980064da3439b55f4814f9fefaca74dad43cfd5576acace8d1b",
-      "bytes": 391862,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "6240938c91b6ca494a279d080ee84d94d328a81abaebe24859d40a96b0abfac6",
+      "bytes": 393185,
+      "changed": true
     },
     {
       "title": "Discord - Talk, Play, Hang Out · App Store",
@@ -440,10 +440,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "d37577128c9ab3d52458082e8e41df852872b4aa3dac595ab702abadf8a1fe49",
-      "bytes": 604392,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "c2c53c431daa7555a43773214b348f1b24d22e7a37b470b469740de77b9a0ead",
+      "bytes": 720048,
+      "changed": true
     },
     {
       "title": "Discord MAU",
@@ -457,10 +457,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "cf13cfe523e522c55e7aee675ca246aecb74b147eed4fe11e205baf5e151c30a",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "7df39bb5d8800655cff768dd7136a0918c4a215fe08160a5a9bb8b6b5c238a61",
       "bytes": 105208,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Amazon Alexa · App Store",
@@ -474,10 +474,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "6fad4bd83b91c5acf81989f29242a5ec45b9f1c8702cd3ce2bfe478729cc79fa",
-      "bytes": 807880,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "a343fd64a877aea254acd2d85bb8c1965ea9f102713cc6bcae584f5516eb9f20",
+      "bytes": 913026,
+      "changed": true
     },
     {
       "url": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
@@ -491,7 +491,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "1222d66afb63e48b11dbf82d0355a09b99ad93003ed1d434ef97fdfe1bcea2e2",
       "bytes": 292911,
       "changed": false
@@ -508,10 +508,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "785d361dca9097f3dee4133865205b59badbd44e7fbcaa5dbdaf7721831afd3d",
-      "bytes": 689341,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "a80bc00c75eb9e619214d6eee7c4ab3441f5c18d9bae413e5ae7ab0f8101212d",
+      "bytes": 803598,
+      "changed": true
     },
     {
       "url": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
@@ -525,10 +525,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "79d1e8050273447d2d256cf4a3aaad1fa648460fdcf530dab0fc03cfd69810e5",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "c23c2b93081a56623a6bd6ad3ce33c6c251c59919025829346d0b853f8e6bc2e",
       "bytes": 167831,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Telegram Messenger · App Store",
@@ -542,10 +542,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "374ec61248e8ab00d2e8c0c51d1ebb71b60874543314b7f4d5268c973237f6ff",
-      "bytes": 530718,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "51dfd68722d16dc155367ec8dee6bf8941f6ffd43ede838e2b189e361ed035b2",
+      "bytes": 643120,
+      "changed": true
     },
     {
       "title": "Telegram MAU",
@@ -559,10 +559,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "bb33678e461399702bf052411fdf8913bc20073ecf8e65067bbd15089f0e9b45",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "468bf63b4cd65ad5b035745339ed2d125c5fc9fe3c589d94b8eb7d5c1c015306",
       "bytes": 22864,
-      "changed": false
+      "changed": true
     },
     {
       "title": "LINE · App Store",
@@ -576,10 +576,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "228b79fd5c1e1a88be0620e38fe07ff754bffa59ec23dd6071c0d902fda162b1",
-      "bytes": 749927,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "6265cfd2ed80a36b3269ec5cf1919e04402248dd53b89fdf20a37f6a40b77ba7",
+      "bytes": 872639,
+      "changed": true
     },
     {
       "url": "https://www.linecorp.com/en/csr/",
@@ -593,10 +593,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "20ffba2a2b997f6aa95d8b4f01184a0dc590be0273974af6a31ae57f0df28eb6",
-      "bytes": 1709352,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "f710aa5668e53438bb27c6937a9ceeaaea51829d128a12debd6b7fa1f66e1389",
+      "bytes": 1709860,
+      "changed": true
     },
     {
       "title": "ChatGPT · App Store",
@@ -610,10 +610,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "cff13410b0c61a3fc5a5adfafe2e2b63b5eabf27c61607e76b4671f4e37dceb0",
-      "bytes": 676758,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "994ad39100622272af3419623c8c752cb80baf924106107870be02c07e6ce0a6",
+      "bytes": 800992,
+      "changed": true
     },
     {
       "title": "ChatGPT 移动 App 达 10 亿 MAU",
@@ -627,10 +627,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "b37b2032035d16e7fb8ed2f6b287a7322dd95004b57b7804c312990b2c67394b",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "df0b6dacb2f9f0f6d118f4299c23901883f2df6963cf7514648ed2f1fbbfdff8",
       "bytes": 116589,
-      "changed": false
+      "changed": true
     },
     {
       "url": "https://investgame.net/wp-content/uploads/2025/07/sensor_tower__state_of_ai_apps_report_2025.pdf",
@@ -644,7 +644,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "86e07670cbbaaf636542f3cd0c338b202d4dd9a9c0a11ac85dddbeff06c5f62a",
       "bytes": 17197211,
       "changed": false
@@ -661,10 +661,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "9c7757b972ed85d1e48624acb888a20c9be42ed9293bca8dc15b45628cfbf321",
-      "bytes": 530202,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "1e5700bb4983f45dd3a7629556b75965ec7353e8f663c4ce1aecae2c917d0054",
+      "bytes": 647991,
+      "changed": true
     },
     {
       "title": "Claude by Anthropic · App Store",
@@ -678,10 +678,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "0fd51b6bf06e4caba8c7af61abaa23feb3964ea03a1b325764245ccbcae55070",
-      "bytes": 629052,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "1e608aae1c5e40cba44729a33b0c6e4c03ec79852940bea12ad64c636e573c81",
+      "bytes": 744841,
+      "changed": true
     },
     {
       "title": "TikTok - Videos, Shop & LIVE · App Store",
@@ -695,10 +695,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "d67a75cf0fe68030a597846942eda50b41ff4dee3c89983f697e731caddd18ab",
-      "bytes": 926263,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "0a252ec3923429dbc6b9eaa6d8d3d9ee2c76ea0041244c7e37ff85b2cd5d13fb",
+      "bytes": 1068657,
+      "changed": true
     },
     {
       "title": "TikTok 全球 App MAU 突破 20 亿",
@@ -712,10 +712,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "9c890de667d42cdb14b99c9b2004919c0853c84283618704e77a620462b0b365",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "14311803e2e775aabe3c3a7f616ac5ea50b0e511b95141893068677a8b141f26",
       "bytes": 342750,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Google Health (Fitbit) · App Store",
@@ -729,10 +729,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "3ffcd0a72f1fd977a8549592871d916f90a675c6d73bdaa99e652976278ba20e",
-      "bytes": 815932,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "d8c38fa16002ae60fc762b15a55189a6412f3def3fff38effb6c1c6e1aeec024",
+      "bytes": 935694,
+      "changed": true
     },
     {
       "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-community-grows-25m-active-users/",
@@ -746,10 +746,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2837a8967a62065564f2be5d6d0c171bea5f78d27f28b354f7d350cdcd3e23c6",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "2dc1c7d4490196fbcd664d74ba0d14b3b4f39f7cff47643d61b7fea10bdb6c1d",
       "bytes": 349733,
-      "changed": false
+      "changed": true
     },
     {
       "title": "iHeart: Radio, Music, Podcasts · App Store",
@@ -763,10 +763,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "6aae48e5650176942c2f1eee7a266049e1cd639df15834bba7a146f78d9c6c81",
-      "bytes": 746862,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "de75d91d21336e3f4861ea5789e8dc7bccd35708dfa070083a66168e9a7ff99b",
+      "bytes": 871157,
+      "changed": true
     },
     {
       "url": "https://www.iheartmedia.com/digital",
@@ -780,7 +780,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "e10b013ed9020f70d05709ddbc58ceaeff119c9de4be78a3818f260ff22da9d8",
       "bytes": 9576,
       "changed": false
@@ -797,10 +797,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "c89dc6561e61940027a8acb381d3d3fdf9bf4d0ba65c6280b63bba077a6df2b4",
-      "bytes": 851154,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "c834f137937101d3fd1dfb6d4c1d6fb762e7969f9933e0988ea2f768c384c9a7",
+      "bytes": 971237,
+      "changed": true
     },
     {
       "title": "YouTube Music · App Store",
@@ -814,10 +814,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "3b8126e065155046e53f5bce7681200756b13931ece690b246fbf3e69cb0f99b",
-      "bytes": 855947,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "671b5f9482515450c8c7b271e5261f1770b113819d45669a9b090d084ed1d6ee",
+      "bytes": 969980,
+      "changed": true
     },
     {
       "url": "https://blog.youtube/inside-youtube/our-big-bets-for-2025/",
@@ -832,7 +832,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "6d63bf8ff3b1b59fda0a57a63ba4981b64780ed1992e9d84b26605129bb4d686",
       "bytes": 146817,
       "changed": false
@@ -849,10 +849,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "6be7ad4f2f24321958924d21ae00c50b0b076748232e2a4da788beed2866526f",
-      "bytes": 784244,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "ae83762b0d9c611f64cab406a3ae27112e60f11079c37c8dcd1ee71b6aa453d2",
+      "bytes": 902962,
+      "changed": true
     },
     {
       "title": "Microsoft OneDrive · App Store",
@@ -866,10 +866,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "280a9e4ab3d7a305f5d1d6645e20eb1a022a30df3dd2e706008d4cabbabacdef",
-      "bytes": 811885,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "5694cc4475b87e90b7a6d4fc5f02fa2cb8b306e3ec347d52395c15aca7170766",
+      "bytes": 922308,
+      "changed": true
     },
     {
       "title": "Threads · App Store",
@@ -883,10 +883,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2a8cf274ae931c40c0e6f13f569f29329c4145ce7ecbfeab1ee9490fe0ef6825",
-      "bytes": 703676,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "bde2aed998bfaa62aac4294eccc2cb7562dce256dadb777619f4457d0076122f",
+      "bytes": 814312,
+      "changed": true
     },
     {
       "title": "Threads 5 亿 MAU",
@@ -900,10 +900,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "a53c5a26dd374fc43292bafe7e4add151412c44cdc4420e203aec49af2b8dbd4",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "2eaaa19fad60a6f10f5963fcb812bdd9d623c92448e3fb897051f5e68a99b96d",
       "bytes": 496384,
-      "changed": false
+      "changed": true
     },
     {
       "title": "LinkedIn: Community & Network · App Store",
@@ -917,10 +917,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "a952bbbc34e548d0369f74724acfe448999770e85511d4198f14aaa5a018dcf1",
-      "bytes": 797498,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "64f8a0a4a35afcc828facfddc637b8178c544906474e1245d323051443b40fee",
+      "bytes": 910101,
+      "changed": true
     },
     {
       "title": "GitHub · App Store",
@@ -934,10 +934,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "da2d13c34e00835456114b0bdf3b62cff20ba9b8b558ec0ab4eb030465b41ad6",
-      "bytes": 571615,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "aa6f7954c189df6be754e29cae6887502231a9c74005fa738965cade99f527f3",
+      "bytes": 683878,
+      "changed": true
     },
     {
       "url": "https://github.blog/news-insights/octoverse/",
@@ -951,10 +951,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "5fadbf4fd945db937117797a84461d16536817c4b5ea12f98a9bdf07388b53d0",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "7b7fc8d1c2dfa989e8ff627ba1a920b362cc537431c715fdcf194f22cbd9b7a5",
       "bytes": 189364,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Google Chrome · App Store",
@@ -968,10 +968,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "88d489f07e8b1ff1af9510c91f2b264bef7569fe0841b285d5ca164691d508f1",
-      "bytes": 862687,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "f00ba48fb99f418b3132e0ff8c874ab6afe68868e1c112827c642f39d29ad8e7",
+      "bytes": 976426,
+      "changed": true
     },
     {
       "url": "https://services.google.com/fh/files/misc/bce-protected-profiles-whitepaper.pdf",
@@ -985,7 +985,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "8c6bdc738bcfa2cd41d9428973c2332001d546b4814c03912adbccf5f55053e9",
       "bytes": 3277029,
       "changed": false
@@ -1002,10 +1002,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "3e00083bdc2639a2a5ad00fc5a5df41afffb2b0cc1d419f10dac8e0693263137",
-      "bytes": 657045,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "817c5f3f8a7dd6d8e3541f32d9eff95eae2da2a37b40970ad8bfc030af85246d",
+      "bytes": 781924,
+      "changed": true
     },
     {
       "url": "https://advertising.accuweather.com/",
@@ -1019,10 +1019,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "b003017eadf9664a89914a7592896da2eb837b1fe52495f1a235312c6b020c59",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "a7b72e5d37da9a988ff47e7437474e85c544777dcab7f777877712f09b5f296f",
       "bytes": 113017,
-      "changed": false
+      "changed": true
     },
     {
       "title": "SoundCloud: The Music You Love · App Store",
@@ -1036,10 +1036,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2c04ff93d998d37cdef5c6f2463e353167cadf38685d70b1be7fdca509e6c273",
-      "bytes": 662073,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "56ace48f9001db141573a05225ece76a136caab408febb1b5d0adeb738b91991",
+      "bytes": 772406,
+      "changed": true
     },
     {
       "url": "https://www.wmg.com/news/warner-music-group-and-soundcloud-announce-groundbreaking-partnership-20036",
@@ -1053,10 +1053,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "eac913c145dcf1e7fd84f92f9349ceb0e11547e89105efe2c39007a8c0b9d530",
-      "bytes": 96416,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "bdf202f518bc2ddd5359cea7ac347a4efa657af6865951b2cf3fdf4b448e2fe1",
+      "bytes": 96387,
+      "changed": true
     },
     {
       "title": "CapCut: Photo & Video Editor · App Store",
@@ -1070,10 +1070,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "00bd0c63ec1e34660b43810244a32e8115cfa9f42ccd3831703a4b48baf5f3fc",
-      "bytes": 808728,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "a757f84fe4a9e2af903675c6e27b5fa0c38378d03d92de5ea08d9679dc5ec5c8",
+      "bytes": 936292,
+      "changed": true
     },
     {
       "url": "https://www.scmp.com/tech/big-tech/article/3275336/bytedances-capcut-doubao-top-global-ai-app-downloads-outpacing-chatgpt-report",
@@ -1087,10 +1087,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "9b5227346b4fdb52eddb7935a2f7f65156aec244ac1ab8533de3191a034f2b50",
-      "bytes": 1143760,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "5839a0a73ca50d5134a5acf138a171dd1a57e34b3ee2ec476ba1dfa2048935a7",
+      "bytes": 1146502,
+      "changed": true
     },
     {
       "title": "Slack 通知指南",
@@ -1101,13 +1101,13 @@
         "slack"
       ],
       "finalUrl": "https://slack.com/intl/zh-cn/help/articles/201355156-%E9%85%8D%E7%BD%AE%E4%BD%A0%E7%9A%84-Slack-%E9%80%9A%E7%9F%A5",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "e25742ff66e0e0d50080bb7e607c4814657b9dfc3a4c8a5f5f7e0a7f5ad8e34d",
-      "bytes": 108531,
-      "changed": false
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": null,
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "changed": true
     },
     {
       "title": "Slack · App Store",
@@ -1121,10 +1121,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "4ae1c3ca24a028560cfe2a0a764cfd76d3d941ad38fba4c61d8a2231f0b50378",
-      "bytes": 651180,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "9d6afdf3c9112725e892bcc05975ca4c44a5b19e2c4a9c0368da96d0ac0f579e",
+      "bytes": 756292,
+      "changed": true
     },
     {
       "title": "Notion: Notes, Tasks, AI · App Store",
@@ -1138,10 +1138,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "03b90bb48539bbd9fa3e9bb524e50f2115ca3ec91d37ec04448ff2a2e3259994",
-      "bytes": 710732,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "d236f5a12b944d750830658bcf232b80629a88018cbd477cf0306426daa6d211",
+      "bytes": 828314,
+      "changed": true
     },
     {
       "url": "https://www.notion.com/blog/100-million-of-you",
@@ -1155,10 +1155,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "c3b9f82317a52d7a1a2fb6122b54f36223aebd3c923b7d3a09f155665c2bfaa3",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "993f8e6d2350ee88e41c400de96575efb3c19759d14572c959488a00e832e425",
       "bytes": 179512,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Firefox Fast & Private Browser · App Store",
@@ -1172,10 +1172,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "0e8c1d00d40a74c82ebcb3399272fe20d12a7dfd9d00eb4f5774698a6c7dd26c",
-      "bytes": 658567,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "0b556fca5f97d3d75e220e06045665f119782cb57eae74d4b820a60fca6e5057",
+      "bytes": 774565,
+      "changed": true
     },
     {
       "url": "https://www.mozilla.org/en-US/advertising/",
@@ -1189,7 +1189,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "25e756f15c9eb1e70fbb8def1691b0eadcc410e99321a27d33d2dd1d597437d0",
       "bytes": 48647,
       "changed": false
@@ -1206,10 +1206,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "89e36a56ce41628f7e1deb724bb27238b7a524c40a4cad67759cd86dfb1068f2",
-      "bytes": 820515,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "7a4d4f1781f20d8797dde13295f4dcdf1009cc585527a883348fcf4985b363a0",
+      "bytes": 935745,
+      "changed": true
     },
     {
       "title": "Safari · App Store",
@@ -1223,10 +1223,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "70e87d2ac7714a34da702ac6d44283f96b97b0a69dc93172bf59939fec578230",
-      "bytes": 589974,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "8a35ef43bde6b8dc30772ff661cde5f501bd2fef9747f101e038f6973549ac9a",
+      "bytes": 594686,
+      "changed": true
     },
     {
       "title": "VLC media player · App Store",
@@ -1240,10 +1240,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2730654e344024df3c54870071a88e1409b6e3b173a6d15d7b1b2b1908282a0f",
-      "bytes": 549425,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "5f747c258d32984d5ff1c2086819cd17d649542e29789327764da327f0c86773",
+      "bytes": 669995,
+      "changed": true
     },
     {
       "url": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
@@ -1257,10 +1257,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "adf7f76d7021c566ee0d1dd14400ab8cf49f787fe9c33d78b845e96761b87242",
-      "bytes": 209028,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "fe1b4fe12d411eb6f052c9fc7f075adf87e726df223fcc0df4b3e73a95e116ca",
+      "bytes": 210444,
+      "changed": true
     },
     {
       "title": "YouTube TV · App Store",
@@ -1274,10 +1274,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "1be0fbef68743a74786b6fe8b634333f5848f5005843ee4c3e1c50473144aaf3",
-      "bytes": 816762,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "6d49c4cc2ab8350df1b0475aef119d7e70c3d9ba5b20cd5530a029f3dac0e80b",
+      "bytes": 936070,
+      "changed": true
     },
     {
       "title": "Snapchat 通知控制",
@@ -1291,10 +1291,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "29c55db3f65bace0fbebee012e5aead2e1f4c86e6da47c0f7c9f7257f396680d",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "dbd2e91fbb48e53ce373455ecc207980cf2f5a789dee1d970994b5bdac572b87",
       "bytes": 80239,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Snapchat · App Store",
@@ -1308,10 +1308,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "eb8e3eed75bba6fae49182f998fd6cf66abe02574c31214217b6e239b0dae315",
-      "bytes": 867808,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "dad318c6e8a23c8ddcae982adc5b9af6997e68a578cbc5b27b48a5ec1246b1a9",
+      "bytes": 990966,
+      "changed": true
     },
     {
       "title": "Snap 2025 Q4 业绩",
@@ -1325,10 +1325,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "31a89657882d2b7a43c82fb698099753f43f1c62c394b221b58640ad23a2340a",
-      "bytes": 588313,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "6cd9d83c485aff84aae80ec947f129cab2347f96f3668b4f0e634e14dd44cb42",
+      "bytes": 588314,
+      "changed": true
     },
     {
       "title": "Clubhouse · App Store",
@@ -1342,10 +1342,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "06a436cfcc763bfe88dcdcee389b617376d8fc42fca24510c7559d87c7b19bdf",
-      "bytes": 518405,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "4234e1290e3d00a89b7c452d9a71c448a4f8b5d4430e1794453bd5d439cfe666",
+      "bytes": 633692,
+      "changed": true
     },
     {
       "url": "https://profiletree.com/clubhouse-social-media-app/",
@@ -1359,10 +1359,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "66312b4e2f8d0b19c78e6f0169f6aaba28412e02df98ba87d62fa7287bb8fd61",
-      "bytes": 135490,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "3e0ac44f2396dbf0e69d03330292bb85a036e5124145d648b66d65d4cc70a0dc",
+      "bytes": 135410,
+      "changed": true
     },
     {
       "title": "PayPal - Pay, Send, Save · App Store",
@@ -1376,10 +1376,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "49e2b9868388623a88628d290cde79ed82488e3a26fef2fbbd026386d514caa6",
-      "bytes": 701387,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "834749cdcfe5ce0386542082fac7847a88e0404dfa78de148c659d731dd487a8",
+      "bytes": 822223,
+      "changed": true
     },
     {
       "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
@@ -1393,10 +1393,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "481b7407f7ca0d41d8775d30c5aff001d49fdf0e6f04949dc32f92e582acf3ce",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "dd8db6f4c744afb4065a304868776fe80495e07711c79d12b93ae0d528150061",
       "bytes": 5792,
-      "changed": false
+      "changed": true
     },
     {
       "title": "TuneIn Radio: Music & Sports · App Store",
@@ -1410,10 +1410,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "244099143aadd05a949d5f4bffd63c5db52c535cb42c8ab120a310b6d653a419",
-      "bytes": 771906,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "647c82991d77d2018c93aa66d32ab08b60917b95b587e782c2693912e8303e8e",
+      "bytes": 889892,
+      "changed": true
     },
     {
       "url": "https://corporate.stingray.com/acquisitions/stingray-acquires-tunein/",
@@ -1427,10 +1427,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2fcff3cfc0df4c57882c328e28ef4ec242164ba17349e0120bbd1464a1a0aa98",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "c6561a1cc4a7fcbe4757382c37d3f875acd89db717a5d5f6c217fdc126cc7fe9",
       "bytes": 784427,
-      "changed": false
+      "changed": true
     },
     {
       "title": "AOL Mail, News, Weather · App Store",
@@ -1444,10 +1444,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "a9f209d1ada9560e2e31b3f7d82a2db7f49270f3e790aef74a89ee4737563884",
-      "bytes": 753487,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "e0ab09e96b34265af51569c525e4e62fcc3341f6c5fff808ccfb28b91c9a1bf6",
+      "bytes": 880137,
+      "changed": true
     },
     {
       "url": "https://www.aol.com/about-us/",
@@ -1461,10 +1461,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "bdaa1e93d6623cbc8758d7aa6a4905b56f67bb87772344a975afbc6681e8ae28",
-      "bytes": 264493,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "e539fb23b6936f80f304ad7b1fd2513d6c441535497e51584ecbde9bd2f500bb",
+      "bytes": 266194,
+      "changed": true
     },
     {
       "title": "Microsoft Teams 通知管理",
@@ -1478,10 +1478,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "8e76c6b64572e0bc87f00c53630df083188927fa79f64ec2e8be2708d8e139b5",
-      "bytes": 146722,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "14aa93bd0347281aa6957c69fbe4e1cbe2e7deb114fa5c2e6ce8129aa48ba7d3",
+      "bytes": 146720,
+      "changed": true
     },
     {
       "title": "Microsoft Teams · App Store",
@@ -1495,10 +1495,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "5072946b5eb8b270ea3f69a3e7433b6ed324b506308c0ba777b8836ffde8cfc7",
-      "bytes": 739255,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "7315d9f5a56a6255a76fb6a6cfd26b5ad6b908a1b0946486bafefaae06f90ecb",
+      "bytes": 849728,
+      "changed": true
     },
     {
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
@@ -1512,10 +1512,10 @@
       "status": "http-error",
       "httpStatus": 404,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "5b79c5f732691e3432cd2d8e29ba23d57e8c598177a927eba0e9de526447e1c0",
-      "bytes": 228237,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "4eb23af79ef05cd9badce69713abe43d76df33c8aec476f93e5fcdaf8c806c05",
+      "bytes": 227566,
+      "changed": true
     },
     {
       "title": "Yelp: Food, Services & Reviews · App Store",
@@ -1529,10 +1529,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2667181a08ebf33d576d2e2bb99a12144809a1fa4de91d8972c3c4629cd2689d",
-      "bytes": 748360,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "dd60aa3815f50222d2244bdf9e3a884c62dc3f4f2e4c46c188c077f2f6acf611",
+      "bytes": 854757,
+      "changed": true
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
@@ -1546,10 +1546,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "a8cca0ebb8d458cdcf42d0f0a7223caf063112378657ef0157ae034f8985ef0c",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "43e6d74d03b2a5ddd7b3d1de3e4dc5cb1ae4da45c442538f0cce98e65912e686",
       "bytes": 4819,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Ticketmaster－Buy, Sell Tickets · App Store",
@@ -1563,10 +1563,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "5f205a5f5a3bde6ab7293b6e7cc08b57689cf1c23cc78a45ed11b3a78c285f56",
-      "bytes": 679154,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "26c826ee254451f41b1ade5fb277e12c30e8760baf1bf9a7aa8fc934ae361d76",
+      "bytes": 796035,
+      "changed": true
     },
     {
       "url": "https://business.ticketmaster.com/ticketing-straight-to-your-app/",
@@ -1580,7 +1580,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "4b802760d8fd402c4e8fc794319094e143ed6e9d9f31d783c446f7fa5bf1199f",
       "bytes": 172035,
       "changed": false
@@ -1597,10 +1597,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "84abd9cfe995738afa00a586702ca7b958cdd1c8a8e3eaed98b72f8a9d948a16",
-      "bytes": 675206,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "20bb93e9e0e86d2ab15431045ba50f3450f6ec2a6cf9fc773db8e3cd583683d5",
+      "bytes": 794484,
+      "changed": true
     },
     {
       "title": "StubHub: Event Tickets · App Store",
@@ -1614,10 +1614,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "d5c70b022398c37c6bf34a4e0fb272660f9fc187172824e50a8d7bc74372e696",
-      "bytes": 544576,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "95ba94a309e42b508c92f17fe1d8b9106ee64002a8bdf6900dad32a836d246c5",
+      "bytes": 659436,
+      "changed": true
     },
     {
       "url": "https://newsroom.stubhub.com/2026/03/18/stubhub-launches-distribution-manager-an-ai-powered-tool-for-artists-teams-and-venues/",
@@ -1631,7 +1631,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "6ec84f5bfb33b79e9bfafec15313cbb71229d1e72157a4b9008239dc0e8303b6",
       "bytes": 149728,
       "changed": false
@@ -1648,10 +1648,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "f9b35bcbf817a35d87ec59d62007e6b7b51fcea1bacee574470df74766d2367c",
-      "bytes": 707662,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "b3e59131a000e11d7f9a73fceac8a9ce1c734549501968867e1979480bfe4407",
+      "bytes": 830096,
+      "changed": true
     },
     {
       "url": "https://s205.q4cdn.com/266311280/files/doc_financials/2024/ar/AR2024_JET-com.pdf",
@@ -1665,7 +1665,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "35b664b177c2568bdb6cede145eb0963c603593a4b1f860e826c71ac6576aff7",
       "bytes": 17284913,
       "changed": false
@@ -1682,10 +1682,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2596b7e0a13b0f4bbe068eea02cc9d08e458a4d13e6960c665f1452c25aecdd5",
-      "bytes": 799056,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "afc8bf0e35d581ed25ac3aa347d24c06714a5484ede34c6830b1e7748931b155",
+      "bytes": 914777,
+      "changed": true
     },
     {
       "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
@@ -1699,10 +1699,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "1c55be76d6c9a4dd18f71558d9aac5b8aff522363109978256feb80d64d952d8",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "f7711dd475909a7f8582b7abfbb9bb1d60b60d7fb401c07a54b0750bdc705b45",
       "bytes": 456258,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Google Maps 通知设置",
@@ -1716,10 +1716,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "9debe83f461ccc4a9372a59a18b466ea745a72581c23567d24bbf07231645bb4",
-      "bytes": 1436885,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "15cd53ee8a2f9d30182ce0c9def2ba2ed9b11b58b69e240a756542a9d1a7bfe4",
+      "bytes": 1622619,
+      "changed": true
     },
     {
       "title": "Google Maps · App Store",
@@ -1733,10 +1733,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "b91bd1216347ccfea4e549c49d8e21d73776a56eafc463185bc5550e921d9455",
-      "bytes": 832723,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "74d3ccd1fb160d56c51bf5dd468407f408ed9246b95fe5a34b3b5dbc53d63555",
+      "bytes": 956940,
+      "changed": true
     },
     {
       "url": "https://abc.xyz/2024-q3-earnings-call/",
@@ -1750,10 +1750,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "6e891b48a909114a1161376c7909fd69d848402f09a585e7f61d57e51aaab05d",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "272b695a03495c9636f1f124f93c195bf5cf183afb10fd7e683f75e58846cac6",
       "bytes": 133552,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Netflix · App Store",
@@ -1767,10 +1767,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "4c83d089cfc53540222d48cbfedcb910c1e61cbd2bd8a98326392dca353c60e8",
-      "bytes": 859221,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "7b5bc15fdfd07fb182838c8441a12071510e8530dc641707c5043bc0f7547942",
+      "bytes": 983118,
+      "changed": true
     },
     {
       "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
@@ -1784,10 +1784,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "b3ee1e7b4c6624bf4ce1a54a1928bc29fa15d5739de9282c28a16de87c37c9cf",
-      "bytes": 46638,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "2ee9af5966b0336dc50ef2a717dbc6fa27c34975157fb7eb2531fa27c923c68a",
+      "bytes": 46640,
+      "changed": true
     },
     {
       "title": "Flickr · App Store",
@@ -1801,10 +1801,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "363bb5ac8b46b85880368e064f4cd1b7a18498eb1c9b9abcec1ab4eed102f509",
-      "bytes": 540769,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "d98b31d55e8a4743e6e55e40d6167aa468de7a0f11fad14784dfefa0abf34ff9",
+      "bytes": 662186,
+      "changed": true
     },
     {
       "url": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
@@ -1818,10 +1818,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "88439b891bdd4a9ea28e2086661ff125cf9d87d2ab4328b566e3efa56b01048c",
-      "bytes": 6019,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "2a3fac62fdcfdb2ab4688d91a1dab87a3e99ecce4bc1ecd5b3d0f8835b77cace",
+      "bytes": 6040,
+      "changed": true
     },
     {
       "title": "Tumblr: Social Media & Art · App Store",
@@ -1835,10 +1835,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "b9b1c37ef86ce725adeebb200f9e7192e46c483f4e33ac6a6c6e2876d44f1ecf",
-      "bytes": 614063,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "99da0ba203eb9b9bade28a94eb69e29498637d1a014ed9f066aa55d9e1992178",
+      "bytes": 723483,
+      "changed": true
     },
     {
       "url": "https://advertise.tumblr.com/audience/",
@@ -1852,10 +1852,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "5dc4a2db804d4c844ee6b93d07f393942747780db34258ff37dc93404f280463",
-      "bytes": 165769,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "2da190856d4a34d2752367ee95fc58c55a76e3600a40600d983854c480d9470f",
+      "bytes": 165771,
+      "changed": true
     },
     {
       "title": "Reddit · App Store",
@@ -1869,10 +1869,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "18c53a08e3f9604da6dd45a96f1265e46f92788980267fc76f1a706a833badc4",
-      "bytes": 647479,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "a1e6292434d99a0e25f6fc4b2d39cc9f8488411f2a6d4536ee78e4749308e5f1",
+      "bytes": 762629,
+      "changed": true
     },
     {
       "title": "Reddit 2026 Q2 周活",
@@ -1886,10 +1886,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "c548864bcc7c4b701ddf0965b76890939f81c3f4a705c2a6f2f34628cd292d92",
-      "bytes": 317587,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "2431a92e4ba6245fecce140423a92a255fbcaf0f672c8892b0acbdfcf686c504",
+      "bytes": 317586,
+      "changed": true
     },
     {
       "title": "HBO Max: Stream Movies & TV · App Store",
@@ -1903,10 +1903,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "bc87595b31e5d86fb6161bdc84e3b78e269359b5a1f7b6f6b2b523f63477ad9a",
-      "bytes": 810115,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "0908535f180f4f9e88ffe6d63922240d11d75e6ce95bc7ff91cbb7216dfbadac",
+      "bytes": 932003,
+      "changed": true
     },
     {
       "url": "https://s201.q4cdn.com/336605034/files/doc_earnings/2025/q4/earnings-result/WBD-4Q25-Shareholder-Letter.pdf",
@@ -1920,7 +1920,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "e8e96bc4a0fbd54192528151dc0245d102d78b64048cd947f93a7315ccae82b4",
       "bytes": 255679,
       "changed": false
@@ -1937,10 +1937,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "94df76df7939622b5dbf021cef2851be7b4db25dcbaa30da33c183338ac99ab7",
-      "bytes": 756581,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "1fa631ee53e2cfaade8c8f87aef5d4bbeb01ad59246db00b48582938d4269249",
+      "bytes": 881689,
+      "changed": true
     },
     {
       "url": "https://www.tinderpressroom.com/about",
@@ -1954,10 +1954,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "09aafda87498fe6e807e9c5812a1d74c791cce8558b4da3ccffb051c2b8731e8",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "bcd889bfa781dd57438829b22fc22a5512e6dcc648ed966b05c6b39191cc959e",
       "bytes": 16683,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Disney+ · App Store",
@@ -1971,10 +1971,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "bddea17ed9494a10d16753032890a1a4287cece662543bde09212c4fb63762b8",
-      "bytes": 847238,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "cbe9fe53acc94a19e132ead169f00774e62750071e51eef975e98be50d37a6e6",
+      "bytes": 971433,
+      "changed": true
     },
     {
       "url": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
@@ -1988,10 +1988,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "a1ab2319a30df54e29003bb2bfa75263e7bbb47bb0c3b229c4dcfbf4fa47b36a",
-      "bytes": 581513,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "d500d8aeaeea99c572967f966671e1d7c12a3d9cdefa9268bf49aa126e843403",
+      "bytes": 581514,
+      "changed": true
     },
     {
       "title": "Google Gemini · App Store",
@@ -2005,10 +2005,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "e027b50be7766b60d132f3b168169013dce5080ee784d0c6bd8cbe1daf492a43",
-      "bytes": 908611,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "649c1faf66b7d67d2a6af205ce1f263f0de3b115a6d17a6501f261724483fc10",
+      "bytes": 1030000,
+      "changed": true
     },
     {
       "title": "Gemini App MAU 突破 10 亿",
@@ -2022,10 +2022,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "5c684ab2f2dc7b70b68899aef794023d9945da2dfc3f3328900ef56e2aacbade",
-      "bytes": 321936,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "58f6530ee85dc71114863f41a3cce5edb722b370986332924d0223017ed6947b",
+      "bytes": 322292,
+      "changed": true
     },
     {
       "url": "https://sensortower.com/blog/top-chatgpt-competitors",
@@ -2039,10 +2039,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "97f1dd29cbac6320e58a059038261b0b1a5fc3d05e5d9924252566ac8b8bcef5",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "d2d3679295b38c186b2dfd9e4b1f270e457980415f263b494df8112cbbd89b52",
       "bytes": 156487,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Meta AI · App Store",
@@ -2056,10 +2056,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "801e1829e8a31d073003ab680468670e93ed47101dbf4bc2bf6a06dc23ee0aa0",
-      "bytes": 853162,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "19b9d3cef2855b8c9de7d026d1794cfbda94d02c46a38b79d7bb75cb3d91c1f6",
+      "bytes": 973776,
+      "changed": true
     },
     {
       "title": "Zoom Workplace · App Store",
@@ -2073,10 +2073,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "2e18dfaeee8d421f63ae213246a7c0d186fca621eafd7ca2044f7feee31aa50b",
-      "bytes": 901431,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "90c51b609fa1ef17096dfdaddf61c5a9dd8270484da2d80814ff091994678522",
+      "bytes": 1016684,
+      "changed": true
     },
     {
       "url": "https://investors.zoom.us/static-files/0229c042-e707-4b11-9110-6ea1e9ce31b4",
@@ -2090,7 +2090,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
+      "checkedAt": "2026-09-03T21:04:06.341Z",
       "hash": "65df237cd1234b02e931108a129a019c3300d9fbaba2c7587a931d6edcdd31f4",
       "bytes": 186339,
       "changed": false
@@ -2107,10 +2107,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "63e22fcb7a500ed060df26e4e48bfe4fda982213a1efdf83e6175b81b20dbeac",
-      "bytes": 604715,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "250def86acb0e30048d6e7b84f584d2954ca9c2b837a4a29c49f29c3c97e8b41",
+      "bytes": 724699,
+      "changed": true
     },
     {
       "title": "Temu 全球 App MAU",
@@ -2124,10 +2124,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "49d98e36cdd4e15a09bfa10705cfaaf9e961c3e866fdbf5227105aa64bff3e0f",
-      "bytes": 340060,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "486418ca2f389773f83402868c9fe51a591d8dd131ff565f9b796b4e2b24012e",
+      "bytes": 339755,
+      "changed": true
     },
     {
       "url": "https://www.aol.com/news/chinese-shopping-app-temu-microsoft-233940417.html",
@@ -2141,10 +2141,10 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-02T21:04:38.637Z",
-      "hash": "c4b0efc4255349a07968ecf6a36109b613e52ca5a0da2a863e2ef686d5fd2dcc",
-      "bytes": 772712,
-      "changed": false
+      "checkedAt": "2026-09-03T21:04:06.341Z",
+      "hash": "2152839b48c66d426dbb119d83ea163c3d02f5e47fd6386c243d3388c8b660c8",
+      "bytes": 762749,
+      "changed": true
     }
   ]
 }

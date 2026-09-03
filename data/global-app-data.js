@@ -7,12 +7,12 @@ window.APP_DATA = {
     "strictUsageMetrics": true,
     "disclaimer": "通知数量是基于公开产品资料整理的可独立识别提醒场景，不等同于某一手机型号或版本中的设置开关数量。",
     "usageNote": "日均时长、日均打开与 App MAU 必须有公开来源和明确时间；跨端用户、会员、订阅、账户、DAU/WAU 仅作为代理标签展示，不写入 MAU 排序值。",
-    "snapshotDate": "2026-09-03",
-    "generatedAt": "2026-09-02T21:04:38.637Z",
+    "snapshotDate": "2026-09-04",
+    "generatedAt": "2026-09-03T21:04:06.341Z",
     "sourceCount": 125,
-    "changedSourceCount": 0,
+    "changedSourceCount": 113,
     "failedSourceCount": 7,
-    "previousSnapshotDate": "2026-09-02"
+    "previousSnapshotDate": "2026-09-03"
   },
   "apps": [
     {
@@ -154,8 +154,8 @@ window.APP_DATA = {
       "count": 15,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
       "rank": 2,
-      "previousRank": 3,
-      "rankChange": 1
+      "previousRank": 2,
+      "rankChange": 0
     },
     {
       "id": "google-photos",
@@ -226,8 +226,8 @@ window.APP_DATA = {
       "count": 15,
       "categorySummary": "共享活动 8，回忆与创作 3，伙伴与存储 4",
       "rank": 3,
-      "previousRank": 2,
-      "rankChange": -1
+      "previousRank": 3,
+      "rankChange": 0
     },
     {
       "id": "x",
@@ -713,8 +713,8 @@ window.APP_DATA = {
       "count": 12,
       "categorySummary": "订单物流 7，互动与价格 5",
       "rank": 10,
-      "previousRank": 11,
-      "rankChange": 1
+      "previousRank": 10,
+      "rankChange": 0
     },
     {
       "id": "google-ads",
@@ -776,8 +776,8 @@ window.APP_DATA = {
       "count": 12,
       "categorySummary": "投放状态 4，效果 4，账户服务 4",
       "rank": 11,
-      "previousRank": 10,
-      "rankChange": -1
+      "previousRank": 11,
+      "rankChange": 0
     },
     {
       "id": "youtube",
@@ -1143,8 +1143,8 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "匹配互动 5，推荐与活动 3，安全与服务 2",
       "rank": 17,
-      "previousRank": 19,
-      "rankChange": 2
+      "previousRank": 17,
+      "rankChange": 0
     },
     {
       "id": "messenger",
@@ -1198,8 +1198,8 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "消息 6，通话与活动 4",
       "rank": 18,
-      "previousRank": 17,
-      "rankChange": -1
+      "previousRank": 18,
+      "rankChange": 0
     },
     {
       "id": "slack",
@@ -1259,8 +1259,8 @@ window.APP_DATA = {
       "count": 10,
       "categorySummary": "沟通 5，协作 4，服务 1",
       "rank": 19,
-      "previousRank": 18,
-      "rankChange": -1
+      "previousRank": 19,
+      "rankChange": 0
     },
     {
       "id": "uber",
@@ -1381,8 +1381,8 @@ window.APP_DATA = {
       "count": 9,
       "categorySummary": "消息 6，通话与活动 3",
       "rank": 21,
-      "previousRank": 23,
-      "rankChange": 2
+      "previousRank": 21,
+      "rankChange": 0
     },
     {
       "id": "spotify",
@@ -1440,8 +1440,8 @@ window.APP_DATA = {
       "count": 9,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 2",
       "rank": 22,
-      "previousRank": 21,
-      "rankChange": -1
+      "previousRank": 22,
+      "rankChange": 0
     },
     {
       "id": "yelp",
@@ -1494,8 +1494,8 @@ window.APP_DATA = {
       "count": 9,
       "categorySummary": "互动 4，本地服务 5",
       "rank": 23,
-      "previousRank": 24,
-      "rankChange": 1
+      "previousRank": 23,
+      "rankChange": 0
     },
     {
       "id": "grubhub",
@@ -1549,8 +1549,8 @@ window.APP_DATA = {
       "count": 9,
       "categorySummary": "订单 7，售后与营销 2",
       "rank": 24,
-      "previousRank": 22,
-      "rankChange": -2
+      "previousRank": 24,
+      "rankChange": 0
     },
     {
       "id": "google-maps",
@@ -1666,8 +1666,8 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "创作任务 3，模板与社区 3，服务 2",
       "rank": 26,
-      "previousRank": 27,
-      "rankChange": 1
+      "previousRank": 26,
+      "rankChange": 0
     },
     {
       "id": "clubhouse",
@@ -1719,8 +1719,8 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "房间 4，互动 4",
       "rank": 27,
-      "previousRank": 28,
-      "rankChange": 1
+      "previousRank": 27,
+      "rankChange": 0
     },
     {
       "id": "amazon-music",
@@ -1772,8 +1772,8 @@ window.APP_DATA = {
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
       "rank": 28,
-      "previousRank": 26,
-      "rankChange": -2
+      "previousRank": 28,
+      "rankChange": 0
     },
     {
       "id": "github",
@@ -2277,8 +2277,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "票务 5，服务 2",
       "rank": 37,
-      "previousRank": 46,
-      "rankChange": 9
+      "previousRank": 37,
+      "rankChange": 0
     },
     {
       "id": "amazon-alexa",
@@ -2330,8 +2330,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "设备与家庭 4，服务 3",
       "rank": 38,
-      "previousRank": 37,
-      "rankChange": -1
+      "previousRank": 38,
+      "rankChange": 0
     },
     {
       "id": "disney-plus",
@@ -2383,8 +2383,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
       "rank": 39,
-      "previousRank": 38,
-      "rankChange": -1
+      "previousRank": 39,
+      "rankChange": 0
     },
     {
       "id": "flickr",
@@ -2431,8 +2431,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "共享活动 7",
       "rank": 40,
-      "previousRank": 39,
-      "rankChange": -1
+      "previousRank": 40,
+      "rankChange": 0
     },
     {
       "id": "chrome",
@@ -2484,8 +2484,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "网页与下载 3，账号与安全 4",
       "rank": 41,
-      "previousRank": 40,
-      "rankChange": -1
+      "previousRank": 41,
+      "rankChange": 0
     },
     {
       "id": "iheartradio",
@@ -2537,8 +2537,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容更新 4，推荐与社交 3",
       "rank": 42,
-      "previousRank": 41,
-      "rankChange": -1
+      "previousRank": 42,
+      "rankChange": 0
     },
     {
       "id": "max",
@@ -2590,8 +2590,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
       "rank": 43,
-      "previousRank": 42,
-      "rankChange": -1
+      "previousRank": 43,
+      "rankChange": 0
     },
     {
       "id": "netflix",
@@ -2643,8 +2643,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
       "rank": 44,
-      "previousRank": 43,
-      "rankChange": -1
+      "previousRank": 44,
+      "rankChange": 0
     },
     {
       "id": "notion",
@@ -2696,8 +2696,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "沟通 5，协作 2",
       "rank": 45,
-      "previousRank": 44,
-      "rankChange": -1
+      "previousRank": 45,
+      "rankChange": 0
     },
     {
       "id": "stubhub",
@@ -2749,8 +2749,8 @@ window.APP_DATA = {
       "count": 7,
       "categorySummary": "票务 5，服务 2",
       "rank": 46,
-      "previousRank": 45,
-      "rankChange": -1
+      "previousRank": 46,
+      "rankChange": 0
     },
     {
       "id": "youtube-tv",
@@ -2859,8 +2859,8 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "任务与内容 3，账号与产品 3",
       "rank": 48,
-      "previousRank": 50,
-      "rankChange": 2
+      "previousRank": 48,
+      "rankChange": 0
     },
     {
       "id": "accuweather",
@@ -2911,8 +2911,8 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "恶劣天气 3，日常预报 3",
       "rank": 49,
-      "previousRank": 48,
-      "rankChange": -1
+      "previousRank": 49,
+      "rankChange": 0
     },
     {
       "id": "aol-mail",
@@ -2963,8 +2963,8 @@ window.APP_DATA = {
       "count": 6,
       "categorySummary": "邮件 4，协作与日程 2",
       "rank": 50,
-      "previousRank": 49,
-      "rankChange": -1
+      "previousRank": 50,
+      "rankChange": 0
     },
     {
       "id": "fitbit",
@@ -3215,8 +3215,8 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 55,
-      "previousRank": 57,
-      "rankChange": 2
+      "previousRank": 55,
+      "rankChange": 0
     },
     {
       "id": "meta-ai",
@@ -3265,8 +3265,8 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 56,
-      "previousRank": 59,
-      "rankChange": 3
+      "previousRank": 56,
+      "rankChange": 0
     },
     {
       "id": "claude",
@@ -3315,8 +3315,8 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 57,
-      "previousRank": 55,
-      "rankChange": -2
+      "previousRank": 57,
+      "rankChange": 0
     },
     {
       "id": "grok",
@@ -3415,8 +3415,8 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
       "rank": 59,
-      "previousRank": 61,
-      "rankChange": 2
+      "previousRank": 59,
+      "rankChange": 0
     },
     {
       "id": "copilot",
@@ -3516,8 +3516,8 @@ window.APP_DATA = {
       "count": 5,
       "categorySummary": "网页与下载 3，账号与安全 2",
       "rank": 61,
-      "previousRank": 56,
-      "rankChange": -5
+      "previousRank": 61,
+      "rankChange": 0
     },
     {
       "id": "safari",
