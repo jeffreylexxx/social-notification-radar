@@ -6,12 +6,12 @@ window.APP_DATA = {
     "scope": "应用内提醒、消息中心、未读红点以及能够触发手机系统通知的独立事件场景；服务型应用入口可能与母应用存在场景重叠。",
     "countingRule": "可由不同事件独立触发的一种提醒场景计为一项；声音、横幅、锁屏和角标等展示方式不重复计数。",
     "disclaimer": "数量为公开资料能够支持的已确认下限，不代表厂商公布的官方总数。应用版本、系统、账号身份和地区可能导致实际项目不同。",
-    "snapshotDate": "2026-09-05",
-    "generatedAt": "2026-09-04T20:45:31.457Z",
+    "snapshotDate": "2026-09-06",
+    "generatedAt": "2026-09-05T20:20:40.359Z",
     "sourceCount": 167,
-    "changedSourceCount": 96,
-    "failedSourceCount": 13,
-    "previousSnapshotDate": "2026-09-04"
+    "changedSourceCount": 89,
+    "failedSourceCount": 12,
+    "previousSnapshotDate": "2026-09-05"
   },
   "apps": [
     {
