@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="全球 63 项常用手机应用通知、提醒与使用行为研究仪表盘">
+  <meta name="description" content="全球 55 项常用手机应用通知、提醒与使用行为研究仪表盘">
   <title>提醒雷达 | 全球应用通知研究</title>
   <script>
     try {
@@ -424,7 +424,7 @@
         <div class="hero-copy">
           <p class="hero-kicker">全球手机应用通知观察 · 严格数据口径</p>
           <h1 id="pageTitle">全球应用如何争夺注意力</h1>
-          <p class="hero-sub">63 项全球常用应用的通知、红点、提醒与使用行为研究。</p>
+          <p class="hero-sub">55 项全球常用应用的通知、红点、提醒与使用行为研究。</p>
           <div class="scope-selector" aria-labelledby="scopeTitle">
             <div class="scope-title" id="scopeTitle">按应用分类选择统计范围</div>
             <div class="scope-grid" id="categorySelector"></div>
@@ -432,12 +432,12 @@
         </div>
         <div class="hero-foot" id="method">
           <p>每个可独立触发的系统通知、App 内红点或提醒场景计 1 项；横幅、声音、角标等呈现方式不重复计数。</p>
-          <span class="hero-index">63 项逐项建档<br>来源每日监测</span>
+          <span class="hero-index">55 项逐项建档<br>来源每日监测</span>
         </div>
       </div>
       <div class="hero-data" aria-label="研究进度">
         <div class="hero-total" aria-live="polite">
-          <div class="hero-metric"><span class="hero-total-label">纳入应用</span><strong id="appTotal">63</strong></div>
+          <div class="hero-metric"><span class="hero-total-label">纳入应用</span><strong id="appTotal">55</strong></div>
           <div class="hero-metric total"><span class="hero-total-label">总通知数</span><strong id="notificationTotal">0</strong></div>
         </div>
         <div class="hero-status">
@@ -465,7 +465,7 @@
         <div id="appRows"></div>
         <div id="emptyState" class="empty">没有符合当前条件的应用。</div>
         <div id="errorState" class="error">列表暂时无法显示，请刷新页面重试。</div>
-        <div class="list-foot"><span id="resultCount">准备载入 63 个应用</span><span id="snapshotNote">正在读取历史排名</span></div>
+        <div class="list-foot"><span id="resultCount">准备载入 55 个应用</span><span id="snapshotNote">正在读取历史排名</span></div>
       </div>
 
       <aside class="research-note">
@@ -545,11 +545,13 @@
         return `<div class="usage-metric proxy"><strong>${escapeHtml(app.usage.activeUserLabel)}</strong><span>${app.usage.period || "数据期未注"}${escapeHtml(method)}</span></div>`;
       }
       if (!Number.isFinite(value)) return `<div class="usage-metric missing"><strong>未披露</strong><span>${label}</span></div>`;
-      const precision = Number.isInteger(value) ? 0 : 1;
-      const method = app.usage.methodLabel ? ` · ${app.usage.methodLabel}` : "";
+      const metricMeta = app.usage.metricMeta?.[key];
+      const precision = metricMeta?.precision ?? (Number.isInteger(value) ? 0 : 1);
+      const methodLabel = metricMeta?.methodLabel || app.usage.methodLabel;
+      const method = methodLabel ? ` · ${methodLabel}` : "";
       const prefix = app.usage?.[`${key}Prefix`] || "";
       const formattedValue = key === "activeUsers" ? formatActiveUsers(app) : `${prefix}${value.toFixed(precision)}${unit}`;
-      return `<div class="usage-metric"><strong>${formattedValue}</strong><span>${app.usage.period || "数据期未注"}${method}</span></div>`;
+      return `<div class="usage-metric"><strong>${formattedValue}</strong><span>${escapeHtml(metricMeta?.period || app.usage.period || "数据期未注")}${escapeHtml(method)}</span></div>`;
     }
 
     function renderCategorySelector() {

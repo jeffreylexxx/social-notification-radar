@@ -1,9 +1,6 @@
 # 社交应用提醒雷达
 
-演示网址：
-https://jeffreylexxx.github.io/social-notification-radar/index.html
-
-一个可直接部署到 GitHub Pages 的双页互动研究仪表盘：国内页统计 65 个常用中国手机应用与独立服务入口；全球页统计经纠错确认的 63 个全球常用 App。两页都对通知、红点与提醒场景进行分类、计数和排名。
+一个可直接部署到 GitHub Pages 的双页互动研究仪表盘：国内页统计 65 个常用中国手机应用与独立服务入口；全球页按最新确认名单统计 55 个全球常用 App。两页都对通知、红点与提醒场景进行分类、计数和排名。
 
 顶部按 7 类列出全部应用。应用默认全部勾选；取消某个应用后，纳入应用数、总通知数和排行榜显示范围会即时更新。
 
@@ -22,7 +19,7 @@ https://jeffreylexxx.github.io/social-notification-radar/index.html
 - 公开资料只有月人均时长或月人均使用次数时，按该自然月实际天数换算为日均，并在展开详情中显示原数值、公式、数据期及历史标记。
 - 跨期资料、图表读取值、特定人群样本、DAU 收听时长和节假日峰值都会在行内明确标注，不能视为同一时期的完整用户画像。
 - 截至 2026-09-01，65 个应用中已填入日均时长 57 项、日均打开 52 项、MAU 64 项。其余空缺代表本轮仍未找到可公开核验的同口径数值，不以推测值补齐。
-- 全球页目前有 63 项、534 个提醒场景和 88 条公开来源。全球使用行为数据优先采用官方财报/新闻稿与 Similarweb App Intelligence 经 DataReportal 发布的全球 Android 样本；会员、订阅、账户、DAU/WAU 等代理口径只显示标签，不写入 App MAU 排序字段。
+- 2026-09-07 最新全球页有 55 项、466 个提醒场景和 121 条公开来源；日均时长 30 项、日均打开 19 项、数值 MAU 25 项，另有 28 项展示不可混入 App MAU 排序的参考规模。本轮按第 17、18 名及第 20 名以后的缺口定向增补 12 个字段，见 [定向研究记录](data/research-global-rank17-plus-2026-09-07.md)。Slack、Uber 仍未找到可核验的手机专属行为数据。部分新时长是地区历史图表约值或每 DAU 均值，已逐字段标明，不能解释为当前全球同源精确比较。补充数据存于 `data/global-usage-supplement.json`，构建时只补空缺、保留原证据；执行 `node scripts/test-global-usage.mjs` 可验证补充值、口径标签与排名。删除前的研究保留在 [历史记录](data/research-global-2026-09-07.md)。
 
 ## 本地查看
 
@@ -65,11 +62,11 @@ npm run update
 
 ```text
 index.html                 V1 正式首页
-global.html                全球 63 项研究页
+global.html                全球 55 项研究页
 index-v0.html              保留的 V0 页面
 index-v1.html              V1 设计源页
 assets/logos/              65 个在用应用图标（目录可保留历史素材）
-assets/logos/global/       63 个全球 App 官方商店图标
+assets/logos/global/       全球 App 官方商店图标（保留历史资源）
 data/apps.json             人工核实的分类、条目与来源
 data/global-apps.json      全球分类、条目、严格使用指标与来源
 data/app-data.js           自动生成的网页数据
