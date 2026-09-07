@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-06T20:25:26.026Z",
-  "sourceCount": 125,
-  "changedCount": 111,
-  "failedCount": 6,
+  "checkedAt": null,
+  "sourceCount": 121,
+  "changedCount": 0,
+  "failedCount": 0,
   "sources": [
     {
       "title": "Instagram · App Store",
@@ -12,14 +12,11 @@
       "apps": [
         "instagram"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/instagram/id389801252",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "de172b417718a42ff70bd712bd67c6768ed1c1867ac596811d31dd1ef0cde0f4",
-      "bytes": 903271,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Instagram 30 亿 MAU",
@@ -29,14 +26,11 @@
       "apps": [
         "instagram"
       ],
-      "finalUrl": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "88ca1a71a0c44018f621a11814f33e2acf063185bdd2351aa6e61044c5a3f578",
-      "bytes": 454432,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
@@ -58,14 +52,11 @@
         "snapchat",
         "reddit"
       ],
-      "finalUrl": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
-      "status": "http-error",
-      "httpStatus": 404,
-      "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "64e8a2de8d92f7f0ef13b9841fd59bce69c0ed65cd02102065601d93a701f54f",
-      "bytes": 85798,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Facebook · App Store",
@@ -75,30 +66,24 @@
       "apps": [
         "facebook"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/facebook/id284882215",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "9c3aa54c116472d246b1b769e5bea2fcd103e812313ef8dcbc26770f73606866",
-      "bytes": 1039692,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
-      "title": "Facebook 2023 Q3 MAU",
       "url": "https://investor.fb.com/files/doc_earnings/2023/q3/earnings-result/Meta-09-30-2022-Exhibit-99-1-FINAL.pdf",
-      "type": "官方财报",
-      "note": "最后阶段单产品官方值为 30.5 亿 MAU；之后停止披露。",
+      "title": "Meta 2023 Q3 业绩",
+      "note": "Meta 已于 2024 年起停止披露 Facebook 单产品 MAU；此处保留最后阶段官方历史值 30.5 亿。",
+      "type": "usage-data",
       "apps": [
         "facebook"
       ],
-      "finalUrl": "https://s21.q4cdn.com/399680738/files/doc_earnings/2023/q3/earnings-result/Meta-09-30-2022-Exhibit-99-1-FINAL.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "application/pdf",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "7147a1e6254cdbc10369da7e4e3815eb4c31c3f2a593d158a423b25a88e6b5f0",
-      "bytes": 181365,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -109,14 +94,11 @@
       "apps": [
         "x"
       ],
-      "finalUrl": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "e88ad2aea765d5c8b1c261d15c80e5bb638ad8699302022b19887a14cd78364c",
-      "bytes": 5782,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "X · App Store",
@@ -126,14 +108,11 @@
       "apps": [
         "x"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/x/id333903271",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "9fe8977f6f37556eae9aadb3345eab0dc23ee19889e12de4e94d44af08cb5a39",
-      "bytes": 936187,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "X 移动 App DAU",
@@ -143,14 +122,11 @@
       "apps": [
         "x"
       ],
-      "finalUrl": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "2c40e9a4caaea69369266b4d0273d8f00cea1a08fbe97857eefcfb2356ab1440",
-      "bytes": 230825,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "WhatsApp 通知管理",
@@ -160,14 +136,11 @@
       "apps": [
         "whatsapp"
       ],
-      "finalUrl": "https://faq.whatsapp.com/797069521522888/?cms_platform=web",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=\"utf-8\"",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "8564a7ce067aca3f4f864cc8aab6954c6784a9c0ee6185eb017eb320dd51a08c",
-      "bytes": 1233876,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "WhatsApp Messenger · App Store",
@@ -177,14 +150,11 @@
       "apps": [
         "whatsapp"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "46ea4791d83ec00212ddbefd307ba137d12683d04c93590f845736403c71f269",
-      "bytes": 781151,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "WhatsApp 超过 30 亿 MAU",
@@ -194,14 +164,11 @@
       "apps": [
         "whatsapp"
       ],
-      "finalUrl": "https://techcrunch.com/2025/05/01/whatsapp-now-has-more-than-3-billion-users/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "05431aff5af794e7597e82a6eeedb83674c4ed49fe5b748bb8c2216f3c5bb3fe",
-      "bytes": 233689,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "YouTube 通知管理",
@@ -211,14 +178,11 @@
       "apps": [
         "youtube"
       ],
-      "finalUrl": "https://support.google.com/youtube/answer/3382248?hl=en",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "d65d1a521425ab74164bf2ce13d418c97ec140207cd08bbbe78c906121693b0c",
-      "bytes": 1604235,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "YouTube · App Store",
@@ -228,150 +192,11 @@
       "apps": [
         "youtube"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/youtube/id544007664",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "a45b8d3b3028ed1551ffe95425f991a502cce2a65e7ba1f8558c27f0e484703c",
-      "bytes": 1155987,
-      "changed": true
-    },
-    {
-      "title": "Gmail 通知设置",
-      "url": "https://support.google.com/mail/answer/1075549?hl=en",
-      "type": "官方帮助",
-      "note": "官方区分所有新邮件、重要邮件与主要收件箱通知。",
-      "apps": [
-        "gmail"
-      ],
-      "finalUrl": "https://support.google.com/mail/answer/1075549?hl=en",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "17cbddc13bc34585b3380fe360ec3ac79ce4799ba8f8a39787c47dd6d36146ec",
-      "bytes": 1605566,
-      "changed": true
-    },
-    {
-      "title": "Gmail - Email by Google · App Store",
-      "url": "https://apps.apple.com/us/app/id422689480",
-      "type": "官方应用页",
-      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
-      "apps": [
-        "gmail"
-      ],
-      "finalUrl": "https://apps.apple.com/us/app/gmail-email-by-google/id422689480",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "f90f7dd4256ff81a59ab1bd17d121a715f76f60c84053c43a8d8fd06f7846b23",
-      "bytes": 942450,
-      "changed": true
-    },
-    {
-      "url": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
-      "title": "Google：Gmail 进入 Gemini 时代",
-      "note": "Google 披露 30 亿用户依赖 Gmail；未限定手机 App，故不写入严格 MAU 排序。",
-      "type": "usage-data",
-      "apps": [
-        "gmail"
-      ],
-      "finalUrl": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "c929ac773fdd2e8282986109f2ad6221deb3b4eeaea2e1788396605c1804cb0b",
-      "bytes": 373709,
-      "changed": true
-    },
-    {
-      "title": "Google 相册动态类型",
-      "url": "https://support.google.com/photos/answer/15604413?hl=en",
-      "type": "官方帮助",
-      "note": "官方逐项列出共享相册、会话、伙伴共享和存储状态动态。",
-      "apps": [
-        "google-photos"
-      ],
-      "finalUrl": "https://support.google.com/photos/answer/15604413?hl=en",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "42586020878c6e8a4d7c1f76851c4abd5ce724cfd8cbcfe2178e86c7a3ed92ba",
-      "bytes": 1605220,
-      "changed": true
-    },
-    {
-      "title": "Google Photos: Backup & Edit · App Store",
-      "url": "https://apps.apple.com/us/app/id962194608",
-      "type": "官方应用页",
-      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
-      "apps": [
-        "google-photos"
-      ],
-      "finalUrl": "https://apps.apple.com/us/app/google-photos-backup-edit/id962194608",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "fcd4d47ad4c5ad15a954079f45b6d21a40a74ef165df1691670cfa7404c847c5",
-      "bytes": 995755,
-      "changed": true
-    },
-    {
-      "url": "https://blog.google/products-and-platforms/products/photos/google-photos-10-years-tips-tricks/",
-      "title": "Google Photos 十周年",
-      "note": "Google 披露每月超过 15 亿人使用 Google Photos；未限定手机 App，故不写入严格 MAU 排序。",
-      "type": "usage-data",
-      "apps": [
-        "google-photos"
-      ],
-      "finalUrl": "https://blog.google/products-and-platforms/products/photos/google-photos-10-years-tips-tricks/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "aeb7bc043e66a31fd7d63be6432409cb0f0af6687fa84cb7733b94a765ea325d",
-      "bytes": 382861,
-      "changed": true
-    },
-    {
-      "title": "Google Ads 通知",
-      "url": "https://support.google.com/google-ads/answer/9972066?hl=en",
-      "type": "官方帮助",
-      "note": "官方说明效果变化、新功能、优化建议及自定义状态通知。",
-      "apps": [
-        "google-ads"
-      ],
-      "finalUrl": "https://support.google.com/google-ads/answer/9972066?hl=en",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "2cad337f9fbce4c3cb8ae3fd7587630c702c38a08f9fdc36a1f7676c5bfe93e2",
-      "bytes": 1674431,
-      "changed": true
-    },
-    {
-      "title": "Google Ads · App Store",
-      "url": "https://apps.apple.com/us/app/id1037457231",
-      "type": "官方应用页",
-      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
-      "apps": [
-        "google-ads"
-      ],
-      "finalUrl": "https://apps.apple.com/us/app/google-ads/id1037457231",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "971b437a81b225770bd60f4f78336517bfa3b2305ebe9a968ceafb0f351a50fc",
-      "bytes": 864164,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Messenger · App Store",
@@ -381,14 +206,25 @@
       "apps": [
         "messenger"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/messenger/id454638411",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "25fe072a2fa54e2d72ab569f268a05efff37273459205bb880f5801370374938",
-      "bytes": 973602,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Messenger 2018 年平台月用户",
+      "url": "https://about.fb.com/news/2018/05/f8-2018-new-tools-for-businesses-and-people-to-deepen-connections-in-messenger/",
+      "type": "官方历史规模",
+      "note": "2018-05-01 Meta 官方称 Messenger 每月用户 13 亿，未分离移动端，只作历史平台规模参考。",
+      "apps": [
+        "messenger"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Grok AI · App Store",
@@ -398,14 +234,25 @@
       "apps": [
         "grok"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/grok-ai/id6670324846",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "07e977fb973dba1a677b298756808a3f3194025ceb358c66df868705512a9178",
-      "bytes": 704085,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Apptopia · Gen AI Chatbots March 2026 Data Brief",
+      "url": "https://apptopia.com/en/insights/gen-ai-chatbots-march-2026-apptopia-data-brief-claude-gets-traction/",
+      "note": "2026-03-06 报告比较 2025-08 至 2026-02，明确称 Grok Average Time Spent per DAU 增至 nearly 22 分钟。保留近字，是原报告近似值，不是精确 22；正文混合美国/全球份额，未单独交代时长地域，不能当作全球均值。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "grok"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
@@ -419,14 +266,11 @@
         "copilot",
         "meta-ai"
       ],
-      "finalUrl": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "b180f81fb20211c0210d910b57de6da188beb8b8acdf1d867e9148b44bbd7bbc",
-      "bytes": 851,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Discord - Talk, Play, Hang Out · App Store",
@@ -436,31 +280,25 @@
       "apps": [
         "discord"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "c39e9a748ab0d81b8492675993e5d77801448d2102cf9791fc5419dbbeeeb52b",
-      "bytes": 720048,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
-      "title": "Discord MAU",
       "url": "https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini",
-      "type": "官方规模数据",
-      "note": "Discord 官方披露超过 2 亿 MAU。",
+      "title": "Discord 官方新闻稿",
+      "note": "官方披露全球 MAU 超过 2 亿。",
+      "type": "usage-data",
       "apps": [
         "discord"
       ],
-      "finalUrl": "https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "cf4f787d8c04ca10fcaa8ca96bafbb7cdf503185f4f642ac9b08063873b3469f",
-      "bytes": 105220,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Amazon Alexa · App Store",
@@ -470,14 +308,11 @@
       "apps": [
         "amazon-alexa"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/amazon-alexa/id944011620",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "169e176a15791c7e3326be18794c3b8e5e0026432cd1a45b4c37669dbc69c4c2",
-      "bytes": 913026,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
@@ -487,14 +322,11 @@
       "apps": [
         "amazon-alexa"
       ],
-      "finalUrl": "https://www.aboutamazon.com/news/company-news/amazon-ceo-andy-jassy-2025-letter-to-shareholders",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "1914774721497d1acc7099fc10de0d11ad5b1312cf05a39a9202975e2be8c791",
-      "bytes": 305240,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Spotify: Music and Podcasts · App Store",
@@ -504,14 +336,43 @@
       "apps": [
         "spotify"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "e1c84f544bf782436bccb7db46616952094a1360a21a88e47e67391877fc086e",
-      "bytes": 802644,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "WIK · 德国音视频流媒体研究，图 9（印刷页 14）",
+      "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+      "note": "2022-12 发布，研究 2020 Q1 至 2021 Q3；图 9 标注 2021，德国 Android/iOS 移动端（未单独剔除平板）。Spotify 柱高约 58 分钟；图中没有数值标签，本网页按刻度读至整数分钟，非原始精确值；不是仅前台屏幕时间或当前全球均值。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "spotify",
+        "amazon-music",
+        "youtube-music",
+        "soundcloud",
+        "tunein"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Ofcom CMR 2017 · 5.2 节，印刷页 166—167",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/cmr/cmr17/uk/uk-internet-online.pdf",
+      "note": "报告正文明确给出 Spotify 用户平均每天打开 2.01 次。研究总样本 1,200 名自愿参加的英国 Android 用户，不保证代表全体英国人；不捕获后台运行或不足 5 秒的会话。该数值为原文日均，不用总会话数除以未经核实的用户观测天数。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "spotify"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
@@ -521,14 +382,11 @@
       "apps": [
         "spotify"
       ],
-      "finalUrl": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "d273cffd500f1f7af951e4b0cfbe1dbdae066cb6a2f9b18b465102750a2ce05f",
-      "bytes": 167831,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Telegram Messenger · App Store",
@@ -538,31 +396,25 @@
       "apps": [
         "telegram"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "312357b1b463aed215554bc6256688aba33cdf3dd64b2f451123b0f4a4eabeff",
-      "bytes": 643114,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
-      "title": "Telegram MAU",
       "url": "https://telegram.org/press",
-      "type": "官方规模数据",
-      "note": "Telegram 官方称 2025 年超过 10 亿 MAU。",
+      "title": "Telegram Press Info",
+      "note": "官方称 2025 年月活跃用户超过 10 亿。",
+      "type": "usage-data",
       "apps": [
         "telegram"
       ],
-      "finalUrl": "https://telegram.org/press",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "d07bd1bb0ff11a9b709a10e14d0bd008c968c8d864f871b0ef34b3a4ca0931d3",
-      "bytes": 22864,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "LINE · App Store",
@@ -572,14 +424,11 @@
       "apps": [
         "line"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/line/id443904275",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "95dd1c12f6078f63a16b4f15f26e660c2e71cb64983e00cc98ad709436a16c78",
-      "bytes": 872653,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.linecorp.com/en/csr/",
@@ -589,13 +438,24 @@
       "apps": [
         "line"
       ],
-      "finalUrl": "https://www.linecorp.com/en/csr/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "f710aa5668e53438bb27c6937a9ceeaaea51829d128a12debd6b7fa1f66e1389",
-      "bytes": 1709860,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://learn.meltwater.com/rs/814-WJU-189/images/2025_Kepios_Digital_Global_Overview_Report.pdf",
+      "title": "Digital 2025 Global Overview · 第 383、385 页",
+      "note": "2024 年 11 月全球 Android 活跃用户样本，不含中国：月人均时长 6 小时 57 分钟，(6×60+57)÷30=13.9 分钟/日；月人均会话 322.3 次，322.3÷30≈10.7 次/日。会话次数作为打开次数近似口径；历史样本不是当前全球全平台均值。MAU 约 2 亿另见 LINE 官方来源。",
+      "type": "usage-data",
+      "apps": [
+        "line"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -606,14 +466,11 @@
       "apps": [
         "chatgpt"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "553705243ed78b8a0298f84312075202309bd21d5687f8c5ffae2223db2fb247",
-      "bytes": 800699,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "ChatGPT 移动 App 达 10 亿 MAU",
@@ -623,14 +480,11 @@
       "apps": [
         "chatgpt"
       ],
-      "finalUrl": "https://sensortower.com/press/sensor-tower-state-of-ai-2026-report-global-time-spent-on-generative-ai-apps-projected-to-more-than-double-year-over-year",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "4e8f5b36ea9b865c3ffc4bd5cb294e5a4743fd008a4c048abc2f016a04c6d9e2",
-      "bytes": 103865,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://investgame.net/wp-content/uploads/2025/07/sensor_tower__state_of_ai_apps_report_2025.pdf",
@@ -640,13 +494,10 @@
       "apps": [
         "chatgpt"
       ],
-      "finalUrl": "https://investgame.net/wp-content/uploads/2025/07/sensor_tower__state_of_ai_apps_report_2025.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "application/pdf",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "86e07670cbbaaf636542f3cd0c338b202d4dd9a9c0a11ac85dddbeff06c5f62a",
-      "bytes": 17197211,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -657,14 +508,25 @@
       "apps": [
         "perplexity"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "15849d31edbe189edd3671df54ec0c6cd7ccce11d7fd2685180a01e3bd35828e",
-      "bytes": 647989,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Apptopia · Gen AI Chatbots April 2026 Data Brief",
+      "url": "https://apptopia.com/en/insights/gen-ai-chatbots-april-2026-apptopia-data-brief-chatgpt-drops-below-40-market-share/",
+      "note": "2026-04-02 美国手机聊天机器人市场报告给出 Perplexity average time spent per user 从 13 增至 15 分钟，处于日活使用分析语境；与文中单独标明的 Power Users 口径区分。非网页访问时长，不把 120/139/154 分钟重度用户数值用作全体均值。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "perplexity"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Claude by Anthropic · App Store",
@@ -674,14 +536,26 @@
       "apps": [
         "claude"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "021d331b9cd54ae326619b52755117849c632c884770772e2ae1f20840a34175",
-      "bytes": 744844,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Apptopia · Gen AI Chatbots February 2026 Data Brief",
+      "url": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/",
+      "note": "2026-02-03 报告正文明确给出 Claude Average Time Spent per DAU 为 34.7 分钟（1 月），不是 top 10% 重度用户。正文没有在该时长段落单独明确地域，故不称全球或美国均值；适用 Apptopia 移动端日活研究样本。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "claude",
+        "copilot"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "TikTok - Videos, Shop & LIVE · App Store",
@@ -691,14 +565,11 @@
       "apps": [
         "tiktok"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "c647b05ba8cadd1603809cdd600f3271350ecdd57321bfa6d5a9ff71af7ed4f1",
-      "bytes": 1091025,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "TikTok 全球 App MAU 突破 20 亿",
@@ -708,14 +579,11 @@
       "apps": [
         "tiktok"
       ],
-      "finalUrl": "https://jingdaily.com/intels/2026-04/29/tiktok-tops-2-billion-users-shop-gmv-climbs-94-in-2025",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "00973c17d551fb05d5a2394fef1111ae6b3156fbb38921113415f0b671025d6a",
-      "bytes": 344301,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Google Health (Fitbit) · App Store",
@@ -725,14 +593,11 @@
       "apps": [
         "fitbit"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/google-health-fitbit/id462638897",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "6b1793010820201e52b7593a7c5d8dcdcd0af0270432c9943b05afab73c0a149",
-      "bytes": 936171,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-community-grows-25m-active-users/",
@@ -742,14 +607,11 @@
       "apps": [
         "fitbit"
       ],
-      "finalUrl": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-community-grows-25m-active-users/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "57997dfe50ff44cc137e83184331b7417cb63e6bb7bb76da3f2016f48f32e728",
-      "bytes": 349733,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "iHeart: Radio, Music, Podcasts · App Store",
@@ -759,14 +621,11 @@
       "apps": [
         "iheartradio"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "dcfd6009519fb755f05fffa06d75ee18a3204ab124b136de176b61a116b654fb",
-      "bytes": 871157,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.iheartmedia.com/digital",
@@ -776,13 +635,10 @@
       "apps": [
         "iheartradio"
       ],
-      "finalUrl": "https://www.iheartmedia.com/digital",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "e10b013ed9020f70d05709ddbc58ceaeff119c9de4be78a3818f260ff22da9d8",
-      "bytes": 9576,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -793,14 +649,25 @@
       "apps": [
         "amazon-music"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/amazon-music-songs-podcasts/id510855668",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "393125d6b9b4a03f8a69c8876886ddeb5bfa8cd905cc166d315fc95fea2f89f9",
-      "bytes": 951656,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://press.aboutamazon.com/2020/1/amazon-com-announces-fourth-quarter-sales-up-21-to-87-4-billion",
+      "title": "Amazon 官方 · 2019 Q4 业绩公告",
+      "note": "2020-01-30 公告披露 Amazon Music 全球客户超过 5,500 万，未定义月度活跃或区分手机端，因此仅作历史规模参考，不参与 MAU 排序。",
+      "type": "usage-data",
+      "apps": [
+        "amazon-music"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "YouTube Music · App Store",
@@ -810,14 +677,11 @@
       "apps": [
         "youtube-music"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/youtube-music/id1017492454",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "a2f3e074d823fda314dd45d8d5443c2644f2d9d6fd3d5138400229887c2fbc88",
-      "bytes": 970457,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://blog.youtube/inside-youtube/our-big-bets-for-2025/",
@@ -828,13 +692,10 @@
         "youtube-music",
         "youtube-tv"
       ],
-      "finalUrl": "https://blog.youtube/inside-youtube/our-big-bets-for-2025/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "6d63bf8ff3b1b59fda0a57a63ba4981b64780ed1992e9d84b26605129bb4d686",
-      "bytes": 146817,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -845,31 +706,11 @@
       "apps": [
         "copilot"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/microsoft-copilot/id541164041",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "10f04723a0198004aed6303581eb89cda14276fcec576547df3ff7d864753e85",
-      "bytes": 841779,
-      "changed": true
-    },
-    {
-      "title": "Microsoft OneDrive · App Store",
-      "url": "https://apps.apple.com/us/app/id477537958",
-      "type": "官方应用页",
-      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
-      "apps": [
-        "onedrive"
-      ],
-      "finalUrl": "https://apps.apple.com/us/app/microsoft-onedrive/id477537958",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "bc302fb6e0dafb327cd74c495eb86635893d5a0cf9d49bb15496c401baccb0a0",
-      "bytes": 922302,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Threads · App Store",
@@ -879,14 +720,11 @@
       "apps": [
         "threads"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/threads/id6446901002",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "a76b34137a588173e831f885420eec4dfc978f648cfbc16d33383e3b8d9bd8d6",
-      "bytes": 814323,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Threads 5 亿 MAU",
@@ -896,14 +734,11 @@
       "apps": [
         "threads"
       ],
-      "finalUrl": "https://about.fb.com/news/2026/06/meta-launching-new-features-500-million-monthly-threads-users/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "5b6e63732984cdf94eb85fda124993d06b5a8bdd484d722fa0655a582e0cb38b",
-      "bytes": 496384,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "LinkedIn: Community & Network · App Store",
@@ -913,14 +748,11 @@
       "apps": [
         "linkedin"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/linkedin-community-network/id288429040",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "2d5405cf3391cce07a8a3824ddc7eb4b2e3f31b6348a8398c9bf304268822a5b",
-      "bytes": 885622,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "GitHub · App Store",
@@ -930,14 +762,11 @@
       "apps": [
         "github"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/github/id1477376905",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "d169546afba14fa6ee28937d2d4c9c8a172fab9118b3b3b264a4ffbcad909a28",
-      "bytes": 684620,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://github.blog/news-insights/octoverse/",
@@ -947,47 +776,10 @@
       "apps": [
         "github"
       ],
-      "finalUrl": "https://github.blog/news-insights/octoverse/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "21a7a0fe6111a84f46a045b798abc66c4bdb3b3028c95e8c9162b3a56b0f9fed",
-      "bytes": 189364,
-      "changed": true
-    },
-    {
-      "title": "Google Chrome · App Store",
-      "url": "https://apps.apple.com/us/app/id535886823",
-      "type": "官方应用页",
-      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
-      "apps": [
-        "chrome"
-      ],
-      "finalUrl": "https://apps.apple.com/us/app/google-chrome/id535886823",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "a522cd58ed96baa174d1b15f0bf995af23b15d7cc868987356d7e9de29a512e9",
-      "bytes": 976906,
-      "changed": true
-    },
-    {
-      "url": "https://services.google.com/fh/files/misc/bce-protected-profiles-whitepaper.pdf",
-      "title": "Google Chrome Enterprise 白皮书",
-      "note": "Google 材料称 Chrome 超过 20 亿用户；未拆分手机 App 或 MAU，故仅作代理展示。",
-      "type": "usage-data",
-      "apps": [
-        "chrome"
-      ],
-      "finalUrl": "https://services.google.com/fh/files/misc/bce-protected-profiles-whitepaper.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "application/pdf",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "8c6bdc738bcfa2cd41d9428973c2332001d546b4814c03912adbccf5f55053e9",
-      "bytes": 3277029,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -998,14 +790,11 @@
       "apps": [
         "accuweather"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/accuweather-weather-forecast/id300048137",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "b0a3fd38a2a16fe79420a71a081060f99e24ca52b656edcdda8801a4368944bf",
-      "bytes": 782876,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://advertising.accuweather.com/",
@@ -1015,14 +804,11 @@
       "apps": [
         "accuweather"
       ],
-      "finalUrl": "https://advertising.accuweather.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "7109c0e5cf8bf8805729b48306306aeb1d85fbf40d25d610ff40a87a6ff45b8f",
-      "bytes": 113017,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "SoundCloud: The Music You Love · App Store",
@@ -1032,14 +818,11 @@
       "apps": [
         "soundcloud"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/soundcloud-the-music-you-love/id336353151",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "b30c7f9d83af0810717f225a77f0d0424fcd25a2ec3342a3a54e91ab96b12553",
-      "bytes": 770306,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.wmg.com/news/warner-music-group-and-soundcloud-announce-groundbreaking-partnership-20036",
@@ -1049,13 +832,10 @@
       "apps": [
         "soundcloud"
       ],
-      "finalUrl": "https://www.wmg.com/news/warner-music-group-and-soundcloud-announce-groundbreaking-partnership-20036",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "270d5779bb11b5813fc9ec81ceb87e44747d2a4d96281aa78023ae2658360481",
-      "bytes": 96520,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -1066,14 +846,11 @@
       "apps": [
         "capcut"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "365e1050737933a9fb89b65032d9f00fdfe06076ba3663fa9cbfacc4a996d9f5",
-      "bytes": 935408,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.scmp.com/tech/big-tech/article/3275336/bytedances-capcut-doubao-top-global-ai-app-downloads-outpacing-chatgpt-report",
@@ -1083,14 +860,11 @@
       "apps": [
         "capcut"
       ],
-      "finalUrl": "https://www.scmp.com/tech/big-tech/article/3275336/bytedances-capcut-doubao-top-global-ai-app-downloads-outpacing-chatgpt-report",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "b5bb8ddf648a7d6745b021838beb9f0b65a1e2039b769b1cd12a8b688c720349",
-      "bytes": 1147240,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Slack 通知指南",
@@ -1100,14 +874,11 @@
       "apps": [
         "slack"
       ],
-      "finalUrl": "https://slack.com/intl/zh-cn/help/articles/201355156-%E9%85%8D%E7%BD%AE%E4%BD%A0%E7%9A%84-Slack-%E9%80%9A%E7%9F%A5",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "ce490395549e43b7543723002644ecfa7e350f2206a10a111f7280a9e0846932",
-      "bytes": 108559,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Slack · App Store",
@@ -1117,14 +888,25 @@
       "apps": [
         "slack"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/slack/id618783545",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "7c91f6ce55ad07a0bb0805e7baf581bf971420acf5d62f29a8e9359721371619",
-      "bytes": 756292,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://slack.com/blog/news/slacks-growth-in-asia",
+      "title": "Slack 官方 · 亚洲增长回顾",
+      "note": "Slack 官方于 2019-10-16 披露，2019 年 9 月跨端日活超过 1,200 万；未分离手机端，不将 DAU 转成 MAU，也不采用跨端在线或工作时长填充手机日均。",
+      "type": "usage-data",
+      "apps": [
+        "slack"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Notion: Notes, Tasks, AI · App Store",
@@ -1134,14 +916,11 @@
       "apps": [
         "notion"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/notion-notes-tasks-ai/id1232780281",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "3319442e6fa51b13f10a672ec6e545a9c32ceaa8da898506b0b75871e344f047",
-      "bytes": 828314,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.notion.com/blog/100-million-of-you",
@@ -1151,14 +930,11 @@
       "apps": [
         "notion"
       ],
-      "finalUrl": "https://www.notion.com/blog/100-million-of-you",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "c8384e2c15ecdfa83de10d5b6eeeb3f6c64ffcabcb5014ca086fa446e3c3ac75",
-      "bytes": 179352,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Firefox Fast & Private Browser · App Store",
@@ -1168,14 +944,11 @@
       "apps": [
         "firefox"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/firefox-fast-private-browser/id989804926",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "1a024cc83df846753da815f202d454622781cc0faff8510c6f32256d8c0f7b29",
-      "bytes": 774552,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.mozilla.org/en-US/advertising/",
@@ -1185,31 +958,11 @@
       "apps": [
         "firefox"
       ],
-      "finalUrl": "https://www.mozilla.org/en-US/advertising/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "486f943a625539f4e47d87b7814fcb949f0d573763fc30e4e9e22c9ff7bd2eb6",
-      "bytes": 48651,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
-    },
-    {
-      "title": "Microsoft Edge · App Store",
-      "url": "https://apps.apple.com/us/app/id1288723196",
-      "type": "官方应用页",
-      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
-      "apps": [
-        "edge"
-      ],
-      "finalUrl": "https://apps.apple.com/us/app/microsoft-edge/id1288723196",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "167dd283d115e918bfe2441ff7e8959802b2fd519c1c8d6472266f3491628ad7",
-      "bytes": 912925,
-      "changed": true
     },
     {
       "title": "Safari · App Store",
@@ -1219,14 +972,11 @@
       "apps": [
         "safari"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/safari/id1146562112",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "0e9da1060e140b45a13cec1f8d5ed3c01ba3a2e497597eb21458dfbf6c9ffd7a",
-      "bytes": 594683,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "VLC media player · App Store",
@@ -1236,14 +986,11 @@
       "apps": [
         "vlc"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/vlc-media-player/id650377962",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "199b9c9a039ba56ca76a5b84c1cccc15fa200fab3164f019b1a5f77407f6bd97",
-      "bytes": 670009,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
@@ -1253,14 +1000,11 @@
       "apps": [
         "vlc"
       ],
-      "finalUrl": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "4915fd3e117138ee65735386b2557e93eb0863dcdeebcb568fcec635889e3281",
-      "bytes": 207560,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "YouTube TV · App Store",
@@ -1270,14 +1014,11 @@
       "apps": [
         "youtube-tv"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/youtube-tv/id1193350206",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "eef129eb2d7da87afc2d911f2ba2e8c7e1e2c4b9b66260f8968386538757e546",
-      "bytes": 913392,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Snapchat 通知控制",
@@ -1287,13 +1028,10 @@
       "apps": [
         "snapchat"
       ],
-      "finalUrl": "https://help.snapchat.com/hc/en-us/articles/7012316327444-How-do-I-control-my-Snapchat-notifications-on-iOS",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "13a1d880bde5ff468a4949a38b3f944139aec430aec80a6d192b5a0ac796fd03",
-      "bytes": 80239,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -1304,14 +1042,11 @@
       "apps": [
         "snapchat"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/snapchat/id447188370",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "eeeb0fc6c988c01c29100fb62435934eb584f8d862677d21bf171381251b6655",
-      "bytes": 970500,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Snap 2025 Q4 业绩",
@@ -1321,14 +1056,11 @@
       "apps": [
         "snapchat"
       ],
-      "finalUrl": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "888e2eb1c22db6de6ac6aa85b327b1e28489e007ad80ab258b7accc512a37985",
-      "bytes": 588313,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Clubhouse · App Store",
@@ -1338,14 +1070,11 @@
       "apps": [
         "clubhouse"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/clubhouse/id1503133294",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "af452bf0b5a87c11422a5c3eb7640a3f3258ed051c6ac21e278985aaf5f2715c",
-      "bytes": 633693,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://profiletree.com/clubhouse-social-media-app/",
@@ -1355,14 +1084,11 @@
       "apps": [
         "clubhouse"
       ],
-      "finalUrl": "https://profiletree.com/clubhouse-social-media-app/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "523720c67587ab5c0ed19279499b18b52095c0caebdca37ee9a6be2cc0c5dab2",
-      "bytes": 135990,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "PayPal - Pay, Send, Save · App Store",
@@ -1372,14 +1098,11 @@
       "apps": [
         "paypal"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/paypal-pay-send-save/id283646709",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "ec5f01558058cbd056e958d9c08ebe9a31ce7bccb5ca07cefb388a2a470cc4ef",
-      "bytes": 822223,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
@@ -1389,14 +1112,11 @@
       "apps": [
         "paypal"
       ],
-      "finalUrl": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "fea6f5b92ecf55cd1a508ff0cfbeaa89a86b04febbb5d4c6fc2a48000940d98b",
-      "bytes": 5792,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "TuneIn Radio: Music & Sports · App Store",
@@ -1406,14 +1126,11 @@
       "apps": [
         "tunein"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/tunein-radio-music-sports/id418987775",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "d9413b07d635da777d89396de8ed77684e1cf169413e2e4863790b0bd94d6e9b",
-      "bytes": 889892,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://corporate.stingray.com/acquisitions/stingray-acquires-tunein/",
@@ -1423,98 +1140,10 @@
       "apps": [
         "tunein"
       ],
-      "finalUrl": "https://corporate.stingray.com/acquisitions/stingray-acquires-tunein/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "9bca717857bd33b16ad500031e4490d6bcc62675c2aad1501945100529ffc1a3",
-      "bytes": 784427,
-      "changed": true
-    },
-    {
-      "title": "AOL Mail, News, Weather · App Store",
-      "url": "https://apps.apple.com/us/app/id646100661",
-      "type": "官方应用页",
-      "note": "开发者：AOL Media LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
-      "apps": [
-        "aol-mail"
-      ],
-      "finalUrl": "https://apps.apple.com/us/app/aol-mail-news-weather/id646100661",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "3370b3af0a488db958a6602181dd3c8ba01187340b776e89149193433e08f9a5",
-      "bytes": 880137,
-      "changed": true
-    },
-    {
-      "url": "https://www.aol.com/about-us/",
-      "title": "AOL · About Us",
-      "note": "AOL 官方称全站每月 3,000 万用户、每天 300 万人查看邮件；未披露 AOL Mail 手机 App MAU，故仅作代理展示。",
-      "type": "usage-data",
-      "apps": [
-        "aol-mail"
-      ],
-      "finalUrl": "https://www.aol.com/about-us/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "ca331396906c66067af9c790c46a4de25c0110b9463590489d59c284a2a4e495",
-      "bytes": 267157,
-      "changed": true
-    },
-    {
-      "title": "Microsoft Teams 通知管理",
-      "url": "https://support.microsoft.com/en-US/teams/notifications-settings/manage-notifications-in-microsoft-teams",
-      "type": "官方帮助",
-      "note": "官方列出聊天、频道、提及、会议、通话、状态和应用通知。",
-      "apps": [
-        "microsoft-teams"
-      ],
-      "finalUrl": "https://support.microsoft.com/en-us/teams/notifications-settings/manage-notifications-in-microsoft-teams",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "467fba16a6bf38f9e539d8d4d472e8d5d6d9190789351498002cfb35b055e640",
-      "bytes": 146712,
-      "changed": true
-    },
-    {
-      "title": "Microsoft Teams · App Store",
-      "url": "https://apps.apple.com/us/app/id1113153706",
-      "type": "官方应用页",
-      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
-      "apps": [
-        "microsoft-teams"
-      ],
-      "finalUrl": "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "c39ec84b7193fbccaceae091c75f0c6580255d9de71df69660488f3ce25f00b4",
-      "bytes": 849741,
-      "changed": true
-    },
-    {
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
-      "title": "Microsoft Teams 官方博客",
-      "note": "跨桌面、网页和移动端产品 MAU，不等同手机 App MAU。",
-      "type": "usage-data",
-      "apps": [
-        "microsoft-teams"
-      ],
-      "finalUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
-      "status": "http-error",
-      "httpStatus": 404,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "a209a3750d7e245be20f20b7c041acbe5772be323920bc3e226276bea42488fd",
-      "bytes": 227566,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -1525,14 +1154,11 @@
       "apps": [
         "yelp"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/yelp-food-services-reviews/id284910350",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "2dc5417e0379eabcc2cdeff4db074f2c3dd1f8c3d6339e1b4ce3cacecb3d18d7",
-      "bytes": 854757,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
@@ -1542,14 +1168,11 @@
       "apps": [
         "yelp"
       ],
-      "finalUrl": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
-      "status": "http-error",
-      "httpStatus": 403,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "d93f16efa5303a512f8eb2cdd7f72b64cba760ed2ed4504d0b7f60b75f7f8bdc",
-      "bytes": 4819,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Ticketmaster－Buy, Sell Tickets · App Store",
@@ -1559,14 +1182,11 @@
       "apps": [
         "ticketmaster"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/ticketmaster-buy-sell-tickets/id500003565",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "d487fa38e67847ce921a886a66c679b19986bec707c38965ac7ee8c0bbf3a57f",
-      "bytes": 796038,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://business.ticketmaster.com/ticketing-straight-to-your-app/",
@@ -1576,13 +1196,10 @@
       "apps": [
         "ticketmaster"
       ],
-      "finalUrl": "https://business.ticketmaster.com/ticketing-straight-to-your-app/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "4b802760d8fd402c4e8fc794319094e143ed6e9d9f31d783c446f7fa5bf1199f",
-      "bytes": 172035,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -1593,14 +1210,11 @@
       "apps": [
         "priceline"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/priceline-hotel-car-flight/id336381998",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "6dd282da64ac2a92144835bb958991c32754537ae417baf46849f278946f059d",
-      "bytes": 794476,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "StubHub: Event Tickets · App Store",
@@ -1610,14 +1224,11 @@
       "apps": [
         "stubhub"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/stubhub-event-tickets/id366562751",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "e6cbd957a9a6f980851ec3263b0ff88a3b71e88a013fe82463571ff1db118423",
-      "bytes": 659498,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://newsroom.stubhub.com/2026/03/18/stubhub-launches-distribution-manager-an-ai-powered-tool-for-artists-teams-and-venues/",
@@ -1627,14 +1238,11 @@
       "apps": [
         "stubhub"
       ],
-      "finalUrl": "https://newsroom.stubhub.com/2026/03/18/stubhub-launches-distribution-manager-an-ai-powered-tool-for-artists-teams-and-venues/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "3588e81a21bfdf04d13c1d2fc4df77d28f68ccbbfb6d3dc2633dfbea336c1eaa",
-      "bytes": 149805,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Grubhub: Food Delivery · App Store",
@@ -1644,14 +1252,11 @@
       "apps": [
         "grubhub"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/grubhub-food-delivery/id302920553",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "0de1e5b74fe1f8acf7d6fbf433ad1ea2d4f7fb3720f870e0a1231afa030a565d",
-      "bytes": 830096,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://s205.q4cdn.com/266311280/files/doc_financials/2024/ar/AR2024_JET-com.pdf",
@@ -1661,13 +1266,10 @@
       "apps": [
         "grubhub"
       ],
-      "finalUrl": "https://s205.q4cdn.com/266311280/files/doc_financials/2024/ar/AR2024_JET-com.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "application/pdf",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "35b664b177c2568bdb6cede145eb0963c603593a4b1f860e826c71ac6576aff7",
-      "bytes": 17284913,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -1678,14 +1280,11 @@
       "apps": [
         "uber"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/uber-request-a-ride/id368677368",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "780e9cf36494b0632e11dea19727bd07f89b55e457bb4b9b34db270549a9a907",
-      "bytes": 915731,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
@@ -1695,14 +1294,11 @@
       "apps": [
         "uber"
       ],
-      "finalUrl": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "4ecbb6e0c15faffff8f01b31d429742b9c451fd41082f2b4d00a4de9df804ef2",
-      "bytes": 456258,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Google Maps 通知设置",
@@ -1712,14 +1308,11 @@
       "apps": [
         "google-maps"
       ],
-      "finalUrl": "https://support.google.com/maps/answer/6149565?hl=en",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "e4bfc65a66571a169a7d371d3e1fddfd68c5b2b1d177edc1374da54bf79c8914",
-      "bytes": 1622629,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Google Maps · App Store",
@@ -1729,14 +1322,11 @@
       "apps": [
         "google-maps"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/google-maps/id585027354",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "7fa8bb57e045637610e93520633160929895282f3acc93b10c8139625e70d4e8",
-      "bytes": 959525,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://abc.xyz/2024-q3-earnings-call/",
@@ -1746,14 +1336,11 @@
       "apps": [
         "google-maps"
       ],
-      "finalUrl": "https://abc.xyz/investor/events/event-details/2024/2024-q3-earnings-call/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "fafad3f7d3c4272edf2764a3b9dd670a76ee6408a0a444752d13c4fd8f1db6a6",
-      "bytes": 133553,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Netflix · App Store",
@@ -1763,14 +1350,11 @@
       "apps": [
         "netflix"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/netflix/id363590051",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "17a627b4a72a85198154dcbde38863e43a59754dd14a36c617d30e6004b1c711",
-      "bytes": 982198,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
@@ -1780,14 +1364,26 @@
       "apps": [
         "netflix"
       ],
-      "finalUrl": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "732febb35ee98f6c8ebae1ca0ab0f3ffa74361fecaf06f49273dff089513a6cc",
-      "bytes": 46064,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://omdia.tech.informa.com/pr/2026/feb/microdramas-overtake-streamers-on-mobile-engagement-says-omdia",
+      "title": "Omdia · 2026-02-23 移动视频研究",
+      "note": "Omdia 分析 Sensor Tower 2025 Q4 数据：美国移动端人均每日 24.8 分钟，月活约 1,200 万。地区 MAU 不是全球 MAU，不填入全球 MAU 数值字段，也不参与 MAU 排序。",
+      "type": "usage-data",
+      "apps": [
+        "netflix",
+        "disney-plus"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Flickr · App Store",
@@ -1797,14 +1393,11 @@
       "apps": [
         "flickr"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/flickr/id328407587",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "cd394c3d83edbb6fec9c5d8fd6aadead9be6f89afe6337be7518aaf8acea5ae6",
-      "bytes": 662171,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
@@ -1814,14 +1407,11 @@
       "apps": [
         "flickr"
       ],
-      "finalUrl": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "bf90b2d5b231b326a35d048a583ce9659dbecee15d499f8ff3f7e03e720833f3",
-      "bytes": 39184,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Tumblr: Social Media & Art · App Store",
@@ -1831,14 +1421,11 @@
       "apps": [
         "tumblr"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/tumblr-social-media-art/id305343404",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "44ca86016cbd88f7e7815e792c0799433770879571379501aadf5666d01400c3",
-      "bytes": 723482,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://advertise.tumblr.com/audience/",
@@ -1848,14 +1435,11 @@
       "apps": [
         "tumblr"
       ],
-      "finalUrl": "https://advertise.tumblr.com/audience/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "086f13cef50e1d30e57e048e8e621be1a659f86704951f65090352522c8a5b3e",
-      "bytes": 165771,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Reddit · App Store",
@@ -1865,14 +1449,11 @@
       "apps": [
         "reddit"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/reddit/id1064216828",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "62931cb2af9bf416388b9e90a1e9de893f3cd80422d1aa5242fdd8baf4249e1d",
-      "bytes": 784651,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Reddit 2026 Q2 周活",
@@ -1882,14 +1463,11 @@
       "apps": [
         "reddit"
       ],
-      "finalUrl": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Second-Quarter-2026-Results/default.aspx",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "c224f91dcbd0eb85f034a2898ecdfcead57cb31ac3845197ef07c05f213ffbbd",
-      "bytes": 317583,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "HBO Max: Stream Movies & TV · App Store",
@@ -1899,14 +1477,25 @@
       "apps": [
         "max"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "c9fcbd319d724939c323df7827ba727125a077e3bc36ac2f68eb484a436fe82c",
-      "bytes": 932023,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Apptopia · Mid-Q1 2026 Streaming Investor Note",
+      "url": "https://apptopia.com/en/insights/investor-note-mid-q1-2026-look-at-potential-and-peril-for-streamers-nflx-wbd-cmcsa-dis/",
+      "note": "2026-03-10 发布，明确限定全部为美国 mobile app 数据，2026 Q1 仅截至 2 月。HBO Max 每日活跃用户平均使用 63.4 分钟；对应表内 Max 的同一产品品牌沿革。不是全年全球均值，也不是月活用户自然日摊均。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "max"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://s201.q4cdn.com/336605034/files/doc_earnings/2025/q4/earnings-result/WBD-4Q25-Shareholder-Letter.pdf",
@@ -1916,13 +1505,10 @@
       "apps": [
         "max"
       ],
-      "finalUrl": "https://s201.q4cdn.com/336605034/files/doc_earnings/2025/q4/earnings-result/WBD-4Q25-Shareholder-Letter.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "application/pdf",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "e8e96bc4a0fbd54192528151dc0245d102d78b64048cd947f93a7315ccae82b4",
-      "bytes": 255679,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -1933,14 +1519,11 @@
       "apps": [
         "tinder"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/tinder-dating-app-date-chat/id547702041",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "2d4ecb030a07c2551e9154084d3a2bddb61d9bdefcd11ed093d86c802876f637",
-      "bytes": 880747,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.tinderpressroom.com/about",
@@ -1950,14 +1533,25 @@
       "apps": [
         "tinder"
       ],
-      "finalUrl": "https://www.tinderpressroom.com/about",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "8a0f613aba1eb2e4167c158f8522b2970ae92bc07a729a33db6728e0766f1723",
-      "bytes": 16683,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "url": "https://dailytrojan.com/2014/01/27/usc-alumni-and-tinder-co-founders-meet-with-students-on-campus/",
+      "title": "Daily Trojan · Tinder 创始团队校园访谈",
+      "note": "2014-01-27 现场报道引述联合创始人兼 CMO Justin Mateen：用户平均每天打开 11 次，每次 7 分钟，11×7=77 分钟/日。未披露抽样方法与地区细分；这是非常早期的公司自报历史值，不代表当前使用情况。当前官网约 5,000 万每月 App 用户另列官方来源。",
+      "type": "usage-data",
+      "apps": [
+        "tinder"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Disney+ · App Store",
@@ -1967,14 +1561,11 @@
       "apps": [
         "disney-plus"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/disney/id1446075923",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "5fce2053f596f40eb82dbccfeee8149892f78d5d52c45968ada33a677efc6d3d",
-      "bytes": 971433,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
@@ -1984,14 +1575,25 @@
       "apps": [
         "disney-plus"
       ],
-      "finalUrl": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "654719687099bc48930c72aadd320ee31bfa8dbc672f429430660ac58aaea239",
-      "bytes": 581514,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
+    },
+    {
+      "title": "Apptopia · Disney+ 4 Week Report，第 5 页",
+      "url": "https://engage.apptopia.com/hubfs/Disney%2B/New%20Disney%2B%20Month.pdf",
+      "note": "2019-11-12 上线后四周报告明确披露 recent global sessions per DAU 为 2.7，即当天活跃用户的日均会话；当时仅在美国、加拿大、澳大利亚、新西兰、荷兰上线。不能外推为当前全球用户平均每天打开次数，也不能把该值复制给竞争应用。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "disney-plus"
+      ],
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Google Gemini · App Store",
@@ -2001,31 +1603,25 @@
       "apps": [
         "gemini"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/google-gemini/id6477489729",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "444bd5843275c94fb8b313b11d4de32481c5d3c60b5efb82ab571735c9ab1240",
-      "bytes": 1030986,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
-      "title": "Gemini App MAU 突破 10 亿",
       "url": "https://blog.google/intl/ko-kr/company-news/inside-google/gemini-one-billion-monthly-users-kr/",
-      "type": "官方规模数据",
-      "note": "Google 2026-08 明确披露 Gemini App 月活超过 10 亿。",
+      "title": "Google：Gemini 月活突破 10 亿",
+      "note": "Google 官方明确称 Gemini App 月活用户超过 10 亿。",
+      "type": "usage-data",
       "apps": [
         "gemini"
       ],
-      "finalUrl": "https://blog.google/intl/ko-kr/company-news/inside-google/gemini-one-billion-monthly-users-kr/",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "61eb7d9033f10a163dce95c2d0d5726cad9b95e71e21169f5f008d4e19d8ba46",
-      "bytes": 322293,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://sensortower.com/blog/top-chatgpt-competitors",
@@ -2035,14 +1631,11 @@
       "apps": [
         "gemini"
       ],
-      "finalUrl": "https://sensortower.com/blog/top-chatgpt-competitors",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "1db94da73885aedad68edef21fd1ad7238e94c1a311811f9625a5b419bfdd000",
-      "bytes": 142993,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Meta AI · App Store",
@@ -2052,14 +1645,11 @@
       "apps": [
         "meta-ai"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/meta-ai/id1558240027",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "452021563ad98d1048c4d962d7a3773a939f161458bc68a6c13641f0526c70ae",
-      "bytes": 974700,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "title": "Zoom Workplace · App Store",
@@ -2069,14 +1659,11 @@
       "apps": [
         "zoom"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/zoom-workplace/id546505307",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "4726f306ec3ed7700e46dc430162a64cafb1692fec262c2839e631619a79d7dd",
-      "bytes": 1016709,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://investors.zoom.us/static-files/0229c042-e707-4b11-9110-6ea1e9ce31b4",
@@ -2086,13 +1673,10 @@
       "apps": [
         "zoom"
       ],
-      "finalUrl": "https://investors.zoom.us/static-files/0229c042-e707-4b11-9110-6ea1e9ce31b4",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "application/pdf",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "65df237cd1234b02e931108a129a019c3300d9fbaba2c7587a931d6edcdd31f4",
-      "bytes": 186339,
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
       "changed": false
     },
     {
@@ -2103,31 +1687,25 @@
       "apps": [
         "temu"
       ],
-      "finalUrl": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "5fa2ee3c9852bb6880441a05613e32ee1bd6be7d9c4d69b629bf9d8a5a86c65b",
-      "bytes": 743005,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
-      "title": "Temu 全球 App MAU",
       "url": "https://www.techtimes.com/articles/325406/20260824/pdd-q2-earnings-beat-expectations-temu-loses-11-users-before-eu-deadline.htm",
-      "type": "行业报告转述",
-      "note": "TechTimes 引述财新与 Sensor Tower，给出 Temu 2026 Q2 全球 MAU 4.67 亿。",
+      "title": "TechTimes 引述财新与 Sensor Tower",
+      "note": "报道给出 Temu 全球 MAU 4.67 亿；非公司官方值，详情中保留来源层级。",
+      "type": "usage-data",
       "apps": [
         "temu"
       ],
-      "finalUrl": "https://www.techtimes.com/articles/325406/20260824/pdd-q2-earnings-beat-expectations-temu-loses-11-users-before-eu-deadline.htm",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "285d592515967701983af23a988a77cd9a83dc532eb9eb07264235f13c67cdc0",
-      "bytes": 339926,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     },
     {
       "url": "https://www.aol.com/news/chinese-shopping-app-temu-microsoft-233940417.html",
@@ -2137,14 +1715,11 @@
       "apps": [
         "temu"
       ],
-      "finalUrl": "https://www.aol.com/news/chinese-shopping-app-temu-microsoft-233940417.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-09-06T20:25:26.026Z",
-      "hash": "b37b63c2dd56be03e162f6261267c8bc41b3c8e53ed15cfda8e2f006c4c78e87",
-      "bytes": 775713,
-      "changed": true
+      "status": "not-checked",
+      "checkedAt": null,
+      "hash": null,
+      "bytes": null,
+      "changed": false
     }
   ]
 }

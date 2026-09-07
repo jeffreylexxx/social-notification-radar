@@ -1,0 +1,40 @@
+{
+  "researchedAt": "2026-09-07",
+  "note": "仅补缺失行为指标；图表读数明确标约，历史地区样本不是当前全球均值。每日活跃用户分母不同于月活用户按自然日摊算。",
+  "apps": {
+    "spotify": {
+      "durationMinutes": {"value": 58, "prefix": "约", "period": "2021（历史，德国）", "methodLabel": "移动端活跃用户日均；图表约值", "source": {"title": "WIK · 德国音视频流媒体研究，图 9（印刷页 14）", "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf", "note": "2022-12 发布，研究 2020 Q1 至 2021 Q3；图 9 标注 2021，德国 Android/iOS 移动端（未单独剔除平板）。Spotify 柱高约 58 分钟；图中没有数值标签，本网页按刻度读至整数分钟，非原始精确值；不是仅前台屏幕时间或当前全球均值。"}},
+      "launches": {"value": 2.01, "precision": 2, "period": "2016-09-27—12-23（历史，英国）", "methodLabel": "Android 日均会话；Ofcom 实测样本", "source": {"title": "Ofcom CMR 2017 · 5.2 节，印刷页 166—167", "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/cmr/cmr17/uk/uk-internet-online.pdf", "note": "报告正文明确给出 Spotify 用户平均每天打开 2.01 次。研究总样本 1,200 名自愿参加的英国 Android 用户，不保证代表全体英国人；不捕获后台运行或不足 5 秒的会话。该数值为原文日均，不用总会话数除以未经核实的用户观测天数。"}}
+    },
+    "amazon-music": {
+      "durationMinutes": {"value": 43, "prefix": "约", "period": "2021（历史，德国）", "methodLabel": "移动端活跃用户日均；图表约值", "source": {"title": "WIK · 德国音视频流媒体研究，图 9", "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf", "note": "图 9 的 Amazon Music 柱高约 43 分钟/活跃用户/日；德国 Android/iOS 移动端，未单独剔除平板，2021 历史样本。图表没有精确值标签，整数分钟为读图约值，不是全球全体用户均值。"}}
+    },
+    "youtube-music": {
+      "durationMinutes": {"value": 25, "prefix": "约", "period": "2021（历史，德国）", "methodLabel": "移动端活跃用户日均；图表约值", "source": {"title": "WIK · 德国音视频流媒体研究，图 9", "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf", "note": "图 9 的 YouTube Music 柱高约 25 分钟/活跃用户/日，指独立音乐 App，不是 YouTube 中的音乐视频。德国 Android/iOS 移动端，未单独剔除平板；无精确数字标签，为 2021 历史读图约值。"}}
+    },
+    "soundcloud": {
+      "durationMinutes": {"value": 32, "prefix": "约", "period": "2021（历史，德国）", "methodLabel": "移动端活跃用户日均；图表约值", "source": {"title": "WIK · 德国音视频流媒体研究，图 9", "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf", "note": "图 9 的 SoundCloud 柱高约 32 分钟/活跃用户/日；德国 Android/iOS 移动端，未单独剔除平板。无精确数值标签，按刻度读至整数分钟，保留约字，不代表当前全球均值。"}}
+    },
+    "tunein": {
+      "durationMinutes": {"value": 38, "prefix": "约", "period": "2021（历史，德国）", "methodLabel": "移动端活跃用户日均；图表约值", "source": {"title": "WIK · 德国音视频流媒体研究，图 9", "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf", "note": "图 9 的 TuneIn Radio 柱高约 38 分钟/活跃用户/日，德国 Android/iOS 移动端，未单独剔除平板。图无精确值标签，为 2021 历史读图约值，不是车载/智能音箱所有终端的收听时长。"}}
+    },
+    "disney-plus": {
+      "launches": {"value": 2.7, "period": "2019-12（上线四周，历史）", "methodLabel": "全球已上线市场；每 DAU 日均会话", "source": {"title": "Apptopia · Disney+ 4 Week Report，第 5 页", "url": "https://engage.apptopia.com/hubfs/Disney%2B/New%20Disney%2B%20Month.pdf", "note": "2019-11-12 上线后四周报告明确披露 recent global sessions per DAU 为 2.7，即当天活跃用户的日均会话；当时仅在美国、加拿大、澳大利亚、新西兰、荷兰上线。不能外推为当前全球用户平均每天打开次数，也不能把该值复制给竞争应用。"}}
+    },
+    "max": {
+      "durationMinutes": {"value": 63.4, "period": "2026-01—02（美国）", "methodLabel": "手机端；每 DAU 日均时长", "source": {"title": "Apptopia · Mid-Q1 2026 Streaming Investor Note", "url": "https://apptopia.com/en/insights/investor-note-mid-q1-2026-look-at-potential-and-peril-for-streamers-nflx-wbd-cmcsa-dis/", "note": "2026-03-10 发布，明确限定全部为美国 mobile app 数据，2026 Q1 仅截至 2 月。HBO Max 每日活跃用户平均使用 63.4 分钟；对应表内 Max 的同一产品品牌沿革。不是全年全球均值，也不是月活用户自然日摊均。"}}
+    },
+    "claude": {
+      "durationMinutes": {"value": 34.7, "period": "2026-01（研究样本）", "methodLabel": "手机 App 每 DAU；地区未单独明确", "source": {"title": "Apptopia · Gen AI Chatbots February 2026 Data Brief", "url": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/", "note": "2026-02-03 报告正文明确给出 Claude Average Time Spent per DAU 为 34.7 分钟（1 月），不是 top 10% 重度用户。正文没有在该时长段落单独明确地域，故不称全球或美国均值；适用 Apptopia 移动端日活研究样本。"}}
+    },
+    "copilot": {
+      "durationMinutes": {"value": 27.2, "period": "2026-01（研究样本）", "methodLabel": "手机 App 每 DAU；地区未单独明确", "source": {"title": "Apptopia · Gen AI Chatbots February 2026 Data Brief", "url": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/", "note": "2026-02-03 报告明确披露消费者版 Microsoft Copilot 为 27.2 分钟/DAU，不是企业集成版 Microsoft 365 Copilot，也不是重度用户的 154 分钟。时长段落未单独明确地域，因此只标记为移动端研究样本，不称全球均值。"}}
+    },
+    "grok": {
+      "durationMinutes": {"value": 22, "prefix": "近", "period": "2026-02（研究样本）", "methodLabel": "手机 App 每 DAU；地区未单独明确", "source": {"title": "Apptopia · Gen AI Chatbots March 2026 Data Brief", "url": "https://apptopia.com/en/insights/gen-ai-chatbots-march-2026-apptopia-data-brief-claude-gets-traction/", "note": "2026-03-06 报告比较 2025-08 至 2026-02，明确称 Grok Average Time Spent per DAU 增至 nearly 22 分钟。保留近字，是原报告近似值，不是精确 22；正文混合美国/全球份额，未单独交代时长地域，不能当作全球均值。"}}
+    },
+    "perplexity": {
+      "durationMinutes": {"value": 15, "period": "2026-03（美国市场研究）", "methodLabel": "手机 App 日活用户日均；非重度子群", "source": {"title": "Apptopia · Gen AI Chatbots April 2026 Data Brief", "url": "https://apptopia.com/en/insights/gen-ai-chatbots-april-2026-apptopia-data-brief-chatgpt-drops-below-40-market-share/", "note": "2026-04-02 美国手机聊天机器人市场报告给出 Perplexity average time spent per user 从 13 增至 15 分钟，处于日活使用分析语境；与文中单独标明的 Power Users 口径区分。非网页访问时长，不把 120/139/154 分钟重度用户数值用作全体均值。"}}
+    }
+  }
+}

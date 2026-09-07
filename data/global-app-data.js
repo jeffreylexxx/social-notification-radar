@@ -2,17 +2,17 @@ window.APP_DATA = {
   "meta": {
     "title": "全球常用应用通知提醒排行榜",
     "methodology": "统计能够形成系统通知、App 内红点/收件箱动态或明确提醒的独立业务场景；通知呈现方式不重复计数。公开资料未给出精确设置开关总数时，按官方功能触发关系拆分并降低置信度。",
-    "researchedCount": 63,
-    "targetCount": 63,
+    "researchedCount": 55,
+    "targetCount": 55,
     "strictUsageMetrics": true,
     "disclaimer": "通知数量是基于公开产品资料整理的可独立识别提醒场景，不等同于某一手机型号或版本中的设置开关数量。",
     "usageNote": "日均时长、日均打开与 App MAU 必须有公开来源和明确时间；跨端用户、会员、订阅、账户、DAU/WAU 仅作为代理标签展示，不写入 MAU 排序值。",
     "snapshotDate": "2026-09-07",
-    "generatedAt": "2026-09-06T20:25:26.026Z",
-    "sourceCount": 125,
-    "changedSourceCount": 111,
-    "failedSourceCount": 6,
-    "previousSnapshotDate": "2026-09-06"
+    "generatedAt": "2026-09-07T02:05:06.031Z",
+    "sourceCount": 121,
+    "changedSourceCount": 0,
+    "failedSourceCount": 0,
+    "previousSnapshotDate": "2026-09-02"
   },
   "apps": [
     {
@@ -158,78 +158,6 @@ window.APP_DATA = {
       "rankChange": 0
     },
     {
-      "id": "google-photos",
-      "name": "Google 相册",
-      "appCategory": "云存储与工具",
-      "logo": "assets/logos/global/google-photos.jpg",
-      "confidence": "high",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "共享活动",
-          "items": [
-            "收到共享相册",
-            "新成员加入共享相册",
-            "共享相册新照片",
-            "照片评论",
-            "照片或相册获赞",
-            "收到新会话",
-            "会话回复",
-            "会话获赞"
-          ]
-        },
-        {
-          "name": "回忆与创作",
-          "items": [
-            "时间型回忆",
-            "主题回忆",
-            "新创作可用"
-          ]
-        },
-        {
-          "name": "伙伴与存储",
-          "items": [
-            "伙伴共享邀请",
-            "伙伴接受邀请",
-            "伙伴分享新照片",
-            "存储空间状态"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Google 相册动态类型",
-          "url": "https://support.google.com/photos/answer/15604413?hl=en",
-          "type": "官方帮助",
-          "note": "官方逐项列出共享相册、会话、伙伴共享和存储状态动态。"
-        },
-        {
-          "title": "Google Photos: Backup & Edit · App Store",
-          "url": "https://apps.apple.com/us/app/id962194608",
-          "type": "官方应用页",
-          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "2025-05",
-        "methodLabel": "产品月用户（跨端代理）",
-        "activeUserLabel": "超过 15 亿月用户（跨端）",
-        "source": {
-          "url": "https://blog.google/products-and-platforms/products/photos/google-photos-10-years-tips-tricks/",
-          "title": "Google Photos 十周年",
-          "note": "Google 披露每月超过 15 亿人使用 Google Photos；未限定手机 App，故不写入严格 MAU 排序。"
-        }
-      },
-      "count": 15,
-      "categorySummary": "共享活动 8，回忆与创作 3，伙伴与存储 4",
-      "rank": 3,
-      "previousRank": 3,
-      "rankChange": 0
-    },
-    {
       "id": "x",
       "name": "X（Twitter）",
       "appCategory": "社交与社区",
@@ -303,9 +231,9 @@ window.APP_DATA = {
       },
       "count": 15,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 4",
-      "rank": 4,
+      "rank": 3,
       "previousRank": 4,
-      "rankChange": 0
+      "rankChange": 1
     },
     {
       "id": "instagram",
@@ -373,9 +301,9 @@ window.APP_DATA = {
       },
       "count": 14,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 3",
-      "rank": 5,
+      "rank": 4,
       "previousRank": 5,
-      "rankChange": 0
+      "rankChange": 1
     },
     {
       "id": "linkedin",
@@ -437,9 +365,9 @@ window.APP_DATA = {
       },
       "count": 13,
       "categorySummary": "关系互动 6，消息与机会 4，内容与服务 3",
-      "rank": 6,
+      "rank": 5,
       "previousRank": 6,
-      "rankChange": 0
+      "rankChange": 1
     },
     {
       "id": "reddit",
@@ -507,9 +435,9 @@ window.APP_DATA = {
       },
       "count": 13,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 2",
-      "rank": 7,
+      "rank": 6,
       "previousRank": 7,
-      "rankChange": 0
+      "rankChange": 1
     },
     {
       "id": "snapchat",
@@ -581,9 +509,9 @@ window.APP_DATA = {
       },
       "count": 12,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 1",
-      "rank": 8,
+      "rank": 7,
       "previousRank": 8,
-      "rankChange": 0
+      "rankChange": 1
     },
     {
       "id": "threads",
@@ -649,9 +577,9 @@ window.APP_DATA = {
       },
       "count": 12,
       "categorySummary": "互动反馈 6，关系与消息 5，内容与直播 1",
-      "rank": 9,
+      "rank": 8,
       "previousRank": 9,
-      "rankChange": 0
+      "rankChange": 1
     },
     {
       "id": "temu",
@@ -712,72 +640,9 @@ window.APP_DATA = {
       },
       "count": 12,
       "categorySummary": "订单物流 7，互动与价格 5",
-      "rank": 10,
+      "rank": 9,
       "previousRank": 10,
-      "rankChange": 0
-    },
-    {
-      "id": "google-ads",
-      "name": "Google Ads",
-      "appCategory": "商业与管理",
-      "logo": "assets/logos/global/google-ads.jpg",
-      "confidence": "high",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "投放状态",
-          "items": [
-            "广告未获批准或政策警报",
-            "广告系列状态变化",
-            "预算受限",
-            "自定义状态阈值"
-          ]
-        },
-        {
-          "name": "效果",
-          "items": [
-            "效果指标变化",
-            "每周效果摘要",
-            "自定义指标阈值",
-            "优化建议"
-          ]
-        },
-        {
-          "name": "账户服务",
-          "items": [
-            "账单提醒",
-            "报告可用",
-            "产品新功能",
-            "专家指导"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Google Ads 通知",
-          "url": "https://support.google.com/google-ads/answer/9972066?hl=en",
-          "type": "官方帮助",
-          "note": "官方说明效果变化、新功能、优化建议及自定义状态通知。"
-        },
-        {
-          "title": "Google Ads · App Store",
-          "url": "https://apps.apple.com/us/app/id1037457231",
-          "type": "官方应用页",
-          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 12,
-      "categorySummary": "投放状态 4，效果 4，账户服务 4",
-      "rank": 11,
-      "previousRank": 11,
-      "rankChange": 0
+      "rankChange": 1
     },
     {
       "id": "youtube",
@@ -842,9 +707,9 @@ window.APP_DATA = {
       },
       "count": 11,
       "categorySummary": "订阅内容 4，互动 4，推荐与服务 3",
-      "rank": 12,
+      "rank": 10,
       "previousRank": 12,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "line",
@@ -887,25 +752,31 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id443904275",
           "type": "官方应用页",
           "note": "开发者：LY Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "LINE 全球约 2 亿 MAU",
+          "url": "https://www.linecorp.com/en/csr/",
+          "type": "官方规模数据",
+          "note": "LINE 官方社会责任页面称全球约 2 亿月活；与 2024-11 Android 行为样本时间和覆盖平台不同。"
         }
       ],
       "usage": {
-        "durationMinutes": null,
-        "launches": null,
+        "durationMinutes": 13.9,
+        "launches": 10.7,
         "activeUsers": 20000,
-        "period": "公开页面当前口径",
-        "methodLabel": "MAU 约值",
+        "period": "2024-11 行为历史值 / MAU 官网约值",
+        "methodLabel": "全球 Android 月均换算日均（不含中国）",
         "source": {
-          "url": "https://www.linecorp.com/en/csr/",
-          "title": "LINE Social Responsibility",
-          "note": "LINE 官方页面称全球约 2 亿 MAU。"
+          "url": "https://learn.meltwater.com/rs/814-WJU-189/images/2025_Kepios_Digital_Global_Overview_Report.pdf",
+          "title": "Digital 2025 Global Overview · 第 383、385 页",
+          "note": "2024 年 11 月全球 Android 活跃用户样本，不含中国：月人均时长 6 小时 57 分钟，(6×60+57)÷30=13.9 分钟/日；月人均会话 322.3 次，322.3÷30≈10.7 次/日。会话次数作为打开次数近似口径；历史样本不是当前全球全平台均值。MAU 约 2 亿另见 LINE 官方来源。"
         }
       },
       "count": 11,
       "categorySummary": "消息 6，通话与活动 4，关系与服务 1",
-      "rank": 13,
+      "rank": 11,
       "previousRank": 13,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "tumblr",
@@ -960,9 +831,9 @@ window.APP_DATA = {
       },
       "count": 11,
       "categorySummary": "互动反馈 6，关系与消息 5",
-      "rank": 14,
+      "rank": 12,
       "previousRank": 14,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "telegram",
@@ -1021,9 +892,9 @@ window.APP_DATA = {
       },
       "count": 10,
       "categorySummary": "消息 6，通话与活动 4",
-      "rank": 15,
+      "rank": 13,
       "previousRank": 15,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "discord",
@@ -1082,9 +953,9 @@ window.APP_DATA = {
       },
       "count": 10,
       "categorySummary": "消息 6，通话与活动 4",
-      "rank": 16,
+      "rank": 14,
       "previousRank": 16,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "tinder",
@@ -1126,25 +997,31 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id547702041",
           "type": "官方应用页",
           "note": "开发者：Tinder LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Tinder 每月 App 用户约 5,000 万",
+          "url": "https://www.tinderpressroom.com/about",
+          "type": "官方规模数据",
+          "note": "官网于 2026-09 核验：每月 App 用户约 5,000 万，覆盖 190 个国家；不要与 2014 年行为历史值视为同一期样本。"
         }
       ],
       "usage": {
-        "durationMinutes": null,
-        "launches": null,
+        "durationMinutes": 77,
+        "launches": 11,
         "activeUsers": 5000,
-        "period": "官网当前值（抓取于 2026-09）",
-        "methodLabel": "每月 App 用户",
+        "period": "2014-01 行为历史值 / MAU 官网 2026-09 核验",
+        "methodLabel": "早期公司披露；历史时长按会话换算",
         "source": {
-          "url": "https://www.tinderpressroom.com/about",
-          "title": "Tinder Newsroom · About Tinder",
-          "note": "Tinder 官方称 App 每月服务约 5,000 万用户，覆盖 190 个国家；按其明确的每月 App 用户口径写入。"
+          "url": "https://dailytrojan.com/2014/01/27/usc-alumni-and-tinder-co-founders-meet-with-students-on-campus/",
+          "title": "Daily Trojan · Tinder 创始团队校园访谈",
+          "note": "2014-01-27 现场报道引述联合创始人兼 CMO Justin Mateen：用户平均每天打开 11 次，每次 7 分钟，11×7=77 分钟/日。未披露抽样方法与地区细分；这是非常早期的公司自报历史值，不代表当前使用情况。当前官网约 5,000 万每月 App 用户另列官方来源。"
         }
       },
       "count": 10,
       "categorySummary": "匹配互动 5，推荐与活动 3，安全与服务 2",
-      "rank": 17,
+      "rank": 15,
       "previousRank": 17,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "messenger",
@@ -1181,25 +1058,32 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id454638411",
           "type": "官方应用页",
           "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Messenger 2018 年平台月用户",
+          "url": "https://about.fb.com/news/2018/05/f8-2018-new-tools-for-businesses-and-people-to-deepen-connections-in-messenger/",
+          "type": "官方历史规模",
+          "note": "2018-05-01 Meta 官方称 Messenger 每月用户 13 亿，未分离移动端，只作历史平台规模参考。"
         }
       ],
       "usage": {
         "durationMinutes": 19,
         "launches": 9.1,
         "activeUsers": null,
-        "period": "2025-08",
-        "methodLabel": "Android 全球日均",
+        "period": "行为 2025-08 / 平台月用户 2018-05",
+        "methodLabel": "Android 全球日均；历史跨端规模代理",
+        "activeUserLabel": "13.00 亿平台月用户（2018）",
         "source": {
           "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
           "title": "DataReportal Digital 2026",
-          "note": "时长与打开次数来自 Similarweb App Intelligence 全球 Android 样本，不含中国。"
+          "note": "时长与打开次数来自 Similarweb 全球 Android 样本，不含中国。2018 年官方另披露平台月用户 13 亿，未分离手机端，不写入 App MAU 排序。"
         }
       },
       "count": 10,
       "categorySummary": "消息 6，通话与活动 4",
-      "rank": 18,
+      "rank": 16,
       "previousRank": 18,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "slack",
@@ -1253,14 +1137,20 @@ window.APP_DATA = {
         "durationMinutes": null,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2019-09（历史值）",
+        "methodLabel": "跨端 DAU；不是手机 MAU",
+        "activeUserLabel": "超过 1,200 万跨端 DAU",
+        "source": {
+          "url": "https://slack.com/blog/news/slacks-growth-in-asia",
+          "title": "Slack 官方 · 亚洲增长回顾",
+          "note": "Slack 官方于 2019-10-16 披露，2019 年 9 月跨端日活超过 1,200 万；未分离手机端，不将 DAU 转成 MAU，也不采用跨端在线或工作时长填充手机日均。"
+        }
       },
       "count": 10,
       "categorySummary": "沟通 5，协作 4，服务 1",
-      "rank": 19,
+      "rank": 17,
       "previousRank": 19,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "uber",
@@ -1314,9 +1204,9 @@ window.APP_DATA = {
       },
       "count": 10,
       "categorySummary": "行程 6，安全与交易 4",
-      "rank": 20,
+      "rank": 18,
       "previousRank": 20,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "whatsapp",
@@ -1380,9 +1270,9 @@ window.APP_DATA = {
       },
       "count": 9,
       "categorySummary": "消息 6，通话与活动 3",
-      "rank": 21,
+      "rank": 19,
       "previousRank": 21,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "spotify",
@@ -1423,25 +1313,59 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id324684580",
           "type": "官方应用页",
           "note": "开发者：Spotify。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "WIK · 德国音视频流媒体研究，图 9（印刷页 14）",
+          "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+          "note": "2022-12 发布，研究 2020 Q1 至 2021 Q3；图 9 标注 2021，德国 Android/iOS 移动端（未单独剔除平板）。Spotify 柱高约 58 分钟；图中没有数值标签，本网页按刻度读至整数分钟，非原始精确值；不是仅前台屏幕时间或当前全球均值。",
+          "type": "使用行为补充研究"
+        },
+        {
+          "title": "Ofcom CMR 2017 · 5.2 节，印刷页 166—167",
+          "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/cmr/cmr17/uk/uk-internet-online.pdf",
+          "note": "报告正文明确给出 Spotify 用户平均每天打开 2.01 次。研究总样本 1,200 名自愿参加的英国 Android 用户，不保证代表全体英国人；不捕获后台运行或不足 5 秒的会话。该数值为原文日均，不用总会话数除以未经核实的用户观测天数。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
-        "launches": null,
+        "durationMinutes": 58,
+        "launches": 2.01,
         "activeUsers": 77700,
         "period": "2026 Q2",
         "methodLabel": "MAU",
         "source": {
           "url": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
           "title": "Spotify 2026 Q2 业绩",
-          "note": "官方披露 MAU 7.77 亿。"
+          "note": "官方披露 MAU 7.77 亿。 日均时长补充：2021（历史，德国）；移动端活跃用户日均；图表约值。2022-12 发布，研究 2020 Q1 至 2021 Q3；图 9 标注 2021，德国 Android/iOS 移动端（未单独剔除平板）。Spotify 柱高约 58 分钟；图中没有数值标签，本网页按刻度读至整数分钟，非原始精确值；不是仅前台屏幕时间或当前全球均值。 日均打开补充：2016-09-27—12-23（历史，英国）；Android 日均会话；Ofcom 实测样本。报告正文明确给出 Spotify 用户平均每天打开 2.01 次。研究总样本 1,200 名自愿参加的英国 Android 用户，不保证代表全体英国人；不捕获后台运行或不足 5 秒的会话。该数值为原文日均，不用总会话数除以未经核实的用户观测天数。"
+        },
+        "durationMinutesPrefix": "约",
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2021（历史，德国）",
+            "methodLabel": "移动端活跃用户日均；图表约值",
+            "source": {
+              "title": "WIK · 德国音视频流媒体研究，图 9（印刷页 14）",
+              "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+              "note": "2022-12 发布，研究 2020 Q1 至 2021 Q3；图 9 标注 2021，德国 Android/iOS 移动端（未单独剔除平板）。Spotify 柱高约 58 分钟；图中没有数值标签，本网页按刻度读至整数分钟，非原始精确值；不是仅前台屏幕时间或当前全球均值。"
+            }
+          },
+          "launches": {
+            "period": "2016-09-27—12-23（历史，英国）",
+            "methodLabel": "Android 日均会话；Ofcom 实测样本",
+            "precision": 2,
+            "source": {
+              "title": "Ofcom CMR 2017 · 5.2 节，印刷页 166—167",
+              "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/cmr/cmr17/uk/uk-internet-online.pdf",
+              "note": "报告正文明确给出 Spotify 用户平均每天打开 2.01 次。研究总样本 1,200 名自愿参加的英国 Android 用户，不保证代表全体英国人；不捕获后台运行或不足 5 秒的会话。该数值为原文日均，不用总会话数除以未经核实的用户观测天数。"
+            }
+          }
         }
       },
       "count": 9,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 2",
-      "rank": 22,
+      "rank": 20,
       "previousRank": 22,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "yelp",
@@ -1493,9 +1417,9 @@ window.APP_DATA = {
       },
       "count": 9,
       "categorySummary": "互动 4，本地服务 5",
-      "rank": 23,
+      "rank": 21,
       "previousRank": 23,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "grubhub",
@@ -1548,9 +1472,9 @@ window.APP_DATA = {
       },
       "count": 9,
       "categorySummary": "订单 7，售后与营销 2",
-      "rank": 24,
+      "rank": 22,
       "previousRank": 24,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "google-maps",
@@ -1607,9 +1531,9 @@ window.APP_DATA = {
       },
       "count": 8,
       "categorySummary": "导航 4，地点与共享 4",
-      "rank": 25,
+      "rank": 23,
       "previousRank": 25,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "capcut",
@@ -1665,9 +1589,9 @@ window.APP_DATA = {
       },
       "count": 8,
       "categorySummary": "创作任务 3，模板与社区 3，服务 2",
-      "rank": 26,
+      "rank": 24,
       "previousRank": 26,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "clubhouse",
@@ -1718,9 +1642,9 @@ window.APP_DATA = {
       },
       "count": 8,
       "categorySummary": "房间 4，互动 4",
-      "rank": 27,
+      "rank": 25,
       "previousRank": 27,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "amazon-music",
@@ -1760,20 +1684,44 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id510855668",
           "type": "官方应用页",
           "note": "开发者：AMZN Mobile LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "WIK · 德国音视频流媒体研究，图 9",
+          "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+          "note": "图 9 的 Amazon Music 柱高约 43 分钟/活跃用户/日；德国 Android/iOS 移动端，未单独剔除平板，2021 历史样本。图表没有精确值标签，整数分钟为读图约值，不是全球全体用户均值。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 43,
         "launches": null,
         "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
+        "period": "2020-01 公布（历史值）",
+        "methodLabel": "全球客户数；不是 App MAU",
+        "activeUserLabel": "超过 5,500 万客户（跨端）",
+        "source": {
+          "url": "https://press.aboutamazon.com/2020/1/amazon-com-announces-fourth-quarter-sales-up-21-to-87-4-billion",
+          "title": "Amazon 官方 · 2019 Q4 业绩公告",
+          "note": "2020-01-30 公告披露 Amazon Music 全球客户超过 5,500 万，未定义月度活跃或区分手机端，因此仅作历史规模参考，不参与 MAU 排序。 日均时长补充：2021（历史，德国）；移动端活跃用户日均；图表约值。图 9 的 Amazon Music 柱高约 43 分钟/活跃用户/日；德国 Android/iOS 移动端，未单独剔除平板，2021 历史样本。图表没有精确值标签，整数分钟为读图约值，不是全球全体用户均值。"
+        },
+        "durationMinutesPrefix": "约",
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2021（历史，德国）",
+            "methodLabel": "移动端活跃用户日均；图表约值",
+            "source": {
+              "title": "WIK · 德国音视频流媒体研究，图 9",
+              "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+              "note": "图 9 的 Amazon Music 柱高约 43 分钟/活跃用户/日；德国 Android/iOS 移动端，未单独剔除平板，2021 历史样本。图表没有精确值标签，整数分钟为读图约值，不是全球全体用户均值。"
+            }
+          }
+        }
       },
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
-      "rank": 28,
+      "rank": 26,
       "previousRank": 28,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "github",
@@ -1825,134 +1773,9 @@ window.APP_DATA = {
       },
       "count": 8,
       "categorySummary": "协作 6，仓库 2",
-      "rank": 29,
+      "rank": 27,
       "previousRank": 29,
-      "rankChange": 0
-    },
-    {
-      "id": "gmail",
-      "name": "Gmail",
-      "appCategory": "邮件与通讯",
-      "logo": "assets/logos/global/gmail.jpg",
-      "confidence": "high",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "邮件",
-          "items": [
-            "所有新邮件",
-            "重要邮件",
-            "主要收件箱邮件",
-            "指定发件人邮件"
-          ]
-        },
-        {
-          "name": "协作与日程",
-          "items": [
-            "日历或邀请",
-            "共享内容更新"
-          ]
-        },
-        {
-          "name": "账号服务",
-          "items": [
-            "存储空间提醒",
-            "账号安全"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Gmail 通知设置",
-          "url": "https://support.google.com/mail/answer/1075549?hl=en",
-          "type": "官方帮助",
-          "note": "官方区分所有新邮件、重要邮件与主要收件箱通知。"
-        },
-        {
-          "title": "Gmail - Email by Google · App Store",
-          "url": "https://apps.apple.com/us/app/id422689480",
-          "type": "官方应用页",
-          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "2026-01",
-        "methodLabel": "产品用户规模（跨端代理）",
-        "activeUserLabel": "30 亿产品用户（跨端）",
-        "source": {
-          "url": "https://blog.google/products-and-platforms/products/gmail/gmail-is-entering-the-gemini-era/",
-          "title": "Google：Gmail 进入 Gemini 时代",
-          "note": "Google 披露 30 亿用户依赖 Gmail；未限定手机 App，故不写入严格 MAU 排序。"
-        }
-      },
-      "count": 8,
-      "categorySummary": "邮件 4，协作与日程 2，账号服务 2",
-      "rank": 30,
-      "previousRank": 30,
-      "rankChange": 0
-    },
-    {
-      "id": "microsoft-teams",
-      "name": "Microsoft Teams",
-      "appCategory": "协作与办公",
-      "logo": "assets/logos/global/microsoft-teams.jpg",
-      "confidence": "high",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "沟通",
-          "items": [
-            "直接消息",
-            "频道或群组消息",
-            "@提及",
-            "消息回复",
-            "消息反应"
-          ]
-        },
-        {
-          "name": "协作",
-          "items": [
-            "任务被指派",
-            "文档评论",
-            "会议开始"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Microsoft Teams 通知管理",
-          "url": "https://support.microsoft.com/en-US/teams/notifications-settings/manage-notifications-in-microsoft-teams",
-          "type": "官方帮助",
-          "note": "官方列出聊天、频道、提及、会议、通话、状态和应用通知。"
-        },
-        {
-          "title": "Microsoft Teams · App Store",
-          "url": "https://apps.apple.com/us/app/id1113153706",
-          "type": "官方应用页",
-          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "2023",
-        "methodLabel": "月活用户（跨端）",
-        "activeUserLabel": "3.2 亿月活用户",
-        "source": {
-          "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/",
-          "title": "Microsoft Teams 官方博客",
-          "note": "跨桌面、网页和移动端产品 MAU，不等同手机 App MAU。"
-        }
-      },
-      "count": 8,
-      "categorySummary": "沟通 5，协作 3",
-      "rank": 31,
-      "previousRank": 31,
-      "rankChange": 0
+      "rankChange": 2
     },
     {
       "id": "paypal",
@@ -2004,9 +1827,9 @@ window.APP_DATA = {
       },
       "count": 8,
       "categorySummary": "资金交易 5，账户 3",
-      "rank": 32,
+      "rank": 28,
       "previousRank": 32,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "priceline",
@@ -2052,9 +1875,9 @@ window.APP_DATA = {
       },
       "count": 8,
       "categorySummary": "行程 6，服务 2",
-      "rank": 33,
+      "rank": 29,
       "previousRank": 33,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "soundcloud",
@@ -2094,10 +1917,16 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id336353151",
           "type": "官方应用页",
           "note": "开发者：SoundCloud Global Limited & Co KG。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "WIK · 德国音视频流媒体研究，图 9",
+          "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+          "note": "图 9 的 SoundCloud 柱高约 32 分钟/活跃用户/日；德国 Android/iOS 移动端，未单独剔除平板。无精确数值标签，按刻度读至整数分钟，保留约字，不代表当前全球均值。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 32,
         "launches": null,
         "activeUsers": null,
         "period": "2014-11（历史数据）",
@@ -2106,14 +1935,26 @@ window.APP_DATA = {
         "source": {
           "url": "https://www.wmg.com/news/warner-music-group-and-soundcloud-announce-groundbreaking-partnership-20036",
           "title": "Warner Music 与 SoundCloud 合作公告",
-          "note": "公告称 SoundCloud 当时每月有 1.75 亿独立听众；数据较旧且未限定手机 App，仅作历史代理展示。"
+          "note": "公告称 SoundCloud 当时每月有 1.75 亿独立听众；数据较旧且未限定手机 App，仅作历史代理展示。 日均时长补充：2021（历史，德国）；移动端活跃用户日均；图表约值。图 9 的 SoundCloud 柱高约 32 分钟/活跃用户/日；德国 Android/iOS 移动端，未单独剔除平板。无精确数值标签，按刻度读至整数分钟，保留约字，不代表当前全球均值。"
+        },
+        "durationMinutesPrefix": "约",
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2021（历史，德国）",
+            "methodLabel": "移动端活跃用户日均；图表约值",
+            "source": {
+              "title": "WIK · 德国音视频流媒体研究，图 9",
+              "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+              "note": "图 9 的 SoundCloud 柱高约 32 分钟/活跃用户/日；德国 Android/iOS 移动端，未单独剔除平板。无精确数值标签，按刻度读至整数分钟，保留约字，不代表当前全球均值。"
+            }
+          }
         }
       },
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
-      "rank": 34,
+      "rank": 30,
       "previousRank": 34,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "youtube-music",
@@ -2153,10 +1994,16 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id1017492454",
           "type": "官方应用页",
           "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "WIK · 德国音视频流媒体研究，图 9",
+          "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+          "note": "图 9 的 YouTube Music 柱高约 25 分钟/活跃用户/日，指独立音乐 App，不是 YouTube 中的音乐视频。德国 Android/iOS 移动端，未单独剔除平板；无精确数字标签，为 2021 历史读图约值。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 25,
         "launches": null,
         "activeUsers": null,
         "period": "截至 2024-12",
@@ -2165,14 +2012,26 @@ window.APP_DATA = {
         "source": {
           "url": "https://blog.youtube/inside-youtube/our-big-bets-for-2025/",
           "title": "YouTube CEO 2025 展望",
-          "note": "YouTube Music 与 Premium 合计超过 1 亿订阅，含试用；不是 App MAU。"
+          "note": "YouTube Music 与 Premium 合计超过 1 亿订阅，含试用；不是 App MAU。 日均时长补充：2021（历史，德国）；移动端活跃用户日均；图表约值。图 9 的 YouTube Music 柱高约 25 分钟/活跃用户/日，指独立音乐 App，不是 YouTube 中的音乐视频。德国 Android/iOS 移动端，未单独剔除平板；无精确数字标签，为 2021 历史读图约值。"
+        },
+        "durationMinutesPrefix": "约",
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2021（历史，德国）",
+            "methodLabel": "移动端活跃用户日均；图表约值",
+            "source": {
+              "title": "WIK · 德国音视频流媒体研究，图 9",
+              "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+              "note": "图 9 的 YouTube Music 柱高约 25 分钟/活跃用户/日，指独立音乐 App，不是 YouTube 中的音乐视频。德国 Android/iOS 移动端，未单独剔除平板；无精确数字标签，为 2021 历史读图约值。"
+            }
+          }
         }
       },
       "count": 8,
       "categorySummary": "内容更新 4，推荐与社交 3，服务 1",
-      "rank": 35,
+      "rank": 31,
       "previousRank": 35,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "zoom",
@@ -2224,9 +2083,9 @@ window.APP_DATA = {
       },
       "count": 8,
       "categorySummary": "沟通 5，协作 3",
-      "rank": 36,
+      "rank": 32,
       "previousRank": 36,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "ticketmaster",
@@ -2276,9 +2135,9 @@ window.APP_DATA = {
       },
       "count": 7,
       "categorySummary": "票务 5，服务 2",
-      "rank": 37,
+      "rank": 33,
       "previousRank": 37,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "amazon-alexa",
@@ -2329,9 +2188,9 @@ window.APP_DATA = {
       },
       "count": 7,
       "categorySummary": "设备与家庭 4，服务 3",
-      "rank": 38,
+      "rank": 34,
       "previousRank": 38,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "disney-plus",
@@ -2365,26 +2224,49 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id1446075923",
           "type": "官方应用页",
           "note": "开发者：Disney Electronic Content, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Disney 2025 Q2 业绩",
+          "url": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
+          "type": "官方财报代理",
+          "note": "Disney+ 付费订阅 1.26 亿；订阅账户不是 App MAU。"
+        },
+        {
+          "title": "Apptopia · Disney+ 4 Week Report，第 5 页",
+          "url": "https://engage.apptopia.com/hubfs/Disney%2B/New%20Disney%2B%20Month.pdf",
+          "note": "2019-11-12 上线后四周报告明确披露 recent global sessions per DAU 为 2.7，即当天活跃用户的日均会话；当时仅在美国、加拿大、澳大利亚、新西兰、荷兰上线。不能外推为当前全球用户平均每天打开次数，也不能把该值复制给竞争应用。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
-        "launches": null,
+        "durationMinutes": 23,
+        "launches": 2.7,
         "activeUsers": null,
-        "period": "2025 Q2",
-        "methodLabel": "付费订阅（非 MAU）",
+        "period": "时长 2025 Q4 美国 / 订阅 2025 Q2",
+        "methodLabel": "美国手机日均历史样本；订阅非 MAU",
         "activeUserLabel": "1.26 亿付费订阅",
         "source": {
-          "url": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
-          "title": "Disney 2025 Q2 业绩",
-          "note": "官方披露 Disney+ 付费订阅 1.26 亿；订阅账户不是 App MAU。"
+          "url": "https://omdia.tech.informa.com/pr/2026/feb/microdramas-overtake-streamers-on-mobile-engagement-says-omdia",
+          "title": "Omdia · 2026-02-23 移动视频研究",
+          "note": "Omdia 分析 Sensor Tower 2025 Q4 美国移动端数据，Disney+ 人均每天 23.0 分钟，不代表全球或电视端时长。1.26 亿付费订阅来自另一条官方财报，不是 App MAU。 日均打开补充：2019-12（上线四周，历史）；全球已上线市场；每 DAU 日均会话。2019-11-12 上线后四周报告明确披露 recent global sessions per DAU 为 2.7，即当天活跃用户的日均会话；当时仅在美国、加拿大、澳大利亚、新西兰、荷兰上线。不能外推为当前全球用户平均每天打开次数，也不能把该值复制给竞争应用。"
+        },
+        "metricMeta": {
+          "launches": {
+            "period": "2019-12（上线四周，历史）",
+            "methodLabel": "全球已上线市场；每 DAU 日均会话",
+            "source": {
+              "title": "Apptopia · Disney+ 4 Week Report，第 5 页",
+              "url": "https://engage.apptopia.com/hubfs/Disney%2B/New%20Disney%2B%20Month.pdf",
+              "note": "2019-11-12 上线后四周报告明确披露 recent global sessions per DAU 为 2.7，即当天活跃用户的日均会话；当时仅在美国、加拿大、澳大利亚、新西兰、荷兰上线。不能外推为当前全球用户平均每天打开次数，也不能把该值复制给竞争应用。"
+            }
+          }
         }
       },
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
-      "rank": 39,
+      "rank": 35,
       "previousRank": 39,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "flickr",
@@ -2430,62 +2312,9 @@ window.APP_DATA = {
       },
       "count": 7,
       "categorySummary": "共享活动 7",
-      "rank": 40,
+      "rank": 36,
       "previousRank": 40,
-      "rankChange": 0
-    },
-    {
-      "id": "chrome",
-      "name": "Google Chrome",
-      "appCategory": "浏览器",
-      "logo": "assets/logos/global/chrome.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "网页与下载",
-          "items": [
-            "网站推送",
-            "下载完成",
-            "下载失败"
-          ]
-        },
-        {
-          "name": "账号与安全",
-          "items": [
-            "密码或泄露警报",
-            "同步异常",
-            "浏览器更新",
-            "账号安全"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Google Chrome · App Store",
-          "url": "https://apps.apple.com/us/app/id535886823",
-          "type": "官方应用页",
-          "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "2025 白皮书",
-        "methodLabel": "浏览器用户规模（跨端）",
-        "activeUserLabel": "20 亿+浏览器用户（跨端）",
-        "source": {
-          "url": "https://services.google.com/fh/files/misc/bce-protected-profiles-whitepaper.pdf",
-          "title": "Google Chrome Enterprise 白皮书",
-          "note": "Google 材料称 Chrome 超过 20 亿用户；未拆分手机 App 或 MAU，故仅作代理展示。"
-        }
-      },
-      "count": 7,
-      "categorySummary": "网页与下载 3，账号与安全 4",
-      "rank": 41,
-      "previousRank": 41,
-      "rankChange": 0
+      "rankChange": 4
     },
     {
       "id": "iheartradio",
@@ -2536,9 +2365,9 @@ window.APP_DATA = {
       },
       "count": 7,
       "categorySummary": "内容更新 4，推荐与社交 3",
-      "rank": 42,
+      "rank": 37,
       "previousRank": 42,
-      "rankChange": 0
+      "rankChange": 5
     },
     {
       "id": "max",
@@ -2572,10 +2401,16 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id1666653815",
           "type": "官方应用页",
           "note": "开发者：WarnerMedia Global Digital Services, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Apptopia · Mid-Q1 2026 Streaming Investor Note",
+          "url": "https://apptopia.com/en/insights/investor-note-mid-q1-2026-look-at-potential-and-peril-for-streamers-nflx-wbd-cmcsa-dis/",
+          "note": "2026-03-10 发布，明确限定全部为美国 mobile app 数据，2026 Q1 仅截至 2 月。HBO Max 每日活跃用户平均使用 63.4 分钟；对应表内 Max 的同一产品品牌沿革。不是全年全球均值，也不是月活用户自然日摊均。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 63.4,
         "launches": null,
         "activeUsers": null,
         "period": "2025 Q4",
@@ -2584,14 +2419,25 @@ window.APP_DATA = {
         "source": {
           "url": "https://s201.q4cdn.com/336605034/files/doc_earnings/2025/q4/earnings-result/WBD-4Q25-Shareholder-Letter.pdf",
           "title": "WBD 2025 Q4 股东信",
-          "note": "WBD 流媒体板块（含 HBO Max 与 discovery+）期末约 1.32 亿订阅；不是 Max 单 App MAU。"
+          "note": "WBD 流媒体板块（含 HBO Max 与 discovery+）期末约 1.32 亿订阅；不是 Max 单 App MAU。 日均时长补充：2026-01—02（美国）；手机端；每 DAU 日均时长。2026-03-10 发布，明确限定全部为美国 mobile app 数据，2026 Q1 仅截至 2 月。HBO Max 每日活跃用户平均使用 63.4 分钟；对应表内 Max 的同一产品品牌沿革。不是全年全球均值，也不是月活用户自然日摊均。"
+        },
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2026-01—02（美国）",
+            "methodLabel": "手机端；每 DAU 日均时长",
+            "source": {
+              "title": "Apptopia · Mid-Q1 2026 Streaming Investor Note",
+              "url": "https://apptopia.com/en/insights/investor-note-mid-q1-2026-look-at-potential-and-peril-for-streamers-nflx-wbd-cmcsa-dis/",
+              "note": "2026-03-10 发布，明确限定全部为美国 mobile app 数据，2026 Q1 仅截至 2 月。HBO Max 每日活跃用户平均使用 63.4 分钟；对应表内 Max 的同一产品品牌沿革。不是全年全球均值，也不是月活用户自然日摊均。"
+            }
+          }
         }
       },
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
-      "rank": 43,
+      "rank": 38,
       "previousRank": 43,
-      "rankChange": 0
+      "rankChange": 5
     },
     {
       "id": "netflix",
@@ -2625,26 +2471,32 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id363590051",
           "type": "官方应用页",
           "note": "开发者：Netflix, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Netflix 2024 Q4 付费会员",
+          "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+          "type": "官方财报代理",
+          "note": "保留原历史规模记录：2024 Q4 付费会员 3.016 亿，既不是 App MAU，也不等于本次美国移动 MAU。"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 24.8,
         "launches": null,
         "activeUsers": null,
-        "period": "2024 Q4",
-        "methodLabel": "付费会员数",
-        "activeUserLabel": "3.016 亿付费会员",
+        "period": "2025 Q4（美国移动端历史样本）",
+        "methodLabel": "美国手机日均；地区 MAU 仅作参考",
+        "activeUserLabel": "约 1,200 万美国移动 MAU",
         "source": {
-          "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
-          "title": "Netflix 投资者关系",
-          "note": "订阅会员不是 App MAU，不参与 MAU 并列排序。"
+          "url": "https://omdia.tech.informa.com/pr/2026/feb/microdramas-overtake-streamers-on-mobile-engagement-says-omdia",
+          "title": "Omdia · 2026-02-23 移动视频研究",
+          "note": "Omdia 分析 Sensor Tower 2025 Q4 数据：美国移动端人均每日 24.8 分钟，月活约 1,200 万。地区 MAU 不是全球 MAU，不填入全球 MAU 数值字段，也不参与 MAU 排序。"
         }
       },
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
-      "rank": 44,
+      "rank": 39,
       "previousRank": 44,
-      "rankChange": 0
+      "rankChange": 5
     },
     {
       "id": "notion",
@@ -2695,9 +2547,9 @@ window.APP_DATA = {
       },
       "count": 7,
       "categorySummary": "沟通 5，协作 2",
-      "rank": 45,
+      "rank": 40,
       "previousRank": 45,
-      "rankChange": 0
+      "rankChange": 5
     },
     {
       "id": "stubhub",
@@ -2748,9 +2600,9 @@ window.APP_DATA = {
       },
       "count": 7,
       "categorySummary": "票务 5，服务 2",
-      "rank": 46,
+      "rank": 41,
       "previousRank": 46,
-      "rankChange": 0
+      "rankChange": 5
     },
     {
       "id": "youtube-tv",
@@ -2801,9 +2653,9 @@ window.APP_DATA = {
       },
       "count": 7,
       "categorySummary": "内容 4，观看与服务 3",
-      "rank": 47,
+      "rank": 42,
       "previousRank": 47,
-      "rankChange": 0
+      "rankChange": 5
     },
     {
       "id": "chatgpt",
@@ -2858,9 +2710,9 @@ window.APP_DATA = {
       },
       "count": 6,
       "categorySummary": "任务与内容 3，账号与产品 3",
-      "rank": 48,
+      "rank": 43,
       "previousRank": 48,
-      "rankChange": 0
+      "rankChange": 5
     },
     {
       "id": "accuweather",
@@ -2910,61 +2762,9 @@ window.APP_DATA = {
       },
       "count": 6,
       "categorySummary": "恶劣天气 3，日常预报 3",
-      "rank": 49,
+      "rank": 44,
       "previousRank": 49,
-      "rankChange": 0
-    },
-    {
-      "id": "aol-mail",
-      "name": "AOL Mail",
-      "appCategory": "邮件与通讯",
-      "logo": "assets/logos/global/aol-mail.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "邮件",
-          "items": [
-            "所有新邮件",
-            "重要邮件",
-            "主要收件箱邮件",
-            "指定发件人邮件"
-          ]
-        },
-        {
-          "name": "协作与日程",
-          "items": [
-            "日历或邀请",
-            "共享内容更新"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "AOL Mail, News, Weather · App Store",
-          "url": "https://apps.apple.com/us/app/id646100661",
-          "type": "官方应用页",
-          "note": "开发者：AOL Media LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "官网当前值（抓取于 2026-09）",
-        "methodLabel": "AOL 跨产品月用户 / 邮件日用户",
-        "activeUserLabel": "300 万邮件日用户（跨端）",
-        "source": {
-          "url": "https://www.aol.com/about-us/",
-          "title": "AOL · About Us",
-          "note": "AOL 官方称全站每月 3,000 万用户、每天 300 万人查看邮件；未披露 AOL Mail 手机 App MAU，故仅作代理展示。"
-        }
-      },
-      "count": 6,
-      "categorySummary": "邮件 4，协作与日程 2",
-      "rank": 50,
-      "previousRank": 50,
-      "rankChange": 0
+      "rankChange": 5
     },
     {
       "id": "fitbit",
@@ -3014,101 +2814,9 @@ window.APP_DATA = {
       },
       "count": 6,
       "categorySummary": "健康目标 3，设备与社交 3",
-      "rank": 51,
+      "rank": 45,
       "previousRank": 51,
-      "rankChange": 0
-    },
-    {
-      "id": "edge",
-      "name": "Microsoft Edge",
-      "appCategory": "浏览器",
-      "logo": "assets/logos/global/edge.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "网页与下载",
-          "items": [
-            "网站推送",
-            "下载完成",
-            "下载失败"
-          ]
-        },
-        {
-          "name": "账号与安全",
-          "items": [
-            "密码或泄露警报",
-            "同步异常",
-            "浏览器更新"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Microsoft Edge · App Store",
-          "url": "https://apps.apple.com/us/app/id1288723196",
-          "type": "官方应用页",
-          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 6,
-      "categorySummary": "网页与下载 3，账号与安全 3",
-      "rank": 52,
-      "previousRank": 52,
-      "rankChange": 0
-    },
-    {
-      "id": "onedrive",
-      "name": "OneDrive",
-      "appCategory": "云存储与工具",
-      "logo": "assets/logos/global/onedrive.jpg",
-      "confidence": "low",
-      "countMethod": "独立提醒场景；同一场景的横幅、声音、角标不重复计数",
-      "categories": [
-        {
-          "name": "文件活动",
-          "items": [
-            "共享邀请",
-            "他人评论或提及",
-            "共享文件更改"
-          ]
-        },
-        {
-          "name": "同步与服务",
-          "items": [
-            "上传或同步完成",
-            "存储空间提醒",
-            "账号安全"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "title": "Microsoft OneDrive · App Store",
-          "url": "https://apps.apple.com/us/app/id477537958",
-          "type": "官方应用页",
-          "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
-        }
-      ],
-      "usage": {
-        "durationMinutes": null,
-        "launches": null,
-        "activeUsers": null,
-        "period": "未找到可核验的公开同口径数据",
-        "methodLabel": "严格口径留空"
-      },
-      "count": 6,
-      "categorySummary": "文件活动 3，同步与服务 3",
-      "rank": 53,
-      "previousRank": 53,
-      "rankChange": 0
+      "rankChange": 6
     },
     {
       "id": "tunein",
@@ -3141,10 +2849,16 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id418987775",
           "type": "官方应用页",
           "note": "开发者：TuneIn。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "WIK · 德国音视频流媒体研究，图 9",
+          "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+          "note": "图 9 的 TuneIn Radio 柱高约 38 分钟/活跃用户/日，德国 Android/iOS 移动端，未单独剔除平板。图无精确值标签，为 2021 历史读图约值，不是车载/智能音箱所有终端的收听时长。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 38,
         "launches": null,
         "activeUsers": null,
         "period": "2025-11",
@@ -3153,14 +2867,26 @@ window.APP_DATA = {
         "source": {
           "url": "https://corporate.stingray.com/acquisitions/stingray-acquires-tunein/",
           "title": "Stingray 收购 TuneIn 公告",
-          "note": "收购方官方公告称 TuneIn 全球每月活跃听众超过 7,500 万，但覆盖车机、网页及连接设备，故不写入手机 App MAU 排序。"
+          "note": "收购方官方公告称 TuneIn 全球每月活跃听众超过 7,500 万，但覆盖车机、网页及连接设备，故不写入手机 App MAU 排序。 日均时长补充：2021（历史，德国）；移动端活跃用户日均；图表约值。图 9 的 TuneIn Radio 柱高约 38 分钟/活跃用户/日，德国 Android/iOS 移动端，未单独剔除平板。图无精确值标签，为 2021 历史读图约值，不是车载/智能音箱所有终端的收听时长。"
+        },
+        "durationMinutesPrefix": "约",
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2021（历史，德国）",
+            "methodLabel": "移动端活跃用户日均；图表约值",
+            "source": {
+              "title": "WIK · 德国音视频流媒体研究，图 9",
+              "url": "https://plasma.wik.org/static/PDF/WIK_DOTT_A%20first%20analysis%20of%20Audio%20and%20Video%20streaming%20markets%20in%20Germany_23122022.pdf",
+              "note": "图 9 的 TuneIn Radio 柱高约 38 分钟/活跃用户/日，德国 Android/iOS 移动端，未单独剔除平板。图无精确值标签，为 2021 历史读图约值，不是车载/智能音箱所有终端的收听时长。"
+            }
+          }
         }
       },
       "count": 6,
       "categorySummary": "内容更新 4，推荐与社交 2",
-      "rank": 54,
+      "rank": 46,
       "previousRank": 54,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "gemini",
@@ -3214,9 +2940,9 @@ window.APP_DATA = {
       },
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 55,
+      "rank": 47,
       "previousRank": 55,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "meta-ai",
@@ -3264,9 +2990,9 @@ window.APP_DATA = {
       },
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 56,
+      "rank": 48,
       "previousRank": 56,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "claude",
@@ -3298,10 +3024,16 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id6473753684",
           "type": "官方应用页",
           "note": "开发者：Anthropic PBC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Apptopia · Gen AI Chatbots February 2026 Data Brief",
+          "url": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/",
+          "note": "2026-02-03 报告正文明确给出 Claude Average Time Spent per DAU 为 34.7 分钟（1 月），不是 top 10% 重度用户。正文没有在该时长段落单独明确地域，故不称全球或美国均值；适用 Apptopia 移动端日活研究样本。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 34.7,
         "launches": null,
         "activeUsers": 5600,
         "period": "2026 Q2",
@@ -3309,14 +3041,25 @@ window.APP_DATA = {
         "source": {
           "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
           "title": "EL PAÍS / EFE 引述 Sensor Tower",
-          "note": "报道列出 Claude 全球移动 App MAU 5,600 万。"
+          "note": "报道列出 Claude 全球移动 App MAU 5,600 万。 日均时长补充：2026-01（研究样本）；手机 App 每 DAU；地区未单独明确。2026-02-03 报告正文明确给出 Claude Average Time Spent per DAU 为 34.7 分钟（1 月），不是 top 10% 重度用户。正文没有在该时长段落单独明确地域，故不称全球或美国均值；适用 Apptopia 移动端日活研究样本。"
+        },
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2026-01（研究样本）",
+            "methodLabel": "手机 App 每 DAU；地区未单独明确",
+            "source": {
+              "title": "Apptopia · Gen AI Chatbots February 2026 Data Brief",
+              "url": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/",
+              "note": "2026-02-03 报告正文明确给出 Claude Average Time Spent per DAU 为 34.7 分钟（1 月），不是 top 10% 重度用户。正文没有在该时长段落单独明确地域，故不称全球或美国均值；适用 Apptopia 移动端日活研究样本。"
+            }
+          }
         }
       },
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 57,
+      "rank": 49,
       "previousRank": 57,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "grok",
@@ -3348,10 +3091,16 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id6670324846",
           "type": "官方应用页",
           "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Apptopia · Gen AI Chatbots March 2026 Data Brief",
+          "url": "https://apptopia.com/en/insights/gen-ai-chatbots-march-2026-apptopia-data-brief-claude-gets-traction/",
+          "note": "2026-03-06 报告比较 2025-08 至 2026-02，明确称 Grok Average Time Spent per DAU 增至 nearly 22 分钟。保留近字，是原报告近似值，不是精确 22；正文混合美国/全球份额，未单独交代时长地域，不能当作全球均值。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 22,
         "launches": null,
         "activeUsers": 5000,
         "period": "2026 Q2",
@@ -3359,14 +3108,26 @@ window.APP_DATA = {
         "source": {
           "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
           "title": "EL PAÍS / EFE 引述 Sensor Tower",
-          "note": "报道列出 Grok 全球移动 App MAU 5,000 万。"
+          "note": "报道列出 Grok 全球移动 App MAU 5,000 万。 日均时长补充：2026-02（研究样本）；手机 App 每 DAU；地区未单独明确。2026-03-06 报告比较 2025-08 至 2026-02，明确称 Grok Average Time Spent per DAU 增至 nearly 22 分钟。保留近字，是原报告近似值，不是精确 22；正文混合美国/全球份额，未单独交代时长地域，不能当作全球均值。"
+        },
+        "durationMinutesPrefix": "近",
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2026-02（研究样本）",
+            "methodLabel": "手机 App 每 DAU；地区未单独明确",
+            "source": {
+              "title": "Apptopia · Gen AI Chatbots March 2026 Data Brief",
+              "url": "https://apptopia.com/en/insights/gen-ai-chatbots-march-2026-apptopia-data-brief-claude-gets-traction/",
+              "note": "2026-03-06 报告比较 2025-08 至 2026-02，明确称 Grok Average Time Spent per DAU 增至 nearly 22 分钟。保留近字，是原报告近似值，不是精确 22；正文混合美国/全球份额，未单独交代时长地域，不能当作全球均值。"
+            }
+          }
         }
       },
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 58,
+      "rank": 50,
       "previousRank": 58,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "perplexity",
@@ -3398,10 +3159,16 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id1668000334",
           "type": "官方应用页",
           "note": "开发者：Perplexity AI Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Apptopia · Gen AI Chatbots April 2026 Data Brief",
+          "url": "https://apptopia.com/en/insights/gen-ai-chatbots-april-2026-apptopia-data-brief-chatgpt-drops-below-40-market-share/",
+          "note": "2026-04-02 美国手机聊天机器人市场报告给出 Perplexity average time spent per user 从 13 增至 15 分钟，处于日活使用分析语境；与文中单独标明的 Power Users 口径区分。非网页访问时长，不把 120/139/154 分钟重度用户数值用作全体均值。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 15,
         "launches": null,
         "activeUsers": 4400,
         "period": "2026 Q2",
@@ -3409,14 +3176,25 @@ window.APP_DATA = {
         "source": {
           "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
           "title": "EL PAÍS / EFE 引述 Sensor Tower",
-          "note": "报道列出 Perplexity 全球移动 App MAU 4,400 万。"
+          "note": "报道列出 Perplexity 全球移动 App MAU 4,400 万。 日均时长补充：2026-03（美国市场研究）；手机 App 日活用户日均；非重度子群。2026-04-02 美国手机聊天机器人市场报告给出 Perplexity average time spent per user 从 13 增至 15 分钟，处于日活使用分析语境；与文中单独标明的 Power Users 口径区分。非网页访问时长，不把 120/139/154 分钟重度用户数值用作全体均值。"
+        },
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2026-03（美国市场研究）",
+            "methodLabel": "手机 App 日活用户日均；非重度子群",
+            "source": {
+              "title": "Apptopia · Gen AI Chatbots April 2026 Data Brief",
+              "url": "https://apptopia.com/en/insights/gen-ai-chatbots-april-2026-apptopia-data-brief-chatgpt-drops-below-40-market-share/",
+              "note": "2026-04-02 美国手机聊天机器人市场报告给出 Perplexity average time spent per user 从 13 增至 15 分钟，处于日活使用分析语境；与文中单独标明的 Power Users 口径区分。非网页访问时长，不把 120/139/154 分钟重度用户数值用作全体均值。"
+            }
+          }
         }
       },
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 59,
+      "rank": 51,
       "previousRank": 59,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "copilot",
@@ -3448,10 +3226,16 @@ window.APP_DATA = {
           "url": "https://apps.apple.com/us/app/id541164041",
           "type": "官方应用页",
           "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。"
+        },
+        {
+          "title": "Apptopia · Gen AI Chatbots February 2026 Data Brief",
+          "url": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/",
+          "note": "2026-02-03 报告明确披露消费者版 Microsoft Copilot 为 27.2 分钟/DAU，不是企业集成版 Microsoft 365 Copilot，也不是重度用户的 154 分钟。时长段落未单独明确地域，因此只标记为移动端研究样本，不称全球均值。",
+          "type": "使用行为补充研究"
         }
       ],
       "usage": {
-        "durationMinutes": null,
+        "durationMinutes": 27.2,
         "launches": null,
         "activeUsers": 3100,
         "period": "2026 Q2",
@@ -3459,14 +3243,25 @@ window.APP_DATA = {
         "source": {
           "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
           "title": "EL PAÍS / EFE 引述 Sensor Tower",
-          "note": "报道列出 Microsoft Copilot 全球移动 App MAU 3,100 万。"
+          "note": "报道列出 Microsoft Copilot 全球移动 App MAU 3,100 万。 日均时长补充：2026-01（研究样本）；手机 App 每 DAU；地区未单独明确。2026-02-03 报告明确披露消费者版 Microsoft Copilot 为 27.2 分钟/DAU，不是企业集成版 Microsoft 365 Copilot，也不是重度用户的 154 分钟。时长段落未单独明确地域，因此只标记为移动端研究样本，不称全球均值。"
+        },
+        "metricMeta": {
+          "durationMinutes": {
+            "period": "2026-01（研究样本）",
+            "methodLabel": "手机 App 每 DAU；地区未单独明确",
+            "source": {
+              "title": "Apptopia · Gen AI Chatbots February 2026 Data Brief",
+              "url": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/",
+              "note": "2026-02-03 报告明确披露消费者版 Microsoft Copilot 为 27.2 分钟/DAU，不是企业集成版 Microsoft 365 Copilot，也不是重度用户的 154 分钟。时长段落未单独明确地域，因此只标记为移动端研究样本，不称全球均值。"
+            }
+          }
         }
       },
       "count": 5,
       "categorySummary": "任务与内容 3，账号与产品 2",
-      "rank": 60,
+      "rank": 52,
       "previousRank": 60,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "firefox",
@@ -3515,9 +3310,9 @@ window.APP_DATA = {
       },
       "count": 5,
       "categorySummary": "网页与下载 3，账号与安全 2",
-      "rank": 61,
+      "rank": 53,
       "previousRank": 61,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "safari",
@@ -3559,9 +3354,9 @@ window.APP_DATA = {
       },
       "count": 4,
       "categorySummary": "网页与下载 3，账号与安全 1",
-      "rank": 62,
+      "rank": 54,
       "previousRank": 62,
-      "rankChange": 0
+      "rankChange": 8
     },
     {
       "id": "vlc",
@@ -3603,9 +3398,9 @@ window.APP_DATA = {
       },
       "count": 3,
       "categorySummary": "播放与服务 3",
-      "rank": 63,
+      "rank": 55,
       "previousRank": 63,
-      "rankChange": 0
+      "rankChange": 8
     }
   ]
 };
