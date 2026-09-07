@@ -12,7 +12,10 @@ const names = new Set();
 const errors = [];
 
 if (source.apps.length !== 65) errors.push(`Expected 65 apps, found ${source.apps.length}`);
-if (globalSource.apps.length !== 63) errors.push(`Expected 63 global apps, found ${globalSource.apps.length}`);
+if (globalSource.apps.length !== 55) errors.push(`Expected 55 global apps, found ${globalSource.apps.length}`);
+for (const id of ["google-photos", "google-ads", "onedrive", "edge", "aol-mail", "chrome", "microsoft-teams", "gmail"]) {
+  if (globalSource.apps.some(app => app.id === id)) errors.push(`Removed global app reappeared: ${id}`);
+}
 
 for (const app of source.apps) {
   if (ids.has(app.id)) errors.push(`Duplicate id: ${app.id}`);

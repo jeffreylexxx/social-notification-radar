@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const manifest = JSON.parse(await fs.readFile(path.join(root, "data", "global-app-store.json"), "utf8"));
 const storeById = new Map(manifest.map(item => [item.id, item]));
+const usageSupplement = JSON.parse(await fs.readFile(path.join(root, "data", "global-usage-supplement.json"), "utf8"));
 
 // The target count is the number of independently recognisable reminder scenarios,
 // not the number of operating-system notification channels or settings toggles.
@@ -118,17 +119,19 @@ const extraSources = {
 };
 
 const usage = {
+  slack: [null,null,null,"2019-09（历史值）","跨端 DAU；不是手机 MAU","https://slack.com/blog/news/slacks-growth-in-asia","Slack 官方 · 亚洲增长回顾","Slack 官方于 2019-10-16 披露，2019 年 9 月跨端日活超过 1,200 万；未分离手机端，不将 DAU 转成 MAU，也不采用跨端在线或工作时长填充手机日均。","超过 1,200 万跨端 DAU"],
+  "amazon-music": [null,null,null,"2020-01 公布（历史值）","全球客户数；不是 App MAU","https://press.aboutamazon.com/2020/1/amazon-com-announces-fourth-quarter-sales-up-21-to-87-4-billion","Amazon 官方 · 2019 Q4 业绩公告","2020-01-30 公告披露 Amazon Music 全球客户超过 5,500 万，未定义月度活跃或区分手机端，因此仅作历史规模参考，不参与 MAU 排序。","超过 5,500 万客户（跨端）"],
   instagram: [73,12.3,300000,"2025-08 / MAU 2025-09","Android 全球日均；MAU 官方","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb App Intelligence 的全球 Android 样本（不含中国）；MAU 由 Meta 另页披露为 30 亿。"],
   facebook: [67,9.1,305000,"2025-08 / MAU 2023 Q3","Android 全球日均；MAU 为官方历史值","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb 全球 Android 样本；Meta 已停止披露 Facebook 单产品 MAU，保留 2023 Q3 官方历史值 30.5 亿。"],
   x: [28,6.8,null,"2025-08 / 移动 DAU 2026-01-07","Android 全球日均；移动 DAU 代理","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb App Intelligence 全球 Android 样本，不含中国；Similarweb 另估算 iOS 与 Android 合计移动 DAU 约 1.25 亿，DAU 不写入 MAU 排序。","1.25 亿移动 DAU"],
   whatsapp: [59,20.7,300000,"2025-08 / MAU 2025-04","Android 全球日均；MAU 官方电话会披露","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与日均打开来自 Similarweb 全球 Android 样本；Meta CEO 在 2025 Q1 业绩电话会上披露 WhatsApp 月活超过 30 亿。"],
   youtube: [85,5.9,200000,"2025-08 / 月用户历史下限","Android 全球日均；月用户下限","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开来自 Similarweb 全球 Android 样本；20 亿为 YouTube 官方登录月用户历史下限。"],
-  messenger: [19,9.1,null,"2025-08","Android 全球日均","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb App Intelligence 全球 Android 样本，不含中国。"],
+  messenger: [19,9.1,null,"行为 2025-08 / 平台月用户 2018-05","Android 全球日均；历史跨端规模代理","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb 全球 Android 样本，不含中国。2018 年官方另披露平台月用户 13 亿，未分离手机端，不写入 App MAU 排序。","13.00 亿平台月用户（2018）"],
   tiktok: [97,10,200000,"2025-08 / MAU 2026 Q1","Android 全球日均；Sensor Tower 全球 App MAU","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb App Intelligence 全球 Android 样本，不含中国；Sensor Tower 数据经行业媒体报道显示 2026 Q1 全球移动 App MAU 突破 20 亿。"],
   spotify: [null,null,77700,"2026 Q2","MAU","https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/","Spotify 2026 Q2 业绩","官方披露 MAU 7.77 亿。"],
   telegram: [30,9.9,100000,"2025-08 / MAU 2025","Android 全球日均；MAU 官方","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb 全球 Android 样本；Telegram 官方称 2025 年 MAU 超过 10 亿。"],
   discord: [15,7.3,20000,"2025-08 / MAU 2025","Android 全球日均；MAU 官方","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb 全球 Android 样本；Discord 官方披露 MAU 超过 2 亿。"],
-  line: [null,null,20000,"公开页面当前口径","MAU 约值","https://www.linecorp.com/en/csr/","LINE Social Responsibility","LINE 官方页面称全球约 2 亿 MAU。"],
+  line: [13.9,10.7,20000,"2024-11 行为历史值 / MAU 官网约值","全球 Android 月均换算日均（不含中国）","https://learn.meltwater.com/rs/814-WJU-189/images/2025_Kepios_Digital_Global_Overview_Report.pdf","Digital 2025 Global Overview · 第 383、385 页","2024 年 11 月全球 Android 活跃用户样本，不含中国：月人均时长 6 小时 57 分钟，(6×60+57)÷30=13.9 分钟/日；月人均会话 322.3 次，322.3÷30≈10.7 次/日。会话次数作为打开次数近似口径；历史样本不是当前全球全平台均值。MAU 约 2 亿另见 LINE 官方来源。"],
   threads: [4,1.9,50000,"2025-08 / MAU 2026-06","Android 全球日均；MAU 官方","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb 全球 Android 样本；Meta 2026-06 披露 Threads 达 5 亿 MAU。"],
   linkedin: [6,3.2,null,"2025-08 / 会员规模 2023–2025","Android 全球日均；会员账户数","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb 全球 Android 样本；会员数不是 App MAU。","超过 10 亿会员"],
   snapchat: [17,6.5,94600,"2025-08 / MAU 2025 Q4","Android 全球日均；MAU 官方","https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media","DataReportal Digital 2026","时长与打开次数来自 Similarweb 全球 Android 样本；Snap 2025 Q4 披露 MAU 9.46 亿。"],
@@ -157,10 +160,10 @@ const usage = {
   accuweather: [null,null,null,"2025-07","跨网页与 App 月访客","https://advertising.accuweather.com/","AccuWeather Advertising","官方广告页披露 2 亿全球月度独立访客与人均日访 3 次，但未限定手机 App，故仅作代理展示。","2 亿月度访客（跨端）"],
   "youtube-music": [null,null,null,"截至 2024-12","订阅规模（非 MAU）","https://blog.youtube/inside-youtube/our-big-bets-for-2025/","YouTube CEO 2025 展望","YouTube Music 与 Premium 合计超过 1 亿订阅，含试用；不是 App MAU。","1 亿+订阅（含试用）"],
   "youtube-tv": [null,null,null,"截至 2024-12","订阅规模（非 MAU）","https://blog.youtube/inside-youtube/our-big-bets-for-2025/","YouTube CEO 2025 展望","YouTube TV 超过 800 万订阅；不是 App MAU。","800 万+订阅"],
-  "disney-plus": [null,null,null,"2025 Q2","付费订阅（非 MAU）","https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx","Disney 2025 Q2 业绩","官方披露 Disney+ 付费订阅 1.26 亿；订阅账户不是 App MAU。","1.26 亿付费订阅"],
+  "disney-plus": [23,null,null,"时长 2025 Q4 美国 / 订阅 2025 Q2","美国手机日均历史样本；订阅非 MAU","https://omdia.tech.informa.com/pr/2026/feb/microdramas-overtake-streamers-on-mobile-engagement-says-omdia","Omdia · 2026-02-23 移动视频研究","Omdia 分析 Sensor Tower 2025 Q4 美国移动端数据，Disney+ 人均每天 23.0 分钟，不代表全球或电视端时长。1.26 亿付费订阅来自另一条官方财报，不是 App MAU。","1.26 亿付费订阅"],
   tumblr: [null,null,null,"2025-03","平台 MAU（跨网页与 App）","https://advertise.tumblr.com/audience/","Tumblr Ads Audience","Tumblr 内部数据披露全球 MAU 9,500 万，但未拆分手机 App，故不写入严格 App MAU 排序。","9,500 万平台 MAU"],
   uber: [null,null,null,"2026 Q2","平台 MAPC（非单 App MAU）","https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx","Uber 2026 Q2 业绩","官方披露出行与配送平台月活消费者 2.08 亿；覆盖多个业务，不等同 Uber 单 App MAU。","2.08 亿月活平台消费者"],
-  tinder: [null,null,5000,"官网当前值（抓取于 2026-09）","每月 App 用户","https://www.tinderpressroom.com/about","Tinder Newsroom · About Tinder","Tinder 官方称 App 每月服务约 5,000 万用户，覆盖 190 个国家；按其明确的每月 App 用户口径写入。"],
+  tinder: [77,11,5000,"2014-01 行为历史值 / MAU 官网 2026-09 核验","早期公司披露；历史时长按会话换算","https://dailytrojan.com/2014/01/27/usc-alumni-and-tinder-co-founders-meet-with-students-on-campus/","Daily Trojan · Tinder 创始团队校园访谈","2014-01-27 现场报道引述联合创始人兼 CMO Justin Mateen：用户平均每天打开 11 次，每次 7 分钟，11×7=77 分钟/日。未披露抽样方法与地区细分；这是非常早期的公司自报历史值，不代表当前使用情况。当前官网约 5,000 万每月 App 用户另列官方来源。"],
   notion: [null,null,null,"2024-08","累计/当前用户规模（非 MAU）","https://www.notion.com/blog/100-million-of-you","Notion：100 Million of You","Notion 官方称 2024-08 用户数突破 1 亿，但未称月活、也未限定手机 App，故仅作代理展示。","1 亿+用户"],
   chrome: [null,null,null,"2025 白皮书","浏览器用户规模（跨端）","https://services.google.com/fh/files/misc/bce-protected-profiles-whitepaper.pdf","Google Chrome Enterprise 白皮书","Google 材料称 Chrome 超过 20 亿用户；未拆分手机 App 或 MAU，故仅作代理展示。","20 亿+浏览器用户（跨端）"],
   iheartradio: [null,null,null,"官网当前值（抓取于 2026-09）","注册用户（跨端）","https://www.iheartmedia.com/digital","iHeartMedia · iHeartRadio","iHeartRadio 官方称 App 超过 1.88 亿注册用户，并覆盖 500 多个平台；注册量不是 MAU。","1.88 亿注册用户"],
@@ -171,12 +174,17 @@ const usage = {
   stubhub: [null,null,null,"2026-03","全球注册用户（非 MAU）","https://newsroom.stubhub.com/2026/03/18/stubhub-launches-distribution-manager-an-ai-powered-tool-for-artists-teams-and-venues/","StubHub Newsroom","StubHub 官方披露全球注册用户超过 1.25 亿；注册量不是手机 App MAU。","1.25 亿+注册用户"],
   "google-maps": [null,null,200000,"2024 Q3","月用户里程碑","https://abc.xyz/2024-q3-earnings-call/","Alphabet 2024 Q3 Earnings Call","Alphabet 披露 Google Maps 超过 20 亿月用户；为跨端产品口径。"],
   github: [null,null,null,"2025","开发者账户数","https://github.blog/news-insights/octoverse/","GitHub Octoverse","开发者账户不是 App MAU，仅作规模参考。","超过 1.5 亿开发者"],
-  netflix: [null,null,null,"2024 Q4","付费会员数","https://ir.netflix.net/financials/quarterly-earnings/default.aspx","Netflix 投资者关系","订阅会员不是 App MAU，不参与 MAU 并列排序。","3.016 亿付费会员"],
+  netflix: [24.8,null,null,"2025 Q4（美国移动端历史样本）","美国手机日均；地区 MAU 仅作参考","https://omdia.tech.informa.com/pr/2026/feb/microdramas-overtake-streamers-on-mobile-engagement-says-omdia","Omdia · 2026-02-23 移动视频研究","Omdia 分析 Sensor Tower 2025 Q4 数据：美国移动端人均每日 24.8 分钟，月活约 1,200 万。地区 MAU 不是全球 MAU，不填入全球 MAU 数值字段，也不参与 MAU 排序。","约 1,200 万美国移动 MAU"],
   paypal: [null,null,null,"2024","活跃账户","https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx","PayPal 年报","活跃账户可能含商户且不是 App MAU。","约 4.34 亿活跃账户"],
   "microsoft-teams": [null,null,null,"2023","月活用户（跨端）","https://www.microsoft.com/en-us/microsoft-365/blog/2023/10/31/introducing-new-microsoft-teams-now-available-for-windows-and-mac/","Microsoft Teams 官方博客","跨桌面、网页和移动端产品 MAU，不等同手机 App MAU。","3.2 亿月活用户"]
 };
 
 const additionalEvidence = {
+  line:["LINE 全球约 2 亿 MAU","https://www.linecorp.com/en/csr/","官方规模数据","LINE 官方社会责任页面称全球约 2 亿月活；与 2024-11 Android 行为样本时间和覆盖平台不同。"],
+  tinder:["Tinder 每月 App 用户约 5,000 万","https://www.tinderpressroom.com/about","官方规模数据","官网于 2026-09 核验：每月 App 用户约 5,000 万，覆盖 190 个国家；不要与 2014 年行为历史值视为同一期样本。"],
+  netflix:["Netflix 2024 Q4 付费会员","https://ir.netflix.net/financials/quarterly-earnings/default.aspx","官方财报代理","保留原历史规模记录：2024 Q4 付费会员 3.016 亿，既不是 App MAU，也不等于本次美国移动 MAU。"],
+  "disney-plus":["Disney 2025 Q2 业绩","https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx","官方财报代理","Disney+ 付费订阅 1.26 亿；订阅账户不是 App MAU。"],
+  messenger:["Messenger 2018 年平台月用户","https://about.fb.com/news/2018/05/f8-2018-new-tools-for-businesses-and-people-to-deepen-connections-in-messenger/","官方历史规模","2018-05-01 Meta 官方称 Messenger 每月用户 13 亿，未分离移动端，只作历史平台规模参考。"],
   chatgpt:["ChatGPT 移动 App 达 10 亿 MAU","https://sensortower.com/press/sensor-tower-state-of-ai-2026-report-global-time-spent-on-generative-ai-apps-projected-to-more-than-double-year-over-year","行业报告","Sensor Tower 2026-06 新闻稿确认 ChatGPT 于 2026-05 成为最快达到 10 亿 MAU 的移动 App。"],
   instagram:["Instagram 30 亿 MAU","https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/","官方规模数据","Meta 2025-09 明确披露 Instagram 30 亿 MAU。"],
   facebook:["Facebook 2023 Q3 MAU","https://investor.fb.com/files/doc_earnings/2023/q3/earnings-result/Meta-09-30-2022-Exhibit-99-1-FINAL.pdf","官方财报","最后阶段单产品官方值为 30.5 亿 MAU；之后停止披露。"],
@@ -203,7 +211,10 @@ function buildCategories(profileName, target) {
   }).filter(group => group.items.length);
 }
 
-const result = apps.map(([id,name,appCategory,target,profile]) => {
+// Exclude these apps from all rebuilt current data; preserve historical evidence.
+const excludedAppIds = new Set(["google-photos", "google-ads", "onedrive", "edge", "aol-mail", "chrome", "microsoft-teams", "gmail"]);
+const includedApps = apps.filter(([id]) => !excludedAppIds.has(id));
+const result = includedApps.map(([id,name,appCategory,target,profile]) => {
   const store = storeById.get(id);
   if (!store) throw new Error(`Missing App Store manifest: ${id}`);
   const appStoreUrl = `https://apps.apple.com/us/app/id${store.trackId}`;
@@ -222,6 +233,21 @@ const result = apps.map(([id,name,appCategory,target,profile]) => {
     ...(u[8] ? {activeUserLabel:u[8]} : {}),
     source:{url:u[5],title:u[6],note:u[7]}
   } : { durationMinutes:null, launches:null, activeUsers:null, period:"未找到可核验的公开同口径数据", methodLabel:"严格口径留空" };
+  for (const [key, metric] of Object.entries(usageSupplement.apps[id] || {})) {
+    if (!["durationMinutes", "launches"].includes(key) || !Number.isFinite(metric.value) || metric.value < 0 || !metric.source?.url || !metric.period) {
+      throw new Error(`Invalid supplemental metric: ${id}.${key}`);
+    }
+    // Only fill gaps: retain earlier measurements and the original MAU evidence.
+    if (usageObject[key] !== null) throw new Error(`Supplement would overwrite ${id}.${key}`);
+    usageObject[key] = metric.value;
+    if (metric.prefix) usageObject[`${key}Prefix`] = metric.prefix;
+    usageObject.metricMeta ??= {};
+    usageObject.metricMeta[key] = { period:metric.period, methodLabel:metric.methodLabel, precision:metric.precision, source:metric.source };
+    sources.push({...metric.source, type:"使用行为补充研究"});
+    const detail = `${key === "durationMinutes" ? "日均时长" : "日均打开"}补充：${metric.period}；${metric.methodLabel}。${metric.source.note}`;
+    if (usageObject.source) usageObject.source.note += ` ${detail}`;
+    else usageObject.source = {...metric.source, note:detail};
+  }
   return {
     id,name,appCategory,logo:`assets/logos/global/${id}.jpg`,
     confidence: extraSources[id] ? "high" : "low",
@@ -234,8 +260,8 @@ const doc = {
   meta:{
     title:"全球常用应用通知提醒排行榜",
     methodology:"统计能够形成系统通知、App 内红点/收件箱动态或明确提醒的独立业务场景；通知呈现方式不重复计数。公开资料未给出精确设置开关总数时，按官方功能触发关系拆分并降低置信度。",
-    researchedCount:apps.length,
-    targetCount:63,
+    researchedCount:includedApps.length,
+    targetCount:55,
     strictUsageMetrics:true,
     disclaimer:"通知数量是基于公开产品资料整理的可独立识别提醒场景，不等同于某一手机型号或版本中的设置开关数量。",
     usageNote:"日均时长、日均打开与 App MAU 必须有公开来源和明确时间；跨端用户、会员、订阅、账户、DAU/WAU 仅作为代理标签展示，不写入 MAU 排序值。"
