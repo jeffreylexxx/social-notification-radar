@@ -1,5 +1,141 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "changedSources": [],
-  "failedSources": []
+  "failedSources": [
+    {
+      "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "title": "DataReportal Digital 2026",
+      "note": "时长与打开次数来自 Similarweb App Intelligence 的全球 Android 样本（不含中国）；MAU 由 Meta 另页披露为 30 亿。",
+      "type": "usage-data",
+      "apps": [
+        "instagram",
+        "facebook",
+        "x",
+        "whatsapp",
+        "youtube",
+        "messenger",
+        "discord",
+        "telegram",
+        "tiktok",
+        "threads",
+        "linkedin",
+        "snapchat",
+        "reddit"
+      ],
+      "finalUrl": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "status": "http-error",
+      "httpStatus": 404,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-07T21:32:16.412Z",
+      "hash": "634cac698adb3133d0125f3722e7d7a60d8ec16b590822655ee8cd960ca0d9cf",
+      "bytes": 85798,
+      "changed": false
+    },
+    {
+      "title": "X 手机通知帮助",
+      "url": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "type": "官方帮助",
+      "note": "官方列出提及、回复、转帖、点赞、关注、私信、新闻、Spaces 等通知类型。",
+      "apps": [
+        "x"
+      ],
+      "finalUrl": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-07T21:32:16.412Z",
+      "hash": "476129a6b91d3f810fb856221a6cb0785054455dc5503f5bf3c19707a2e57255",
+      "bytes": 5782,
+      "changed": false
+    },
+    {
+      "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+      "title": "EL PAÍS / EFE 引述 Sensor Tower",
+      "note": "报道列出 Grok 全球移动 App MAU 5,000 万。 日均时长补充：2026-02（研究样本）；手机 App 每 DAU；地区未单独明确。2026-03-06 报告比较 2025-08 至 2026-02，明确称 Grok Average Time Spent per DAU 增至 nearly 22 分钟。保留近字，是原报告近似值，不是精确 22；正文混合美国/全球份额，未单独交代时长地域，不能当作全球均值。",
+      "type": "usage-data",
+      "apps": [
+        "grok",
+        "perplexity",
+        "claude",
+        "copilot",
+        "meta-ai"
+      ],
+      "finalUrl": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-07T21:32:16.412Z",
+      "hash": "abbbfd5995e55cc32079b36ff879a227d44d670e13da9bc97bbb9d499e4bbe2e",
+      "bytes": 851,
+      "changed": false
+    },
+    {
+      "title": "Ofcom CMR 2017 · 5.2 节，印刷页 166—167",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/cmr/cmr17/uk/uk-internet-online.pdf",
+      "note": "报告正文明确给出 Spotify 用户平均每天打开 2.01 次。研究总样本 1,200 名自愿参加的英国 Android 用户，不保证代表全体英国人；不捕获后台运行或不足 5 秒的会话。该数值为原文日均，不用总会话数除以未经核实的用户观测天数。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "spotify"
+      ],
+      "finalUrl": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/cmr/cmr17/uk/uk-internet-online.pdf",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-07T21:32:16.412Z",
+      "hash": "89226b4abfc9080764ed30a22c9a180b3b5a8a430990652122a34ef3f022de8b",
+      "bytes": 5936,
+      "changed": false
+    },
+    {
+      "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "title": "PayPal 年报",
+      "note": "活跃账户可能含商户且不是 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "paypal"
+      ],
+      "finalUrl": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-07T21:32:16.412Z",
+      "hash": "e5e8d804e0d9dc0901a3284e52428f66958b3987e846ac025b7731a655530678",
+      "bytes": 5792,
+      "changed": false
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
+      "title": "Yelp 2025 Form 10-K",
+      "note": "官方口径为达到最低参与门槛的 App 月活独立设备，全年月均 2,800.9 万；设备数不完全等同人数。",
+      "type": "usage-data",
+      "apps": [
+        "yelp"
+      ],
+      "finalUrl": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-07T21:32:16.412Z",
+      "hash": "87d387e7eebfbeb6b72b7dc82001df123b0e7be3d2e4a15834c065274b0f89b3",
+      "bytes": 4817,
+      "changed": false
+    },
+    {
+      "url": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
+      "title": "Flickr DSA 披露",
+      "note": "Flickr 依据欧盟 DSA 披露该期间欧盟平均月活约 19.7 万；仅为欧盟且覆盖平台，不作为全球手机 App MAU 排序值。",
+      "type": "usage-data",
+      "apps": [
+        "flickr"
+      ],
+      "finalUrl": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-07T21:32:16.412Z",
+      "hash": "eff7371212e5b390524b410b2d6f0d72643809a14dce92978ce095d9064cebd5",
+      "bytes": 6019,
+      "changed": false
+    }
+  ]
 }
