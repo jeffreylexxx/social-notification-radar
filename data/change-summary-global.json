@@ -1,6 +1,1810 @@
 {
-  "date": "2026-09-08",
-  "changedSources": [],
+  "date": "2026-09-09",
+  "changedSources": [
+    {
+      "title": "Instagram · App Store",
+      "url": "https://apps.apple.com/us/app/id389801252",
+      "type": "官方应用页",
+      "note": "开发者：Instagram, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "instagram"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/instagram/id389801252",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "09f4ab56f7d75ddda744149618d2f06582b5db74246be4185d587682e907eabb",
+      "bytes": 903291,
+      "changed": true
+    },
+    {
+      "title": "Instagram 30 亿 MAU",
+      "url": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
+      "type": "官方规模数据",
+      "note": "Meta 2025-09 明确披露 Instagram 30 亿 MAU。",
+      "apps": [
+        "instagram"
+      ],
+      "finalUrl": "https://about.fb.com/news/2025/09/in-india-instagram-debuts-a-reels-first-experience-for-its-mobile-app/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "2f894d01ac0e4e5d710012ae040c670b227dc8656720dc38af826699ed8a444f",
+      "bytes": 483589,
+      "changed": true
+    },
+    {
+      "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "title": "DataReportal Digital 2026",
+      "note": "时长与打开次数来自 Similarweb App Intelligence 的全球 Android 样本（不含中国）；MAU 由 Meta 另页披露为 30 亿。",
+      "type": "usage-data",
+      "apps": [
+        "instagram",
+        "facebook",
+        "x",
+        "whatsapp",
+        "youtube",
+        "messenger",
+        "discord",
+        "telegram",
+        "tiktok",
+        "threads",
+        "linkedin",
+        "snapchat",
+        "reddit"
+      ],
+      "finalUrl": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
+      "status": "http-error",
+      "httpStatus": 404,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "9fe29c8c4bd2f934f04bd9916d66b33f29544aca4421ddac5d4ee333b29fd6e1",
+      "bytes": 85798,
+      "changed": true
+    },
+    {
+      "title": "Facebook · App Store",
+      "url": "https://apps.apple.com/us/app/id284882215",
+      "type": "官方应用页",
+      "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "facebook"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/facebook/id284882215",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "fbd115698717c41fbc483dbba401c8ce7e5156f3f7a801a368440351a81c339d",
+      "bytes": 1050440,
+      "changed": true
+    },
+    {
+      "title": "X 手机通知帮助",
+      "url": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "type": "官方帮助",
+      "note": "官方列出提及、回复、转帖、点赞、关注、私信、新闻、Spaces 等通知类型。",
+      "apps": [
+        "x"
+      ],
+      "finalUrl": "https://help.x.com/en/managing-your-account/notifications-on-mobile-devices",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "a54aee125db412e352a610d4f91535708f4ea7990e68402cf75e4d9b2cbf88c5",
+      "bytes": 5782,
+      "changed": true
+    },
+    {
+      "title": "X · App Store",
+      "url": "https://apps.apple.com/us/app/id333903271",
+      "type": "官方应用页",
+      "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "x"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/x/id333903271",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "1477973189078d268a5d26b4316d8ef51a1fe215b2dc136a47c80cd7774e9376",
+      "bytes": 935830,
+      "changed": true
+    },
+    {
+      "title": "X 移动 App DAU",
+      "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
+      "type": "行业估算代理",
+      "note": "报道引述 Similarweb：2026-01-07，X 的 iOS 与 Android 合计移动 DAU 约 1.25 亿；DAU 不作为 MAU。",
+      "apps": [
+        "x"
+      ],
+      "finalUrl": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "f10c1311fe1ee300d506e74a42591578511ad1bf235e63782191876cf293098c",
+      "bytes": 851,
+      "changed": true
+    },
+    {
+      "title": "WhatsApp 通知管理",
+      "url": "https://faq.whatsapp.com/797069521522888/",
+      "type": "官方帮助",
+      "note": "官方说明单聊、群聊、通话、反应、提及和未读角标等通知。",
+      "apps": [
+        "whatsapp"
+      ],
+      "finalUrl": "https://faq.whatsapp.com/797069521522888/?cms_platform=web",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=\"utf-8\"",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "69867dc44c349c665ccb2baa33587765b08e866b0b439a01c293cbf5213d3576",
+      "bytes": 1234418,
+      "changed": true
+    },
+    {
+      "title": "WhatsApp Messenger · App Store",
+      "url": "https://apps.apple.com/us/app/id310633997",
+      "type": "官方应用页",
+      "note": "开发者：WhatsApp Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "whatsapp"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/whatsapp-messenger/id310633997",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "fe2231e3535e989e3f1f77f3fdb8a71bf2f4d462d075894d051502911a6c2ff8",
+      "bytes": 781152,
+      "changed": true
+    },
+    {
+      "title": "WhatsApp 超过 30 亿 MAU",
+      "url": "https://techcrunch.com/2025/05/01/whatsapp-now-has-more-than-3-billion-users/",
+      "type": "电话会披露 / 新闻核验",
+      "note": "Meta CEO 在 2025 Q1 业绩电话会上明确称 WhatsApp 每月用户超过 30 亿。",
+      "apps": [
+        "whatsapp"
+      ],
+      "finalUrl": "https://techcrunch.com/2025/05/01/whatsapp-now-has-more-than-3-billion-users/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "369130d7bad243e0dfcf5e5793a2b3a67b565bdfcc8efc74c6d7bb90f062520e",
+      "bytes": 232756,
+      "changed": true
+    },
+    {
+      "title": "YouTube 通知管理",
+      "url": "https://support.google.com/youtube/answer/3382248?hl=en",
+      "type": "官方帮助",
+      "note": "官方说明订阅上传、直播、Shorts、推荐及通知中心。",
+      "apps": [
+        "youtube"
+      ],
+      "finalUrl": "https://support.google.com/youtube/answer/3382248?hl=en",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "93094823cc0d217d3a11ed9509ba3332e9c1a47f966587dd17b94872cc2ce861",
+      "bytes": 1604302,
+      "changed": true
+    },
+    {
+      "title": "YouTube · App Store",
+      "url": "https://apps.apple.com/us/app/id544007664",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "youtube"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/youtube/id544007664",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "babfe85001106347f9f4444fde144e1e1b7173ae9f707e4b7a8ee4c1c60311f5",
+      "bytes": 1155056,
+      "changed": true
+    },
+    {
+      "title": "Messenger · App Store",
+      "url": "https://apps.apple.com/us/app/id454638411",
+      "type": "官方应用页",
+      "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "messenger"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/messenger/id454638411",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "b6db4c8f4163084ca06dbf6aa12d118edabb437ac60363de9912e7f4b83dc8be",
+      "bytes": 983395,
+      "changed": true
+    },
+    {
+      "title": "Messenger 2018 年平台月用户",
+      "url": "https://about.fb.com/news/2018/05/f8-2018-new-tools-for-businesses-and-people-to-deepen-connections-in-messenger/",
+      "type": "官方历史规模",
+      "note": "2018-05-01 Meta 官方称 Messenger 每月用户 13 亿，未分离移动端，只作历史平台规模参考。",
+      "apps": [
+        "messenger"
+      ],
+      "finalUrl": "https://about.fb.com/news/2018/05/f8-2018-new-tools-for-businesses-and-people-to-deepen-connections-in-messenger/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "b3389bb93daec3b989941fae14e5197741fdf22b7f95c66e9469807fc69ba721",
+      "bytes": 327438,
+      "changed": true
+    },
+    {
+      "title": "Grok AI · App Store",
+      "url": "https://apps.apple.com/us/app/id6670324846",
+      "type": "官方应用页",
+      "note": "开发者：X Corp.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "grok"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/grok-ai/id6670324846",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "5c3be23deff75d033e7d724fc2e7b8673e7456889c0afd9d3010634bb42558f7",
+      "bytes": 704835,
+      "changed": true
+    },
+    {
+      "title": "Apptopia · Gen AI Chatbots March 2026 Data Brief",
+      "url": "https://apptopia.com/en/insights/gen-ai-chatbots-march-2026-apptopia-data-brief-claude-gets-traction/",
+      "note": "2026-03-06 报告比较 2025-08 至 2026-02，明确称 Grok Average Time Spent per DAU 增至 nearly 22 分钟。保留近字，是原报告近似值，不是精确 22；正文混合美国/全球份额，未单独交代时长地域，不能当作全球均值。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "grok"
+      ],
+      "finalUrl": "https://apptopia.com/en/insights/gen-ai-chatbots-march-2026-apptopia-data-brief-claude-gets-traction/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "5073319ad949bcc14047c49befdc3ba3de002c86fd511bedb56a543d86e284b4",
+      "bytes": 186436,
+      "changed": true
+    },
+    {
+      "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+      "title": "EL PAÍS / EFE 引述 Sensor Tower",
+      "note": "报道列出 Grok 全球移动 App MAU 5,000 万。 日均时长补充：2026-02（研究样本）；手机 App 每 DAU；地区未单独明确。2026-03-06 报告比较 2025-08 至 2026-02，明确称 Grok Average Time Spent per DAU 增至 nearly 22 分钟。保留近字，是原报告近似值，不是精确 22；正文混合美国/全球份额，未单独交代时长地域，不能当作全球均值。",
+      "type": "usage-data",
+      "apps": [
+        "grok",
+        "perplexity",
+        "claude",
+        "copilot",
+        "meta-ai"
+      ],
+      "finalUrl": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "3b1add2f30c5cbe1320cbd1488a71875c3934c2a49a05fc82e6703d5214558bc",
+      "bytes": 851,
+      "changed": true
+    },
+    {
+      "title": "Discord - Talk, Play, Hang Out · App Store",
+      "url": "https://apps.apple.com/us/app/id985746746",
+      "type": "官方应用页",
+      "note": "开发者：Discord Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "discord"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "c6c16f89c6995e7ed0a5151137cf4cee27daae2a7a27abee2162f2a72aa71a8f",
+      "bytes": 720036,
+      "changed": true
+    },
+    {
+      "title": "Discord MAU",
+      "url": "https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini",
+      "type": "官方规模数据",
+      "note": "Discord 官方披露超过 2 亿 MAU。",
+      "apps": [
+        "discord"
+      ],
+      "finalUrl": "https://discord.com/press-releases/discord-appoints-new-ceo-humam-sakhnini",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "5b532ca824ca3ac5440b252d2af87fd613868669234df9834c6925d49a3f727c",
+      "bytes": 105208,
+      "changed": true
+    },
+    {
+      "title": "Amazon Alexa · App Store",
+      "url": "https://apps.apple.com/us/app/id944011620",
+      "type": "官方应用页",
+      "note": "开发者：AMZN Mobile LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "amazon-alexa"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/amazon-alexa/id944011620",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "d08c5c8aef42420322d879262f3cf38fb62f156419cfaf085eaab0ffaadd614d",
+      "bytes": 913013,
+      "changed": true
+    },
+    {
+      "title": "Spotify: Music and Podcasts · App Store",
+      "url": "https://apps.apple.com/us/app/id324684580",
+      "type": "官方应用页",
+      "note": "开发者：Spotify。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "spotify"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/spotify-music-and-podcasts/id324684580",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "f4383dca61f98161db4a653163bbc9e3448c059dd6daddcab5381bf91f524c55",
+      "bytes": 802649,
+      "changed": true
+    },
+    {
+      "title": "Ofcom CMR 2017 · 5.2 节，印刷页 166—167",
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/cmr/cmr17/uk/uk-internet-online.pdf",
+      "note": "报告正文明确给出 Spotify 用户平均每天打开 2.01 次。研究总样本 1,200 名自愿参加的英国 Android 用户，不保证代表全体英国人；不捕获后台运行或不足 5 秒的会话。该数值为原文日均，不用总会话数除以未经核实的用户观测天数。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "spotify"
+      ],
+      "finalUrl": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/cmr/cmr17/uk/uk-internet-online.pdf",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "69b058fd2e3c5052a6519b32702407484663c221490a08b507200a0093a40f06",
+      "bytes": 5936,
+      "changed": true
+    },
+    {
+      "url": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
+      "title": "Spotify 2026 Q2 业绩",
+      "note": "官方披露 MAU 7.77 亿。 日均时长补充：2021（历史，德国）；移动端活跃用户日均；图表约值。2022-12 发布，研究 2020 Q1 至 2021 Q3；图 9 标注 2021，德国 Android/iOS 移动端（未单独剔除平板）。Spotify 柱高约 58 分钟；图中没有数值标签，本网页按刻度读至整数分钟，非原始精确值；不是仅前台屏幕时间或当前全球均值。 日均打开补充：2016-09-27—12-23（历史，英国）；Android 日均会话；Ofcom 实测样本。报告正文明确给出 Spotify 用户平均每天打开 2.01 次。研究总样本 1,200 名自愿参加的英国 Android 用户，不保证代表全体英国人；不捕获后台运行或不足 5 秒的会话。该数值为原文日均，不用总会话数除以未经核实的用户观测天数。",
+      "type": "usage-data",
+      "apps": [
+        "spotify"
+      ],
+      "finalUrl": "https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "0454727dfd638f3379a72beaa6bbeb3fd423707528d1531b99339e9ba9d77171",
+      "bytes": 167831,
+      "changed": true
+    },
+    {
+      "title": "Telegram Messenger · App Store",
+      "url": "https://apps.apple.com/us/app/id686449807",
+      "type": "官方应用页",
+      "note": "开发者：Telegram FZ-LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "telegram"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/telegram-messenger/id686449807",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "5aaa7a3116d9e700b9d1e4d0c83d7cedb9ad4fda2471b59bb42e161742b35593",
+      "bytes": 643114,
+      "changed": true
+    },
+    {
+      "title": "Telegram MAU",
+      "url": "https://telegram.org/press",
+      "type": "官方规模数据",
+      "note": "Telegram 官方称 2025 年超过 10 亿 MAU。",
+      "apps": [
+        "telegram"
+      ],
+      "finalUrl": "https://telegram.org/press",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "44f4c007ab4e2d6869807811d82a61bcc7630182224e31576bf187f36e14c063",
+      "bytes": 22864,
+      "changed": true
+    },
+    {
+      "title": "LINE · App Store",
+      "url": "https://apps.apple.com/us/app/id443904275",
+      "type": "官方应用页",
+      "note": "开发者：LY Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "line"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/line/id443904275",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "d36f86745a41cf836e853d30ae6361d7dcc88e08b13ec6aa41d40e08d9b197f8",
+      "bytes": 872625,
+      "changed": true
+    },
+    {
+      "title": "ChatGPT · App Store",
+      "url": "https://apps.apple.com/us/app/id6448311069",
+      "type": "官方应用页",
+      "note": "开发者：OpenAI OpCo, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "chatgpt"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "daa23e107049024c1865b7940f1ad08eff1b24a337256e73ffd38e00f79d11cc",
+      "bytes": 818535,
+      "changed": true
+    },
+    {
+      "title": "ChatGPT 移动 App 达 10 亿 MAU",
+      "url": "https://sensortower.com/press/sensor-tower-state-of-ai-2026-report-global-time-spent-on-generative-ai-apps-projected-to-more-than-double-year-over-year",
+      "type": "行业报告",
+      "note": "Sensor Tower 2026-06 新闻稿确认 ChatGPT 于 2026-05 成为最快达到 10 亿 MAU 的移动 App。",
+      "apps": [
+        "chatgpt"
+      ],
+      "finalUrl": "https://sensortower.com/press/sensor-tower-state-of-ai-2026-report-global-time-spent-on-generative-ai-apps-projected-to-more-than-double-year-over-year",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "92ebbad5c8e992d09f68de63c68ee18b702babce458a60d3408c087af2a43051",
+      "bytes": 103939,
+      "changed": true
+    },
+    {
+      "title": "Perplexity - AI Search & Chat · App Store",
+      "url": "https://apps.apple.com/us/app/id1668000334",
+      "type": "官方应用页",
+      "note": "开发者：Perplexity AI Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "perplexity"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "170fecf4cb747a32a1225956d631b280cd3c0937da04e9584480279c12e1067a",
+      "bytes": 647258,
+      "changed": true
+    },
+    {
+      "title": "Apptopia · Gen AI Chatbots April 2026 Data Brief",
+      "url": "https://apptopia.com/en/insights/gen-ai-chatbots-april-2026-apptopia-data-brief-chatgpt-drops-below-40-market-share/",
+      "note": "2026-04-02 美国手机聊天机器人市场报告给出 Perplexity average time spent per user 从 13 增至 15 分钟，处于日活使用分析语境；与文中单独标明的 Power Users 口径区分。非网页访问时长，不把 120/139/154 分钟重度用户数值用作全体均值。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "perplexity"
+      ],
+      "finalUrl": "https://apptopia.com/en/insights/gen-ai-chatbots-april-2026-apptopia-data-brief-chatgpt-drops-below-40-market-share/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "7b4bfbccef8045a750b5f6289e8189276b4cdc4fda7f8bf851192dd7efb17253",
+      "bytes": 184778,
+      "changed": true
+    },
+    {
+      "title": "Claude by Anthropic · App Store",
+      "url": "https://apps.apple.com/us/app/id6473753684",
+      "type": "官方应用页",
+      "note": "开发者：Anthropic PBC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "claude"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "2e478e8a363ce8b1028fa9e31f7b1f1bfb15114c24ec8216ba2c857c7a4edda5",
+      "bytes": 743620,
+      "changed": true
+    },
+    {
+      "title": "Apptopia · Gen AI Chatbots February 2026 Data Brief",
+      "url": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/",
+      "note": "2026-02-03 报告正文明确给出 Claude Average Time Spent per DAU 为 34.7 分钟（1 月），不是 top 10% 重度用户。正文没有在该时长段落单独明确地域，故不称全球或美国均值；适用 Apptopia 移动端日活研究样本。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "claude",
+        "copilot"
+      ],
+      "finalUrl": "https://apptopia.com/en/insights/gen-ai-chatbots-february-2026-apptopia-data-brief/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "57e8d6bf7cffe06c5247308292e8325de48386d525252352953ede9c2d678108",
+      "bytes": 184289,
+      "changed": true
+    },
+    {
+      "title": "TikTok - Videos, Shop & LIVE · App Store",
+      "url": "https://apps.apple.com/us/app/id835599320",
+      "type": "官方应用页",
+      "note": "开发者：TIKTOK PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "tiktok"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/tiktok-videos-shop-live/id835599320",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "b2572d1ed132a1cd55c024c11e7ed208819ecec1bdceb7a8efd17707a7f82630",
+      "bytes": 1064281,
+      "changed": true
+    },
+    {
+      "title": "TikTok 全球 App MAU 突破 20 亿",
+      "url": "https://jingdaily.com/intels/2026-04/29/tiktok-tops-2-billion-users-shop-gmv-climbs-94-in-2025",
+      "type": "行业报告转述",
+      "note": "Jing Daily 引述 Sensor Tower，称 TikTok 2026 Q1 全球移动 App MAU 首次超过 20 亿。",
+      "apps": [
+        "tiktok"
+      ],
+      "finalUrl": "https://jingdaily.com/intels/2026-04/29/tiktok-tops-2-billion-users-shop-gmv-climbs-94-in-2025",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "5007348ba90dd3388cd55f4c0335ed8252c25747f1f8b661d637c37cf87f076a",
+      "bytes": 345279,
+      "changed": true
+    },
+    {
+      "title": "Google Health (Fitbit) · App Store",
+      "url": "https://apps.apple.com/us/app/id462638897",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "fitbit"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/google-health-fitbit/id462638897",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "7cbde51ba845a6200c0a6ababb5dac3950ed0e9800e82b9d3b5231e831171f6d",
+      "bytes": 936186,
+      "changed": true
+    },
+    {
+      "url": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-community-grows-25m-active-users/",
+      "title": "Fitbit 官方博客",
+      "note": "Fitbit 官方当年披露活跃用户超过 2,500 万，但时间较早且未限定手机 App 月活，仅作历史代理展示。",
+      "type": "usage-data",
+      "apps": [
+        "fitbit"
+      ],
+      "finalUrl": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-community-grows-25m-active-users/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "8331aaa311de2417b1fc1c5144984a0b5032c596cb32705f836f0d2f06dfcaca",
+      "bytes": 349733,
+      "changed": true
+    },
+    {
+      "title": "iHeart: Radio, Music, Podcasts · App Store",
+      "url": "https://apps.apple.com/us/app/id290638154",
+      "type": "官方应用页",
+      "note": "开发者：iHeartMedia Management Services, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "iheartradio"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "f1b2c21651d6b74723fcec796a6b6d6034a9d5c0d2c1654f5134921929ec71dc",
+      "bytes": 871157,
+      "changed": true
+    },
+    {
+      "title": "Amazon Music: Songs & Podcasts · App Store",
+      "url": "https://apps.apple.com/us/app/id510855668",
+      "type": "官方应用页",
+      "note": "开发者：AMZN Mobile LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "amazon-music"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/amazon-music-songs-podcasts/id510855668",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "21a85f17e1251b6ba3361d1787c3e471d248a646067bc58a6ee75026e838bdf6",
+      "bytes": 951656,
+      "changed": true
+    },
+    {
+      "title": "YouTube Music · App Store",
+      "url": "https://apps.apple.com/us/app/id1017492454",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "youtube-music"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/youtube-music/id1017492454",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "7585fa867942a68731f820999e33f5ecd6ea5db24b79dbb603ffaf3f32cfc616",
+      "bytes": 970458,
+      "changed": true
+    },
+    {
+      "title": "Microsoft Copilot · App Store",
+      "url": "https://apps.apple.com/us/app/id541164041",
+      "type": "官方应用页",
+      "note": "开发者：Microsoft Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "copilot"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/microsoft-copilot/id541164041",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "7804a1413a68cc0ee64bfcdcfbe25e9e0d4a4b965ad6b6781e9b82b3b9fe938e",
+      "bytes": 982123,
+      "changed": true
+    },
+    {
+      "title": "Threads · App Store",
+      "url": "https://apps.apple.com/us/app/id6446901002",
+      "type": "官方应用页",
+      "note": "开发者：Instagram, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "threads"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/threads/id6446901002",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "4ebfbee07e8d435191f41edcc180c18f49b9eee6bc33247d03ccca47b54e9ae7",
+      "bytes": 814381,
+      "changed": true
+    },
+    {
+      "title": "Threads 5 亿 MAU",
+      "url": "https://about.fb.com/news/2026/06/meta-launching-new-features-500-million-monthly-threads-users/",
+      "type": "官方规模数据",
+      "note": "Meta 2026-06 披露 5 亿 MAU。",
+      "apps": [
+        "threads"
+      ],
+      "finalUrl": "https://about.fb.com/news/2026/06/meta-launching-new-features-500-million-monthly-threads-users/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "7b000b88c4aedd07c4a0bd2818c30ad075cc5951078109f55a0347e7250b6eda",
+      "bytes": 496328,
+      "changed": true
+    },
+    {
+      "title": "LinkedIn: Community & Network · App Store",
+      "url": "https://apps.apple.com/us/app/id288429040",
+      "type": "官方应用页",
+      "note": "开发者：LinkedIn Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "linkedin"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/linkedin-community-network/id288429040",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "9ec9ede2d250e5c6c894802f16a9191c63746a271e6c9f355d1438d38b8a8a61",
+      "bytes": 884655,
+      "changed": true
+    },
+    {
+      "title": "GitHub · App Store",
+      "url": "https://apps.apple.com/us/app/id1477376905",
+      "type": "官方应用页",
+      "note": "开发者：GitHub。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "github"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/github/id1477376905",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "16ed9622977aa5bb290b3c931186a7abab3a31fbe0c9d4f61912d788a0a3d292",
+      "bytes": 684634,
+      "changed": true
+    },
+    {
+      "url": "https://github.blog/news-insights/octoverse/",
+      "title": "GitHub Octoverse",
+      "note": "开发者账户不是 App MAU，仅作规模参考。",
+      "type": "usage-data",
+      "apps": [
+        "github"
+      ],
+      "finalUrl": "https://github.blog/news-insights/octoverse/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "e4f9f6af83fcae3b5ad770ece7e74163dbddf6af91fb6f6fc99c4f3a4aba6020",
+      "bytes": 218577,
+      "changed": true
+    },
+    {
+      "title": "AccuWeather: Weather Forecast · App Store",
+      "url": "https://apps.apple.com/us/app/id300048137",
+      "type": "官方应用页",
+      "note": "开发者：AccuWeather International, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "accuweather"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/accuweather-weather-forecast/id300048137",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "3a078dc0da9d81a1e9079324f6e9019fd818615d19f1080fd81f7c1122d32a74",
+      "bytes": 782876,
+      "changed": true
+    },
+    {
+      "url": "https://advertising.accuweather.com/",
+      "title": "AccuWeather Advertising",
+      "note": "官方广告页披露 2 亿全球月度独立访客与人均日访 3 次，但未限定手机 App，故仅作代理展示。",
+      "type": "usage-data",
+      "apps": [
+        "accuweather"
+      ],
+      "finalUrl": "https://advertising.accuweather.com/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "0a01e1eab0e1af7560aaac3fdffc7b592113df19ea1ef0cca4e525520a94363e",
+      "bytes": 113017,
+      "changed": true
+    },
+    {
+      "title": "SoundCloud: The Music You Love · App Store",
+      "url": "https://apps.apple.com/us/app/id336353151",
+      "type": "官方应用页",
+      "note": "开发者：SoundCloud Global Limited & Co KG。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "soundcloud"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/soundcloud-the-music-you-love/id336353151",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "8343f3cbd7596a6fedc6b8396d68357e1ba98374e20ca2a4280437722211b48d",
+      "bytes": 770313,
+      "changed": true
+    },
+    {
+      "title": "CapCut: Photo & Video Editor · App Store",
+      "url": "https://apps.apple.com/us/app/id1500855883",
+      "type": "官方应用页",
+      "note": "开发者：BYTEDANCE PTE. LTD.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "capcut"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "8b2e2b80a360cd65afc794daa49e0738d7d513b97532abf619e00107e51bf102",
+      "bytes": 911344,
+      "changed": true
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3275336/bytedances-capcut-doubao-top-global-ai-app-downloads-outpacing-chatgpt-report",
+      "title": "南华早报引述 QuestMobile",
+      "note": "报道明确列出 CapCut 2024-07 全球 MAU 3.23 亿；因时间较早，标记为历史数据。",
+      "type": "usage-data",
+      "apps": [
+        "capcut"
+      ],
+      "finalUrl": "https://www.scmp.com/tech/big-tech/article/3275336/bytedances-capcut-doubao-top-global-ai-app-downloads-outpacing-chatgpt-report",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "109ef165d2fb75e3011294648fc3e1e529da72abb3c6d0487de399fab3faa0a0",
+      "bytes": 1158016,
+      "changed": true
+    },
+    {
+      "title": "Slack 通知指南",
+      "url": "https://slack.com/help/articles/201355156-Configure-your-Slack-notifications",
+      "type": "官方帮助",
+      "note": "官方列出私信、提及、关键词、线程回复、Huddle、邀请和到期提醒。",
+      "apps": [
+        "slack"
+      ],
+      "finalUrl": "https://slack.com/intl/zh-cn/help/articles/201355156-%E9%85%8D%E7%BD%AE%E4%BD%A0%E7%9A%84-Slack-%E9%80%9A%E7%9F%A5",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "b78b622c5692e82d8714335e0dcfa148b568ee8875d02814c7bb5a1ee9252aef",
+      "bytes": 108611,
+      "changed": true
+    },
+    {
+      "title": "Slack · App Store",
+      "url": "https://apps.apple.com/us/app/id618783545",
+      "type": "官方应用页",
+      "note": "开发者：SLACK TECHNOLOGIES L.L.C.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "slack"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/slack/id618783545",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "1939bfec7e136542f48bac8aee7bfd5da1361bd522a5648c9464f70dd6f3f6ab",
+      "bytes": 833534,
+      "changed": true
+    },
+    {
+      "url": "https://slack.com/blog/news/slacks-growth-in-asia",
+      "title": "Slack 官方 · 亚洲增长回顾",
+      "note": "Slack 官方于 2019-10-16 披露，2019 年 9 月跨端日活超过 1,200 万；未分离手机端，不将 DAU 转成 MAU，也不采用跨端在线或工作时长填充手机日均。",
+      "type": "usage-data",
+      "apps": [
+        "slack"
+      ],
+      "finalUrl": "https://slack.com/intl/zh-cn/blog/news/slacks-growth-in-asia",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": null,
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "changed": true
+    },
+    {
+      "title": "Notion: Notes, Tasks, AI · App Store",
+      "url": "https://apps.apple.com/us/app/id1232780281",
+      "type": "官方应用页",
+      "note": "开发者：Notion Labs, Incorporated。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "notion"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/notion-notes-tasks-ai/id1232780281",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "01c9d3cacb0b788b0faffdf5625115f3919080c57b44336a32e51a5596ff7126",
+      "bytes": 827813,
+      "changed": true
+    },
+    {
+      "url": "https://www.notion.com/blog/100-million-of-you",
+      "title": "Notion：100 Million of You",
+      "note": "Notion 官方称 2024-08 用户数突破 1 亿，但未称月活、也未限定手机 App，故仅作代理展示。",
+      "type": "usage-data",
+      "apps": [
+        "notion"
+      ],
+      "finalUrl": "https://www.notion.com/blog/100-million-of-you",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "93d3b9771c2b3cb639e4f9cf2effa0f5cad08eb08d1afcd7b3348a2f93cfae85",
+      "bytes": 179020,
+      "changed": true
+    },
+    {
+      "title": "Firefox Fast & Private Browser · App Store",
+      "url": "https://apps.apple.com/us/app/id989804926",
+      "type": "官方应用页",
+      "note": "开发者：Mozilla Corporation。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "firefox"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/firefox-fast-private-browser/id989804926",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "8fd4493b6bb248b9f493dbf33d89ec6fc326b4e87a9380752579b6c6a38f5be0",
+      "bytes": 774391,
+      "changed": true
+    },
+    {
+      "url": "https://www.mozilla.org/en-US/advertising/",
+      "title": "Mozilla Advertising",
+      "note": "Mozilla 披露 Firefox 全球月活超过 2.1 亿，但未拆分手机 App，故不写入严格 MAU 排序。",
+      "type": "usage-data",
+      "apps": [
+        "firefox"
+      ],
+      "finalUrl": "https://www.mozilla.org/en-US/advertising/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "c581b6b430702f833d791a17c12cc1617994b9949133441ab05dc7795ad182de",
+      "bytes": 49251,
+      "changed": true
+    },
+    {
+      "title": "Safari · App Store",
+      "url": "https://apps.apple.com/us/app/id1146562112",
+      "type": "官方应用页",
+      "note": "开发者：Apple Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "safari"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/safari/id1146562112",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "7fd884db3c531c521c99d791da00543b9a7a17efd8ffd7d7f312b62340540c1b",
+      "bytes": 594683,
+      "changed": true
+    },
+    {
+      "title": "VLC media player · App Store",
+      "url": "https://apps.apple.com/us/app/id650377962",
+      "type": "官方应用页",
+      "note": "开发者：VideoLAN。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "vlc"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/vlc-media-player/id650377962",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "652d3c124e7af95d5c25fa45289d58524ae52690eebb7ada798c44187ba90ab3",
+      "bytes": 670009,
+      "changed": true
+    },
+    {
+      "url": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
+      "title": "TechCrunch",
+      "note": "VLC 跨平台累计下载突破 70 亿；下载量不等于用户或 MAU，仅用于说明产品规模。",
+      "type": "usage-data",
+      "apps": [
+        "vlc"
+      ],
+      "finalUrl": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "5140522edb112bf79d31e7cb118015ac690c8d5deb272e4fc7c9a8665eec1f7a",
+      "bytes": 200887,
+      "changed": true
+    },
+    {
+      "title": "YouTube TV · App Store",
+      "url": "https://apps.apple.com/us/app/id1193350206",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "youtube-tv"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/youtube-tv/id1193350206",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "5826e026e32d542e9a32cf80882568de4fec1e2df768fc2fa3064fefcf9db522",
+      "bytes": 936557,
+      "changed": true
+    },
+    {
+      "title": "Snapchat 通知控制",
+      "url": "https://help.snapchat.com/hc/en-us/articles/7012316327444-How-do-I-control-my-Snapchat-notifications-on-iOS",
+      "type": "官方帮助",
+      "note": "官方说明逐类型通知开关及关注对象的 Story 通知。",
+      "apps": [
+        "snapchat"
+      ],
+      "finalUrl": "https://help.snapchat.com/hc/en-us/articles/7012316327444-How-do-I-control-my-Snapchat-notifications-on-iOS",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "8911ddb9987c22b1733ac305bb55aa6bd17c3167b1b4acd2594010a4f5cabe03",
+      "bytes": 80237,
+      "changed": true
+    },
+    {
+      "title": "Snapchat · App Store",
+      "url": "https://apps.apple.com/us/app/id447188370",
+      "type": "官方应用页",
+      "note": "开发者：Snap, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "snapchat"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/snapchat/id447188370",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "079e0ceed311427d03304a39db436330adb4cc69dd698e23e908f4dcaffd4f02",
+      "bytes": 1029160,
+      "changed": true
+    },
+    {
+      "title": "Snap 2025 Q4 业绩",
+      "url": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+      "type": "官方财报",
+      "note": "Snapchat 2025 Q4 MAU 9.46 亿。",
+      "apps": [
+        "snapchat"
+      ],
+      "finalUrl": "https://investor.snap.com/news/news-details/2026/Snap-Inc--Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "b112b13abeee6541aea1a09490c79581e7f827e2836aac635cc009520fb43316",
+      "bytes": 588314,
+      "changed": true
+    },
+    {
+      "title": "Clubhouse · App Store",
+      "url": "https://apps.apple.com/us/app/id1503133294",
+      "type": "官方应用页",
+      "note": "开发者：Alpha Exploration Co.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "clubhouse"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/clubhouse/id1503133294",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "135222b3d8ec1ea2df189215045d6747b701c65c43d051d52bf603854c3d6ca6",
+      "bytes": 633706,
+      "changed": true
+    },
+    {
+      "url": "https://profiletree.com/clubhouse-social-media-app/",
+      "title": "ProfileTree 引述 Business of Apps",
+      "note": "报道引述 Business of Apps，估算 Clubhouse 2024 年初约有 1,000 万 MAU；公司未公开同期数据，故标记为行业估算。",
+      "type": "usage-data",
+      "apps": [
+        "clubhouse"
+      ],
+      "finalUrl": "https://profiletree.com/clubhouse-social-media-app/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "b2f9eadd62a50ee317cbb0ae5748913eed93845c8cbef63a57b89dba9eb7ac9e",
+      "bytes": 135421,
+      "changed": true
+    },
+    {
+      "title": "PayPal - Pay, Send, Save · App Store",
+      "url": "https://apps.apple.com/us/app/id283646709",
+      "type": "官方应用页",
+      "note": "开发者：PayPal, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "paypal"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/paypal-pay-send-save/id283646709",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "9f38c2216468f907e8a44c51f00dacd8900437f2c0c69fadc1b924be177849ea",
+      "bytes": 823324,
+      "changed": true
+    },
+    {
+      "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "title": "PayPal 年报",
+      "note": "活跃账户可能含商户且不是 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "paypal"
+      ],
+      "finalUrl": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "05a1c2707ca58162184a6fb2810b23b38af1bd2c9bb2124e42b50ed20ccf6149",
+      "bytes": 5792,
+      "changed": true
+    },
+    {
+      "title": "TuneIn Radio: Music & Sports · App Store",
+      "url": "https://apps.apple.com/us/app/id418987775",
+      "type": "官方应用页",
+      "note": "开发者：TuneIn。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "tunein"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/tunein-radio-music-sports/id418987775",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "1e57cbd71241ab9cc44fea9404e12745ea98b8808329708aa7d996168fdd84c8",
+      "bytes": 889888,
+      "changed": true
+    },
+    {
+      "url": "https://corporate.stingray.com/acquisitions/stingray-acquires-tunein/",
+      "title": "Stingray 收购 TuneIn 公告",
+      "note": "收购方官方公告称 TuneIn 全球每月活跃听众超过 7,500 万，但覆盖车机、网页及连接设备，故不写入手机 App MAU 排序。 日均时长补充：2021（历史，德国）；移动端活跃用户日均；图表约值。图 9 的 TuneIn Radio 柱高约 38 分钟/活跃用户/日，德国 Android/iOS 移动端，未单独剔除平板。图无精确值标签，为 2021 历史读图约值，不是车载/智能音箱所有终端的收听时长。",
+      "type": "usage-data",
+      "apps": [
+        "tunein"
+      ],
+      "finalUrl": "https://corporate.stingray.com/acquisitions/stingray-acquires-tunein/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "c3361033df0c9c8d0e49456b7057e661429597fe0e41b0954b3ec09ae5f2d46d",
+      "bytes": 782739,
+      "changed": true
+    },
+    {
+      "title": "Yelp: Food, Services & Reviews · App Store",
+      "url": "https://apps.apple.com/us/app/id284910350",
+      "type": "官方应用页",
+      "note": "开发者：Yelp, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "yelp"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/yelp-food-services-reviews/id284910350",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "51b1a8cf657ac68ff89990d73d9cd3ccca39b94cfed5839df2c99411cd17215d",
+      "bytes": 832232,
+      "changed": true
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
+      "title": "Yelp 2025 Form 10-K",
+      "note": "官方口径为达到最低参与门槛的 App 月活独立设备，全年月均 2,800.9 万；设备数不完全等同人数。",
+      "type": "usage-data",
+      "apps": [
+        "yelp"
+      ],
+      "finalUrl": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "4dda033ae89d4be819b1b8ea27e25ab3a9cb4caa573823c5792daa6e2f2b72de",
+      "bytes": 4819,
+      "changed": true
+    },
+    {
+      "title": "Ticketmaster－Buy, Sell Tickets · App Store",
+      "url": "https://apps.apple.com/us/app/id500003565",
+      "type": "官方应用页",
+      "note": "开发者：Ticketmaster L.L.C。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "ticketmaster"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/ticketmaster-buy-sell-tickets/id500003565",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "9b1589f49787d8e75bfddeec89fa7de671b973553024849a52c5e11700217764",
+      "bytes": 796038,
+      "changed": true
+    },
+    {
+      "title": "Priceline - Hotel, Car, Flight · App Store",
+      "url": "https://apps.apple.com/us/app/id336381998",
+      "type": "官方应用页",
+      "note": "开发者：priceline.com。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "priceline"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/priceline-hotel-car-flight/id336381998",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "747aa8320708646a3a710a1cac1fd277ac4c498721f1e792edc64fa18029b0fe",
+      "bytes": 794476,
+      "changed": true
+    },
+    {
+      "title": "StubHub: Event Tickets · App Store",
+      "url": "https://apps.apple.com/us/app/id366562751",
+      "type": "官方应用页",
+      "note": "开发者：Stubhub, Inc。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "stubhub"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/stubhub-event-tickets/id366562751",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "a6e8e9f42303237f7ba078211b12df19dc1d31b9ab867a7e29069d0dd2497314",
+      "bytes": 659483,
+      "changed": true
+    },
+    {
+      "url": "https://newsroom.stubhub.com/2026/03/18/stubhub-launches-distribution-manager-an-ai-powered-tool-for-artists-teams-and-venues/",
+      "title": "StubHub Newsroom",
+      "note": "StubHub 官方披露全球注册用户超过 1.25 亿；注册量不是手机 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "stubhub"
+      ],
+      "finalUrl": "https://newsroom.stubhub.com/2026/03/18/stubhub-launches-distribution-manager-an-ai-powered-tool-for-artists-teams-and-venues/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "c38d2239d620747fdd2006edd2a5d021918f4a6e4cc221f348788a23a00d9111",
+      "bytes": 149805,
+      "changed": true
+    },
+    {
+      "title": "Grubhub: Food Delivery · App Store",
+      "url": "https://apps.apple.com/us/app/id302920553",
+      "type": "官方应用页",
+      "note": "开发者：GrubHub Inc。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "grubhub"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/grubhub-food-delivery/id302920553",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "eb00ca89da67270eaba71205bbe5982bc8d523fbf768dad9c2a290c354b0cd64",
+      "bytes": 829991,
+      "changed": true
+    },
+    {
+      "title": "Uber - Request a ride · App Store",
+      "url": "https://apps.apple.com/us/app/id368677368",
+      "type": "官方应用页",
+      "note": "开发者：Uber Technologies, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "uber"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/uber-request-a-ride/id368677368",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "0380250718b61884d8fcb99f2ef26cf04b103074409bcc35d0e6649285322d38",
+      "bytes": 915731,
+      "changed": true
+    },
+    {
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "title": "Uber 2026 Q2 业绩",
+      "note": "官方披露出行与配送平台月活消费者 2.08 亿；覆盖多个业务，不等同 Uber 单 App MAU。",
+      "type": "usage-data",
+      "apps": [
+        "uber"
+      ],
+      "finalUrl": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "7bdeed0cddccc6013e6de643e14e89ae92219daa45076f0915c0554d57792973",
+      "bytes": 456258,
+      "changed": true
+    },
+    {
+      "title": "Google Maps 通知设置",
+      "url": "https://support.google.com/maps/answer/6149565?hl=en",
+      "type": "官方帮助",
+      "note": "官方列出交通、地点贡献、评论回复、事件、危机和位置共享等提醒。",
+      "apps": [
+        "google-maps"
+      ],
+      "finalUrl": "https://support.google.com/maps/answer/6149565?hl=en",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "249464ab10f63f67cdebc3b0e2df6d47cf5f58b25a590fd3b38e17bf74121b76",
+      "bytes": 1622698,
+      "changed": true
+    },
+    {
+      "title": "Google Maps · App Store",
+      "url": "https://apps.apple.com/us/app/id585027354",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "google-maps"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/google-maps/id585027354",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "ccbec85d8c1400bee85897e93f2a197991f47db975c922c47ff6e63770d6badb",
+      "bytes": 959538,
+      "changed": true
+    },
+    {
+      "url": "https://abc.xyz/2024-q3-earnings-call/",
+      "title": "Alphabet 2024 Q3 Earnings Call",
+      "note": "Alphabet 披露 Google Maps 超过 20 亿月用户；为跨端产品口径。",
+      "type": "usage-data",
+      "apps": [
+        "google-maps"
+      ],
+      "finalUrl": "https://abc.xyz/investor/events/event-details/2024/2024-q3-earnings-call/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "1ec649d1fbb2836ad311a009d54e3a91a0ef3ac474f6e0cc600864c41fcf6f93",
+      "bytes": 133555,
+      "changed": true
+    },
+    {
+      "title": "Netflix · App Store",
+      "url": "https://apps.apple.com/us/app/id363590051",
+      "type": "官方应用页",
+      "note": "开发者：Netflix, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "netflix"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/netflix/id363590051",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "af7e6664cd566fb4b07627c1b5d2567878dd8c2883725635eadaa8aa6d1a222e",
+      "bytes": 985917,
+      "changed": true
+    },
+    {
+      "title": "Netflix 2024 Q4 付费会员",
+      "url": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+      "type": "官方财报代理",
+      "note": "保留原历史规模记录：2024 Q4 付费会员 3.016 亿，既不是 App MAU，也不等于本次美国移动 MAU。",
+      "apps": [
+        "netflix"
+      ],
+      "finalUrl": "https://ir.netflix.net/financials/quarterly-earnings/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "ccd2c551be200bb1af24550a259a922d82ca96d83771562f2387be60292da29a",
+      "bytes": 46639,
+      "changed": true
+    },
+    {
+      "url": "https://omdia.tech.informa.com/pr/2026/feb/microdramas-overtake-streamers-on-mobile-engagement-says-omdia",
+      "title": "Omdia · 2026-02-23 移动视频研究",
+      "note": "Omdia 分析 Sensor Tower 2025 Q4 数据：美国移动端人均每日 24.8 分钟，月活约 1,200 万。地区 MAU 不是全球 MAU，不填入全球 MAU 数值字段，也不参与 MAU 排序。",
+      "type": "usage-data",
+      "apps": [
+        "netflix",
+        "disney-plus"
+      ],
+      "finalUrl": "https://omdia.tech.informa.com/pr/2026/feb/microdramas-overtake-streamers-on-mobile-engagement-says-omdia",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "8d56623fc01239c6a2a11a497a9d3f6ee53392c065b0a4579c21f0a461e255d6",
+      "bytes": 155733,
+      "changed": true
+    },
+    {
+      "title": "Flickr · App Store",
+      "url": "https://apps.apple.com/us/app/id328407587",
+      "type": "官方应用页",
+      "note": "开发者：Flickr, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "flickr"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/flickr/id328407587",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "96772cb2433ccdf0ea3952b7d4533c33b646e69187b593ea3f89f52ebdc29eff",
+      "bytes": 662186,
+      "changed": true
+    },
+    {
+      "url": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
+      "title": "Flickr DSA 披露",
+      "note": "Flickr 依据欧盟 DSA 披露该期间欧盟平均月活约 19.7 万；仅为欧盟且覆盖平台，不作为全球手机 App MAU 排序值。",
+      "type": "usage-data",
+      "apps": [
+        "flickr"
+      ],
+      "finalUrl": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "691fd79a1b685ef3d9cf09ee9bbc69e681ff248c053348a3397ed0aaf150123d",
+      "bytes": 6019,
+      "changed": true
+    },
+    {
+      "title": "Tumblr: Social Media & Art · App Store",
+      "url": "https://apps.apple.com/us/app/id305343404",
+      "type": "官方应用页",
+      "note": "开发者：Tumblr, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "tumblr"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/tumblr-social-media-art/id305343404",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "97a064155b81c2db2a42feee53cc2970886516fde23a2bd0edfe3a46f04da910",
+      "bytes": 724255,
+      "changed": true
+    },
+    {
+      "url": "https://advertise.tumblr.com/audience/",
+      "title": "Tumblr Ads Audience",
+      "note": "Tumblr 内部数据披露全球 MAU 9,500 万，但未拆分手机 App，故不写入严格 App MAU 排序。",
+      "type": "usage-data",
+      "apps": [
+        "tumblr"
+      ],
+      "finalUrl": "https://advertise.tumblr.com/audience/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "c530afb67f50f032984890d4b533581d4e9d2d3f1576aeaceaee4a79f1b13c96",
+      "bytes": 165848,
+      "changed": true
+    },
+    {
+      "title": "Reddit · App Store",
+      "url": "https://apps.apple.com/us/app/id1064216828",
+      "type": "官方应用页",
+      "note": "开发者：REDDIT, INC.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "reddit"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/reddit/id1064216828",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "b3fb754c371b99e84ee8a4cdfb0c7892df17f94d376734fe6f4e8e2364a1043d",
+      "bytes": 762649,
+      "changed": true
+    },
+    {
+      "title": "Reddit 2026 Q2 周活",
+      "url": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Second-Quarter-2026-Results/default.aspx",
+      "type": "官方财报代理",
+      "note": "Reddit 官方披露 WAUq 5.146 亿；覆盖网页与 App，且不是 MAU。",
+      "apps": [
+        "reddit"
+      ],
+      "finalUrl": "https://investor.redditinc.com/news-events/news-releases/news-details/2026/Reddit-Reports-Second-Quarter-2026-Results/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "b639608a400a90af4fcda872dbf91dbe6fb4ab9d5d857eaa8af8608e719ee28e",
+      "bytes": 317586,
+      "changed": true
+    },
+    {
+      "title": "HBO Max: Stream Movies & TV · App Store",
+      "url": "https://apps.apple.com/us/app/id1666653815",
+      "type": "官方应用页",
+      "note": "开发者：WarnerMedia Global Digital Services, LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "max"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "26f7bcbf5d583b5e2b4002bcc963d101b50590facc2e2316089b3a03fafb5b64",
+      "bytes": 931933,
+      "changed": true
+    },
+    {
+      "title": "Apptopia · Mid-Q1 2026 Streaming Investor Note",
+      "url": "https://apptopia.com/en/insights/investor-note-mid-q1-2026-look-at-potential-and-peril-for-streamers-nflx-wbd-cmcsa-dis/",
+      "note": "2026-03-10 发布，明确限定全部为美国 mobile app 数据，2026 Q1 仅截至 2 月。HBO Max 每日活跃用户平均使用 63.4 分钟；对应表内 Max 的同一产品品牌沿革。不是全年全球均值，也不是月活用户自然日摊均。",
+      "type": "使用行为补充研究",
+      "apps": [
+        "max"
+      ],
+      "finalUrl": "https://apptopia.com/en/insights/investor-note-mid-q1-2026-look-at-potential-and-peril-for-streamers-nflx-wbd-cmcsa-dis/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "70d1bb8de0f7cc722c15fd1ebc1696c1489180c24bf95e9e286ec0e21de24627",
+      "bytes": 185524,
+      "changed": true
+    },
+    {
+      "title": "Tinder Dating App: Date & Chat · App Store",
+      "url": "https://apps.apple.com/us/app/id547702041",
+      "type": "官方应用页",
+      "note": "开发者：Tinder LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "tinder"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/tinder-dating-app-date-chat/id547702041",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "c96a6142e35721dc632a4bc58ca982bf7f4d20a03c3bf6eb13e38e9cedb7ae7d",
+      "bytes": 880733,
+      "changed": true
+    },
+    {
+      "title": "Tinder 每月 App 用户约 5,000 万",
+      "url": "https://www.tinderpressroom.com/about",
+      "type": "官方规模数据",
+      "note": "官网于 2026-09 核验：每月 App 用户约 5,000 万，覆盖 190 个国家；不要与 2014 年行为历史值视为同一期样本。",
+      "apps": [
+        "tinder"
+      ],
+      "finalUrl": "https://www.tinderpressroom.com/about",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "756966d1df1ad9a5bbc36248722d90fb9a1ffe541fa8589e27a423bcf184bdc9",
+      "bytes": 16683,
+      "changed": true
+    },
+    {
+      "title": "Disney+ · App Store",
+      "url": "https://apps.apple.com/us/app/id1446075923",
+      "type": "官方应用页",
+      "note": "开发者：Disney Electronic Content, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "disney-plus"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/disney/id1446075923",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "3657d381fb88b33a24de0e6a468437c066320bb19cfb8047ea9d1d790ec60564",
+      "bytes": 971434,
+      "changed": true
+    },
+    {
+      "title": "Disney 2025 Q2 业绩",
+      "url": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
+      "type": "官方财报代理",
+      "note": "Disney+ 付费订阅 1.26 亿；订阅账户不是 App MAU。",
+      "apps": [
+        "disney-plus"
+      ],
+      "finalUrl": "https://investors.thewaltdisneycompany.com/news/news-details/2025/The-Walt-Disney-Company-Reports-Second-Quarter-and-Six-Months-Earnings-for-Fiscal-2025-05-07-2025/default.aspx",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "586c24c8f3cb49a3c4844023bdc7a4cc1c571dfc94a6b288e079cc9c96bb9dac",
+      "bytes": 582680,
+      "changed": true
+    },
+    {
+      "title": "Google Gemini · App Store",
+      "url": "https://apps.apple.com/us/app/id6477489729",
+      "type": "官方应用页",
+      "note": "开发者：Google LLC。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "gemini"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/google-gemini/id6477489729",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "19fd7d56218d30f68d26814ee80775d2d40fe4b38d397986f1cf883b4df00224",
+      "bytes": 1029772,
+      "changed": true
+    },
+    {
+      "title": "Gemini App MAU 突破 10 亿",
+      "url": "https://blog.google/intl/ko-kr/company-news/inside-google/gemini-one-billion-monthly-users-kr/",
+      "type": "官方规模数据",
+      "note": "Google 2026-08 明确披露 Gemini App 月活超过 10 亿。",
+      "apps": [
+        "gemini"
+      ],
+      "finalUrl": "https://blog.google/intl/ko-kr/company-news/inside-google/gemini-one-billion-monthly-users-kr/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "5443179a0a1c819c4f5e763348a0b2d02af5ce99d68ad00440f7628d8582da71",
+      "bytes": 322609,
+      "changed": true
+    },
+    {
+      "url": "https://sensortower.com/blog/top-chatgpt-competitors",
+      "title": "Sensor Tower：ChatGPT 竞争应用",
+      "note": "Sensor Tower 披露 2025 年 7 月中旬美国 Gemini App 用户每周约 12.5 分钟、6.5 次；网页按 12.5÷7=1.8 分钟/日、6.5÷7=0.9 次/日换算。MAU 另由 Google 官方披露为 10 亿。",
+      "type": "usage-data",
+      "apps": [
+        "gemini"
+      ],
+      "finalUrl": "https://sensortower.com/blog/top-chatgpt-competitors",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "65603f6c52e0cf77c381d42d52e084022e6c736e7239a364ae1cc24bfeb52890",
+      "bytes": 144149,
+      "changed": true
+    },
+    {
+      "title": "Meta AI · App Store",
+      "url": "https://apps.apple.com/us/app/id1558240027",
+      "type": "官方应用页",
+      "note": "开发者：Meta Platforms, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "meta-ai"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/meta-ai/id1558240027",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "959652d0b67157a2089b5cbb99284819b5a495a3672897f0c4a1b72b2829d4dd",
+      "bytes": 984705,
+      "changed": true
+    },
+    {
+      "title": "Zoom Workplace · App Store",
+      "url": "https://apps.apple.com/us/app/id546505307",
+      "type": "官方应用页",
+      "note": "开发者：Zoom Communications, Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "zoom"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/zoom-workplace/id546505307",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "554a774ffc64ed18577c59303ddc77a8073b706dd7702c623b11ea57f959fe1f",
+      "bytes": 1016696,
+      "changed": true
+    },
+    {
+      "title": "Temu: Shop Like a Billionaire · App Store",
+      "url": "https://apps.apple.com/us/app/id1641486558",
+      "type": "官方应用页",
+      "note": "开发者：Whaleco Inc.。用于确认产品身份和现有功能；通知场景按功能触发关系拆分。",
+      "apps": [
+        "temu"
+      ],
+      "finalUrl": "https://apps.apple.com/us/app/temu-shop-like-a-billionaire/id1641486558",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "fc88082cd44adeefa144002e368cb7b75eefab6b0edf0bf937b6071f52c3da86",
+      "bytes": 743008,
+      "changed": true
+    },
+    {
+      "title": "Temu 全球 App MAU",
+      "url": "https://www.techtimes.com/articles/325406/20260824/pdd-q2-earnings-beat-expectations-temu-loses-11-users-before-eu-deadline.htm",
+      "type": "行业报告转述",
+      "note": "TechTimes 引述财新与 Sensor Tower，给出 Temu 2026 Q2 全球 MAU 4.67 亿。",
+      "apps": [
+        "temu"
+      ],
+      "finalUrl": "https://www.techtimes.com/articles/325406/20260824/pdd-q2-earnings-beat-expectations-temu-loses-11-users-before-eu-deadline.htm",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "2b529a5bbe30290d453696756b4a92c3657dbbb2b9db6e006fcfd6e8d7c93826",
+      "bytes": 339794,
+      "changed": true
+    },
+    {
+      "url": "https://www.aol.com/news/chinese-shopping-app-temu-microsoft-233940417.html",
+      "title": "NBC News / AOL 引述 Sensor Tower",
+      "note": "Sensor Tower 估算 2023 年末美国用户每周使用 Temu 23 分钟，按 23÷7=3.3 分钟/日换算并标记历史值；2026 Q2 全球 MAU 4.67 亿来自另一篇行业报道。",
+      "type": "usage-data",
+      "apps": [
+        "temu"
+      ],
+      "finalUrl": "https://www.aol.com/news/chinese-shopping-app-temu-microsoft-233940417.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "e5b26d47719d1af5cf55b561bf14fac928c5ac47981f7e453c691001de85348b",
+      "bytes": 771360,
+      "changed": true
+    }
+  ],
   "failedSources": [
     {
       "url": "https://datareportal.com/reports/digital-2026-two-in-three-people-on-earth-now-use-social-media",
@@ -26,10 +1830,10 @@
       "status": "http-error",
       "httpStatus": 404,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-07T21:32:16.412Z",
-      "hash": "634cac698adb3133d0125f3722e7d7a60d8ec16b590822655ee8cd960ca0d9cf",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "9fe29c8c4bd2f934f04bd9916d66b33f29544aca4421ddac5d4ee333b29fd6e1",
       "bytes": 85798,
-      "changed": false
+      "changed": true
     },
     {
       "title": "X 手机通知帮助",
@@ -43,10 +1847,27 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-07T21:32:16.412Z",
-      "hash": "476129a6b91d3f810fb856221a6cb0785054455dc5503f5bf3c19707a2e57255",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "a54aee125db412e352a610d4f91535708f4ea7990e68402cf75e4d9b2cbf88c5",
       "bytes": 5782,
-      "changed": false
+      "changed": true
+    },
+    {
+      "title": "X 移动 App DAU",
+      "url": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
+      "type": "行业估算代理",
+      "note": "报道引述 Similarweb：2026-01-07，X 的 iOS 与 Android 合计移动 DAU 约 1.25 亿；DAU 不作为 MAU。",
+      "apps": [
+        "x"
+      ],
+      "finalUrl": "https://cincodias.elpais.com/smartlife/lifestyle/2026-01-19/sorpaso-la-app-de-threads-para-moviles-ya-tiene-mas-usuarios-que-x.html",
+      "status": "http-error",
+      "httpStatus": 403,
+      "contentType": "text/html;charset=utf-8",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "f10c1311fe1ee300d506e74a42591578511ad1bf235e63782191876cf293098c",
+      "bytes": 851,
+      "changed": true
     },
     {
       "url": "https://elpais.com/tecnologia/2026-06-04/chatgpt-se-convierte-en-la-aplicacion-mas-rapida-en-conseguir-1000-millones-de-usuarios.html",
@@ -64,10 +1885,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-09-07T21:32:16.412Z",
-      "hash": "abbbfd5995e55cc32079b36ff879a227d44d670e13da9bc97bbb9d499e4bbe2e",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "3b1add2f30c5cbe1320cbd1488a71875c3934c2a49a05fc82e6703d5214558bc",
       "bytes": 851,
-      "changed": false
+      "changed": true
     },
     {
       "title": "Ofcom CMR 2017 · 5.2 节，印刷页 166—167",
@@ -81,10 +1902,27 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-07T21:32:16.412Z",
-      "hash": "89226b4abfc9080764ed30a22c9a180b3b5a8a430990652122a34ef3f022de8b",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "69b058fd2e3c5052a6519b32702407484663c221490a08b507200a0093a40f06",
       "bytes": 5936,
-      "changed": false
+      "changed": true
+    },
+    {
+      "url": "https://slack.com/blog/news/slacks-growth-in-asia",
+      "title": "Slack 官方 · 亚洲增长回顾",
+      "note": "Slack 官方于 2019-10-16 披露，2019 年 9 月跨端日活超过 1,200 万；未分离手机端，不将 DAU 转成 MAU，也不采用跨端在线或工作时长填充手机日均。",
+      "type": "usage-data",
+      "apps": [
+        "slack"
+      ],
+      "finalUrl": "https://slack.com/intl/zh-cn/blog/news/slacks-growth-in-asia",
+      "status": "http-error",
+      "httpStatus": 429,
+      "contentType": null,
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "changed": true
     },
     {
       "url": "https://investor.pypl.com/financials/annual-reports-and-proxies/default.aspx",
@@ -98,10 +1936,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-07T21:32:16.412Z",
-      "hash": "e5e8d804e0d9dc0901a3284e52428f66958b3987e846ac025b7731a655530678",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "05a1c2707ca58162184a6fb2810b23b38af1bd2c9bb2124e42b50ed20ccf6149",
       "bytes": 5792,
-      "changed": false
+      "changed": true
     },
     {
       "url": "https://www.sec.gov/Archives/edgar/data/1345016/000134501626000019/yelp-20251231.htm",
@@ -115,10 +1953,10 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html",
-      "checkedAt": "2026-09-07T21:32:16.412Z",
-      "hash": "87d387e7eebfbeb6b72b7dc82001df123b0e7be3d2e4a15834c065274b0f89b3",
-      "bytes": 4817,
-      "changed": false
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "4dda033ae89d4be819b1b8ea27e25ab3a9cb4caa573823c5792daa6e2f2b72de",
+      "bytes": 4819,
+      "changed": true
     },
     {
       "url": "https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union",
@@ -132,10 +1970,25 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-09-07T21:32:16.412Z",
-      "hash": "eff7371212e5b390524b410b2d6f0d72643809a14dce92978ce095d9064cebd5",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "691fd79a1b685ef3d9cf09ee9bbc69e681ff248c053348a3397ed0aaf150123d",
       "bytes": 6019,
-      "changed": false
+      "changed": true
+    },
+    {
+      "url": "https://dailytrojan.com/2014/01/27/usc-alumni-and-tinder-co-founders-meet-with-students-on-campus/",
+      "title": "Daily Trojan · Tinder 创始团队校园访谈",
+      "note": "2014-01-27 现场报道引述联合创始人兼 CMO Justin Mateen：用户平均每天打开 11 次，每次 7 分钟，11×7=77 分钟/日。未披露抽样方法与地区细分；这是非常早期的公司自报历史值，不代表当前使用情况。当前官网约 5,000 万每月 App 用户另列官方来源。",
+      "type": "usage-data",
+      "apps": [
+        "tinder"
+      ],
+      "status": "fetch-error",
+      "checkedAt": "2026-09-08T21:10:42.114Z",
+      "hash": "4e5ad074c0c023c477281f8e2e3a0cd197adceae1953042c37ae6bbc64a6ebf9",
+      "bytes": 158953,
+      "changed": false,
+      "error": "timeout"
     }
   ]
 }
