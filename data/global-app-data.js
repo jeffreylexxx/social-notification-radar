@@ -7,12 +7,12 @@ window.APP_DATA = {
     "strictUsageMetrics": true,
     "disclaimer": "通知数量是基于公开产品资料整理的可独立识别提醒场景，不等同于某一手机型号或版本中的设置开关数量。",
     "usageNote": "日均时长、日均打开与 App MAU 必须有公开来源和明确时间；跨端用户、会员、订阅、账户、DAU/WAU 仅作为代理标签展示，不写入 MAU 排序值。",
-    "snapshotDate": "2026-10-01",
-    "generatedAt": "2026-09-30T22:17:24.409Z",
+    "snapshotDate": "2026-10-02",
+    "generatedAt": "2026-10-01T22:42:34.802Z",
     "sourceCount": 121,
-    "changedSourceCount": 107,
-    "failedSourceCount": 7,
-    "previousSnapshotDate": "2026-09-30"
+    "changedSourceCount": 111,
+    "failedSourceCount": 8,
+    "previousSnapshotDate": "2026-10-01"
   },
   "apps": [
     {
