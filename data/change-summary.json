@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "changedSources": [
     {
       "title": "微信视频号通知设置说明",
@@ -13,8 +13,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "7376f6ec8642ccb3dc02b78d9aeb1ef1ef66c72f43e26411706c0ddf22401cc6",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "c39d38b419b20998855ca5c247556288d035c4f20340a3f958c9a8b858b8d265",
       "bytes": 129,
       "changed": true
     },
@@ -26,13 +26,13 @@
       "apps": [
         "xiaohongshu"
       ],
-      "finalUrl": "https://www.dcbbs.com/p-183112.html",
-      "status": "ok",
-      "httpStatus": 200,
+      "finalUrl": "https://www.dcbbs.com/Help.aspx?aspxerrorpath=/View.aspx",
+      "status": "http-error",
+      "httpStatus": 500,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "71cf742c3fd64e7c4e1896fc04ac83ad927a718ee0cb4a1c819b5a0c8874b0ce",
-      "bytes": 146483,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "168051df4ad60dbbaf463c3167231a35dd6f158bef8ea37b7fd63d06ee72d52b",
+      "bytes": 1739,
       "changed": true
     },
     {
@@ -47,9 +47,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "67506cde653757395853811a33ae0a00a29242c52b9423ea336c54f9aba7e113",
-      "bytes": 829375,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "14894b54e8d45311ead8a43b46c68b2fc444aed9448c19feebb95f33e3d5fc35",
+      "bytes": 830951,
       "changed": true
     },
     {
@@ -64,8 +64,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "68a50cc4527e0846ac2ab8555e90bdffde0a9eac9bfec9f1f59fff46ac9ebe70",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "5e5338cab8037264fc1c317184ef458e56fa6e9644e8cc5763cbb7daf5c0ef22",
       "bytes": 190378,
       "changed": true
     },
@@ -81,9 +81,43 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "f774a3d7e9f5a67089a5874c56751621a8fce6aafdcfe4d025a5c86bbae8f7bd",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "a09799e7adf9ea4d723f333dc5586823a63abb12d9daff3320b7f9a628e8e2d3",
       "bytes": 35506,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 2026 APP 流量竞争新特征",
+      "url": "https://www.questmobile.cn/research/report/2043979270875897857/",
+      "type": "usage-data",
+      "note": "披露美团 App 2025 年 7 月 MAU 为 5.25 亿。",
+      "apps": [
+        "meituan"
+      ],
+      "finalUrl": "https://www.questmobile.cn/research/report/2043979270875897857/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "bb76e1a2fed0128ed3f8b39395e0cc688c83ff6b017dddffccba55d7f6345351",
+      "bytes": 104861,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 2025 中国移动互联网年度大报告",
+      "url": "https://www.questmobile.cn/research/report/2031215896219979777/",
+      "note": "年度报告披露美团 App 2025 年 12 月日均使用时长 14.3 分钟、使用次数 5.0 次；MAU 的独立来源列于下方研究来源。",
+      "type": "usage-data",
+      "apps": [
+        "meituan"
+      ],
+      "finalUrl": "https://www.questmobile.cn/research/report/2031215896219979777/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "4383f6817afe23fc5b9f7411f383587b7be1d2eefa173b1d75f69326a4f1a01f",
+      "bytes": 207618,
       "changed": true
     },
     {
@@ -98,9 +132,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "9828e44b161d4e95e4e71a88971bd5dfbc78dc8329f6635ca9b9b304b7ef1140",
-      "bytes": 806197,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "0c7a7870963605f1bca0201cb03100d36792cf83a238550fe4e069716566feaa",
+      "bytes": 803361,
       "changed": true
     },
     {
@@ -115,9 +149,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "66d9577d93cae4acb0b50aef91a5cba4a0d97d5133bde82f208bad2878f2cfe3",
-      "bytes": 106037,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "ec9842b2406ceef2d8457f6b1004de5da5526b32483bc003b718e32211c8a8b0",
+      "bytes": 106149,
       "changed": true
     },
     {
@@ -132,8 +166,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "e3603d603dd34b334467c16097b14d0598101920b28caa9d05a8066bcd5fd4df",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "bf68d71e2cb5e0dc9caa39a476f8826c36450a8497b8d8534361a5a0ac9dac02",
       "bytes": 129,
       "changed": true
     },
@@ -149,9 +183,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "a8518ac69309ed6cc1dc49c086f55fbb35c242f7a8cd4f9e55a27cde59684e96",
-      "bytes": 354352,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "c06da6736289fd01415c0c4dd65fce99a441d750fc3864821fa23f2ee6cba9ff",
+      "bytes": 424738,
       "changed": true
     },
     {
@@ -166,8 +200,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=UTF-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "441748968785988d40d64c95334701d0aa75e111a50c54479dd7e9e7ee5e00c5",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "f57f62f6557c7cb09a85d1f83f794c9192e348639591d4150eaf97ad6d791d42",
       "bytes": 31281,
       "changed": true
     },
@@ -183,8 +217,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "bafaca5f58ce67cff046de8790637bbf23baa1d2f9ddf5bc1bf18dfb8a87fc55",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "17559a008c634609f6e86834d679d2c6c5c74367617930cde50fddde870c4a60",
       "bytes": 29528,
       "changed": true
     },
@@ -200,8 +234,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "6606a6294889bd7ddc1cb3b1a956038014ec32f5589221f34b5eaa9f700c92e6",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "7b3f4f628b633116601ad863549483924f3a3a25f021f0606a04eff6522ba365",
       "bytes": 170538,
       "changed": true
     },
@@ -217,9 +251,9 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "ccf547cd2d99c5273ae712c177a0edc6951945fdcc8dfeab6023f8a060883f50",
-      "bytes": 681,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "02a7598fe44505e91f819e46c90dc757b9a83847a54235c8e00609a5d779810b",
+      "bytes": 679,
       "changed": true
     },
     {
@@ -234,9 +268,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "e8a573740b4642a603b6d12d17fcb32bc0f0b30fb97fab1eadb448c82cb3f06f",
-      "bytes": 393681,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "eafb185822eabbf71db251993112f2d22f28a52b125feb4daf8a23421b00fd72",
+      "bytes": 393633,
       "changed": true
     },
     {
@@ -251,8 +285,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "c2260f439d37f1888d3d07be319f8011fbedcffff86986688dc2b8dcb414b2bc",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "38341a722494543311559c294c6b802fd8d084b1d2394f11b89c373a9dbe7de8",
       "bytes": 24484,
       "changed": true
     },
@@ -268,8 +302,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "ab14cf2149788f8a7a771a3706e09ed6da24048e6b4852460db01446edd43513",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "79fe3f011dc503af95bb2dc682edc250f2dcd63fcd863a31bbedf294702a0af7",
       "bytes": 214850,
       "changed": true
     },
@@ -285,9 +319,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "a5b8a4556a3e65d646010ed0ce18b72aedc8b8d4fec080b9119ca857fa1b4334",
-      "bytes": 1113772,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "e74eb105f3ce6650698076ba741ba08ee2fe67f26514dfce03d1c2ecd18f264d",
+      "bytes": 1113967,
       "changed": true
     },
     {
@@ -302,9 +336,26 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "6fcf82a503295f92246ccbfbdbcf08bc0f245aa6b4207c6e4fad3c87f34f3a89",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "d96fe2b47b90395b9eac0dbf682a834b2a30e582551cff1a0d72fd8dc2a1cd54",
       "bytes": 129,
+      "changed": true
+    },
+    {
+      "title": "腾讯视频隐私保护指引",
+      "url": "https://privacy.tencent.com/document/priview/a0ad886041e644af93f2a2ab91dd84bb",
+      "type": "official",
+      "note": "确认内容推送、预约提醒、评论、点赞、关注和订阅记录。",
+      "apps": [
+        "tencent-video"
+      ],
+      "finalUrl": "https://privacy.tencent.com/document/priview/a0ad886041e644af93f2a2ab91dd84bb",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "847796c345b487c7ef037118f52c610efa7f73a6ec54a0a0ae04b4bc23c8c6b9",
+      "bytes": 3112,
       "changed": true
     },
     {
@@ -319,9 +370,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "4d707c5cf4974d1665011195003816c563ad3c4a6e9ece4eb0b7d9fcc550270e",
-      "bytes": 545407,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "2943cb2563944950d7bfd86c9bc8932f1de65da43f6895e82bb568e023557e25",
+      "bytes": 517670,
       "changed": true
     },
     {
@@ -336,8 +387,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "ae9721d7c1e64ccf968074f9c5ff3ab56b9867630ca7239ea3fe484d836a295d",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "de0bbd2668e5dbaed585b2d378d387cb4716d510b22782136ba6effce3ddfbdd",
       "bytes": 129,
       "changed": true
     },
@@ -353,8 +404,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=GBK",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "9942b9e4f61fb6ca823cf4eabff240e0c8747be1878f992689bbc381f356b8d3",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "9652d68ebcd55191714c2c2d5c2ab74cb9b3fcd969d62a74c2045533ac2fe84f",
       "bytes": 68667,
       "changed": true
     },
@@ -370,9 +421,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "8ea9a6597b1764f1dc99fa5be83e7bc69fcc459a155acddf6f104903ad4c4c38",
-      "bytes": 63329,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "cc35b6336f5a4dd0c0859c9b2414dd7947169a875378aa812d9cbd3f5ed895bc",
+      "bytes": 63327,
       "changed": true
     },
     {
@@ -387,9 +438,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "3a873f1bd21273524f70bb950c43d9e25268dcd535561bb17ca54db36a7e58ea",
-      "bytes": 701852,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "8ca47b07953fa9119680419ec29a7c7eb86cb1f90df34095968b674ebd1e4d67",
+      "bytes": 681321,
       "changed": true
     },
     {
@@ -404,8 +455,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "7d42cc0a363cd32ace62c1117a122ae5b86ebb72e1b49e81ffb1987728046037",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "07fa1ba7a4d1e40a21ca2061fdd8ce0e0053345bb981d1c7bc2c1037f0dda9a0",
       "bytes": 129,
       "changed": true
     },
@@ -421,8 +472,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "14d41d6139640406f959299db00bc374ff2d4d6d9b1d033e0f2cb9cea597537b",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "5ed48236bdddc850f5cc299cebb4de8dcc99e3fbeb642364f259b989628a12a4",
       "bytes": 129,
       "changed": true
     },
@@ -438,9 +489,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "33d45c30e299d584a2e72eea941319c5c3dab19c8fff73737e4668be5a3c4e3e",
-      "bytes": 163716,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "1217d244baa533e6be42a1661e85ba34bfb314bdc39160925d1e053c089993c5",
+      "bytes": 163459,
       "changed": true
     },
     {
@@ -455,9 +506,27 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "d3f5aa2052432a689aa32d194b720a28158c250e93986d3cc7d7e2d09f0c1e1d",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "f3d65637e626daba97c78d07c64983d6eb039284fa12ff56f50ebcb904ec57f8",
       "bytes": 4911,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile AI 应用价值榜及半年报告",
+      "url": "https://www.questmobile.com.cn/research/report/2059118379722096641/",
+      "note": "2026 年 4 月月人均使用时长 144.6 分钟、月人均使用次数 75.7 次，均按 30 天换算为日均 4.8 分钟和 2.5 次；2026 年 6 月 MAU 为 3.82 亿，三项指标跨月。",
+      "type": "usage-data",
+      "apps": [
+        "doubao",
+        "deepseek"
+      ],
+      "finalUrl": "https://www.questmobile.com.cn/research/report/2059118379722096641/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "e73d43682cd6bca2d61f5ece00c02474df3ae0e40dd342973be84b4fa399039e",
+      "bytes": 140085,
       "changed": true
     },
     {
@@ -472,9 +541,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "8b01d43b9ea5645d49ecb2de8950a407657659ff29a2daa24f06180442839d65",
-      "bytes": 785808,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "83b2bc14108f7921b3e00bf4fa778db610088e39450d9d4bb66cd9425e425f8d",
+      "bytes": 789077,
       "changed": true
     },
     {
@@ -489,9 +558,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "e07e91605a424aa6ed1f9f316ea1d425452bb3cb5aece064dacd5baec4917d69",
-      "bytes": 646265,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "3184368a1d01a141372247f131fd95a3df17d244af4ae5a7ac1331a15a6a2bb1",
+      "bytes": 643646,
       "changed": true
     },
     {
@@ -506,8 +575,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "d3af2c31b37342d62450116bcaef960265e232d809700e04ef7d8d69009debb4",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "cd420ab71a9dda194d4e800eae4813851c5d63d8c543584d2085ebf596887215",
       "bytes": 516044,
       "changed": true
     },
@@ -523,9 +592,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "77ddd2f8b20600dd9e9ec3be5c91eddacfd23974c7cd56342b6c027d1477b05e",
-      "bytes": 719437,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "4490574b3ec3f77a020cc5e3b246de7c25c0eaadabf8390ab0be2beb7dd80ade",
+      "bytes": 729720,
       "changed": true
     },
     {
@@ -540,8 +609,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "7b511ab2c2ad0677c6ff77d5c4a55ce767e6978f64be69d3bab466038332115c",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "d6f1ca5a096d11014e890430ac8239d4e4a8738a44e91fdf56172bb6bf3750dd",
       "bytes": 43210,
       "changed": true
     },
@@ -557,9 +626,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "b2a6fb03eb311d3d5edb1bc62c805cba4574297eedd692db66a024fde6b8b320",
-      "bytes": 910277,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "f0be16afb2e4cc9dc15b5ac67178f7f1fac2d3de2af8d27fc70b3ebef519fd54",
+      "bytes": 899015,
       "changed": true
     },
     {
@@ -574,9 +643,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "77e804f499917ead1e3847e6c9095a74e85350749be5e31db5442a473144b422",
-      "bytes": 797436,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "bb6d534126649f4c637c05fd5fcb1618b4f72bb789d158573e0a24efb5c80383",
+      "bytes": 811176,
       "changed": true
     },
     {
@@ -591,9 +660,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "626ca8b0375161a1ca62330c501fa9a5b42ba795a600db9145d63919749c8b3e",
-      "bytes": 99342,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "70fba742dd5a9a4f57d2efdef183e06bbd7b886dea7101df0bd77ddeb850e979",
+      "bytes": 99233,
       "changed": true
     },
     {
@@ -608,9 +677,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "60eb0848ce558f02c633d967ea9b739af91ba5bfe3ef0edeb1dfdefd7a77ffa6",
-      "bytes": 955704,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "9f3ba321535be0e811f4d9c8fb2386154cf2dcbbd5597118c04b21830bc0d521",
+      "bytes": 950303,
       "changed": true
     },
     {
@@ -625,9 +694,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "033319f38b5cbaad8a5188c3fd03e59ffea07612afef6a2a5632b8ab75d3b099",
-      "bytes": 1044411,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "6be83816330533b976f161a7042f752161ff2b589d79d08b1dce41a5edad4fdb",
+      "bytes": 1043864,
       "changed": true
     },
     {
@@ -642,9 +711,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "792fcea0a6f762707a62165d9af05d35a0818214272ce940575339e03edf873c",
-      "bytes": 738669,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "5f55f22ae574a10f1bf864906405d4d9314832c0a47d2294e74cc489037f61c7",
+      "bytes": 738077,
       "changed": true
     },
     {
@@ -659,9 +728,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "93f99eea44bd7917d461c6afd6dcd9088d2d9e98fa78f2ec2e032bafe4377f78",
-      "bytes": 857355,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "9025ab2f8be24e968a9cb93cc75036156a8a4eb8aba9275e713d36d3f0d13fcd",
+      "bytes": 857529,
       "changed": true
     },
     {
@@ -676,9 +745,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "dcc68a05b9da78de180ab4189ae907fda9c076562979a8760fdf7a869604ce7e",
-      "bytes": 705515,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "e7506a1f5fa688e2ef598b99afeb6af2214174b16b255ebd3ff42c7f669e3625",
+      "bytes": 703081,
       "changed": true
     },
     {
@@ -693,9 +762,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "5784a7ec6cd69de263e9e2363764a6f86e7761bcc03fb24540cb6ec9c2cef9bd",
-      "bytes": 643991,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "890c9c9e9a89557b285d171431d27a3573b53c2d4dac6ee1211819351b3f0692",
+      "bytes": 644093,
       "changed": true
     },
     {
@@ -710,9 +779,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "aee996bf64306c7e21fa3308a884a2e9b16d6c9a7cbf79c190e131e1c85d08fd",
-      "bytes": 873102,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "de174dc39367fae13affa13cef96a7674068db8e215a270ba994ffd4b41a6dcb",
+      "bytes": 871939,
       "changed": true
     },
     {
@@ -727,9 +796,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "237016eaa3647c1b3f6c7f1f6eb61a3ad9b9d330cf8af9c9738dc463d7e98406",
-      "bytes": 630681,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "db8cd36dcafb4f9828461298565fc7c1a2939b21975e7f184f6ed98685c011b8",
+      "bytes": 630666,
       "changed": true
     },
     {
@@ -744,9 +813,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "3874b501e4c6722ba26708f266e9dfdd2efee097dc8233f12f6fd19d81a0fab4",
-      "bytes": 818665,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "301011e4e0a3173319ec176b32c6390f38a2d08f3865b7ee8e590636fd4062dc",
+      "bytes": 824592,
       "changed": true
     },
     {
@@ -761,8 +830,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "87a471a69cf779027e2c9a7d266e1276b20487c11e2cadb031d54de9120bed7d",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "51883450409bb44d27796bfcd7d83ffbbf2bc4b9caee2da7d20f891391b6837c",
       "bytes": 151628,
       "changed": true
     },
@@ -778,9 +847,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "6543fac48a70a7ea31aa7d7f254a87096975f70feb3eea3d74a191b56de6a61e",
-      "bytes": 745484,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "bc8fec822a318cb5d22fc7c05f9b80b0bd19ebe74fcfd6cae7581b25a84170d2",
+      "bytes": 739517,
       "changed": true
     },
     {
@@ -795,9 +864,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "a960f852e043692d42705755d262a32424c841c75ba1200d69152038c512928e",
-      "bytes": 1027375,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "9d0eb7181559dae83721d7ea80dbfacb783c406d7288db192cd38b22ec39bab5",
+      "bytes": 1027787,
       "changed": true
     },
     {
@@ -812,9 +881,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "3b4f7cdebd1c7d3a7ca4bcf308c111ee9fb6947d2b9baf77a1fdf4a6469b40e7",
-      "bytes": 898981,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "70efc64a9f16a10b781b7fb378612ec32052e9575eae86128a2d3390a2ac499b",
+      "bytes": 899073,
       "changed": true
     },
     {
@@ -829,9 +898,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "d6edf31d789721a12db3dba70d22bc60d32ce4dcc7fb31e9ef2f57d2cf4d4c1f",
-      "bytes": 951077,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "dab956aa288b51c9c3a848a55a45f11419dcd41b9660a45432698af9a14d39a4",
+      "bytes": 958037,
       "changed": true
     },
     {
@@ -846,9 +915,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "aed763006908b201db57ba4f871acc0ec5a2b805211dbc8ede66795a6c32de7f",
-      "bytes": 898869,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "6d392f59bfa839af3f36c69d62681d4593c370d6267013597bdb05e136a84ec2",
+      "bytes": 874514,
       "changed": true
     },
     {
@@ -863,9 +932,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "e251390919bee57f7190d572f5b19f8a0b4e3d47fa3bce0f13dd703e3c7c16eb",
-      "bytes": 1629881,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "e7a1aebf1d44e971ef9787522d6bb3be32d807ccb82ae267b9247cfe795b4fcc",
+      "bytes": 1629824,
       "changed": true
     },
     {
@@ -880,9 +949,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "f4e787278ef3440ff90770ceb3a8925788425307cefd528b47f777a349c2ce78",
-      "bytes": 878339,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "d1555434100bf26205d0b60078780c40aa2bb1e07d48a599bb03b6b8ad2b7d22",
+      "bytes": 877870,
       "changed": true
     },
     {
@@ -897,9 +966,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=UTF-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "599359e4a5288ab1837125cad117499a2e30c016b486dc429975afe03b9f5f4b",
-      "bytes": 190510,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "80ead67e8de045bb573202a911dc336da36c9502ddb4230fd08054649dcb5402",
+      "bytes": 190504,
       "changed": true
     },
     {
@@ -914,9 +983,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "bf1294d88720de2b3e02526f6f932dc056054e84dff05d299b14a2ec55d31aa4",
-      "bytes": 847408,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "835d3a9c209089f76f1d4b35895103b0c3764275099787c8bdf9573f0425ae77",
+      "bytes": 841374,
       "changed": true
     },
     {
@@ -931,8 +1000,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "ad939accfb30d4bcdb3152bf58195b9fe27987d7c0e3d03d7ea218527f5b0c61",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "f4ee9a36200d976815eb69d859360498dc51782924dbf10c9bcd8de6db2bba5d",
       "bytes": 218024,
       "changed": true
     },
@@ -948,9 +1017,26 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "094dd088f435fddc4ad4f71703cca1ceefb82412976af1ad258a56e23d140ac1",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "942634d8712471125374d71a7f65fc161ebb6a89ac497a88fbf54311f12338d9",
       "bytes": 739219,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 2025 全景生态半年报告及泛资讯报告",
+      "url": "https://www.questmobile.cn/research/report/1950089049332092929/",
+      "note": "QuestMobile 披露网易新闻 2025 年 5 月 MAU 5,782 万、月人均使用 18.7 小时，按 31 天换算约 36.2 分钟/日；TalkingData 2020 年 6 月披露月人均使用 122 次，按 30 天换算约 4.1 次/日。",
+      "type": "usage-data",
+      "apps": [
+        "netease-news"
+      ],
+      "finalUrl": "https://www.questmobile.cn/research/reports/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "3fb0321c2f759355d9a391ca74b0671ebee00c5bf2a2e0ad026d08a3da44cd82",
+      "bytes": 114462,
       "changed": true
     },
     {
@@ -965,8 +1051,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "2180361cdbb3b6668762b2333295f6a02110e3b3085e016738e5bee0441f6d8b",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "00edcf3ae889807fd645ed6c448082d658bbd751216064c3224a03c1d6582cd2",
       "bytes": 940039,
       "changed": true
     },
@@ -982,9 +1068,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "2dbf2293255990f4442678a13ab47c488b637e16bf035a9532f2c739966289aa",
-      "bytes": 639890,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "d2f4d72037d09ba87921f55bc6c673388004fc223ae0b3fce917628cce00fb6a",
+      "bytes": 639874,
       "changed": true
     },
     {
@@ -999,9 +1085,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "fa78fecc58b58f504ce90167e56e08f5b17510d1c2ae28978dad40123b5ffd5a",
-      "bytes": 28077,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "dbdc3227e2861064118e42a176857d24535984c015ca4072ffffb913082994cc",
+      "bytes": 28152,
       "changed": true
     },
     {
@@ -1016,9 +1102,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "f3342a60ba38ce847e82fdb0f03fa2357fa6ec922dd8291efec788cf43819745",
-      "bytes": 567591,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "20c00679821d264281d7739c4eca6712aa95c96adb808f539bb4f46e8eb1d507",
+      "bytes": 567579,
       "changed": true
     },
     {
@@ -1033,9 +1119,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "961b40ab83fba1f72a3e859d05f730f3d8063edaef537ddc9f6788e44175f21d",
-      "bytes": 821052,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "2614e72bed2507125bac9b43276262e6e8b26705542242da3f696583bb69e573",
+      "bytes": 813169,
       "changed": true
     },
     {
@@ -1050,9 +1136,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "1e071d696f7167523be6807b6869f2c1e57175c95b9878ec0ebbb0266160450a",
-      "bytes": 689053,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "4dce2946414c128b655221fafec644f827a55dcd36afccbb36a5816c82b14215",
+      "bytes": 689095,
       "changed": true
     },
     {
@@ -1067,9 +1153,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "a3bf48b84f321947543683cde728b175166b8f4c49a7d80ce4a960eef7c92261",
-      "bytes": 543548,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "e0c9ca38319bea82c1738a983ebe0db56cc1248b1c14d6ce43584070ad9d264a",
+      "bytes": 545822,
       "changed": true
     },
     {
@@ -1084,9 +1170,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "1a24255839b34dd48d6946c480c55ff3f9c8ce42f3d27420467bdacbfed29686",
-      "bytes": 695032,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "f9fd601edbc3628dcde5fe197cd8b623b0cb73ccce736188b3b589c595911c83",
+      "bytes": 695100,
       "changed": true
     },
     {
@@ -1101,9 +1187,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "815a4b66c26c3f0a5ea8b2b98dcc9050c1e50e5af23ae775ad2b3105bfac1d8a",
-      "bytes": 776517,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "8d5a21300851451131cbb8401f51ce10e3df6cb85f76eb60598ce09de43a6b1a",
+      "bytes": 780951,
       "changed": true
     },
     {
@@ -1118,9 +1204,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "a70f08616013cc4331086b2fb7cc33b61dd5c4d5468476c94c3f2ed74e5127c0",
-      "bytes": 88589,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "bbc8fdcfcf35a2bcc95ab56295b18725f69f21de2352eef15597cb8cc40fadc7",
+      "bytes": 87967,
       "changed": true
     },
     {
@@ -1135,9 +1221,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "6d719cddeb5608002f5ac98997b92a09f5a7337fecf3d115d677cd3b7157eac8",
-      "bytes": 650430,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "f38af29b87fa4ce8a000387d28908204f78af974ded65e84b9b76e81627c0c86",
+      "bytes": 655033,
       "changed": true
     },
     {
@@ -1152,26 +1238,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "d23135b3a731cdfaa9ac0981a1525ceef09c8ab99b0d764e47b58114c7aa466f",
-      "bytes": 729563,
-      "changed": true
-    },
-    {
-      "title": "QuestMobile 二手交易 App 监测报道",
-      "url": "https://www.ikanchai.com/article/20160613/83540.shtml",
-      "note": "QuestMobile 2016 年 5 月监测披露转转 MAU 410 万、人均单日使用 11.4 分钟、人均单日使用 5.5 次。数据较旧，仅作为有明确年份的历史基准。",
-      "type": "usage-data",
-      "apps": [
-        "zhuanzhuan"
-      ],
-      "finalUrl": "https://www.ikanchai.com/article/20160613/83540.shtml",
-      "status": "ok",
-      "httpStatus": 200,
-      "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "a6d60275c5a9bbc267178d48f1baca46c036cf424b679de721dc0a74f72a3aa3",
-      "bytes": 71634,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "69d15c39036761efe57e0d8f2d139f975255d15ddb02d2c524dfef59ab1cb1d0",
+      "bytes": 729189,
       "changed": true
     },
     {
@@ -1186,9 +1255,26 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "fa0ee41b96fe9fca900c99377001891353ffcf4577294632382e8021adbffa6e",
-      "bytes": 817376,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "8f9bb35d5be430333fa8758af6549bca62eb031839dc2b1d9afd6d49e61798e5",
+      "bytes": 829287,
+      "changed": true
+    },
+    {
+      "title": "QuestMobile 2025 APP 流量竞争新观察",
+      "url": "https://www.questmobile.com.cn/research/report/1904427484746715138/",
+      "note": "报告图表披露抖音商城 App 2025 年 2 月 MAU 为 2,960.2 万；未披露日均时长和打开次数。",
+      "type": "usage-data",
+      "apps": [
+        "douyin-mall"
+      ],
+      "finalUrl": "https://www.questmobile.com.cn/research/reports/",
+      "status": "ok",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "3fb0321c2f759355d9a391ca74b0671ebee00c5bf2a2e0ad026d08a3da44cd82",
+      "bytes": 114462,
       "changed": true
     },
     {
@@ -1203,9 +1289,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "ed120f62ed81ce7abb04551137cc19f8ce8275ff2e4c3ea5d6e11962ef142fa5",
-      "bytes": 658809,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "02cd68ed2e8605967fab56a62508b2b29523023f7ece0108c950ae8b14fa8cb7",
+      "bytes": 658909,
       "changed": true
     },
     {
@@ -1220,9 +1306,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "76379d244bfbff177e596443de7fab47e9817b24c6725d06795eac023d59c46d",
-      "bytes": 1003828,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "69d35a5cdea9b54ca93264b9ffbfa1049cc9c821b6d31362bed6e9795938e6c2",
+      "bytes": 997662,
       "changed": true
     },
     {
@@ -1237,9 +1323,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "117e253f4391bf368b0dc557c193b401106f94fda690ce187b31c802f9f5a6b7",
-      "bytes": 690597,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "f2bb362ef56f5109050da6fb68851d5c26f06644368cbd257d2ccc168852130b",
+      "bytes": 692131,
       "changed": true
     },
     {
@@ -1254,9 +1340,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "9342fc093c09b2ed85c06d8141ee473a50f672f78904da77d7d4820dc513a851",
-      "bytes": 161996,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "269119c5889de4cbe5daa021ddbd1b729f541adff67bb6f0d7b51a77526b9c60",
+      "bytes": 163155,
       "changed": true
     },
     {
@@ -1271,9 +1357,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "7a929d32d734430fa96da664980b1160324f256413e39a8722fa519d0f2bd705",
-      "bytes": 896564,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "19f6c6a493ad5fb89df78c5fa9df5db5b54e77e4642d6dba1026d007736a62df",
+      "bytes": 897688,
       "changed": true
     },
     {
@@ -1288,9 +1374,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "b97edac6c0481300c1f0ee8b4fcf0b00a0913d22d64bb360d958094c76934750",
-      "bytes": 717989,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "309e7a141c7962267228303cbd0b2d71492ff89a3a2c7eb1863578fb19e8c69c",
+      "bytes": 716317,
       "changed": true
     },
     {
@@ -1305,9 +1391,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "759f9769a7b0be476e16d4e674f7f84203933dfc0aec1dad9c59da391c1c4ea8",
-      "bytes": 773270,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "271d463bc21fa3e83ccf0266c41c568d573c5098ac5b4fb031271f836c21574d",
+      "bytes": 795522,
       "changed": true
     },
     {
@@ -1322,9 +1408,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "792cdccd005f9924325130778e6b903c5805e955827482fe0dff7b54d8bf1bd0",
-      "bytes": 1106150,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "b1adc07f0710f3a7ab3a96a5e8e48b2761a1dc4ce06a798e145a81f9650906b4",
+      "bytes": 1070024,
       "changed": true
     },
     {
@@ -1339,9 +1425,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "b86a157603b754bfe82291a629a770f7e714ab924e987d3267b7961b7815772f",
-      "bytes": 103770,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "bf112b6cc33d03b77f53198b83df104f5ff073f48e08d639507fc3a6c2de8b38",
+      "bytes": 103960,
       "changed": true
     },
     {
@@ -1356,9 +1442,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "87c96c0c34397a446bbb1c705a2d734022d40545b1200954d046f850d0580aa5",
-      "bytes": 757649,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "bff4b5bc0e3d6f1cccca8f99027266cbd2cee121cf13b5956e734f72484f2ec7",
+      "bytes": 758266,
       "changed": true
     },
     {
@@ -1373,9 +1459,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "131ee0e5c54d0a32f78eeedc154a746d306b55afecb3adbe1a6d046c3497d066",
-      "bytes": 965745,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "106b95b6f9a093c7c0fe14ff7fe3fa48c7975fedd2411b24e81bf8ced096f0f9",
+      "bytes": 952439,
       "changed": true
     },
     {
@@ -1390,9 +1476,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "42177d5b83ccde6754c8769bcc948088f7f416c129f97443ba4d250b99988220",
-      "bytes": 595808,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "82b67ab53394d176cb36a7bd56955c014b72b3e600c1d4f6dd9e05f25c13d07d",
+      "bytes": 595736,
       "changed": true
     },
     {
@@ -1407,9 +1493,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "a9e57cf8dfb2ca5377fd4aa8e1d445b67921aa6f846d3ab04d9fb482315b1a84",
-      "bytes": 668624,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "8e8702c0dd85aa94945bfd9f47f058984bdfdfd12590b770ed1f1848d0b3968f",
+      "bytes": 670502,
       "changed": true
     },
     {
@@ -1424,9 +1510,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "1b0dfadaf9173ddaf482c06fcdbdb10e6c73114d55861438caf7f771c29bb13e",
-      "bytes": 609191,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "77f903631ac17d3c0b22c151c404fd381f8acce9d185904169442cdacf2b31b3",
+      "bytes": 609214,
       "changed": true
     },
     {
@@ -1441,9 +1527,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "350a01441ab388823efc78e3aef0de8d652b1ef91acb12b1e1a88053477c2dcc",
-      "bytes": 490075,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "fbb520208b12448f463e8a8a29a1b06d2e22c7449c2f92c9694a0892276518e4",
+      "bytes": 491661,
       "changed": true
     },
     {
@@ -1458,13 +1544,30 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "42749ecbb1a4ec425c6614dc1f212604d9a09f147ea25af5fc258899c1597402",
-      "bytes": 97170,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "7406dd0e99ad667a6a71db09a5410b0ce41cca50235719e7277f8416cf452b3e",
+      "bytes": 97169,
       "changed": true
     }
   ],
   "failedSources": [
+    {
+      "title": "月狐双十一监测与 QuestMobile 流量数据",
+      "url": "https://www.dcbbs.com/p-183112.html",
+      "note": "月狐披露 2021 年 10 月小红书人均日启动次数由 3.9 次升至 4.7 次；原有日均时长为 2024 年 2 月监测，QuestMobile 披露 2025 年 10 月 App MAU 2.35 亿。三项跨期，打开次数为历史值。",
+      "type": "usage-data",
+      "apps": [
+        "xiaohongshu"
+      ],
+      "finalUrl": "https://www.dcbbs.com/Help.aspx?aspxerrorpath=/View.aspx",
+      "status": "http-error",
+      "httpStatus": 500,
+      "contentType": "text/html; charset=utf-8",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "168051df4ad60dbbaf463c3167231a35dd6f158bef8ea37b7fd63d06ee72d52b",
+      "bytes": 1739,
+      "changed": true
+    },
     {
       "title": "QuestMobile 秋季报告及月狐 2026 年 1 月 App 榜",
       "url": "https://www.moonfox.cn/insight/news/2005",
@@ -1479,7 +1582,7 @@
         "chrome"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
       "hash": "5d645d594c76b1f20b52e7bb861f96878b02bf0ca247ad53930747524dc31c06",
       "bytes": 687893,
       "changed": false,
@@ -1497,10 +1600,25 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "ccf547cd2d99c5273ae712c177a0edc6951945fdcc8dfeab6023f8a060883f50",
-      "bytes": 681,
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "02a7598fe44505e91f819e46c90dc757b9a83847a54235c8e00609a5d779810b",
+      "bytes": 679,
       "changed": true
+    },
+    {
+      "title": "杨浦时报：小宇宙播客用户观察",
+      "url": "https://yptimes.shyp.gov.cn/resfile/2025-03-20/05/ypsb-20250320-005.pdf",
+      "note": "报道披露小宇宙日活用户日均收听约 80 分钟；该口径是 DAU 收听时长，不等同于全体 MAU 使用时长。累计用户数不作为 MAU，日均打开次数亦未找到可核验数据。",
+      "type": "usage-data",
+      "apps": [
+        "xiaoyuzhou"
+      ],
+      "status": "fetch-error",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "461c5d94254312b006375416b34c992e71f4a3486b9ff5fa4ef9857ff0701873",
+      "bytes": 2495938,
+      "changed": false,
+      "error": "timeout"
     },
     {
       "title": "钉钉官网",
@@ -1511,7 +1629,7 @@
         "dingtalk"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
       "hash": "aa8badc26bfac93725859a1d1f83858d05418547248e84336300049befdbf630",
       "bytes": 19905,
       "changed": false,
@@ -1526,7 +1644,7 @@
         "baidu"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
       "hash": null,
       "bytes": null,
       "changed": false,
@@ -1542,7 +1660,7 @@
         "kimi"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
       "hash": "421f16d6bc0dc6eaf6e1a4ad340fb8cf1be52342ff9b61364d0238f4a741fece",
       "bytes": 1530011,
       "changed": false,
@@ -1560,7 +1678,7 @@
       "status": "http-error",
       "httpStatus": 404,
       "contentType": "text/html",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
       "hash": "fdfd268cc1e4383fcae3daa849a7ddb998fa125bda6c2d8751893c0f94880d7e",
       "bytes": 1029,
       "changed": false
@@ -1574,11 +1692,26 @@
         "xigua"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
       "hash": null,
       "bytes": null,
       "changed": false,
       "error": "timeout"
+    },
+    {
+      "title": "QuestMobile 二手交易 App 监测报道",
+      "url": "https://www.ikanchai.com/article/20160613/83540.shtml",
+      "note": "QuestMobile 2016 年 5 月监测披露转转 MAU 410 万、人均单日使用 11.4 分钟、人均单日使用 5.5 次。数据较旧，仅作为有明确年份的历史基准。",
+      "type": "usage-data",
+      "apps": [
+        "zhuanzhuan"
+      ],
+      "status": "fetch-error",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
+      "hash": "a6d60275c5a9bbc267178d48f1baca46c036cf424b679de721dc0a74f72a3aa3",
+      "bytes": 71634,
+      "changed": false,
+      "error": "fetch failed"
     },
     {
       "title": "瑞幸数字化服务研究",
@@ -1589,39 +1722,9 @@
         "luckin"
       ],
       "status": "fetch-error",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
+      "checkedAt": "2026-10-13T22:44:48.223Z",
       "hash": null,
       "bytes": null,
-      "changed": false,
-      "error": "fetch failed"
-    },
-    {
-      "title": "盒马用户服务协议",
-      "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_other/suit_bu1_other201708030951_75955.html",
-      "type": "official",
-      "note": "明确说明订单信息、预计送达、配送服务信息以及软件推送、短信和电话通知。",
-      "apps": [
-        "hema"
-      ],
-      "status": "fetch-error",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "3896b43cf27061f60d5abfccd8f38fd9ebec340aee5eb1f0d65ac403c2bc915f",
-      "bytes": 76769,
-      "changed": false,
-      "error": "fetch failed"
-    },
-    {
-      "title": "盒马基本功能隐私政策",
-      "url": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_alibaba_hema/suit_bu1_alibaba_hema202203300948_54070.html",
-      "type": "official",
-      "note": "确认服务、安全、体验调研、支付、物流、交付进度及营销类通知。",
-      "apps": [
-        "hema"
-      ],
-      "status": "fetch-error",
-      "checkedAt": "2026-10-13T00:39:33.154Z",
-      "hash": "fbc8b47f25c7f3b036210b628a811dbd7b46ad0928d0306bf5a6fc482e10997a",
-      "bytes": 146333,
       "changed": false,
       "error": "fetch failed"
     }
