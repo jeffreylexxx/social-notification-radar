@@ -1,0 +1,336 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-23T21:25:38.801Z",
+  "apps": [
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "count": 15,
+      "rank": 1
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "count": 15,
+      "rank": 2
+    },
+    {
+      "id": "x",
+      "name": "X（Twitter）",
+      "count": 15,
+      "rank": 3
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "count": 14,
+      "rank": 4
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "count": 13,
+      "rank": 5
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "count": 13,
+      "rank": 6
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat",
+      "count": 12,
+      "rank": 7
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "count": 12,
+      "rank": 8
+    },
+    {
+      "id": "temu",
+      "name": "Temu",
+      "count": 12,
+      "rank": 9
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "count": 11,
+      "rank": 10
+    },
+    {
+      "id": "line",
+      "name": "LINE",
+      "count": 11,
+      "rank": 11
+    },
+    {
+      "id": "tumblr",
+      "name": "Tumblr",
+      "count": 11,
+      "rank": 12
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "count": 10,
+      "rank": 13
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "count": 10,
+      "rank": 14
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "count": 10,
+      "rank": 15
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger",
+      "count": 10,
+      "rank": 16
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "count": 10,
+      "rank": 17
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "count": 10,
+      "rank": 18
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "count": 9,
+      "rank": 19
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "count": 9,
+      "rank": 20
+    },
+    {
+      "id": "yelp",
+      "name": "Yelp",
+      "count": 9,
+      "rank": 21
+    },
+    {
+      "id": "grubhub",
+      "name": "Grubhub",
+      "count": 9,
+      "rank": 22
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps",
+      "count": 8,
+      "rank": 23
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "count": 8,
+      "rank": 24
+    },
+    {
+      "id": "clubhouse",
+      "name": "Clubhouse",
+      "count": 8,
+      "rank": 25
+    },
+    {
+      "id": "amazon-music",
+      "name": "Amazon Music",
+      "count": 8,
+      "rank": 26
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "count": 8,
+      "rank": 27
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal",
+      "count": 8,
+      "rank": 28
+    },
+    {
+      "id": "priceline",
+      "name": "Priceline",
+      "count": 8,
+      "rank": 29
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "count": 8,
+      "rank": 30
+    },
+    {
+      "id": "youtube-music",
+      "name": "YouTube Music",
+      "count": 8,
+      "rank": 31
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "count": 8,
+      "rank": 32
+    },
+    {
+      "id": "ticketmaster",
+      "name": "Ticketmaster",
+      "count": 7,
+      "rank": 33
+    },
+    {
+      "id": "amazon-alexa",
+      "name": "Amazon Alexa",
+      "count": 7,
+      "rank": 34
+    },
+    {
+      "id": "disney-plus",
+      "name": "Disney+",
+      "count": 7,
+      "rank": 35
+    },
+    {
+      "id": "flickr",
+      "name": "Flickr",
+      "count": 7,
+      "rank": 36
+    },
+    {
+      "id": "iheartradio",
+      "name": "iHeartRadio",
+      "count": 7,
+      "rank": 37
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "count": 7,
+      "rank": 38
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "count": 7,
+      "rank": 39
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "count": 7,
+      "rank": 40
+    },
+    {
+      "id": "stubhub",
+      "name": "StubHub",
+      "count": 7,
+      "rank": 41
+    },
+    {
+      "id": "youtube-tv",
+      "name": "YouTube TV",
+      "count": 7,
+      "rank": 42
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "count": 6,
+      "rank": 43
+    },
+    {
+      "id": "accuweather",
+      "name": "AccuWeather",
+      "count": 6,
+      "rank": 44
+    },
+    {
+      "id": "fitbit",
+      "name": "Fitbit",
+      "count": 6,
+      "rank": 45
+    },
+    {
+      "id": "tunein",
+      "name": "TuneIn Radio",
+      "count": 6,
+      "rank": 46
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "count": 5,
+      "rank": 47
+    },
+    {
+      "id": "meta-ai",
+      "name": "Meta AI",
+      "count": 5,
+      "rank": 48
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "count": 5,
+      "rank": 49
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "count": 5,
+      "rank": 50
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "count": 5,
+      "rank": 51
+    },
+    {
+      "id": "copilot",
+      "name": "Microsoft Copilot",
+      "count": 5,
+      "rank": 52
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "count": 5,
+      "rank": 53
+    },
+    {
+      "id": "safari",
+      "name": "Safari",
+      "count": 4,
+      "rank": 54
+    },
+    {
+      "id": "vlc",
+      "name": "VLC Media Player",
+      "count": 3,
+      "rank": 55
+    }
+  ]
+}
