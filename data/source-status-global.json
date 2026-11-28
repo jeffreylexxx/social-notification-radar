@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-11-27T01:44:52.506Z",
+  "checkedAt": "2026-11-28T01:28:13.762Z",
   "sourceCount": 121,
   "changedCount": 107,
-  "failedCount": 9,
+  "failedCount": 10,
   "sources": [
     {
       "title": "Instagram · App Store",
@@ -16,8 +16,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "e287a6be6bf77cf6a78c65286de205fe55b23a09f2bdebc92503374badd52da0",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "045dd06fc8892cedcbcec535e6771c7b46d8edbf1771bade45d6e2db4c36f986",
       "bytes": 917629,
       "changed": true
     },
@@ -33,8 +33,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "1469170f53373a35137597f60b2224162d4f17b11f4d11def2408ee7ea20f4df",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "b6a12ec361f2bbc3a08d253283a611f8cbdbebd8af69ad4b2ee72db7666da7a4",
       "bytes": 452899,
       "changed": true
     },
@@ -62,8 +62,8 @@
       "status": "http-error",
       "httpStatus": 404,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "9cf1ea95c19e40adc8387be7de8fa359fe1f01538f6e3468c65fa47e08d71b22",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "81dc84eeffd34778008fd10de7d82ab1719f4f7730d43e54689c21c04cef9a54",
       "bytes": 89883,
       "changed": true
     },
@@ -79,9 +79,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "383956ab66e80315c2d3a3bafda66220983800c615452d185beb0740a2a1ff52",
-      "bytes": 1024671,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "334c89e97da6452c007ec02b9ad92275abf33c5d8bff006b5cd4de8eb5820ee9",
+      "bytes": 931924,
       "changed": true
     },
     {
@@ -96,7 +96,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "7147a1e6254cdbc10369da7e4e3815eb4c31c3f2a593d158a423b25a88e6b5f0",
       "bytes": 181365,
       "changed": false
@@ -113,9 +113,9 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "c32c340793c99fdfb8f97c5f76ea331225eb51362e8b7e5a28f7de4d7e142440",
-      "bytes": 5878,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "015814adb8c15b9578c996171e17a902e2429b7ddcda1c41d57444118369c7ac",
+      "bytes": 5899,
       "changed": true
     },
     {
@@ -130,8 +130,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "d16bd5cf1ca8cdc045ddacbce835e010ee76b6fcc9ed2c9a30a62e48b2029cd4",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "863e5f477aaa22d9b808d62954e9ae3c6768864c925db15d4e545463c999600f",
       "bytes": 930402,
       "changed": true
     },
@@ -147,8 +147,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "2bba06130ca70a5ffbccceb0671e8d0c43294c0ac0489412bc8dbead84cd5a36",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "a8f8207f3d484256bce4a91036a74b7e44e17955b78d95f1282d2473be58789a",
       "bytes": 851,
       "changed": true
     },
@@ -164,9 +164,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=\"utf-8\"",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "b5331e2eec096c8bf8da0e2ed98778954b844b0a73ed9f499edbd7b70aa762b9",
-      "bytes": 1091021,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e4436fa36d9929708dd5741fa6c9250592b5c0b9ad88b71b55b4183c8f6c5504",
+      "bytes": 1100958,
       "changed": true
     },
     {
@@ -181,9 +181,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "fed0dcebcdc130ab16f50d12ab485858ca2478772dad6c2d95b6c06fec74f55d",
-      "bytes": 802598,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "7f1c7ee902a9c689ea5494b4b85c2b68e559c6998e482693cc7528f93423ae67",
+      "bytes": 802575,
       "changed": true
     },
     {
@@ -198,9 +198,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "da8d3c23db219bbdd3bbe31a9a1251b0b1c60e90dee29fdfa42016e1846a09f5",
-      "bytes": 227220,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "5d7946a21da15f9dad8056c066b4761f2a0d902bc04a69c3627cc6a7bbaf4ce4",
+      "bytes": 231845,
       "changed": true
     },
     {
@@ -215,9 +215,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "9be659384501797941c6a213dbe2cfab6fb2f8da0ba94afb892ed7578e6f191d",
-      "bytes": 1640067,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "795c238b0b1f0f927013fa2b19e3f09917f92e999e4b6257c01a056d20d75fbf",
+      "bytes": 1640066,
       "changed": true
     },
     {
@@ -232,9 +232,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "54574310686a39d4a1e28b44a2f0760e95457b8d15fb3e3fd70bc42b6415f57b",
-      "bytes": 1186276,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "865e0ee21cb3c51ad1561c1ac2e58c12ddc0ccaca712fb1ce1739069bcfc01a6",
+      "bytes": 1185810,
       "changed": true
     },
     {
@@ -249,8 +249,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "ab3382b8f2b91f874765b9fcc352634286f5e0208cf7f79459e18185e6f2ede9",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "c05a19948f6589d666ba818303a62d855f142f73b7e97f2e29f514124e8a470e",
       "bytes": 975184,
       "changed": true
     },
@@ -266,8 +266,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "63bb390b6c29d02c9300dc9a2621c3b0fe76f8b9c763f397d62cc0f66a8119c5",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "8034ce2d9eabe7b983648be14ebfb30a45147fc7eb73d7008dba78f7f56945b4",
       "bytes": 329440,
       "changed": true
     },
@@ -283,9 +283,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "d5cc9647c4908e0abbdd08efdac4e7e49dc8c5946a8344b15aa6f3ac3d3e151e",
-      "bytes": 859461,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "00598769f4adaa3fe77f060dc2ac1e4c0e993022d17a99ced05283fa4ec18f4d",
+      "bytes": 859459,
       "changed": true
     },
     {
@@ -300,8 +300,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "853a0bdb034671ecdb3c513d3a799f186fa03a13be12bcd5e1875c82b2f5462a",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e529f3019497a47fec0430ec2a565679ac7ac9cf184c01bab3a3cefbce66575b",
       "bytes": 178096,
       "changed": true
     },
@@ -321,8 +321,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html;charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "3da68246bba2519cc70f52f3c2b3a8b25460ca814d774f4ed3d049b9937c14ca",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "f7b89a92e973dab614e607ab71a6f4ae9c8fdd69ac08641ed06540825b679af5",
       "bytes": 851,
       "changed": true
     },
@@ -338,8 +338,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "262306decbc130a9c66dfa82c9c5bd3a81892647b5c75ecc8fd639991c199e71",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e3dcf724bec75244151c05fb7aa373908fc553b77a173b84ff9545758f4cf82a",
       "bytes": 719070,
       "changed": true
     },
@@ -355,9 +355,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "dbf0b6b98df3783487bc7d48b7262a81d6cc9bf8e3020d8677e4c167ffcef853",
-      "bytes": 112732,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "08ad6ddd09de18e760fd9c4f8d8af0067c62936152f97fa17ad7e7ea8cbffac9",
+      "bytes": 112720,
       "changed": true
     },
     {
@@ -372,9 +372,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "018b189d4901f1ec40aebdd16c10f6d0cd351fb85991921308c2da6d6ae859f1",
-      "bytes": 910671,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "b1f20a46e2517b2a30c779b714aecb6f651a787b494e5d516ab095cb9a09f35f",
+      "bytes": 910686,
       "changed": true
     },
     {
@@ -389,7 +389,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "027f394134d894d3dac9628838239425a359791190224d576413419c6f835efb",
       "bytes": 309341,
       "changed": false
@@ -406,9 +406,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "ae651093d31857347648cd6b1ef6966960493fea889c583a6f6106f5071f9a58",
-      "bytes": 822767,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "ff115f65d26c23b7c3c332af7f8e8b13f3d386126649446ce289587c156c8f1d",
+      "bytes": 822768,
       "changed": true
     },
     {
@@ -427,7 +427,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "143202f85e3c960ccc363a8cdda55a816acfb9c8d2ebfa76d412f49213d07e13",
       "bytes": 1137575,
       "changed": false
@@ -444,8 +444,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "0538233c8fed677b9eb02ce438f959ba3bd6b095f8a14027dde7b7244536c3af",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "6401271acf47216c725e573b598db397a38caa7b5b08b1a5261ed9000fe3d6fd",
       "bytes": 5925,
       "changed": true
     },
@@ -461,8 +461,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "0c7b8b8bf91e06b849436ffba9c8ab9eca8a8e2dd26e32d3502a3042123ae273",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "1bbfc7b592994b6860cd78bef1b1d9063b565ec3f66288579ce1c950aea5640a",
       "bytes": 167510,
       "changed": true
     },
@@ -478,9 +478,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "565780ebd35cf2f7901aaa438404d9392c33f516fc71314a7fff3a5738dcc6ae",
-      "bytes": 646737,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "c514cc6f6fc759e5d564625ed1b2f123b73a77e35abfb1236332c5a31f9fc5cd",
+      "bytes": 646748,
       "changed": true
     },
     {
@@ -495,8 +495,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "fc889afa8fccfae37b76ee8e70031bd838cf2c2337d0f2ccd15bf7a44251067f",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "cbb79acd8e6206675e08e567fbea67ff54805fd9e48c0ba0f4efed6347858c73",
       "bytes": 22864,
       "changed": true
     },
@@ -512,9 +512,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "c4ca93e9fc2e3875a5681a130a55d8116a071f47af4a87d04fa2f106e8dad40d",
-      "bytes": 847627,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "510914fc3ed753e093a4b8f300193e1661d58e97b1028b20e1541ecabb1e8f2b",
+      "bytes": 847640,
       "changed": true
     },
     {
@@ -529,9 +529,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "f1d991f4a4edd5d35a1aa817f998974521820cd2cf18b8b15f04713984d52310",
-      "bytes": 1864112,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "6d44eaeaa90dd16dbe4fda87ba831096afd3a7f2f1a517ba9c4db9a9f05559d9",
+      "bytes": 1870181,
       "changed": true
     },
     {
@@ -546,7 +546,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "0322c40277497298911c7697987a25ac6929bed7cc594ce13aa96aff5462336d",
       "bytes": 26774946,
       "changed": false
@@ -563,8 +563,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "6acdf43f5f3cda63764f673f4954224477b18e66c93450658d3c99fe8a9e033f",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "ca4bbe54dc0ce4c745ee68c25f5884cd357a102b8745d344d8996f521547e6b8",
       "bytes": 892617,
       "changed": true
     },
@@ -580,8 +580,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "42da13beb4039d22926448fe15e799f18a07b96f20d62802c31b5d6c9af79cac",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "886f63f82353526d0d814d40090fb1a6f923302fac612d1436bb5cefe92902e8",
       "bytes": 110401,
       "changed": true
     },
@@ -597,7 +597,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "86e07670cbbaaf636542f3cd0c338b202d4dd9a9c0a11ac85dddbeff06c5f62a",
       "bytes": 17197211,
       "changed": false
@@ -614,8 +614,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "de1cb0def271805c9b815783dc59810796c8bf365dcfb72d6747a137a4e23d29",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "d3800268d44a194c4afcd1598c35f7668ecc6546b5dfaad75dad5ad100efb5e7",
       "bytes": 671028,
       "changed": true
     },
@@ -631,8 +631,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "1d893a0f2ba1711a4e9c770c999859653f2a26cd9436e8483a5c9baecef1de54",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "4a3224d4cd8b8f0fec0795dd5719af106c9f1877f2478ecc116e968b46f4c3d2",
       "bytes": 176582,
       "changed": true
     },
@@ -648,9 +648,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "6f8beb2829e9121c2c5356e198458743c3632023704060ac85408f01a0f29b15",
-      "bytes": 871029,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e74e66edc55f3537404def9849e35059c5125944e75dde7d7cf9392322d7ddc7",
+      "bytes": 871030,
       "changed": true
     },
     {
@@ -666,8 +666,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "b6b728424ee8eddd1581fdf6d498e95f7df2f5ae82dd7d4e7917170d8b7a7a50",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "a7cab099acf6a91d50292fa1be637923fa59a12acc4dfee7d55605283297a04c",
       "bytes": 176093,
       "changed": true
     },
@@ -683,9 +683,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "a6f50ba7b8abc277d47cdd060e6b426e66fc9775cc86ed8a9a0c47096703dc5a",
-      "bytes": 1177786,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "87fb5b448b15554c315c903110c2b042df29403421c335f4e818872e185c63cb",
+      "bytes": 1177798,
       "changed": true
     },
     {
@@ -700,9 +700,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "a02d846ba13a2807a57e5dd16d34f61e1187c4c9043ba8140fe98480fa9036d1",
-      "bytes": 384410,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "47713fa2337e0c7226147a103c7cacc330f09cfe02ba4b48aebd057bdb2236a0",
+      "bytes": 384900,
       "changed": true
     },
     {
@@ -717,9 +717,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "0e7013d1f66736f1208332c1c9c6f27200f87a24d9b919228fa5e3fdd610a9b0",
-      "bytes": 936051,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "0ce2e097e554125a216972ba4e4bf56e7ef07701e36702d3986757d44630d148",
+      "bytes": 936036,
       "changed": true
     },
     {
@@ -734,8 +734,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "e5786225ed439f46008de61ebe350ffcde7fba144bcfc160f7fbd0866fdcb334",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "aef77a23a2f9b5219456a21da69fb149e27520570be30ffa5dfeebc239c3eda8",
       "bytes": 334196,
       "changed": true
     },
@@ -751,8 +751,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "9cdbf2af74e364b1f6febda10ea0a7c801d11b42dfb4e013238d85f3919bee37",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "fd2b34c0f8f1fc6e939119c60bbfd890ea1bfb3fcdbc770ad052e130567c851b",
       "bytes": 860412,
       "changed": true
     },
@@ -768,7 +768,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "c15cbdfd838a7f16acfbf3ace988051531dab2044c39a0a91c7d4634253ccda7",
       "bytes": 9699,
       "changed": false
@@ -785,9 +785,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "c1d61345e27de36fe5a4675fe4260a04255065bc438668fda140a7f19f019ef1",
-      "bytes": 927224,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "9a98829d866b97ca5498ea4c51655c55165d1add5176d074b567fcdc27a1d0cd",
+      "bytes": 969801,
       "changed": true
     },
     {
@@ -802,7 +802,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html;charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "cf1b8b37986aa476306e1d0e06896b0bfa3760e60c2ca921c5aa8479cb9fe42b",
       "bytes": 550832,
       "changed": false
@@ -819,9 +819,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "582b3a25a282c19128daf2de6f96346debd34e02b2020c199586ba9d640f87cf",
-      "bytes": 956796,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "845328ad3b3098a8024a03b5e5d3e4a12415b02db7860205da54896d00639385",
+      "bytes": 956798,
       "changed": true
     },
     {
@@ -837,7 +837,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "838820373162c53e258451920c7637c409a533f3fa811a1447b321fcb816c365",
       "bytes": 135864,
       "changed": false
@@ -854,9 +854,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "da5cbdd45fbb3d3980d71f01798911e831061e54ef643a9739b542ceb8acea74",
-      "bytes": 961366,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "6b2ae68710f2330024c34798ad3c4bbb7388048e7f7eca62d0dde2fc84cffa09",
+      "bytes": 961843,
       "changed": true
     },
     {
@@ -871,9 +871,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "9e259a0952b26fbc4365af362e541b9d8536ecaf308c33125233f06b3070994d",
-      "bytes": 856048,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "77ce44de8fe238c6071975b34524318dfc40aafe78e97ff9f4637097475a9e50",
+      "bytes": 836990,
       "changed": true
     },
     {
@@ -888,8 +888,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "a76ff483e29db9f027ef5df7ac28472407e7b2e1713485eaa065af91b17d14fe",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "13f015b65124058401b2e3afc408648326da9d42cd6666ed710ea02ab30b3b62",
       "bytes": 494847,
       "changed": true
     },
@@ -905,9 +905,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "de6d00e4a266acba989b72531ad87bcb7a63aa56aa40ddc160a1ae3bf37821ef",
-      "bytes": 905116,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "40950e78201fc70c7979f23d4184f36fc575ea5103c6b9fb783ec52439ebda89",
+      "bytes": 905103,
       "changed": true
     },
     {
@@ -922,9 +922,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "ab482099b01e5ef03ff5ed1ea14c30808ed5925ebad0c8b96ef582e2509f64ef",
-      "bytes": 693810,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "c9d3fd28672a95c8ebba5fa504f1bc1e20be0fc7b04e19d3b02da0fd51cfe781",
+      "bytes": 693825,
       "changed": true
     },
     {
@@ -939,9 +939,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "854126637f1a397572d0a028abfd723767ee2552caf0c574400dabfa5a8e538f",
-      "bytes": 188836,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "4cb98944110ae5c2886943719fbe7b05f56e364172d7a23c8b639ad393f263ed",
+      "bytes": 218060,
       "changed": true
     },
     {
@@ -956,9 +956,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "0e78b4eb8a35e38352e6a0b27a30abdf381f419662e9d71191d6b74152e794fe",
-      "bytes": 810185,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "efd274995542861becea1a2460e86536c56ba255ebea761220d8e93a6f5eb29c",
+      "bytes": 810231,
       "changed": true
     },
     {
@@ -973,8 +973,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "249cb0986e4b5b54bfcecb41157b4bfd9a7a2ed2e08ae001f9566e0433eb4221",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "d3f850015e834aa2623292fb81a62a34b1b9351ad0d114e38d9b10d55770e11d",
       "bytes": 114161,
       "changed": true
     },
@@ -990,8 +990,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "16a2616a9bbb9dce948b106921a7d427dd077ea4215e8df9103de1b13ac0e050",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "87304577cad5a7772165c23fe3f8ce401a601ee215ade64cc0eaa40b033f6f79",
       "bytes": 793965,
       "changed": true
     },
@@ -1007,7 +1007,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "f915ea13a152ce61aad2e8d6fad17cc2b4eaae63e29648d320118604f678eb44",
       "bytes": 96711,
       "changed": false
@@ -1024,8 +1024,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "02fb3d6469e07e2214af023759c387a9cd65db5daa5d487f063001a250653f2d",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "ba4a1c06bf64ff95cf19c626adfabb47a46a7285ab924f308bd7c4d8a60152b6",
       "bytes": 928667,
       "changed": true
     },
@@ -1041,8 +1041,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "26c27ad2beca29d9fcd9490af6dcadca3cff4a6ab3a14d219172fec16e52063b",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "683d98f437b984244cbbe68e577f13f0efe08452fa30ab6173593978b7c0648d",
       "bytes": 6033,
       "changed": true
     },
@@ -1058,9 +1058,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "10f145351b4254fe5c1f625f79bed821dbd799a5b51d74bf1ea1d04c0e1d84c1",
-      "bytes": 112274,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "d761051eeb05bbffcf9a26f0311d26ea2568c494e15e738d192da5b94fbb07af",
+      "bytes": 112197,
       "changed": true
     },
     {
@@ -1075,9 +1075,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "985fa1a5d9aef7062690130927e05acca853e6bacd7cea7b695b8fdbc1d15016",
-      "bytes": 844983,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "291be6f785494c72efc71b57cd7d9205bebc8e26b130f786a6869a4dee97287e",
+      "bytes": 844996,
       "changed": true
     },
     {
@@ -1092,9 +1092,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "db4761de571efedb591d97050b7ae14df296ecb53e8bd510d8ba637fcee35b9c",
-      "bytes": 154877,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "289f5786604e5c3109758a2f09531662b5a0e0aac6b88bd197f9cc0c4dbba999",
+      "bytes": 154870,
       "changed": true
     },
     {
@@ -1109,8 +1109,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "41ccb8f4e7dead7628391f000f4f56ca26c7988e5218859aadddbec31193b64c",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e26454e22223c5f3a4779edaa5de5e65d2c762ac7e9e0e86d0f2f433c436f66b",
       "bytes": 826619,
       "changed": true
     },
@@ -1126,8 +1126,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "bea383745dacdec0c652b7d32da849be2fa5f2e67a782c3b7678c56f32ecd14c",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "4fa46ef50b245a171ba93745a66a8bb6176cf27c87c486385fc57efdaae490ac",
       "bytes": 122595,
       "changed": true
     },
@@ -1143,9 +1143,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "f0b2631f81ae5ca81f17f3756472a97ceb4ddf045e4b0d6612934c314e8cad42",
-      "bytes": 752432,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "15694d99d0c997d21b51466f432278e9c9dc8cd06000d210f5af2a2c41c2b467",
+      "bytes": 752419,
       "changed": true
     },
     {
@@ -1160,7 +1160,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "1b2579c9849bbeb86783831f9c8b28eaff37e2c5501d83a9b9ee374f35fa90e7",
       "bytes": 47652,
       "changed": false
@@ -1177,8 +1177,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "d81f5e281c6a5f420830ae4fe5eeb42c1b3597b2894f110fb2fd1ee1a9e00844",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e4bcfe6293a7e01a3c5c164271099c0d526254d0633ecb4cdcba561b41aed642",
       "bytes": 592090,
       "changed": true
     },
@@ -1194,9 +1194,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "9d2fad0853edf004a01efb13df77907715d8108cd7184dbbbe3d241bc03b5f75",
-      "bytes": 674388,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "ea9c6cb593ab544958b42bdebb7bf2671fc7535f015ec0f40c6e71ad2e8128b6",
+      "bytes": 674402,
       "changed": true
     },
     {
@@ -1211,9 +1211,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "0cd5b0d34e0242d5a65191ea1369bc5f4d03cc0ff52389b231ea583718e40fe2",
-      "bytes": 205114,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e957bff3c3db8397ada28db99e986885b1548aa2f7b6c75297c44f83b0c9fcfc",
+      "bytes": 205117,
       "changed": true
     },
     {
@@ -1228,8 +1228,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "bc1c7add45998d7ed26467bcd68666fd570558c1368dc21815ebab989d8803db",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "bdf0e7341400df05e9b25d66f680984e30a0ad0ecfb27ac51d87ed3cad18c2c4",
       "bytes": 941603,
       "changed": true
     },
@@ -1245,7 +1245,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "87941a014773274c7096d2f8783f84b711848ffa625dbf52d5d66f56886cd044",
       "bytes": 84126,
       "changed": false
@@ -1262,8 +1262,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "633340cc6f1cf5fcaa6d2b3f78e718defbdb077f7ace25ce7d9e3667431a6f26",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "bd6930b2f2a6108427e1770b758b1f20c5068eeb13ef815258a6ca0e21b3ac87",
       "bytes": 957548,
       "changed": true
     },
@@ -1279,8 +1279,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "28775bc39fefff69a56cd3a60e0d7486e6055297d1e286175255cbec91bfff7c",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e8184bfeffa01edd9c29f469a8263ce88cb21257901c069c83e18cc43cafb6f3",
       "bytes": 585393,
       "changed": true
     },
@@ -1296,8 +1296,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "6c2627384273cd5b19f86e64ae53ad94f96ed27c6d91ed7b089fea8bd56a811d",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "f67cb22d779af3377194686832502eb96c6aba05def8ce0e081566f62ff4ce4d",
       "bytes": 655394,
       "changed": true
     },
@@ -1313,9 +1313,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "628689f5797f6611171fcaa9662fa18f5d6806a35f31598112b1d8af3aed625d",
-      "bytes": 124299,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "0e97e9a54b31e1af8255fc22a985181ec16605c914e5b470f2935b58b20db752",
+      "bytes": 124486,
       "changed": true
     },
     {
@@ -1330,8 +1330,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "0226e54c323268df2d9acc824cfa9b354ca3756286238953fbfec23ed4d922df",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "77d6c1f8607988657acfed0376441792eb1935efaf38f3e980463e9fbe3b0aef",
       "bytes": 814125,
       "changed": true
     },
@@ -1347,8 +1347,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "ecc8600093d13291549f9cfef6714d081aeff82fe1d5e883c96c161c02c4f5a3",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "5d68518662a127e10789b16c9a628b891d959de1871e1ea99ba0f2585c631771",
       "bytes": 80265,
       "changed": true
     },
@@ -1364,9 +1364,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "3e131d907d5cb43b7dbd4b04ef5e7b8427e2cbaa4c232ef68a68e1166ad0b45e",
-      "bytes": 851359,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "829767b708cdcf5eda6703c8f6f5751ff77824b7a8c9659247ba9179c60fe568",
+      "bytes": 851346,
       "changed": true
     },
     {
@@ -1381,8 +1381,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "339273bd5ff6cee3e817e1d6d5b1af84d4e66af79d46e26292ff180834607f9e",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "386f960f65cd2c53bcfa0008d26faa62d2c4a5c87161a08897088b33861507b9",
       "bytes": 782707,
       "changed": true
     },
@@ -1398,8 +1398,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "698dc1d9d203895cb9228de937ab14eb031d6532b15d96c005d207a87653efb6",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "d4ab23cf56f43824267f50db3402923df245b1c4278bcd191f42cf2c6cedcc77",
       "bytes": 935588,
       "changed": true
     },
@@ -1415,9 +1415,9 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "0f1b66b907519bada00a7193de686dd49a0e736f04f1ff1d35e091589ab6b351",
-      "bytes": 4818,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "35995e313aff4e2ba167cbfa0bf9e9d44fa98ce9d13ef6c59397afffc383935f",
+      "bytes": 4819,
       "changed": true
     },
     {
@@ -1432,8 +1432,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "54d1eea09baa084659a663463c8f99bbffd1134de51661ea17e6f92075357649",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "acc71df6e395b9b162f586ca91b32dffac3135ee1af5944407890bc2bd60d25a",
       "bytes": 781023,
       "changed": true
     },
@@ -1449,9 +1449,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "a20ce8493815314b66e9055f22c45228a5e5b4d34bd52c64868ddb606a81d2ff",
-      "bytes": 170298,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "49d5495cb626c6dd39500b83b682fb0a91c3c1c5bdf9528201694f43f6098799",
+      "bytes": 170325,
       "changed": true
     },
     {
@@ -1466,9 +1466,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "cef96a07c6e96ebd417e3c14856fbe84836e78c8e2fdcb483b2c3629289a2827",
-      "bytes": 819633,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "ea0e124d44d573576a151a0bbea0290f9591459f7268d100b208981bab35baf1",
+      "bytes": 819622,
       "changed": true
     },
     {
@@ -1483,9 +1483,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "1080e29ebbbe48327b84ab7f6fa2e18ae1763079e1c515e16af11869024d42ba",
-      "bytes": 654371,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "d56026338b624aa8472c2bb8ee06a31fa533400e0b1e3c4364a111840c26383a",
+      "bytes": 654348,
       "changed": true
     },
     {
@@ -1500,9 +1500,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "0e9845e8ae96026d6c4cebc2e91f64037fad5229c7b621e9dfd8363e73318dea",
-      "bytes": 151912,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "6a9b15af6b21ac7e0d7a472fdcd763d84883f7d033601da6362d30e2a37922b2",
+      "bytes": 151835,
       "changed": true
     },
     {
@@ -1517,8 +1517,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "24ebeb70ac52f112c9dbb6bfac62e03704b46342e08c5ae66090a2dadcc7acfd",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "a7d3c4cccd27e5ae5602506f850a283488787e9b1229b30bf6848e8087e16453",
       "bytes": 808608,
       "changed": true
     },
@@ -1534,7 +1534,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "35b664b177c2568bdb6cede145eb0963c603593a4b1f860e826c71ac6576aff7",
       "bytes": 17284913,
       "changed": false
@@ -1551,9 +1551,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "869d84fdcfad7d7406fe014600d64f3bd47f0a0f89127ecba98cfff03efd2bd0",
-      "bytes": 1035902,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "0f11c864cada0fa60bc848869aba482a02939a37ecd918d817c20804fd8f15a8",
+      "bytes": 1035912,
       "changed": true
     },
     {
@@ -1568,8 +1568,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "739a18a9aa7442ff23738b7f095bbcdcdc2d45c971975011c78dc2db3cbb05a8",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "f005cbf21530a4ff7b912baa9b0bd2de3900ca1f0178d41a3ebb1e13d42842c0",
       "bytes": 453240,
       "changed": true
     },
@@ -1585,9 +1585,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "53ba01b30bf91b725e0f7c40108c2754c5d4bcbd40e087734d10feb68e308c82",
-      "bytes": 1654305,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "800fc3d4f905f5d14a72405ce9496a4e0372ef30229e1ff703636ac5a7128a40",
+      "bytes": 1654310,
       "changed": true
     },
     {
@@ -1602,8 +1602,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "3ed2d0c786c9e6e8e46bad98f7bce1ed37414bd210a0000b4358332343d3a887",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "c1c1b4a5dde3f2398cd390cc822223f86b6988b9cc62308779798c25360462f4",
       "bytes": 953023,
       "changed": true
     },
@@ -1619,8 +1619,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "c3e6f25f139b3b87528889468b70cf71d963ac23c7823562a2df771d54b6e7be",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "7efac406ecaba5a405d044624c3a7af1d32284a4427fb8f53e12ad93cb8f292c",
       "bytes": 131076,
       "changed": true
     },
@@ -1636,9 +1636,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "57acb68a527a7e7d60caf3d3c666dc962de7b488f80d7a335c8fdbaebeb16a0d",
-      "bytes": 986211,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "f503317f28a63a2f7eba875bc940302fcb7455b46976145f7468e0f3cdc363e4",
+      "bytes": 986216,
       "changed": true
     },
     {
@@ -1653,9 +1653,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "9d63c6c1cae170335d532cfe368416186d30d6d19b7823ab88a3fcc4c8db623c",
-      "bytes": 44048,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "a284d20e440d924a37a5d35f6157f22e29a9e73d26ce18d5a821ef780f06fb98",
+      "bytes": 43472,
       "changed": true
     },
     {
@@ -1671,9 +1671,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "60c959297262b779ed07dde8019fd84b322ca8ea9e96329964be5c7c70e60a79",
-      "bytes": 160575,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "1aa544a80ad50c9eb99f0dd9e489599c00ea4f17e8be1023f1942712dce01895",
+      "bytes": 160612,
       "changed": true
     },
     {
@@ -1688,8 +1688,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "f424bf6f3ce231abeb332cc82f6aab81f7f05649541392422b8b7e9ed2de1528",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "689f6b1b0325131e2f59304bdf4bbcb48151ee93e35a7d339ccbe405eaa8f2e9",
       "bytes": 656805,
       "changed": true
     },
@@ -1705,8 +1705,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "ea26cdf1a5e970a7003a6bebe7de9652f56ea62e3044b4ae28e50bbd6ce2778e",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "dbdfb2d4317bd0956ce537538301af8ff0fc7c63055fda167fc87bea33a21912",
       "bytes": 6008,
       "changed": true
     },
@@ -1722,9 +1722,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "dde11c0361dad880e814ebc5594a77130db2c0c93703d98719ea95fb64a5bf21",
-      "bytes": 712864,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "3233c64ce2c3d13837de9aac7d55b95568ab06563bcf4f9ef6c5f300d9f3abcd",
+      "bytes": 712877,
       "changed": true
     },
     {
@@ -1739,9 +1739,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "b03baeac2d75ace6a532810ec5fd8c73155b8c8ad80d6107e2b70d285cb738f6",
-      "bytes": 168145,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "448de2532f244e219b0ec6fd5906511d90015b123593f587815a86e4e8b2583a",
+      "bytes": 168304,
       "changed": true
     },
     {
@@ -1756,9 +1756,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "d29949d688f2348a91e2543e110c0da2b6449e98de185d8f4bdd2cb4ee7e1321",
-      "bytes": 825803,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "ea94e36d5304679bf04ee1c751b94d641d1b1ac32d0beaada7fdf3ed1c54b943",
+      "bytes": 818871,
       "changed": true
     },
     {
@@ -1773,8 +1773,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "154edaa819ddfc9f49b4ac072825494a4edbe1ee9a74d9956ac7914d38a777d5",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "0941de6a9ca4e162a714a1e510441987fea0139fd20c7828ca18332d9b4846c2",
       "bytes": 314646,
       "changed": true
     },
@@ -1790,8 +1790,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "14bc4b9e069574dc817a62a17859f5e7d6c85ba5c86a73673b683cdf5ef5e399",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e0c7d7d436c1fa66d61ee1f1f3158677c5e373ca9b477bc50b82213d0b0dbece",
       "bytes": 1052461,
       "changed": true
     },
@@ -1807,8 +1807,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "16443ce4b9d6eda4e1be80c64b9886357276d630cf593900078c2780c3fb3eab",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "b87ec547b77c305034a6768231c26ed37589ff77112af1308550601766f60f9d",
       "bytes": 177345,
       "changed": true
     },
@@ -1824,7 +1824,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "e8e96bc4a0fbd54192528151dc0245d102d78b64048cd947f93a7315ccae82b4",
       "bytes": 255679,
       "changed": false
@@ -1841,9 +1841,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "3d92d190bfca150c903f474d4336cac3bb8549b2553c7bf8bba2a3078234e21b",
-      "bytes": 877375,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "a085b4ac7a2219787d37c1603d41269b403a70a92762cc97a6b978cf44d9ce89",
+      "bytes": 877351,
       "changed": true
     },
     {
@@ -1855,12 +1855,12 @@
         "tinder"
       ],
       "finalUrl": "https://www.tinderpressroom.com/about",
-      "status": "ok",
-      "httpStatus": 200,
+      "status": "http-error",
+      "httpStatus": 403,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "f3210907d10079a0ac6fab787f90b50365bbd8a125b296206ff5c51a9a585059",
-      "bytes": 17008,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "5111d2b3ffa9fe1878749ab82f69efc454e1bb3b2c495fb4c241597d2f55b05b",
+      "bytes": 5588,
       "changed": true
     },
     {
@@ -1875,9 +1875,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "6a8a8c6a1b774d1d47d53521b24712c2dd1c6d57e7939034c15b00b372c48885",
-      "bytes": 171380,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "3626ea4f68ce57c0407576937a81d177f182690ff63a4b1b27b0b7539057eee8",
+      "bytes": 171121,
       "changed": true
     },
     {
@@ -1892,8 +1892,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "344580b054edab55cfc66d20e6b722ad145e5184b11c712ced113e2915a3c2d4",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "ce5345be0619aac53bf590d2b72607913157e60c06b7ad75d267db090e974500",
       "bytes": 987103,
       "changed": true
     },
@@ -1909,8 +1909,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "16d8db58e2372af46bdbc5c0422d33c76cc0aae28ba396c59b42a7b2b10701ba",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "bb82709ecdde7603f913766a3a74c41298af20a26f38463b1f7301c47f9919bd",
       "bytes": 582851,
       "changed": true
     },
@@ -1926,7 +1926,7 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "application/pdf",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
       "hash": "e0f8a6e1bc881c0b753294c7b7d554cfc5387996b46a0279a09c55ad1fea8ce6",
       "bytes": 748426,
       "changed": false
@@ -1943,9 +1943,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "e15d5c14b1cf4fc90fac735191085c70a42953ad31cd70f2708fb28240ef94f3",
-      "bytes": 1163282,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "e60a60abc2a95b08f7b295ea14f549741bc4159644ab5ca4c3fa8f47dfdad08b",
+      "bytes": 1163295,
       "changed": true
     },
     {
@@ -1960,8 +1960,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "45e57b8636d423db0bd46846a37fb7c897566d339403a4fe39da8acdd82d53bd",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "d553673139f0ded49e3f5a105ab2e80f19d058695d5b6c8a8097ab7c81abbead",
       "bytes": 311582,
       "changed": true
     },
@@ -1977,8 +1977,8 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "c9db4bc492c144fbf18f58c385c8b0b4c575fe44e4894b8002578ecb0810822a",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "b72662ff396db659b48ebd5951de219e47a051cd71d7f1a0f1e035531d3c9894",
       "bytes": 150586,
       "changed": true
     },
@@ -1994,9 +1994,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "60849a531b455403b99df4f8440b4bafa9f16c4a938197d6a8c69f3d9402737e",
-      "bytes": 972513,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "4c17cfae8202d29e1041aab170e9ad44913dd6e5404e603bfc7d9851b56cf06e",
+      "bytes": 972500,
       "changed": true
     },
     {
@@ -2011,9 +2011,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "e4809f615b27796374a242d59363e70312fde0ea9d231e606a784783431d4f1e",
-      "bytes": 1156002,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "3a1015a752576e32597e80feface472d43a8a0fa219dcb3ecd33daf324dbd44b",
+      "bytes": 1156027,
       "changed": true
     },
     {
@@ -2028,8 +2028,8 @@
       "status": "http-error",
       "httpStatus": 403,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "c0fecf962a29be468be465c11bab9c9e69c5b8cfb20c891e19f1e716397de36e",
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "774fb76bb14c81f873dd45933ed5c809401e28390928e082365f1fe081122ba8",
       "bytes": 444,
       "changed": true
     },
@@ -2045,9 +2045,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "44683a5b4367d9e830d0074803d2539e58f1e7a027929334afcccd10b5edd605",
-      "bytes": 712891,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "32c7ea2c4904b4f7e4acb9afde76ea69b5b56656b2f96ff9ac8b0ac3ec8d103f",
+      "bytes": 712903,
       "changed": true
     },
     {
@@ -2062,9 +2062,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=UTF-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "b3cb03a30d1a4621e95cdf669faa163a4fe1d174dfe917ea61150db8c6fdff1c",
-      "bytes": 348663,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "6ef2df5727d070e71b21652b552633aac7f7c66519b4dd1a88549462efa99571",
+      "bytes": 348632,
       "changed": true
     },
     {
@@ -2079,9 +2079,9 @@
       "status": "ok",
       "httpStatus": 200,
       "contentType": "text/html; charset=utf-8",
-      "checkedAt": "2026-11-27T01:44:52.506Z",
-      "hash": "9527641f9124d2deeb127319291058ad508a5a62a81a3bf89f3125cd64391214",
-      "bytes": 621490,
+      "checkedAt": "2026-11-28T01:28:13.762Z",
+      "hash": "9de27d63e00baa2b3064af5ae8fd807e3aa308df7d9d0c1bd8127a3a951e6b7c",
+      "bytes": 622683,
       "changed": true
     }
   ]
